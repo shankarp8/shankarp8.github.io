@@ -1,0 +1,2109 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace blew off windows, uprooted trees, <extra_id_0> telegraph poles, leaving debris strewn around Tecolutla.
+
+gold span     : toppled power cables and
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 18.99
+per-token nll : Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠGrace (3.56)  Ġblew (6.98)  Ġoff (4.16)  Ġwindows (12.04)  , (1.97)  Ġupro (4.68)  oted (0.01)  Ġtrees (0.22)  , (0.45)  Ġtoppled (4.17)  Ġpower (1.07)  Ġcables (5.04)  Ġand (1.00)  Ġte (9.20)  legraph (0.12)  Ġpoles (0.44)  , (0.34)  Ġleaving (7.10)  Ġdebris (4.41)  Ġstre (3.31)  wn (0.00)  Ġaround (4.40)  ĠTec (10.77)  ol (1.80)  ut (0.55)  la (0.03)  . (1.97)  <|endoftext|> (9.00)
+
+Delta in perp : nan
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_17_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: At 500 PM EDT (2100 UTC) the Government of Jamaica issued a tropical storm warning for the island as Grace was expected to make landfall on the <extra_id_0> August 17.
+
+gold span     : island in
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 16.81
+per-token nll : Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠAt (4.93)  Ġ500 (8.23)  ĠPM (7.66)  ĠEDT (2.14)  Ġ( (2.42)  21 (3.71)  00 (0.34)  ĠUTC (0.22)  ) (0.56)  Ġthe (2.68)  ĠGovernment (10.66)  Ġof (0.02)  ĠJamaica (11.51)  Ġissued (2.25)  Ġa (0.37)  Ġtropical (1.17)  Ġstorm (1.19)  Ġwarning (0.24)  Ġfor (0.39)  Ġthe (1.08)  Ġisland (2.79)  Ġas (4.09)  ĠGrace (2.03)  Ġwas (2.47)  Ġexpected (2.46)  Ġto (0.01)  Ġmake (1.79)  Ġlandfall (0.22)  Ġon (1.53)  Ġthe (0.57)  Ġisland (0.77)  Ġin (3.99)  ĠAugust (8.15)  Ġ17 (6.50)  . (0.94)  <|endoftext|> (8.45)
+
+Delta in perp : nan
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_1_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: However, strong wind shear caused Grace to weaken back <extra_id_0> depression on August 15.
+
+gold span     : to a tropical
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 11.33
+per-token nll : Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠHowever (4.86)  , (0.07)  Ġstrong (6.70)  Ġwind (1.98)  Ġshe (0.48)  ar (0.01)  Ġcaused (2.82)  ĠGrace (2.67)  Ġto (0.25)  Ġweaken (1.23)  Ġback (5.23)  Ġto (0.59)  Ġa (0.51)  Ġtropical (0.17)  Ġdepression (1.01)  Ġon (1.55)  ĠAugust (1.70)  Ġ15 (3.50)  . (1.57)  <|endoftext|> (8.90)
+
+Delta in perp : nan
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_1_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: However, strong wind shear caused Grace to weaken <extra_id_0> August 15.
+
+gold span     : back to a tropical depression on
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 7.83
+per-token nll : Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠHowever (4.86)  , (0.07)  Ġstrong (6.70)  Ġwind (1.98)  Ġshe (0.48)  ar (0.01)  Ġcaused (2.82)  ĠGrace (2.67)  Ġto (0.25)  Ġweaken (1.23)  Ġback (5.23)  Ġto (0.59)  Ġa (0.51)  Ġtropical (0.17)  Ġdepression (1.01)  Ġon (1.55)  ĠAugust (1.70)  Ġ15 (3.50)  . (1.57)  <|endoftext|> (8.90)
+
+Delta in perp : nan
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_13_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: On August 14, when Grace entered the <extra_id_0> a tropical storm watch was issued for the entire coast of Haiti.
+
+gold span     : Caribbean,
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 11.02
+per-token nll : Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠOn (3.66)  ĠAugust (2.00)  Ġ14 (4.14)  , (0.10)  Ġwhen (7.71)  ĠGrace (1.36)  Ġentered (5.79)  Ġthe (0.30)  ĠCaribbean (4.16)  , (1.93)  Ġa (3.78)  Ġtropical (2.14)  Ġstorm (0.49)  Ġwatch (2.20)  Ġwas (0.13)  Ġissued (0.31)  Ġfor (0.61)  Ġthe (1.10)  Ġentire (1.51)  Ġcoast (4.10)  Ġof (0.18)  ĠHaiti (7.76)  . (1.33)  <|endoftext|> (8.79)
+
+Delta in perp : nan
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_14_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace’s impacts to Haiti were <extra_id_0> this kind of storm, due to the magnitude 7.2 earthquake that had occurred in the country just days earlier.
+
+gold span     : likely more extreme than typical for
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 14.54
+per-token nll : Ġrecord (0.42)  Ġwith (4.96)  ĠHurricane (1.35)  ĠKarl (7.61)  Ġof (3.82)  Ġ2010 (5.14)  Ġfor (1.43)  Ġthe (0.14)  Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠGrace (3.56)  âĢ (4.90)  Ļ (0.01)  s (0.00)  Ġimpacts (7.17)  Ġto (6.34)  ĠHaiti (8.66)  Ġwere (1.33)  Ġlikely (7.88)  Ġmore (2.81)  Ġextreme (5.33)  Ġthan (0.45)  Ġtypical (6.97)  Ġfor (2.60)  Ġthis (2.73)  Ġkind (4.19)  Ġof (0.00)  Ġstorm (1.13)  , (0.82)  Ġdue (3.40)  Ġto (0.07)  Ġthe (0.78)  Ġmagnitude (5.51)  Ġ7 (9.64)  . (0.30)  2 (2.33)  Ġearthquake (0.94)  Ġthat (0.77)  Ġhad (2.90)  Ġoccurred (1.88)  Ġin (1.21)  Ġthe (0.54)  Ġcountry (1.74)  Ġjust (2.76)  Ġdays (2.09)  Ġearlier (1.89)  . (0.29)  <|endoftext|> (6.53)
+
+Delta in perp : nan
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_15_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: When Grace was still a <extra_id_0> Republic, a tropical storm watch was in effect for the entire island, as issued by the Government.
+
+gold span     : depression off the coast of Dominican
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 12.84
+per-token nll : Ġof (3.82)  Ġ2010 (5.14)  Ġfor (1.43)  Ġthe (0.14)  Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠWhen (6.45)  ĠGrace (0.99)  Ġwas (3.59)  Ġstill (3.74)  Ġa (0.63)  Ġdepression (5.52)  Ġoff (5.89)  Ġthe (0.16)  Ġcoast (0.54)  Ġof (0.01)  ĠDominican (10.78)  ĠRepublic (0.02)  , (0.48)  Ġa (3.35)  Ġtropical (2.77)  Ġstorm (0.52)  Ġwatch (2.44)  Ġwas (0.14)  Ġin (2.56)  Ġeffect (0.18)  Ġfor (0.87)  Ġthe (0.81)  Ġentire (1.61)  Ġisland (3.05)  , (2.27)  Ġas (2.67)  Ġissued (10.28)  Ġby (0.23)  Ġthe (0.17)  ĠGovernment (6.64)  . (5.79)  <|endoftext|> (8.38)
+
+Delta in perp : nan
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_3
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Approximately 11 hours later, Grace made landfall in <extra_id_0> Mary Parish, with winds of 50 mph (85 km/h).
+
+gold span     : Jamaica near Annotto Bay, Saint
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 14.63
+per-token nll : Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠApproximately (8.94)  Ġ11 (5.42)  Ġhours (3.10)  Ġlater (3.28)  , (0.30)  ĠGrace (2.58)  Ġmade (1.22)  Ġlandfall (0.59)  Ġin (1.44)  ĠJamaica (7.83)  Ġnear (3.80)  ĠAnn (9.37)  otto (7.97)  ĠBay (3.15)  , (0.86)  ĠSaint (6.52)  ĠMary (3.32)  ĠParish (0.44)  , (0.48)  Ġwith (2.45)  Ġwinds (0.65)  Ġof (0.31)  Ġ50 (5.50)  Ġmph (2.87)  Ġ( (0.55)  85 (0.44)  Ġkm (0.78)  / (0.04)  h (0.02)  ). (0.80)  <|endoftext|> (8.30)
+
+Delta in perp : nan
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_27_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace brought heavy rainfall to Haiti<extra_id_0> around ; this caused flooding in areas affected by a magnitude-7.2 earthquake in the country that killed thousands.
+
+gold span     : , reaching
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 15.61
+per-token nll : Ġwith (4.96)  ĠHurricane (1.35)  ĠKarl (7.61)  Ġof (3.82)  Ġ2010 (5.14)  Ġfor (1.43)  Ġthe (0.14)  Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠGrace (3.56)  Ġbrought (3.47)  Ġheavy (1.68)  Ġrainfall (0.80)  Ġto (0.58)  ĠHaiti (9.33)  , (0.88)  Ġreaching (5.18)  Ġaround (6.77)  Ġ; (7.29)  Ġthis (2.99)  Ġcaused (2.82)  Ġflooding (1.78)  Ġin (1.52)  Ġareas (4.14)  Ġaffected (3.59)  Ġby (0.05)  Ġa (4.69)  Ġmagnitude (5.76)  - (2.87)  7 (1.17)  . (0.21)  2 (2.46)  Ġearthquake (0.09)  Ġin (1.17)  Ġthe (2.29)  Ġcountry (2.12)  Ġthat (3.70)  Ġkilled (2.06)  Ġthousands (3.73)  . (1.13)  <|endoftext|> (8.10)
+
+Delta in perp : nan
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_7_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: At 09:45 UTC on that day, Grace made its first <extra_id_0> near Tulum, Quintana Roo.
+
+gold span     : landfall at that intensity
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 12.52
+per-token nll : Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠAt (4.93)  Ġ09 (8.68)  : (0.35)  45 (3.37)  ĠUTC (0.61)  Ġon (0.43)  Ġthat (10.52)  Ġday (0.60)  , (0.25)  ĠGrace (1.17)  Ġmade (1.27)  Ġits (1.40)  Ġfirst (0.55)  Ġlandfall (0.13)  Ġat (2.95)  Ġthat (7.65)  Ġintensity (6.64)  Ġnear (3.04)  ĠT (4.36)  ulum (3.01)  , (0.48)  ĠQuint (2.39)  ana (0.02)  ĠR (0.00)  oo (0.00)  . (1.97)  <|endoftext|> (8.96)
+
+Delta in perp : nan
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_9_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Thereafter, Grace underwent rapid intensification, becoming a <extra_id_0> UTC on August 21.
+
+gold span     : Category 2 hurricane by 00:00
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 13.12
+per-token nll : Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠThere (6.05)  after (3.96)  , (0.32)  ĠGrace (1.83)  Ġunderwent (7.84)  Ġrapid (3.43)  Ġintens (1.03)  ification (0.00)  , (1.37)  Ġbecoming (2.00)  Ġa (1.03)  ĠCategory (0.84)  Âł (1.11)  2 (1.95)  Ġhurricane (0.19)  Ġby (1.91)  Ġ00 (6.52)  : (0.07)  00 (0.29)  ĠUTC (0.33)  Ġon (0.24)  ĠAugust (2.01)  Ġ21 (5.08)  . (1.20)  <|endoftext|> (11.71)
+
+Delta in perp : nan
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_3
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Approximately 11 hours later, Grace made landfall in Jamaica near Annotto Bay, <extra_id_0>, with winds of 50 mph (85 km/h).
+
+gold span     : Saint Mary Parish
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 14.63
+per-token nll : Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠApproximately (8.94)  Ġ11 (5.42)  Ġhours (3.10)  Ġlater (3.28)  , (0.30)  ĠGrace (2.58)  Ġmade (1.22)  Ġlandfall (0.59)  Ġin (1.44)  ĠJamaica (7.83)  Ġnear (3.80)  ĠAnn (9.37)  otto (7.97)  ĠBay (3.15)  , (0.86)  ĠSaint (6.52)  ĠMary (3.32)  ĠParish (0.44)  , (0.48)  Ġwith (2.45)  Ġwinds (0.65)  Ġof (0.31)  Ġ50 (5.50)  Ġmph (2.87)  Ġ( (0.55)  85 (0.44)  Ġkm (0.78)  / (0.04)  h (0.02)  ). (0.80)  <|endoftext|> (8.30)
+
+Delta in perp : nan
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_25_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: As a weak and disorganized tropical storm, Grace was noted to have passed between <extra_id_0> and Grande-Terre (Guadeloupe) on the evening of August 14, bringing squally weather to nearby islands.
+
+gold span     : La Désirade
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 19.32
+per-token nll : Ġtying (8.51)  Ġthe (0.75)  Ġrecord (0.42)  Ġwith (4.96)  ĠHurricane (1.35)  ĠKarl (7.61)  Ġof (3.82)  Ġ2010 (5.14)  Ġfor (1.43)  Ġthe (0.14)  Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠAs (4.07)  Ġa (0.42)  Ġweak (6.78)  Ġand (4.02)  Ġdis (4.12)  organized (0.05)  Ġtropical (0.83)  Ġstorm (1.15)  , (0.26)  ĠGrace (0.97)  Ġwas (1.87)  Ġnoted (7.13)  Ġto (2.10)  Ġhave (0.94)  Ġpassed (6.14)  Ġbetween (4.73)  ĠLa (6.69)  ĠD (7.86)  Ã©s (5.05)  ir (1.46)  ade (0.18)  Ġand (0.52)  ĠGrande (7.55)  - (5.04)  Ter (2.97)  re (0.02)  Ġ( (4.22)  Gu (5.19)  adel (6.80)  ou (0.87)  pe (0.00)  ) (0.75)  Ġon (1.57)  Ġthe (1.96)  Ġevening (3.89)  Ġof (0.02)  ĠAugust (2.07)  Ġ14 (4.06)  , (0.62)  Ġbringing (6.91)  Ġsqu (9.44)  ally (1.19)  Ġweather (2.11)  Ġto (1.22)  Ġnearby (6.57)  Ġislands (2.79)  . (0.99)  <|endoftext|> (10.11)
+
+Delta in perp : nan
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Around 06:00 UTC on August 21, Grace made another landfall in <extra_id_0> near Tecolutla, Veracruz, at peak intensity, with winds of 125 mph (205 km/h) and a pressure of 962 mb (28.41 inHg).
+
+gold span     : Mexico
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.42
+per-token nll : one (0.01)  Ġin (1.21)  Ġthe (0.52)  ĠMexican (7.18)  Ġstate (1.51)  Ġof (0.01)  ĠVer (1.95)  ac (0.00)  ru (0.00)  z (0.00)  Ġever (8.45)  Ġrecorded (0.38)  , (2.11)  Ġas (3.23)  Ġwell (0.26)  Ġas (0.01)  Ġtying (8.51)  Ġthe (0.75)  Ġrecord (0.42)  Ġwith (4.96)  ĠHurricane (1.35)  ĠKarl (7.61)  Ġof (3.82)  Ġ2010 (5.14)  Ġfor (1.43)  Ġthe (0.14)  Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠAround (8.76)  Ġ06 (6.15)  : (0.07)  00 (0.29)  ĠUTC (0.32)  Ġon (0.32)  ĠAugust (1.99)  Ġ21 (4.27)  , (0.07)  ĠGrace (2.73)  Ġmade (1.03)  Ġanother (6.26)  Ġlandfall (0.45)  Ġin (1.45)  ĠMexico (3.21)  Ġnear (2.71)  ĠTec (4.96)  ol (2.79)  ut (0.61)  la (0.02)  , (0.71)  ĠVer (0.50)  ac (0.00)  ru (0.00)  z (0.00)  , (0.78)  Ġat (2.76)  Ġpeak (3.89)  Ġintensity (0.27)  , (1.42)  Ġwith (1.12)  Ġwinds (0.59)  Ġof (0.27)  Ġ125 (3.68)  Ġmph (1.99)  Ġ( (0.23)  205 (1.07)  Ġkm (0.93)  / (0.03)  h (0.02)  ) (1.61)  Ġand (0.40)  Ġa (0.35)  Ġpressure (0.99)  Ġof (0.04)  Ġ9 (0.29)  62 (4.90)  Ġm (0.33)  b (0.80)  Ġ( (0.44)  28 (2.94)  . (0.18)  41 (4.50)  Ġin (0.32)  H (0.40)  g (0.01)  ). (0.24)  <|endoftext|> (8.89)
+
+Delta in perp : nan
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_11_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: The mid-level center and remnants of Grace would later redevelop into Tropical Storm Marty in <extra_id_0> on August 23.
+
+gold span     : the Eastern Pacific
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 19.05
+per-token nll : Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠThe (1.35)  Ġmid (9.51)  - (0.12)  level (1.38)  Ġcenter (1.46)  Ġand (4.64)  Ġremnants (4.67)  Ġof (0.35)  ĠGrace (1.41)  Ġwould (7.57)  Ġlater (2.01)  Ġredevelop (5.67)  Ġinto (0.72)  ĠTropical (1.38)  ĠStorm (0.59)  ĠMarty (8.39)  Ġin (2.01)  Ġthe (0.68)  ĠEastern (4.90)  ĠPacific (0.16)  Ġon (3.29)  ĠAugust (1.81)  Ġ23 (3.86)  . (1.17)  <|endoftext|> (7.51)
+
+Delta in perp : nan
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Approximately 11 hours later, Grace made landfall in Jamaica near <extra_id_0>, Saint Mary Parish, with winds of 50 mph (85 km/h).
+
+gold span     : Annotto Bay
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 13.40
+per-token nll : Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠApproximately (8.94)  Ġ11 (5.42)  Ġhours (3.10)  Ġlater (3.28)  , (0.30)  ĠGrace (2.58)  Ġmade (1.22)  Ġlandfall (0.59)  Ġin (1.44)  ĠJamaica (7.83)  Ġnear (3.80)  ĠAnn (9.37)  otto (7.97)  ĠBay (3.15)  , (0.86)  ĠSaint (6.52)  ĠMary (3.32)  ĠParish (0.44)  , (0.48)  Ġwith (2.45)  Ġwinds (0.65)  Ġof (0.31)  Ġ50 (5.50)  Ġmph (2.87)  Ġ( (0.55)  85 (0.44)  Ġkm (0.78)  / (0.04)  h (0.02)  ). (0.80)  <|endoftext|> (8.30)
+
+Delta in perp : nan
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_9_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Thereafter, Grace underwent rapid intensification, becoming a Category 2 hurricane by <extra_id_0> on August 21.
+
+gold span     : 00:00 UTC
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 13.06
+per-token nll : Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠThere (6.05)  after (3.96)  , (0.32)  ĠGrace (1.83)  Ġunderwent (7.84)  Ġrapid (3.43)  Ġintens (1.03)  ification (0.00)  , (1.37)  Ġbecoming (2.00)  Ġa (1.03)  ĠCategory (0.84)  Ġ2 (2.52)  Ġhurricane (0.18)  Ġby (1.72)  Ġ00 (7.26)  : (0.13)  00 (0.36)  Âł (3.91)  UTC (0.02)  Ġon (0.33)  ĠAugust (2.04)  Ġ21 (4.73)  . (1.20)  <|endoftext|> (11.57)
+
+Delta in perp : nan
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_14_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace’s impacts to Haiti were likely more extreme than typical for <extra_id_0> of storm, due to the magnitude 7.2 earthquake that had occurred in the country just days earlier.
+
+gold span     : this kind
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 14.53
+per-token nll : ĠHurricane (1.35)  ĠKarl (7.61)  Ġof (3.82)  Ġ2010 (5.14)  Ġfor (1.43)  Ġthe (0.14)  Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠGrace (3.56)  âĢ (4.90)  Ļ (0.01)  s (0.00)  Ġimpacts (7.17)  Ġto (6.34)  ĠHaiti (8.66)  Ġwere (1.33)  Ġlikely (7.88)  Ġmore (2.81)  Ġextreme (5.33)  Ġthan (0.45)  Ġtypical (6.97)  Ġfor (2.60)  Ġthis (2.73)  Ġkind (4.19)  Ġof (0.00)  Ġstorm (1.13)  , (0.82)  Ġdue (3.40)  Ġto (0.07)  Ġthe (0.78)  Ġmagnitude (5.51)  Ġ7 (9.64)  . (0.30)  2 (2.33)  Ġearthquake (0.94)  Ġthat (0.77)  Ġhad (2.90)  Ġoccurred (1.88)  Ġin (1.21)  Ġthe (0.54)  Ġcountry (1.74)  Ġjust (2.76)  Ġdays (2.09)  Ġearlier (1.89)  . (0.29)  <|endoftext|> (6.53)
+
+Delta in perp : nan
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_25_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: As a weak and disorganized tropical storm, Grace was noted to have passed between La Désirade and Grande-Terre <extra_id_0> on the evening of August 14, bringing squally weather to nearby islands.
+
+gold span     : (Guadeloupe)
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 18.58
+per-token nll : Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠAs (4.07)  Ġa (0.42)  Ġweak (6.78)  Ġand (4.02)  Ġdis (4.12)  organized (0.05)  Ġtropical (0.83)  Ġstorm (1.15)  , (0.26)  ĠGrace (0.97)  Ġwas (1.87)  Ġnoted (7.13)  Ġto (2.10)  Ġhave (0.94)  Ġpassed (6.14)  Ġbetween (4.73)  ĠLa (6.69)  ĠD (7.86)  Ã©s (5.05)  ir (1.46)  ade (0.18)  Ġand (0.52)  ĠGrande (7.55)  - (5.04)  Ter (2.97)  re (0.02)  Ġ( (4.22)  Gu (5.19)  adel (6.80)  ou (0.87)  pe (0.00)  ) (0.75)  Ġon (1.57)  Ġthe (1.96)  Ġevening (3.89)  Ġof (0.02)  ĠAugust (2.07)  Ġ14 (4.06)  , (0.62)  Ġbringing (6.91)  Ġsqu (9.44)  ally (1.19)  Ġweather (2.11)  Ġto (1.22)  Ġnearby (6.57)  Ġislands (2.79)  . (0.99)  <|endoftext|> (10.11)
+
+Delta in perp : nan
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_9
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Around 06:00 UTC on August 21, Grace made another landfall in Mexico near Tecolutla, Veracruz, at peak intensity, with <extra_id_0> of 125 mph (205 km/h) and a pressure of 962 mb (28.41 inHg).
+
+gold span     : winds
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.14
+per-token nll : Ġthe (0.75)  Ġrecord (0.42)  Ġwith (4.96)  ĠHurricane (1.35)  ĠKarl (7.61)  Ġof (3.82)  Ġ2010 (5.14)  Ġfor (1.43)  Ġthe (0.14)  Ġstrongest (0.87)  Ġhurricane (2.56)  Ġever (2.06)  Ġrecorded (1.12)  Ġin (0.34)  Ġthe (0.78)  ĠBay (5.70)  Ġof (0.22)  ĠCam (0.10)  pe (0.00)  che (0.00)  Ġby (6.07)  Ġmaximum (7.30)  Ġsustained (0.39)  Ġwinds (0.25)  . (0.91)  ĠAround (8.76)  Ġ06 (6.15)  : (0.07)  00 (0.29)  ĠUTC (0.32)  Ġon (0.32)  ĠAugust (1.99)  Ġ21 (4.27)  , (0.07)  ĠGrace (2.73)  Ġmade (1.03)  Ġanother (6.26)  Ġlandfall (0.45)  Ġin (1.45)  ĠMexico (3.21)  Ġnear (2.71)  ĠTec (4.96)  ol (2.79)  ut (0.61)  la (0.02)  , (0.71)  ĠVer (0.50)  ac (0.00)  ru (0.00)  z (0.00)  , (0.78)  Ġat (2.76)  Ġpeak (3.89)  Ġintensity (0.27)  , (1.42)  Ġwith (1.12)  Ġwinds (0.59)  Ġof (0.27)  Ġ125 (3.68)  Ġmph (1.99)  Ġ( (0.23)  205 (1.07)  Ġkm (0.93)  / (0.03)  h (0.02)  ) (1.61)  Ġand (0.40)  Ġa (0.35)  Ġpressure (0.99)  Ġof (0.04)  Ġ9 (0.29)  62 (4.90)  Ġm (0.33)  b (0.80)  Ġ( (0.44)  28 (2.94)  . (0.18)  41 (4.50)  Ġin (0.32)  H (0.40)  g (0.01)  ). (0.24)  <|endoftext|> (8.89)
+
+Delta in perp : nan
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_21_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Like its predecessor, Windows 11 also supports <extra_id_0> authentication and biometric authentication through Windows Hello.
+
+gold span     : multi-factor
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 10.38
+per-token nll : Ġthe (2.81)  ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠLike (5.27)  Ġits (2.66)  Ġpredecessor (0.65)  , (0.79)  ĠWindows (0.19)  Ġ11 (5.82)  Ġalso (4.56)  Ġsupports (2.25)  Ġmulti (3.47)  - (0.02)  factor (6.92)  Ġauthentication (0.02)  Ġand (2.09)  Ġbi (4.43)  ometric (0.52)  Ġauthentication (0.85)  Ġthrough (4.07)  ĠWindows (2.93)  ĠHello (0.21)  . (0.70)  <|endoftext|> (5.19)
+
+Delta in perp : nan
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_27_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Devices with unsupported processors are not blocked from installing or running Windows 11, however a <extra_id_0> Windows Update will prevent an upgrade from Windows 10.
+
+gold span     : clean install must be performed as
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 19.80
+per-token nll : Ġversion (1.57)  Ġof (0.06)  Ġthe (2.81)  ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠDevices (10.41)  Ġwith (2.79)  Ġunsupported (8.76)  Ġprocessors (4.25)  Ġare (2.14)  Ġnot (1.08)  Ġblocked (11.30)  Ġfrom (1.28)  Ġinstalling (2.62)  Ġor (3.26)  Ġrunning (0.57)  ĠWindows (0.96)  Ġ11 (1.55)  , (1.27)  Ġhowever (3.21)  Ġa (4.92)  Ġclean (7.72)  Ġinstall (1.02)  Ġmust (5.38)  Ġbe (0.15)  Ġperformed (0.89)  Ġas (4.92)  ĠWindows (2.87)  ĠUpdate (5.22)  Ġwill (2.27)  Ġprevent (4.77)  Ġan (3.97)  Ġupgrade (2.14)  Ġfrom (1.73)  ĠWindows (2.14)  Ġ10 (0.70)  . (0.98)  <|endoftext|> (5.91)
+
+Delta in perp : nan
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_6_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: At the June 24 media event, Microsoft also announced that Windows 11 would be released in "Holiday 2021"<extra_id_0> an exact date not given.
+
+gold span     : , with
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 17.37
+per-token nll : Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠAt (5.30)  Ġthe (0.69)  ĠJune (8.19)  Ġ24 (4.36)  Ġmedia (7.39)  Ġevent (1.13)  , (1.00)  ĠMicrosoft (0.51)  Ġalso (4.54)  Ġannounced (0.65)  Ġthat (1.04)  ĠWindows (0.92)  Ġ11 (2.02)  Ġwould (1.77)  Ġbe (0.39)  Ġreleased (1.56)  Ġin (1.67)  Ġ" (5.25)  Hol (10.99)  iday (0.03)  Ġ2021 (6.46)  ", (2.19)  Ġwith (2.47)  Ġan (3.02)  Ġexact (6.60)  Ġdate (0.51)  Ġnot (2.49)  Ġgiven (4.33)  . (0.32)  <|endoftext|> (5.52)
+
+Delta in perp : nan
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_12_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 will ship with the Chromium-based Microsoft <extra_id_0> and will not include or support Internet Explorer.
+
+gold span     : Edge web browser,
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 10.90
+per-token nll : Ġthe (2.81)  ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠWindows (2.87)  Ġ11 (1.59)  Ġwill (1.52)  Ġship (5.68)  Ġwith (1.01)  Ġthe (2.32)  ĠChrom (12.05)  ium (0.02)  - (2.34)  based (0.04)  ĠMicrosoft (3.89)  ĠEdge (0.12)  Ġweb (1.18)  Ġbrowser (0.02)  , (1.15)  Ġand (1.99)  Ġwill (1.26)  Ġnot (6.00)  Ġinclude (2.13)  Ġor (7.06)  Ġsupport (0.95)  ĠInternet (2.13)  ĠExplorer (0.02)  . (1.38)  <|endoftext|> (5.92)
+
+Delta in perp : nan
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_24_2
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Thus, Windows 11 is the <extra_id_0> of Windows not to support 32 bit processors and 16-bit software (though Windows Server 2008 R2 was the first version of Windows NT to not support them).
+
+gold span     : first consumer version
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 10.07
+per-token nll : ĠR (1.68)  2 (1.10)  Ġwas (0.00)  Ġthe (4.20)  Ġfirst (2.98)  Ġversion (0.13)  Ġof (1.42)  ĠWindows (1.31)  ĠNT (0.24)  Ġto (4.24)  Ġnot (0.48)  Ġsupport (4.42)  Ġthem (0.44)  ). (7.16)  <|endoftext|> (0.48)
+
+Delta in perp : nan
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_8_1
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: On August 31, 2021, Microsoft announced that Windows 11 is slated for release on October <extra_id_0>
+
+gold span     : 5, 2021.
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 8.51
+per-token nll : ĠOn (5.19)  ĠAugust (2.90)  Ġ31 (3.23)  , (0.18)  Ġ2021 (7.04)  , (0.08)  ĠMicrosoft (1.28)  Ġannounced (2.43)  Ġthat (0.83)  ĠWindows (0.91)  Ġ11 (1.05)  Ġis (2.27)  Ġslated (3.82)  Ġfor (0.92)  Ġrelease (0.42)  Ġon (0.60)  ĠOctober (1.24)  Ġ5 (6.21)  , (0.09)  Ġ2021 (0.12)  . (0.36)  <|endoftext|> (5.94)
+
+Delta in perp : nan
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_35_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: The Home edition of Windows 11 had also received <extra_id_0> and internet connection requirement, needed for users to complete first-time setup.
+
+gold span     : criticism for its enforced Microsoft account
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 30.63
+per-token nll : Ġis (2.80)  Ġan (3.42)  Ġupcoming (4.62)  Ġmajor (5.48)  Ġversion (1.57)  Ġof (0.06)  Ġthe (2.81)  ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠThe (1.81)  ĠHome (9.05)  Ġedition (2.09)  Ġof (0.79)  ĠWindows (0.41)  Ġ11 (1.76)  Ġhad (7.17)  Ġalso (6.27)  Ġreceived (3.98)  Ġcriticism (6.66)  Ġfor (1.38)  Ġits (1.27)  Ġenforced (11.12)  ĠMicrosoft (5.30)  Ġaccount (5.32)  Ġand (3.34)  Ġinternet (5.82)  Ġconnection (2.71)  Ġrequirement (2.50)  , (1.66)  Ġneeded (10.19)  Ġfor (1.32)  Ġusers (4.52)  Ġto (0.27)  Ġcomplete (5.92)  Ġfirst (8.30)  - (1.32)  time (1.40)  Ġsetup (2.35)  . (0.97)  <|endoftext|> (5.88)
+
+Delta in perp : nan
+
+----[27]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_19_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: As part of the minimum system requirements, Windows 11 only runs on devices with <extra_id_0> security coprocessor.
+
+gold span     : a Trusted Platform Module 2.0
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 11.02
+per-token nll : Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠAs (4.51)  Ġpart (2.74)  Ġof (0.00)  Ġthe (0.66)  Ġminimum (10.37)  Ġsystem (2.39)  Ġrequirements (0.11)  , (0.65)  ĠWindows (0.86)  Ġ11 (0.85)  Ġonly (6.86)  Ġruns (2.97)  Ġon (0.11)  Ġdevices (3.99)  Ġwith (1.28)  Ġa (1.14)  ĠTr (11.24)  usted (0.01)  ĠPlatform (0.17)  ĠModule (0.03)  Ġ2 (8.20)  . (1.50)  0 (0.26)  Ġsecurity (5.00)  Ġcop (8.06)  ro (0.01)  cess (0.01)  or (0.06)  . (0.91)  <|endoftext|> (5.43)
+
+Delta in perp : nan
+
+----[28]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_23_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 only supports <extra_id_0> such as those using an x86-64 or ARM64 processor; IA-32 processors are no longer supported.
+
+gold span     : 64-bit systems
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 8.90
+per-token nll : Ġare (2.74)  Ġno (1.19)  Ġlonger (4.05)  Ġsupported (0.01)  . (0.09)  <|endoftext|> (0.37)
+
+Delta in perp : nan
+
+----[29]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_4_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Leaked images of a purported beta build of Windows 11's desktop surfaced online later on <extra_id_0> 15, 2021, which were followed by a leak of the aforementioned build on the same day.
+
+gold span     : June
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.89
+per-token nll : . (0.09)  <|endoftext|> (0.21)
+
+Delta in perp : nan
+
+----[30]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_15_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: The Auto HDR and DirectStorage technologies introduced by the Xbox Series X and Series S will be integrated into Windows 11; the latter requires <extra_id_0> supporting DirectX 12, and an NVMe solid-state drive.
+
+gold span     : a graphics card
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 28.12
+per-token nll : Ġupcoming (4.62)  Ġmajor (5.48)  Ġversion (1.57)  Ġof (0.06)  Ġthe (2.81)  ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠThe (1.81)  ĠAuto (14.30)  ĠHDR (14.29)  Ġand (3.55)  ĠDirect (5.99)  Storage (13.48)  Ġtechnologies (2.78)  Ġintroduced (3.71)  Ġby (2.93)  Ġthe (2.38)  ĠXbox (7.52)  ĠSeries (6.42)  ĠX (0.72)  Ġand (1.76)  ĠSeries (7.72)  ĠS (0.52)  Ġwill (2.28)  Ġbe (1.34)  Ġintegrated (2.71)  Ġinto (0.62)  ĠWindows (0.93)  Ġ11 (1.12)  ; (5.92)  Ġthe (2.13)  Ġlatter (2.68)  Ġrequires (5.90)  Ġa (1.67)  Ġgraphics (6.39)  Ġcard (0.14)  Ġsupporting (5.62)  ĠDirectX (0.74)  Ġ12 (1.38)  , (2.97)  Ġand (1.65)  Ġan (4.49)  ĠNV (5.18)  Me (1.48)  Ġsolid (4.69)  - (0.89)  state (0.00)  Ġdrive (0.07)  . (1.16)  <|endoftext|> (4.48)
+
+Delta in perp : nan
+
+----[31]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_1_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: On June 24, 2021, Windows 11 was officially announced at a virtual event hosted by <extra_id_0>.
+
+gold span     : Chief Product Officer Panos Panay
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 16.21
+per-token nll : ĠOn (5.19)  ĠJune (3.34)  Ġ24 (3.81)  , (0.16)  Ġ2021 (6.89)  , (0.07)  ĠWindows (1.53)  Ġ11 (1.24)  Ġwas (4.58)  Ġofficially (1.46)  Ġannounced (1.44)  Ġat (2.74)  Ġa (2.07)  Ġvirtual (6.41)  Ġevent (0.97)  Ġhosted (2.25)  Ġby (0.15)  ĠChief (9.98)  ĠProduct (5.92)  ĠOfficer (0.14)  ĠPan (5.53)  os (0.07)  ĠPan (0.03)  ay (0.03)  . (0.69)  <|endoftext|> (5.73)
+
+Delta in perp : nan
+
+----[32]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_25_1
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: The minimum RAM and storage requirements were also increased; Windows 11 now requires at least 4 GB of <extra_id_0> and 64 GB of storage.
+
+gold span     : RAM
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 3.19
+per-token nll : ĠGB (0.54)  Ġof (0.13)  ĠRAM (0.18)  Ġand (0.35)  Ġ64 (2.69)  ĠGB (0.24)  Ġof (0.03)  Ġstorage (0.90)  . (0.91)  <|endoftext|> (5.64)
+
+Delta in perp : nan
+
+----[33]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_6_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: At the June 24 media event, Microsoft also announced that Windows 11 would be released in "Holiday 2021", with <extra_id_0> not given.
+
+gold span     : an exact date
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 17.37
+per-token nll : Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠAt (5.30)  Ġthe (0.69)  ĠJune (8.19)  Ġ24 (4.36)  Ġmedia (7.39)  Ġevent (1.13)  , (1.00)  ĠMicrosoft (0.51)  Ġalso (4.54)  Ġannounced (0.65)  Ġthat (1.04)  ĠWindows (0.92)  Ġ11 (2.02)  Ġwould (1.77)  Ġbe (0.39)  Ġreleased (1.56)  Ġin (1.67)  Ġ" (5.25)  Hol (10.99)  iday (0.03)  Ġ2021 (6.46)  ", (2.19)  Ġwith (2.47)  Ġan (3.02)  Ġexact (6.60)  Ġdate (0.51)  Ġnot (2.49)  Ġgiven (4.33)  . (0.32)  <|endoftext|> (5.52)
+
+Delta in perp : nan
+
+----[34]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_16_8
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: The taskbar is permanently pinned to the bottom edge of the screen and cannot be moved to the top, left, or right edges of the screen in Windows 11 (although the centered icons could be toggled to align to <extra_id_0>).
+
+gold span     : the left
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 14.70
+per-token nll : ĠThe (1.81)  Ġtask (8.77)  bar (2.14)  Ġis (1.59)  Ġpermanently (8.88)  Ġpinned (6.19)  Ġto (0.52)  Ġthe (0.06)  Ġbottom (2.89)  Ġedge (3.86)  Ġof (0.18)  Ġthe (0.19)  Ġscreen (0.31)  Ġand (1.92)  Ġcannot (4.08)  Ġbe (0.04)  Ġmoved (0.53)  Ġto (2.79)  Ġthe (0.68)  Ġtop (1.13)  , (2.50)  Ġleft (3.64)  , (0.34)  Ġor (0.28)  Ġright (0.02)  Ġedges (2.74)  Ġof (0.87)  Ġthe (0.02)  Ġscreen (0.09)  Ġin (4.97)  ĠWindows (1.85)  Ġ11 (4.96)  Ġ( (4.16)  although (3.91)  Ġthe (1.92)  Ġcentered (12.38)  Ġicons (4.67)  Ġcould (5.73)  Ġbe (0.22)  Ġto (6.19)  gg (0.02)  led (0.00)  Ġto (1.07)  Ġalign (6.20)  Ġto (2.29)  Ġthe (0.33)  Ġleft (2.25)  ). (3.94)  <|endoftext|> (5.58)
+
+Delta in perp : nan
+
+----[35]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_32_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Despite the official requirements, pre-release versions of Windows 11 can be installed on systems with legacy BIOS and without <extra_id_0> or TPM 2.0 by editing the installation media.
+
+gold span     : Secure Boot
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 15.42
+per-token nll : Ġmajor (5.48)  Ġversion (1.57)  Ġof (0.06)  Ġthe (2.81)  ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠDespite (6.86)  Ġthe (1.43)  Ġofficial (5.38)  Ġrequirements (10.17)  , (2.03)  Ġpre (7.95)  - (0.23)  release (0.40)  Ġversions (0.67)  Ġof (0.17)  ĠWindows (0.58)  Ġ11 (1.15)  Ġcan (3.35)  Ġbe (0.55)  Ġinstalled (2.11)  Ġon (0.60)  Ġsystems (3.34)  Ġwith (1.49)  Ġlegacy (4.77)  ĠBIOS (1.69)  Ġand (2.46)  Ġwithout (4.22)  ĠSecure (4.73)  ĠBoot (0.23)  Ġor (4.05)  ĠT (6.43)  PM (0.04)  Ġ2 (5.95)  . (0.06)  0 (0.14)  Ġby (6.90)  Ġediting (6.05)  Ġthe (0.52)  Ġinstallation (5.20)  Ġmedia (1.55)  . (0.67)  <|endoftext|> (6.26)
+
+Delta in perp : nan
+
+----[36]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_19_2
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: As part of the minimum system requirements, Windows 11 only runs on <extra_id_0> with a Trusted Platform Module 2.0 security coprocessor.
+
+gold span     : devices
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 12.85
+per-token nll : Ġis (2.80)  Ġan (3.42)  Ġupcoming (4.62)  Ġmajor (5.48)  Ġversion (1.57)  Ġof (0.06)  Ġthe (2.81)  ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠAs (4.51)  Ġpart (2.74)  Ġof (0.00)  Ġthe (0.66)  Ġminimum (10.37)  Ġsystem (2.39)  Ġrequirements (0.11)  , (0.65)  ĠWindows (0.86)  Ġ11 (0.85)  Ġonly (6.86)  Ġruns (2.97)  Ġon (0.11)  Ġdevices (3.99)  Ġwith (1.28)  Ġa (1.14)  ĠTr (11.24)  usted (0.01)  ĠPlatform (0.17)  ĠModule (0.03)  Ġ2 (8.20)  . (1.50)  0 (0.26)  Ġsecurity (5.00)  Ġcop (8.06)  ro (0.01)  cess (0.01)  or (0.06)  . (0.91)  <|endoftext|> (5.43)
+
+Delta in perp : nan
+
+----[37]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_25_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: The minimum RAM and storage requirements were also increased; Windows 11 now requires <extra_id_0> of RAM and 64 GB of storage.
+
+gold span     : at least 4 GB
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 9.87
+per-token nll : ĠWindows (0.31)  ĠNT (7.47)  Ġoperating (1.03)  Ġsystem (0.01)  Ġdeveloped (4.10)  Ġby (0.14)  ĠMicrosoft (0.07)  . (0.66)  ĠThe (1.81)  Ġminimum (8.20)  ĠRAM (9.02)  Ġand (3.49)  Ġstorage (2.78)  Ġrequirements (0.28)  Ġwere (3.89)  Ġalso (3.67)  Ġincreased (2.00)  ; (5.79)  ĠWindows (2.60)  Ġ11 (2.83)  Ġnow (3.80)  Ġrequires (0.68)  Ġat (1.91)  Ġleast (0.01)  Ġ4 (1.99)  ĠGB (0.54)  Ġof (0.13)  ĠRAM (0.18)  Ġand (0.35)  Ġ64 (2.69)  ĠGB (0.24)  Ġof (0.03)  Ġstorage (0.90)  . (0.91)  <|endoftext|> (5.64)
+
+Delta in perp : nan
+
+----[38]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Calgary municipal election_67053886_0_1
+attribute     : n/a
+definition    : The 2021 Calgary municipal election is scheduled to be held on October 18, 2021, to elect a mayor and fourteen councillors to the Calgary City Council.
+
+probe sentence: The 2021 Calgary municipal election is the 103rd municipal <extra_id_0> the City of Calgary's history.
+
+gold span     : election in
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.61
+per-token nll : Ġthe (2.21)  ĠCalgary (3.79)  ĠCity (1.19)  ĠCouncil (0.03)  . (0.19)  ĠThe (1.58)  Ġ2021 (8.40)  ĠCalgary (1.22)  Ġmunicipal (0.12)  Ġelection (0.02)  Ġis (0.79)  Ġthe (1.74)  Ġ103 (7.68)  rd (0.01)  Ġmunicipal (1.23)  Ġelection (0.03)  Ġin (0.62)  Ġthe (1.89)  ĠCity (2.66)  Ġof (0.03)  ĠCalgary (0.00)  's (3.73)  Ġhistory (0.08)  . (0.35)  <|endoftext|> (7.62)
+
+Delta in perp : nan
+
+----[39]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Calgary municipal election_67053886_0_1
+attribute     : n/a
+definition    : The 2021 Calgary municipal election is scheduled to be held on October 18, 2021, to elect a mayor and fourteen councillors to the Calgary City Council.
+
+probe sentence: The 2021 Calgary municipal election is the 103rd municipal election in <extra_id_0> of Calgary's history.
+
+gold span     : the City
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.61
+per-token nll : Ġthe (2.21)  ĠCalgary (3.79)  ĠCity (1.19)  ĠCouncil (0.03)  . (0.19)  ĠThe (1.58)  Ġ2021 (8.40)  ĠCalgary (1.22)  Ġmunicipal (0.12)  Ġelection (0.02)  Ġis (0.79)  Ġthe (1.74)  Ġ103 (7.68)  rd (0.01)  Ġmunicipal (1.23)  Ġelection (0.03)  Ġin (0.62)  Ġthe (1.89)  ĠCity (2.66)  Ġof (0.03)  ĠCalgary (0.00)  's (3.73)  Ġhistory (0.08)  . (0.35)  <|endoftext|> (7.62)
+
+Delta in perp : nan
+
+----[40]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: A beta version of Gettr launched <extra_id_0>, 2021, after being added to the Apple App Store and the Google Play Store in mid-June.
+
+gold span     : on July 1
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 23.79
+per-token nll : Ġ( (5.57)  st (6.01)  yl (4.85)  ized (2.33)  ĠGET (10.95)  TR (1.45)  ) (0.48)  Ġis (1.00)  Ġan (1.69)  Ġalt (8.43)  - (0.52)  tech (8.57)  Ġsocial (4.64)  Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠA (5.20)  Ġbeta (7.02)  Ġversion (0.53)  Ġof (0.73)  ĠGet (3.54)  tr (0.01)  Ġlaunched (2.30)  Ġon (1.75)  ĠJuly (2.69)  Ġ1 (2.69)  , (0.26)  Ġ2021 (11.72)  , (0.91)  Ġafter (4.28)  Ġbeing (2.85)  Ġadded (7.26)  Ġto (0.18)  Ġthe (0.77)  ĠApple (3.78)  ĠApp (0.63)  ĠStore (0.07)  Ġand (2.62)  Ġthe (2.98)  ĠGoogle (0.15)  ĠPlay (0.02)  ĠStore (0.16)  Ġin (1.74)  Ġmid (4.03)  - (0.02)  June (1.76)  . (0.21)  <|endoftext|> (7.11)
+
+Delta in perp : nan
+
+----[41]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_8_3
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Content on Gettr is mostly <extra_id_0> in nature, and includes promotion of extremist groups like the far-right Proud Boys as well as posts by more mainstream conservative figures including Sean Hannity, Kevin McCarthy, and Mike Pompeo.
+
+gold span     : right-wing
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 11.22
+per-token nll : Ġconservative (0.54)  Ġfigures (1.89)  Ġincluding (2.04)  ĠSean (4.22)  ĠHannity (3.42)  , (0.01)  ĠKevin (0.56)  ĠMcCarthy (6.54)  , (4.63)  Ġand (0.14)  ĠMike (0.64)  ĠPompe (3.44)  o (5.21)  . (0.00)  <|endoftext|> (0.08)
+
+Delta in perp : nan
+
+----[42]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_14_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: The study found sixteen examples of images on Gettr that were flagged by PhotoDNA, <extra_id_0> technology, as "child exploitation imagery."
+
+gold span     : an image-identification
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 43.93
+per-token nll : Ġsocial (4.64)  Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠThe (1.75)  Ġstudy (10.26)  Ġfound (2.81)  Ġsixteen (11.51)  Ġexamples (6.16)  Ġof (0.12)  Ġimages (7.29)  Ġon (2.94)  ĠGet (3.59)  tr (0.00)  Ġthat (0.79)  Ġwere (1.82)  Ġflagged (5.13)  Ġby (1.51)  ĠPhoto (10.55)  DNA (2.29)  , (1.84)  Ġan (3.05)  Ġimage (0.81)  - (1.52)  ident (3.34)  ification (0.66)  Ġtechnology (2.81)  , (2.44)  Ġas (0.77)  Ġ" (3.60)  child (6.14)  Ġexploitation (6.77)  Ġimagery (5.18)  ." (0.77)  <|endoftext|> (6.35)
+
+Delta in perp : nan
+
+----[43]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_9_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Trending topics on the platform on the day of Gettr's beta launch included pro-Trump <extra_id_0> including racist and antisemitic slurs and those referring to unevidenced theories about the origins of COVID-19.
+
+gold span     : slogans, as well as hashtags
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 4.52
+per-token nll : 19 (0.05)  . (0.00)  <|endoftext|> (0.25)
+
+Delta in perp : nan
+
+----[44]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_12_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr's terms <extra_id_0> commit the platform to removing content that is "offensive, obscene, lewd, lascivious, filthy, pornographic, violent, harassing, threatening, abusive, illegal, or otherwise objectionable or inappropriate".
+
+gold span     : of service allow but do not
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.03
+per-token nll : Ġharassing (0.12)  , (1.89)  Ġthreatening (0.06)  , (1.95)  Ġabusive (0.10)  , (2.25)  Ġillegal (0.04)  , (6.36)  Ġor (0.27)  Ġotherwise (1.23)  Ġobjectionable (0.31)  Ġor (0.07)  Ġinappropriate (4.26)  ". (1.29)  <|endoftext|> (1.95)
+
+Delta in perp : nan
+
+----[45]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_15_0
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr has been <extra_id_0> social media platform.
+
+gold span     : described as a conservative
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 10.85
+per-token nll : ĠGet (4.51)  tr (0.01)  Ġhas (2.98)  Ġbeen (1.62)  Ġdescribed (2.44)  Ġas (0.21)  Ġa (0.88)  Ġconservative (4.37)  Ġsocial (2.60)  Ġmedia (0.39)  Ġplatform (1.26)  . (1.84)  <|endoftext|> (7.86)
+
+Delta in perp : nan
+
+----[46]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_9_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Trending topics on the platform on the day of Gettr's beta launch included pro-Trump slogans<extra_id_0> including racist and antisemitic slurs and those referring to unevidenced theories about the origins of COVID-19.
+
+gold span     : , as well as hashtags
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 7.34
+per-token nll : . (0.00)  <|endoftext|> (0.25)
+
+Delta in perp : nan
+
+----[47]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: A beta version of Gettr launched on <extra_id_0> 2021, after being added to the Apple App Store and the Google Play Store in mid-June.
+
+gold span     : July 1,
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 18.27
+per-token nll : - (0.52)  tech (8.57)  Ġsocial (4.64)  Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠA (5.20)  Ġbeta (7.02)  Ġversion (0.53)  Ġof (0.73)  ĠGet (3.54)  tr (0.01)  Ġlaunched (2.30)  Ġon (1.75)  ĠJuly (2.69)  Ġ1 (2.69)  , (0.26)  Ġ2021 (11.72)  , (0.91)  Ġafter (4.28)  Ġbeing (2.85)  Ġadded (7.26)  Ġto (0.18)  Ġthe (0.77)  ĠApple (3.78)  ĠApp (0.63)  ĠStore (0.07)  Ġand (2.62)  Ġthe (2.98)  ĠGoogle (0.15)  ĠPlay (0.02)  ĠStore (0.16)  Ġin (1.74)  Ġmid (4.03)  - (0.02)  June (1.76)  . (0.21)  <|endoftext|> (7.11)
+
+Delta in perp : nan
+
+----[48]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_16_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr describes itself as a " <extra_id_0> bills itself as an alternative to mainstream social networks, writing in a mission statement that its aims include "fighting cancel culture, promoting common sense, defending free speech, challenging social media monopolies, and creating a true marketplace of ideas".
+
+gold span     : social network", and
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 10.72
+per-token nll : , (0.01)  Ġpromoting (0.76)  Ġcommon (3.05)  Ġsense (6.22)  , (0.25)  Ġdefending (1.87)  Ġfree (5.13)  Ġspeech (1.88)  , (0.22)  Ġchallenging (0.41)  Ġsocial (5.48)  Ġmedia (3.96)  Ġmonopol (1.27)  ies (4.01)  , (0.02)  Ġand (0.43)  Ġcreating (0.54)  Ġa (2.98)  Ġtrue (0.76)  Ġmarketplace (5.68)  Ġof (5.65)  Ġideas (0.29)  ". (0.01)  <|endoftext|> (0.74)
+
+Delta in perp : nan
+
+----[49]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_18_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Technology journalist Kara Swisher described Gettr in an episode of <extra_id_0> "Pivot" as easy to use and as "a cleaner Twitter", but said "it suffers from a lot of misinformation".
+
+gold span     : the podcast
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 30.31
+per-token nll : Ġfrom (7.25)  Ġa (0.13)  Ġlot (1.12)  Ġof (2.98)  Ġmisinformation (0.02)  ". (6.41)  <|endoftext|> (1.59)
+
+Delta in perp : nan
+
+----[50]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_3
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: The Daily Beast" reported that Gettr was a retooled version of Guo<extra_id_0>, which Miller confirmed.
+
+gold span     : 's Chinese internet app, Getome
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 80.64
+per-token nll : Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠThe (1.75)  ĠDaily (9.01)  ĠBeast (1.60)  " (10.16)  Ġreported (5.52)  Ġthat (0.80)  ĠGet (3.54)  tr (0.01)  Ġwas (2.07)  Ġa (3.32)  Ġret (8.47)  ool (0.44)  ed (0.30)  Ġversion (0.54)  Ġof (0.01)  ĠGu (8.45)  o (8.32)  's (3.93)  ĠChinese (6.03)  Ġinternet (5.64)  Ġapp (4.83)  , (1.17)  ĠGet (4.67)  ome (10.72)  , (1.70)  Ġwhich (0.63)  ĠMiller (11.92)  Ġconfirmed (8.07)  . (2.92)  <|endoftext|> (5.20)
+
+Delta in perp : nan
+
+----[51]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_11_9
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: The content was similar to what appears on mainstream platforms like Facebook and Twitter, according to a director of Tech Against Terrorism, but unlike Gettr the other sites have <extra_id_0> in place, and partner through the nonprofit Global Internet Forum to Counter Terrorism to remove extremist material.
+
+gold span     : automatic filtering and removal systems
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 54.16
+per-token nll : st (6.01)  yl (4.85)  ized (2.33)  ĠGET (10.95)  TR (1.45)  ) (0.48)  Ġis (1.00)  Ġan (1.69)  Ġalt (8.43)  - (0.52)  tech (8.57)  Ġsocial (4.64)  Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠThe (1.75)  Ġcontent (6.16)  Ġwas (4.58)  Ġsimilar (7.82)  Ġto (0.12)  Ġwhat (3.83)  Ġappears (6.93)  Ġon (0.53)  Ġmainstream (5.14)  Ġplatforms (3.23)  Ġlike (1.11)  ĠFacebook (0.57)  Ġand (0.69)  ĠTwitter (0.41)  , (0.79)  Ġaccording (7.10)  Ġto (0.00)  Ġa (2.19)  Ġdirector (8.85)  Ġof (0.85)  ĠTech (7.00)  ĠAgainst (11.14)  ĠTerrorism (3.06)  , (1.74)  Ġbut (2.03)  Ġunlike (4.50)  ĠGet (11.80)  tr (0.07)  Ġthe (3.36)  Ġother (8.83)  Ġsites (2.81)  Ġhave (3.59)  Ġautomatic (9.70)  Ġfiltering (4.27)  Ġand (2.31)  Ġremoval (4.82)  Ġsystems (3.89)  Ġin (2.71)  Ġplace (0.01)  , (3.31)  Ġand (2.30)  Ġpartner (11.78)  Ġthrough (9.29)  Ġthe (2.04)  Ġnonprofit (5.17)  ĠGlobal (4.02)  ĠInternet (2.94)  ĠForum (1.50)  Ġto (1.73)  ĠCounter (8.88)  ĠTerrorism (0.88)  Ġto (3.87)  Ġremove (3.82)  Ġextremist (3.17)  Ġmaterial (3.30)  . (0.51)  <|endoftext|> (5.32)
+
+Delta in perp : nan
+
+----[52]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_12_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr's terms of service allow but do not commit <extra_id_0> to removing content that is "offensive, obscene, lewd, lascivious, filthy, pornographic, violent, harassing, threatening, abusive, illegal, or otherwise objectionable or inappropriate".
+
+gold span     : the platform
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.03
+per-token nll : Ġharassing (0.12)  , (1.89)  Ġthreatening (0.06)  , (1.95)  Ġabusive (0.10)  , (2.25)  Ġillegal (0.04)  , (6.36)  Ġor (0.27)  Ġotherwise (1.23)  Ġobjectionable (0.31)  Ġor (0.07)  Ġinappropriate (4.26)  ". (1.29)  <|endoftext|> (1.95)
+
+Delta in perp : nan
+
+----[53]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_15_0
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr has been described as <extra_id_0>.
+
+gold span     : a conservative social media platform
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 10.85
+per-token nll : ĠGet (4.51)  tr (0.01)  Ġhas (2.98)  Ġbeen (1.62)  Ġdescribed (2.44)  Ġas (0.21)  Ġa (0.88)  Ġconservative (4.37)  Ġsocial (2.60)  Ġmedia (0.39)  Ġplatform (1.26)  . (1.84)  <|endoftext|> (7.86)
+
+Delta in perp : nan
+
+----[54]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: The Daily Beast" reported that Gettr was a retooled version of Guo's Chinese internet app, Getome, which <extra_id_0> confirmed.
+
+gold span     : Miller
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 79.09
+per-token nll : Ġconservatives (7.22)  . (0.90)  ĠThe (1.75)  ĠDaily (9.01)  ĠBeast (1.60)  " (10.16)  Ġreported (5.52)  Ġthat (0.80)  ĠGet (3.54)  tr (0.01)  Ġwas (2.07)  Ġa (3.32)  Ġret (8.47)  ool (0.44)  ed (0.30)  Ġversion (0.54)  Ġof (0.01)  ĠGu (8.45)  o (8.32)  's (3.93)  ĠChinese (6.03)  Ġinternet (5.64)  Ġapp (4.83)  , (1.17)  ĠGet (4.67)  ome (10.72)  , (1.70)  Ġwhich (0.63)  ĠMiller (11.92)  Ġconfirmed (8.07)  . (2.92)  <|endoftext|> (5.20)
+
+Delta in perp : nan
+
+----[55]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_14_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: The study found sixteen examples of images on Gettr that were flagged by PhotoDNA, <extra_id_0>, as "child exploitation imagery."
+
+gold span     : an image-identification technology
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 45.47
+per-token nll : Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠThe (1.75)  Ġstudy (10.26)  Ġfound (2.81)  Ġsixteen (11.51)  Ġexamples (6.16)  Ġof (0.12)  Ġimages (7.29)  Ġon (2.94)  ĠGet (3.59)  tr (0.00)  Ġthat (0.79)  Ġwere (1.82)  Ġflagged (5.13)  Ġby (1.51)  ĠPhoto (10.55)  DNA (2.29)  , (1.84)  Ġan (3.05)  Ġimage (0.81)  - (1.52)  ident (3.34)  ification (0.66)  Ġtechnology (2.81)  , (2.44)  Ġas (0.77)  Ġ" (3.60)  child (6.14)  Ġexploitation (6.77)  Ġimagery (5.18)  ." (0.77)  <|endoftext|> (6.35)
+
+Delta in perp : nan
+
+----[56]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_18_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Technology journalist Kara Swisher described Gettr in <extra_id_0> of the podcast "Pivot" as easy to use and as "a cleaner Twitter", but said "it suffers from a lot of misinformation".
+
+gold span     : an episode
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 30.31
+per-token nll : Ġfrom (7.25)  Ġa (0.13)  Ġlot (1.12)  Ġof (2.98)  Ġmisinformation (0.02)  ". (6.41)  <|endoftext|> (1.59)
+
+Delta in perp : nan
+
+----[57]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_2_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: According to the Apple App Store listing, Gettr is developed by a company called <extra_id_0> is CEO, and former Trump campaign spokesman Tim Murtaugh is a media affairs consultant for the company.
+
+gold span     : Chainnov Inc. Miller
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 46.40
+per-token nll : tr (10.59)  Ġ( (5.57)  st (6.01)  yl (4.85)  ized (2.33)  ĠGET (10.95)  TR (1.45)  ) (0.48)  Ġis (1.00)  Ġan (1.69)  Ġalt (8.43)  - (0.52)  tech (8.57)  Ġsocial (4.64)  Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠAccording (4.68)  Ġto (0.01)  Ġthe (1.43)  ĠApple (10.50)  ĠApp (1.28)  ĠStore (0.11)  Ġlisting (4.51)  , (0.41)  ĠGet (2.70)  tr (0.01)  Ġis (1.17)  Ġdeveloped (4.53)  Ġby (0.24)  Ġa (1.88)  Ġcompany (2.65)  Ġcalled (0.53)  ĠChain (9.18)  nov (16.03)  ĠInc (7.37)  . (0.52)  ĠMiller (13.42)  Ġis (3.06)  ĠCEO (4.44)  , (1.99)  Ġand (1.18)  Ġformer (5.00)  ĠTrump (5.57)  Ġcampaign (0.76)  Ġspokesman (4.81)  ĠTim (6.32)  ĠM (3.45)  urt (0.42)  augh (0.01)  Ġis (0.31)  Ġa (2.68)  Ġmedia (9.06)  Ġaffairs (7.29)  Ġconsultant (1.66)  Ġfor (3.57)  Ġthe (0.38)  Ġcompany (0.50)  . (0.08)  <|endoftext|> (4.48)
+
+Delta in perp : nan
+
+----[58]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: The Daily Beast" reported that Gettr was a retooled version of <extra_id_0>, Getome, which Miller confirmed.
+
+gold span     : Guo's Chinese internet app
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 75.68
+per-token nll : Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠThe (1.75)  ĠDaily (9.01)  ĠBeast (1.60)  " (10.16)  Ġreported (5.52)  Ġthat (0.80)  ĠGet (3.54)  tr (0.01)  Ġwas (2.07)  Ġa (3.32)  Ġret (8.47)  ool (0.44)  ed (0.30)  Ġversion (0.54)  Ġof (0.01)  ĠGu (8.45)  o (8.32)  's (3.93)  ĠChinese (6.03)  Ġinternet (5.64)  Ġapp (4.83)  , (1.17)  ĠGet (4.67)  ome (10.72)  , (1.70)  Ġwhich (0.63)  ĠMiller (11.92)  Ġconfirmed (8.07)  . (2.92)  <|endoftext|> (5.20)
+
+Delta in perp : nan
+
+----[59]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_13_6
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: In August 2021, a review of online activity on Gettr by Politico found that <extra_id_0> "is inundated with terrorist propaganda spread by supporters of Islamic State".
+
+gold span     : the platform
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 38.06
+per-token nll : ) (0.48)  Ġis (1.00)  Ġan (1.69)  Ġalt (8.43)  - (0.52)  tech (8.57)  Ġsocial (4.64)  Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠIn (4.01)  ĠAugust (3.56)  Ġ2021 (11.16)  , (0.14)  Ġa (4.39)  Ġreview (7.93)  Ġof (0.55)  Ġonline (6.53)  Ġactivity (2.28)  Ġon (1.63)  ĠGet (2.92)  tr (0.00)  Ġby (3.31)  ĠPolitico (7.16)  Ġfound (1.28)  Ġthat (0.50)  Ġthe (1.24)  Ġplatform (1.10)  Ġ" (5.08)  is (2.25)  Ġinund (8.60)  ated (0.14)  Ġwith (0.09)  Ġterrorist (10.22)  Ġpropaganda (1.42)  Ġspread (7.16)  Ġby (0.38)  Ġsupporters (4.43)  Ġof (0.89)  ĠIslamic (4.80)  ĠState (0.16)  ". (4.30)  <|endoftext|> (7.77)
+
+Delta in perp : nan
+
+----[60]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: A beta version of Gettr launched on July 1, 2021, after being added to <extra_id_0> and the Google Play Store in mid-June.
+
+gold span     : the Apple App Store
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 18.27
+per-token nll : - (0.52)  tech (8.57)  Ġsocial (4.64)  Ġmedia (1.66)  Ġplatform (1.91)  Ġtargeted (7.25)  Ġto (2.12)  ĠAmerican (7.28)  Ġconservatives (7.22)  . (0.90)  ĠA (5.20)  Ġbeta (7.02)  Ġversion (0.53)  Ġof (0.73)  ĠGet (3.54)  tr (0.01)  Ġlaunched (2.30)  Ġon (1.75)  ĠJuly (2.69)  Ġ1 (2.69)  , (0.26)  Ġ2021 (11.72)  , (0.91)  Ġafter (4.28)  Ġbeing (2.85)  Ġadded (7.26)  Ġto (0.18)  Ġthe (0.77)  ĠApple (3.78)  ĠApp (0.63)  ĠStore (0.07)  Ġand (2.62)  Ġthe (2.98)  ĠGoogle (0.15)  ĠPlay (0.02)  ĠStore (0.16)  Ġin (1.74)  Ġmid (4.03)  - (0.02)  June (1.76)  . (0.21)  <|endoftext|> (7.11)
+
+Delta in perp : nan
+
+----[61]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_6_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: The upcoming Expo 2020 means that most premium hotels will be operating <extra_id_0> to 2021.
+
+gold span     : near full capacity through
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 46.36
+per-token nll : ĠApril (4.12)  Ġ2021 (0.09)  . (0.30)  ĠThe (1.44)  Ġupcoming (7.30)  ĠExpo (0.51)  Ġ2020 (1.04)  Ġmeans (10.18)  Ġthat (0.89)  Ġmost (6.03)  Ġpremium (11.89)  Ġhotels (3.01)  Ġwill (2.41)  Ġbe (0.78)  Ġoperating (4.84)  Ġnear (7.33)  Ġfull (7.59)  Ġcapacity (0.37)  Ġthrough (7.23)  Ġto (2.31)  Ġ2021 (2.51)  . (0.67)  <|endoftext|> (5.39)
+
+Delta in perp : nan
+
+----[62]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_0_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: The main site of Expo 2020 Dubai will be a 438-hectare <extra_id_0>1083 acres) located between the cities of Dubai and Abu Dhabi, near Dubai's southern border with Abu Dhabi.
+
+gold span     : area (
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 11.53
+per-token nll : Ġto (3.85)  Ġbe (1.52)  Ġhosted (3.53)  Ġby (0.68)  ĠDubai (4.76)  Ġin (2.37)  Ġthe (2.14)  ĠUnited (1.98)  ĠArab (0.01)  ĠEmirates (0.02)  , (2.58)  Ġoriginally (8.09)  Ġscheduled (1.87)  Ġfor (1.14)  Ġ20 (3.74)  ĠOctober (3.70)  Ġ2020 (1.37)  ĠâĢĵ (5.25)  Ġ10 (3.57)  ĠApril (4.12)  Ġ2021 (0.09)  . (0.30)  ĠThe (1.44)  Ġmain (4.46)  Ġsite (6.77)  Ġof (0.76)  ĠExpo (1.20)  Ġ2020 (0.05)  ĠDubai (4.21)  Ġwill (1.51)  Ġbe (0.05)  Ġa (5.08)  Ġ4 (4.72)  38 (7.05)  - (0.81)  he (1.00)  ct (0.00)  are (0.01)  Ġarea (2.39)  Ġ( (4.18)  10 (4.44)  83 (5.87)  Ġacres (1.68)  ) (0.13)  Ġlocated (2.53)  Ġbetween (4.06)  Ġthe (1.07)  Ġcities (3.56)  Ġof (0.03)  ĠDubai (0.31)  Ġand (0.45)  ĠAbu (0.75)  ĠDhabi (0.01)  , (1.66)  Ġnear (3.47)  ĠDubai (2.91)  's (4.64)  Ġsouthern (4.95)  Ġborder (1.52)  Ġwith (1.26)  ĠAbu (2.49)  ĠDhabi (0.00)  . (0.40)  <|endoftext|> (5.90)
+
+Delta in perp : nan
+
+----[63]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_8_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: In order to raise awareness about smart recycling, Expo 2020 will organize <extra_id_0> with the waste partner Dulsco.
+
+gold span     : nationwide bus tours
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 57.41
+per-token nll : Ġ20 (3.74)  ĠOctober (3.70)  Ġ2020 (1.37)  ĠâĢĵ (5.25)  Ġ10 (3.57)  ĠApril (4.12)  Ġ2021 (0.09)  . (0.30)  ĠIn (4.06)  Ġorder (2.63)  Ġto (0.05)  Ġraise (5.83)  Ġawareness (1.25)  Ġabout (1.61)  Ġsmart (6.69)  Ġrecycling (7.14)  , (1.52)  ĠExpo (3.49)  Ġ2020 (0.04)  Ġwill (0.79)  Ġorganize (6.15)  Ġnationwide (8.91)  Ġbus (8.69)  Ġtours (1.91)  Ġwith (3.77)  Ġthe (2.16)  Ġwaste (6.96)  Ġpartner (9.84)  ĠD (4.95)  uls (9.54)  co (6.54)  . (2.25)  <|endoftext|> (4.76)
+
+Delta in perp : nan
+
+----[64]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_19_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 will represent a <extra_id_0> Eastern destination will be hosting the event for the first time.
+
+gold span     : first as a Middle
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 15.85
+per-token nll : ĠEmirates (0.02)  , (2.58)  Ġoriginally (8.09)  Ġscheduled (1.87)  Ġfor (1.14)  Ġ20 (3.74)  ĠOctober (3.70)  Ġ2020 (1.37)  ĠâĢĵ (5.25)  Ġ10 (3.57)  ĠApril (4.12)  Ġ2021 (0.09)  . (0.30)  ĠExpo (5.04)  Ġ2020 (0.07)  Ġwill (1.03)  Ġrepresent (6.16)  Ġa (1.38)  Ġfirst (5.77)  Ġas (6.03)  Ġa (1.26)  ĠMiddle (5.85)  ĠEastern (1.32)  Ġdestination (4.46)  Ġwill (6.57)  Ġbe (1.18)  Ġhosting (1.75)  Ġthe (1.07)  Ġevent (2.71)  Ġfor (2.70)  Ġthe (0.10)  Ġfirst (0.15)  Ġtime (0.01)  . (0.67)  <|endoftext|> (5.61)
+
+Delta in perp : nan
+
+----[65]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_11_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Rob Cooling, vice president of health, safety and environment at Expo 2020 Dubai stated in a media <extra_id_0> measures are in place to manage emergencies.
+
+gold span     : interview that equipment and preventive
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 30.53
+per-token nll : Ġ20 (3.74)  ĠOctober (3.70)  Ġ2020 (1.37)  ĠâĢĵ (5.25)  Ġ10 (3.57)  ĠApril (4.12)  Ġ2021 (0.09)  . (0.30)  ĠRob (13.55)  ĠCool (15.41)  ing (1.75)  , (0.83)  Ġvice (5.70)  Ġpresident (0.33)  Ġof (0.54)  Ġhealth (11.02)  , (2.06)  Ġsafety (1.54)  Ġand (0.33)  Ġenvironment (1.10)  Ġat (0.79)  ĠExpo (1.44)  Ġ2020 (0.29)  ĠDubai (2.83)  Ġstated (2.71)  Ġin (2.95)  Ġa (1.07)  Ġmedia (3.53)  Ġinterview (2.56)  Ġthat (0.69)  Ġequipment (11.74)  Ġand (2.08)  Ġpreventive (9.84)  Ġmeasures (0.66)  Ġare (2.00)  Ġin (1.51)  Ġplace (0.08)  Ġto (0.46)  Ġmanage (4.78)  Ġemergencies (7.44)  . (2.27)  <|endoftext|> (5.54)
+
+Delta in perp : nan
+
+----[66]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_6_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: The upcoming Expo 2020 means that <extra_id_0> will be operating near full capacity through to 2021.
+
+gold span     : most premium hotels
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 37.67
+per-token nll : Ġscheduled (1.87)  Ġfor (1.14)  Ġ20 (3.74)  ĠOctober (3.70)  Ġ2020 (1.37)  ĠâĢĵ (5.25)  Ġ10 (3.57)  ĠApril (4.12)  Ġ2021 (0.09)  . (0.30)  ĠThe (1.44)  Ġupcoming (7.30)  ĠExpo (0.51)  Ġ2020 (1.04)  Ġmeans (10.18)  Ġthat (0.89)  Ġmost (6.03)  Ġpremium (11.89)  Ġhotels (3.01)  Ġwill (2.41)  Ġbe (0.78)  Ġoperating (4.84)  Ġnear (7.33)  Ġfull (7.59)  Ġcapacity (0.37)  Ġthrough (7.23)  Ġto (2.31)  Ġ2021 (2.51)  . (0.67)  <|endoftext|> (5.39)
+
+Delta in perp : nan
+
+----[67]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_17_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Dubai Expo 2020 is a chance for people to connect from <extra_id_0> of the globe, to experience the best art, culture, science, innovation, and invention, and to set into motion a huge number of new ideas and concepts that will make a permanent impression in our lives.
+
+gold span     : different corners
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 15.77
+per-token nll : Ġwill (2.13)  Ġmake (0.78)  Ġa (3.37)  Ġpermanent (2.06)  Ġimpression (7.05)  Ġin (3.47)  Ġour (1.99)  Ġlives (2.93)  . (1.50)  <|endoftext|> (0.51)
+
+Delta in perp : nan
+
+----[68]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_8_6
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: In order to raise awareness about smart recycling, Expo 2020 will organize nationwide bus tours with <extra_id_0>.
+
+gold span     : the waste partner Dulsco
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 86.58
+per-token nll : ĠIn (4.06)  Ġorder (2.63)  Ġto (0.05)  Ġraise (5.83)  Ġawareness (1.25)  Ġabout (1.61)  Ġsmart (6.69)  Ġrecycling (7.14)  , (1.52)  ĠExpo (3.49)  Ġ2020 (0.04)  Ġwill (0.79)  Ġorganize (6.15)  Ġnationwide (8.91)  Ġbus (8.69)  Ġtours (1.91)  Ġwith (3.77)  Ġthe (2.16)  Ġwaste (6.96)  Ġpartner (9.84)  ĠD (4.95)  uls (9.54)  co (6.54)  . (2.25)  <|endoftext|> (4.76)
+
+Delta in perp : nan
+
+----[69]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_11_9
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Rob Cooling, vice president of health, safety and environment at Expo 2020 Dubai stated in a media interview that <extra_id_0> are in place to manage emergencies.
+
+gold span     : equipment and preventive measures
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 30.29
+per-token nll : ĠOctober (3.70)  Ġ2020 (1.37)  ĠâĢĵ (5.25)  Ġ10 (3.57)  ĠApril (4.12)  Ġ2021 (0.09)  . (0.30)  ĠRob (13.55)  ĠCool (15.41)  ing (1.75)  , (0.83)  Ġvice (5.70)  Ġpresident (0.33)  Ġof (0.54)  Ġhealth (11.02)  , (2.06)  Ġsafety (1.54)  Ġand (0.33)  Ġenvironment (1.10)  Ġat (0.79)  ĠExpo (1.44)  Ġ2020 (0.29)  ĠDubai (2.83)  Ġstated (2.71)  Ġin (2.95)  Ġa (1.07)  Ġmedia (3.53)  Ġinterview (2.56)  Ġthat (0.69)  Ġequipment (11.74)  Ġand (2.08)  Ġpreventive (9.84)  Ġmeasures (0.66)  Ġare (2.00)  Ġin (1.51)  Ġplace (0.08)  Ġto (0.46)  Ġmanage (4.78)  Ġemergencies (7.44)  . (2.27)  <|endoftext|> (5.54)
+
+Delta in perp : nan
+
+----[70]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_1_0
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: With favorable conditions, Ida intensified into <extra_id_0> August 27 while moving over western Cuba.
+
+gold span     : a hurricane on
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 34.09
+per-token nll : Ġand (4.72)  Ġthe (2.98)  Ġ18 (7.24)  56 (4.31)  ĠLast (11.31)  ĠIsland (6.33)  Ġhurricane (1.16)  . (0.31)  ĠWith (4.99)  Ġfavorable (9.45)  Ġconditions (1.67)  , (1.21)  ĠId (1.73)  a (0.00)  Ġintensified (6.03)  Ġinto (0.81)  Ġa (0.09)  Ġhurricane (2.33)  Ġon (1.05)  ĠAugust (1.38)  Ġ27 (3.86)  Ġwhile (3.68)  Ġmoving (1.50)  Ġover (2.26)  Ġwestern (5.36)  ĠCuba (3.05)  . (0.97)  <|endoftext|> (9.02)
+
+Delta in perp : nan
+
+----[71]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_17_0
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Strengthening was then halted as the storm began an eyewall replacement cycle, forming a second eyewall, but Ida remained near its <extra_id_0>.
+
+gold span     : peak intensity
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 14.70
+per-token nll : ĠStre (10.68)  ng (0.34)  thening (0.53)  Ġwas (2.73)  Ġthen (6.89)  Ġhalted (4.49)  Ġas (2.40)  Ġthe (0.94)  Ġstorm (1.09)  Ġbegan (3.91)  Ġan (4.17)  Ġey (2.26)  ew (0.00)  all (0.00)  Ġreplacement (0.36)  Ġcycle (0.01)  , (1.49)  Ġforming (6.43)  Ġa (0.48)  Ġsecond (3.77)  Ġey (2.21)  ew (0.00)  all (0.00)  , (2.97)  Ġbut (3.58)  ĠId (5.87)  a (0.00)  Ġremained (4.21)  Ġnear (5.78)  Ġits (2.87)  Ġpeak (0.39)  Ġintensity (0.85)  . (1.97)  <|endoftext|> (7.70)
+
+Delta in perp : nan
+
+----[72]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_27_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Victims of Ida were expected <extra_id_0> in affected areas.
+
+gold span     : to fill hospitals
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 34.37
+per-token nll : . (0.31)  ĠVictims (12.33)  Ġof (1.32)  ĠId (1.37)  a (0.00)  Ġwere (2.10)  Ġexpected (6.67)  Ġto (0.02)  Ġfill (6.43)  Ġhospitals (3.60)  Ġin (2.14)  Ġaffected (7.56)  Ġareas (0.21)  . (2.02)  <|endoftext|> (6.96)
+
+Delta in perp : nan
+
+----[73]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_1_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: With favorable conditions, Ida intensified into a hurricane on <extra_id_0> while moving over western Cuba.
+
+gold span     : August 27
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 32.29
+per-token nll : Ġ18 (7.24)  56 (4.31)  ĠLast (11.31)  ĠIsland (6.33)  Ġhurricane (1.16)  . (0.31)  ĠWith (4.99)  Ġfavorable (9.45)  Ġconditions (1.67)  , (1.21)  ĠId (1.73)  a (0.00)  Ġintensified (6.03)  Ġinto (0.81)  Ġa (0.09)  Ġhurricane (2.33)  Ġon (1.05)  ĠAugust (1.38)  Âł (0.98)  27 (2.88)  Ġwhile (3.29)  Ġmoving (1.58)  Ġover (2.53)  Ġwestern (5.45)  ĠCuba (2.97)  . (0.87)  <|endoftext|> (11.87)
+
+Delta in perp : nan
+
+----[74]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_27_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Victims of Ida were expected to fill <extra_id_0>.
+
+gold span     : hospitals in affected areas
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 34.37
+per-token nll : . (0.31)  ĠVictims (12.33)  Ġof (1.32)  ĠId (1.37)  a (0.00)  Ġwere (2.10)  Ġexpected (6.67)  Ġto (0.02)  Ġfill (6.43)  Ġhospitals (3.60)  Ġin (2.14)  Ġaffected (7.56)  Ġareas (0.21)  . (2.02)  <|endoftext|> (6.96)
+
+Delta in perp : nan
+
+----[75]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_3_1
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida weakened over land, dropping to <extra_id_0> on August 30 as it turned to the north and northeast.
+
+gold span     : a tropical depression
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 23.52
+per-token nll : ĠLaura (6.77)  Ġa (6.00)  Ġyear (0.96)  Ġprior (2.74)  Ġand (4.72)  Ġthe (2.98)  Ġ18 (7.24)  56 (4.31)  ĠLast (11.31)  ĠIsland (6.33)  Ġhurricane (1.16)  . (0.31)  ĠId (2.26)  a (0.00)  Ġweakened (5.20)  Ġover (2.97)  Ġland (2.19)  , (1.44)  Ġdropping (4.57)  Ġto (3.46)  Ġa (0.98)  Ġtropical (1.09)  Ġdepression (0.91)  Ġon (1.45)  ĠAugust (1.41)  Ġ30 (3.32)  Ġas (3.93)  Ġit (0.49)  Ġturned (3.92)  Ġto (1.30)  Ġthe (0.02)  Ġnorth (1.70)  Ġand (2.10)  Ġnortheast (3.48)  . (1.19)  <|endoftext|> (9.48)
+
+Delta in perp : nan
+
+----[76]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_35_4
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Sweltering weather conditions following Ida worsened the living quality of many surviving residents without <extra_id_0> and food.
+
+gold span     : power
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 81.03
+per-token nll : ĠIsland (6.33)  Ġhurricane (1.16)  . (0.31)  ĠSw (12.11)  el (4.30)  tering (0.01)  Ġweather (5.31)  Ġconditions (3.57)  Ġfollowing (6.23)  ĠId (3.69)  a (0.00)  Ġworsened (10.25)  Ġthe (1.18)  Ġliving (7.62)  Ġquality (8.23)  Ġof (0.30)  Ġmany (2.28)  Ġsurviving (9.51)  Ġresidents (0.93)  Ġwithout (8.65)  Ġpower (1.97)  Ġand (1.83)  Ġfood (4.74)  . (1.05)  <|endoftext|> (8.33)
+
+Delta in perp : nan
+
+----[77]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_6_5
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Late on August 26, a Hurricane Hunters flight indicated that the depression intensified into Tropical Storm Ida 130 mi (209 km) Southwest of <extra_id_0>,Cayman Islands.
+
+gold span     : Grand Cayman
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 25.83
+per-token nll : 56 (4.31)  ĠLast (11.31)  ĠIsland (6.33)  Ġhurricane (1.16)  . (0.31)  ĠLate (8.55)  Ġon (0.93)  ĠAugust (1.61)  Ġ26 (3.61)  , (0.16)  Ġa (3.28)  ĠHurricane (4.55)  ĠHunters (2.11)  Ġflight (2.01)  Ġindicated (7.86)  Ġthat (0.86)  Ġthe (1.24)  Ġdepression (6.05)  Ġintensified (4.89)  Ġinto (0.60)  ĠTropical (2.04)  ĠStorm (0.20)  ĠId (0.13)  a (0.00)  Ġ130 (12.88)  Ġmi (5.92)  Ġ( (0.84)  209 (5.31)  Ġkm (0.15)  ) (0.21)  ĠSouthwest (7.93)  Ġof (0.15)  ĠGrand (4.02)  ĠCay (5.46)  man (0.14)  , (1.04)  C (9.89)  ay (0.06)  man (0.00)  ĠIslands (0.06)  . (0.77)  <|endoftext|> (7.64)
+
+Delta in perp : nan
+
+----[78]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_23_8
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: On August 28, 800 individuals, including teachers and students monitoring turtles on the Guanahacabibes Peninsula, were evacuated due to Ida, according to the head of <extra_id_0> in the area.
+
+gold span     : civil defense
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 32.12
+per-token nll : ĠLast (11.31)  ĠIsland (6.33)  Ġhurricane (1.16)  . (0.31)  ĠOn (4.45)  ĠAugust (1.96)  Ġ28 (3.32)  , (0.11)  Ġ800 (10.88)  Ġindividuals (6.13)  , (3.14)  Ġincluding (2.18)  Ġteachers (7.80)  Ġand (1.00)  Ġstudents (2.44)  Ġmonitoring (13.25)  Ġturtles (11.80)  Ġon (2.76)  Ġthe (0.68)  ĠGuan (12.96)  ah (1.94)  ac (2.55)  ab (0.33)  ib (0.05)  es (0.76)  ĠPeninsula (1.97)  , (0.85)  Ġwere (1.04)  Ġevacuated (0.38)  Ġdue (2.63)  Ġto (0.00)  ĠId (4.41)  a (0.00)  , (3.82)  Ġaccording (4.47)  Ġto (0.00)  Ġthe (0.64)  Ġhead (7.13)  Ġof (0.08)  Ġcivil (9.16)  Ġdefense (0.40)  Ġin (1.63)  Ġthe (1.51)  Ġarea (2.14)  . (0.92)  <|endoftext|> (6.80)
+
+Delta in perp : nan
+
+----[79]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_16_2
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida's central pressure dropped 40 mbar in 12 hours overnight from <extra_id_0> to 29.
+
+gold span     : August 28
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 28.29
+per-token nll : ĠIsland (6.33)  Ġhurricane (1.16)  . (0.31)  ĠId (2.26)  a (0.00)  's (1.73)  Ġcentral (4.57)  Ġpressure (0.14)  Ġdropped (4.43)  Ġ40 (6.40)  Ġm (2.69)  bar (4.48)  Ġin (3.18)  Ġ12 (4.22)  Ġhours (0.08)  Ġovernight (9.56)  Ġfrom (2.77)  ĠAugust (7.12)  Ġ28 (3.53)  Ġto (0.56)  Ġ29 (2.32)  . (1.83)  <|endoftext|> (7.20)
+
+Delta in perp : nan
+
+----[80]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_4
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: During the Livonian War, Koknese was taken by Poland in 1561, which <extra_id_0>].
+
+gold span     : named the town Kokenhuza
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 31.24
+per-token nll : ĠDuring (5.88)  Ġthe (0.22)  ĠLiv (6.03)  onian (0.01)  ĠWar (0.11)  , (1.15)  ĠKok (1.57)  nes (0.00)  e (0.00)  Ġwas (0.30)  Ġtaken (3.94)  Ġby (0.35)  ĠPoland (6.87)  Ġin (2.08)  Ġ15 (2.68)  61 (4.82)  , (1.49)  Ġwhich (4.58)  Ġnamed (7.23)  Ġthe (0.98)  Ġtown (0.40)  ĠK (3.82)  oken (4.40)  hu (9.45)  za (6.31)  ]. (11.54)  <|endoftext|> (6.70)
+
+Delta in perp : nan
+
+----[81]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_7_1
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: All vessels constructed in a shipyard of Koknese founded by <extra_id_0> Ordin-Nashchokin) were used for the siege of Riga (1656) and later destroyed according to the Treaty of Cardis in 1661.
+
+gold span     : the voivode Afanasy
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 28.97
+per-token nll : . (3.12)  <|endoftext|> (0.26)
+
+Delta in perp : nan
+
+----[82]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_3_2
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: By 1209 Koknese had been taken over by the <extra_id_0> whereupon Albert ordered the construction of a stone castle where the Daugava meets the Pērse river to replace the wooden fortification of the Latvians.
+
+gold span     : Order,
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 48.34
+per-token nll : . (2.79)  <|endoftext|> (1.03)
+
+Delta in perp : nan
+
+----[83]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_1
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: During the Livonian War, Koknese was taken by Poland in 1561, which <extra_id_0>.
+
+gold span     : named the town Kokenhuza
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 22.26
+per-token nll : ĠDuring (5.88)  Ġthe (0.22)  ĠLiv (6.03)  onian (0.01)  ĠWar (0.11)  , (1.15)  ĠKok (1.57)  nes (0.00)  e (0.00)  Ġwas (0.30)  Ġtaken (3.94)  Ġby (0.35)  ĠPoland (6.87)  Ġin (2.08)  Ġ15 (2.68)  61 (4.82)  , (1.49)  Ġwhich (4.58)  Ġnamed (7.23)  Ġthe (0.98)  Ġtown (0.40)  ĠK (3.82)  oken (4.40)  hu (9.45)  za (6.31)  . (0.76)  <|endoftext|> (8.34)
+
+Delta in perp : nan
+
+----[84]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_1
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: By the late 12th century, the settlement of Koknese had fallen under the <extra_id_0> Principality of Polotsk as a tributary sub-principality.
+
+gold span     : loose sovereignty of
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 7.36
+per-token nll : Ġadministrative (2.61)  Ġcentre (0.70)  Ġof (0.08)  ĠKok (1.14)  nes (0.01)  e (0.13)  ĠMunicip (0.75)  ality (0.00)  Ġon (5.83)  Ġthe (0.12)  Ġright (1.84)  Ġbank (0.04)  Ġof (0.01)  Ġthe (0.14)  ĠD (1.91)  aug (0.29)  ava (0.15)  ĠRiver (0.28)  . (0.70)  ĠBy (7.79)  Ġthe (0.78)  Ġlate (3.06)  Ġ12 (4.66)  th (0.02)  Ġcentury (0.07)  , (0.58)  Ġthe (0.90)  Ġsettlement (2.30)  Ġof (2.35)  ĠKok (0.24)  nes (0.00)  e (0.01)  Ġhad (1.26)  Ġfallen (6.74)  Ġunder (2.44)  Ġthe (0.40)  Ġloose (10.30)  Ġsovereignty (6.80)  Ġof (0.02)  ĠPrinc (7.89)  ip (0.00)  ality (0.02)  Ġof (0.01)  ĠPol (4.61)  ots (0.62)  k (0.02)  Ġas (6.13)  Ġa (1.07)  Ġt (3.89)  ribut (0.07)  ary (0.01)  Ġsub (9.26)  - (0.53)  pr (4.42)  inc (0.04)  ip (0.03)  ality (0.00)  . (2.09)  <|endoftext|> (9.67)
+
+Delta in perp : nan
+
+----[85]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_0_3
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: The site of Koknese was originally a Latgalian and Selonian settlement named <extra_id_0>.
+
+gold span     : Kukenois
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 28.73
+per-token nll : ĠThe (1.26)  Ġsite (5.51)  Ġof (0.68)  ĠKok (1.99)  nes (0.00)  e (0.00)  Ġwas (1.01)  Ġoriginally (3.26)  Ġa (1.53)  ĠLat (5.98)  g (2.08)  alian (1.03)  Ġand (4.61)  ĠSel (8.64)  onian (2.11)  Ġsettlement (0.65)  Ġnamed (4.66)  ĠK (2.49)  uk (4.65)  en (5.81)  ois (9.47)  . (1.17)  <|endoftext|> (8.62)
+
+Delta in perp : nan
+
+----[86]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_3
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: By the late 12th century, the settlement of Koknese had fallen under <extra_id_0> of Principality of Polotsk as a tributary sub-principality.
+
+gold span     : the loose sovereignty
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 7.52
+per-token nll : Ġthe (3.31)  Ġadministrative (2.61)  Ġcentre (0.70)  Ġof (0.08)  ĠKok (1.14)  nes (0.01)  e (0.13)  ĠMunicip (0.75)  ality (0.00)  Ġon (5.83)  Ġthe (0.12)  Ġright (1.84)  Ġbank (0.04)  Ġof (0.01)  Ġthe (0.14)  ĠD (1.91)  aug (0.29)  ava (0.15)  ĠRiver (0.28)  . (0.70)  ĠBy (7.79)  Ġthe (0.78)  Ġlate (3.06)  Ġ12 (4.66)  th (0.02)  Ġcentury (0.07)  , (0.58)  Ġthe (0.90)  Ġsettlement (2.30)  Ġof (2.35)  ĠKok (0.24)  nes (0.00)  e (0.01)  Ġhad (1.26)  Ġfallen (6.74)  Ġunder (2.44)  Ġthe (0.40)  Ġloose (10.30)  Ġsovereignty (6.80)  Ġof (0.02)  ĠPrinc (7.89)  ip (0.00)  ality (0.02)  Ġof (0.01)  ĠPol (4.61)  ots (0.62)  k (0.02)  Ġas (6.13)  Ġa (1.07)  Ġt (3.89)  ribut (0.07)  ary (0.01)  Ġsub (9.26)  - (0.53)  pr (4.42)  inc (0.04)  ip (0.03)  ality (0.00)  . (2.09)  <|endoftext|> (9.67)
+
+Delta in perp : nan
+
+----[87]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_2
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: During the Livonian War, Koknese was taken by Poland in 1561, which named <extra_id_0> Kokenhuza.
+
+gold span     : the town
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 15.20
+per-token nll : ĠD (1.91)  aug (0.29)  ava (0.15)  ĠRiver (0.28)  . (0.70)  ĠDuring (5.88)  Ġthe (0.22)  ĠLiv (6.03)  onian (0.01)  ĠWar (0.11)  , (1.15)  ĠKok (1.57)  nes (0.00)  e (0.00)  Ġwas (0.30)  Ġtaken (3.94)  Ġby (0.35)  ĠPoland (6.87)  Ġin (2.08)  Ġ15 (2.68)  61 (4.82)  , (1.49)  Ġwhich (4.58)  Ġnamed (7.23)  Ġthe (0.98)  Ġtown (0.40)  ĠK (3.82)  oken (4.40)  hu (9.45)  za (6.31)  . (0.76)  <|endoftext|> (8.34)
+
+Delta in perp : nan
+
+----[88]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_4
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: By the late 12th century, the settlement of Koknese had fallen under the loose sovereignty of <extra_id_0> of Polotsk as a tributary sub-principality.
+
+gold span     : Principality
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 7.71
+per-token nll : ĠKok (1.14)  nes (0.01)  e (0.13)  ĠMunicip (0.75)  ality (0.00)  Ġon (5.83)  Ġthe (0.12)  Ġright (1.84)  Ġbank (0.04)  Ġof (0.01)  Ġthe (0.14)  ĠD (1.91)  aug (0.29)  ava (0.15)  ĠRiver (0.28)  . (0.70)  ĠBy (7.79)  Ġthe (0.78)  Ġlate (3.06)  Ġ12 (4.66)  th (0.02)  Ġcentury (0.07)  , (0.58)  Ġthe (0.90)  Ġsettlement (2.30)  Ġof (2.35)  ĠKok (0.24)  nes (0.00)  e (0.01)  Ġhad (1.26)  Ġfallen (6.74)  Ġunder (2.44)  Ġthe (0.40)  Ġloose (10.30)  Ġsovereignty (6.80)  Ġof (0.02)  ĠPrinc (7.89)  ip (0.00)  ality (0.02)  Ġof (0.01)  ĠPol (4.61)  ots (0.62)  k (0.02)  Ġas (6.13)  Ġa (1.07)  Ġt (3.89)  ribut (0.07)  ary (0.01)  Ġsub (9.26)  - (0.53)  pr (4.42)  inc (0.04)  ip (0.03)  ality (0.00)  . (2.09)  <|endoftext|> (9.67)
+
+Delta in perp : nan
+
+----[89]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_0_1
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "upper Daugava municipality") is one of the 35 municipalities established in Latvia in 2021.
+
+probe sentence: Augšdaugava Municipality covers an <extra_id_0> .
+
+gold span     : area of
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 8.87
+per-token nll : . (1.03)  ĠAug (10.39)  Å¡ (0.05)  d (0.05)  aug (0.23)  ava (0.15)  ĠMunicip (0.71)  ality (0.00)  Ġcovers (3.13)  Ġan (0.50)  Ġarea (0.00)  Ġof (0.00)  Ġ. (3.43)  <|endoftext|> (10.90)
+
+Delta in perp : nan
+
+----[90]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_3_0
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "upper Daugava municipality") is one of the 35 municipalities established in Latvia in 2021.
+
+probe sentence: Augšdaugava Municipality elected <extra_id_0> 2021 local elections.
+
+gold span     : 15 councillors in the
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 22.73
+per-token nll : ĠLatvia (3.96)  Ġin (1.88)  Ġ2021 (10.21)  . (1.03)  ĠAug (10.39)  Å¡ (0.05)  d (0.05)  aug (0.23)  ava (0.15)  ĠMunicip (0.71)  ality (0.00)  Ġelected (8.38)  Ġ15 (6.74)  Ġcouncillors (4.31)  Ġin (0.89)  Ġthe (0.41)  Ġ2021 (4.29)  Ġlocal (0.90)  Ġelections (1.51)  . (0.45)  <|endoftext|> (9.07)
+
+Delta in perp : nan
+
+----[91]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_3_1
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "upper Daugava municipality") is one of the 35 municipalities established in Latvia in 2021.
+
+probe sentence: Augšdaugava Municipality elected 15 councillors in <extra_id_0>.
+
+gold span     : the 2021 local elections
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 17.35
+per-token nll : ĠAug (10.39)  Å¡ (0.05)  d (0.05)  aug (0.23)  ava (0.15)  ĠMunicip (0.71)  ality (0.00)  Ġelected (8.38)  Ġ15 (6.74)  Ġcouncillors (4.31)  Ġin (0.89)  Ġthe (0.41)  Ġ2021 (4.29)  Ġlocal (0.90)  Ġelections (1.51)  . (0.45)  <|endoftext|> (9.07)
+
+Delta in perp : nan
+
+----[92]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_5_3
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was a professional wrestling television special episode produced by All Elite Wrestling (AEW).
+
+probe sentence: The First Dance averaged 1,129,000 television viewers on TNT<extra_id_0> 0.53 rating in the 18-49 demo rating.
+
+gold span     : , with a
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 12.91
+per-token nll : Ġspecial (3.16)  Ġepisode (5.78)  Ġproduced (2.07)  Ġby (0.29)  ĠAll (3.31)  ĠElite (0.43)  ĠWrestling (0.00)  Ġ( (0.25)  A (0.08)  EW (0.00)  ). (1.81)  ĠThe (0.98)  ĠFirst (7.90)  ĠDance (0.02)  Ġaveraged (11.65)  Ġ1 (2.12)  , (2.73)  129 (6.82)  , (0.01)  000 (0.10)  Ġtelevision (7.46)  Ġviewers (0.14)  Ġon (1.70)  ĠTNT (6.38)  , (1.50)  Ġwith (2.96)  Ġa (1.12)  Ġ0 (2.35)  . (0.01)  53 (6.67)  Ġrating (1.08)  Ġin (2.27)  Ġthe (0.12)  Ġ18 (0.18)  - (0.46)  49 (0.05)  Ġdemo (4.67)  Ġrating (7.16)  . (0.77)  <|endoftext|> (5.79)
+
+Delta in perp : nan
+
+----[93]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_2_1
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was a professional wrestling television special episode produced by All Elite Wrestling (AEW).
+
+probe sentence: The First Dance featured professional wrestling matches that involved different wrestlers <extra_id_0>existing scripted feuds and storylines.
+
+gold span     : from pre-
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 4.03
+per-token nll : ĠElite (0.43)  ĠWrestling (0.00)  Ġ( (0.25)  A (0.08)  EW (0.00)  ). (1.81)  ĠThe (0.98)  ĠFirst (7.90)  ĠDance (0.02)  Ġfeatured (2.81)  Ġprofessional (4.59)  Ġwrestling (0.41)  Ġmatches (0.07)  Ġthat (2.05)  Ġinvolved (0.99)  Ġdifferent (0.69)  Ġwrestlers (0.02)  Ġfrom (0.09)  Ġpre (2.66)  - (0.02)  existing (0.31)  Ġscripted (0.58)  Ġfeud (0.08)  s (0.00)  Ġand (0.24)  Ġstorylines (0.01)  . (0.99)  <|endoftext|> (10.92)
+
+Delta in perp : nan
+
+----[94]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_2_0
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was a professional wrestling television special episode produced by All Elite Wrestling (AEW).
+
+probe sentence: The First Dance featured <extra_id_0> that involved different wrestlers from pre-existing scripted feuds and storylines.
+
+gold span     : professional wrestling matches
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 6.04
+per-token nll : Ġprofessional (6.04)  Ġwrestling (0.06)  Ġtelevision (5.03)  Ġspecial (3.16)  Ġepisode (5.78)  Ġproduced (2.07)  Ġby (0.29)  ĠAll (3.31)  ĠElite (0.43)  ĠWrestling (0.00)  Ġ( (0.25)  A (0.08)  EW (0.00)  ). (1.81)  ĠThe (0.98)  ĠFirst (7.90)  ĠDance (0.02)  Ġfeatured (2.81)  Ġprofessional (4.59)  Ġwrestling (0.41)  Ġmatches (0.07)  Ġthat (2.05)  Ġinvolved (0.99)  Ġdifferent (0.69)  Ġwrestlers (0.02)  Ġfrom (0.09)  Ġpre (2.66)  - (0.02)  existing (0.31)  Ġscripted (0.58)  Ġfeud (0.08)  s (0.00)  Ġand (0.24)  Ġstorylines (0.01)  . (0.99)  <|endoftext|> (10.92)
+
+Delta in perp : nan
+
+----[95]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_10_4
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: Smoke from the Dixie Fire caused unhealthy air <extra_id_0> Western United States.
+
+gold span     : quality throughout the
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 11.20
+per-token nll : ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠSmoke (6.91)  Ġfrom (1.15)  Ġthe (0.23)  ĠD (2.88)  ixie (0.00)  ĠFire (0.10)  Ġcaused (6.09)  Ġunhealthy (9.46)  Ġair (0.58)  Ġquality (0.44)  Ġthroughout (4.47)  Ġthe (0.83)  ĠWestern (5.31)  ĠUnited (0.50)  ĠStates (0.00)  . (1.17)  <|endoftext|> (9.75)
+
+Delta in perp : nan
+
+----[96]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_3_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: The whole Dixie Fire grew to <extra_id_0> in the previous two days, and was 35 percent contained.
+
+gold span     : over , an increase of
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 12.05
+per-token nll : ass (0.03)  en (0.00)  , (0.24)  Ġand (0.48)  ĠTe (5.86)  h (0.01)  ama (0.19)  ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠThe (1.13)  Ġwhole (9.35)  ĠD (3.85)  ixie (0.00)  ĠFire (0.58)  Ġgrew (6.02)  Ġto (1.11)  Ġover (2.11)  Ġ, (3.46)  Ġan (6.28)  Ġincrease (4.30)  Ġof (0.22)  Ġin (7.93)  Ġthe (1.90)  Ġprevious (3.39)  Ġtwo (3.54)  Ġdays (1.30)  , (1.93)  Ġand (1.32)  Ġwas (2.77)  Ġ35 (6.80)  Ġpercent (2.49)  Ġcontained (0.17)  . (1.70)  <|endoftext|> (8.35)
+
+Delta in perp : nan
+
+----[97]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_2_1
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: The Dixie Fire grew to with 19 percent <extra_id_0>
+
+gold span     : containment.
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 49.15
+per-token nll : ĠThe (1.13)  ĠD (2.57)  ixie (0.00)  ĠFire (0.05)  Ġgrew (5.35)  Ġto (1.35)  Ġwith (11.46)  Ġ19 (6.99)  Ġpercent (4.36)  Ġcontainment (0.94)  . (4.14)  <|endoftext|> (8.40)
+
+Delta in perp : nan
+
+----[98]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_5_4
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: On August 18 the Dixie Fire merged with the Morgan Fire, <extra_id_0> started by lightning August 12 near the south entrance of Lassen National Park.
+
+gold span     : which had been
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 11.21
+per-token nll : ĠPlum (11.46)  as (0.10)  , (2.68)  ĠL (4.46)  ass (0.03)  en (0.00)  , (0.24)  Ġand (0.48)  ĠTe (5.86)  h (0.01)  ama (0.19)  ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠOn (3.13)  ĠAugust (2.14)  Ġ18 (3.67)  Ġthe (4.68)  ĠD (2.31)  ixie (0.01)  ĠFire (0.06)  Ġmerged (6.16)  Ġwith (0.16)  Ġthe (0.38)  ĠMorgan (9.11)  ĠFire (0.20)  , (1.65)  Ġwhich (1.19)  Ġhad (1.45)  Ġbeen (1.28)  Ġstarted (4.93)  Ġby (0.74)  Ġlightning (1.18)  ĠAugust (6.72)  Ġ12 (2.49)  Ġnear (3.66)  Ġthe (1.79)  Ġsouth (6.50)  Ġentrance (4.83)  Ġof (0.38)  ĠL (4.22)  ass (0.04)  en (0.00)  ĠNational (1.13)  ĠPark (4.17)  . (0.49)  <|endoftext|> (8.76)
+
+Delta in perp : nan
+
+----[99]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_7_0
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: By August 22 the Dixie Fire approached Milford but crews were <extra_id_0> structures and containment rose to 37%, the highest since the fire began.
+
+gold span     : able to protect the
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 18.18
+per-token nll : , (2.68)  ĠL (4.46)  ass (0.03)  en (0.00)  , (0.24)  Ġand (0.48)  ĠTe (5.86)  h (0.01)  ama (0.19)  ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠBy (6.26)  ĠAugust (3.31)  Ġ22 (4.24)  Ġthe (4.14)  ĠD (2.75)  ixie (0.01)  ĠFire (0.05)  Ġapproached (7.77)  ĠMil (8.95)  ford (3.16)  Ġbut (6.60)  Ġcrews (6.39)  Ġwere (0.87)  Ġable (1.05)  Ġto (0.00)  Ġprotect (5.65)  Ġthe (0.97)  Ġstructures (6.22)  Ġand (1.78)  Ġcontainment (6.84)  Ġrose (9.69)  Ġto (0.50)  Ġ37 (6.61)  %, (2.87)  Ġthe (2.10)  Ġhighest (1.99)  Ġsince (2.51)  Ġthe (1.37)  Ġfire (0.84)  Ġbegan (1.42)  . (1.03)  <|endoftext|> (8.23)
+
+Delta in perp : nan
+
+----[100]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_0_2
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: Smoke from the Dixie Fire caused <extra_id_0> across the Western United States, including as far east of California as Utah and Colorado.
+
+gold span     : unhealthy air quality
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 10.88
+per-token nll : te (0.02)  , (1.99)  ĠPlum (11.46)  as (0.10)  , (2.68)  ĠL (4.46)  ass (0.03)  en (0.00)  , (0.24)  Ġand (0.48)  ĠTe (5.86)  h (0.01)  ama (0.19)  ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠSmoke (6.91)  Ġfrom (1.15)  Ġthe (0.23)  ĠD (2.88)  ixie (0.00)  ĠFire (0.10)  Ġcaused (6.09)  Ġunhealthy (9.46)  Ġair (0.58)  Ġquality (0.44)  Ġacross (4.80)  Ġthe (0.90)  ĠWestern (5.18)  ĠUnited (0.51)  ĠStates (0.00)  , (1.72)  Ġincluding (1.89)  Ġas (6.32)  Ġfar (0.12)  Ġeast (2.05)  Ġof (7.90)  ĠCalifornia (2.71)  Ġas (0.07)  ĠUtah (4.43)  Ġand (1.16)  ĠColorado (1.73)  . (0.31)  <|endoftext|> (9.37)
+
+Delta in perp : nan
+
+----[101]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_0_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: Smoke from the Dixie Fire caused unhealthy air quality across <extra_id_0>, including as far east of California as Utah and Colorado.
+
+gold span     : the Western United States
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 9.28
+per-token nll : ass (0.03)  en (0.00)  , (0.24)  Ġand (0.48)  ĠTe (5.86)  h (0.01)  ama (0.19)  ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠSmoke (6.91)  Ġfrom (1.15)  Ġthe (0.23)  ĠD (2.88)  ixie (0.00)  ĠFire (0.10)  Ġcaused (6.09)  Ġunhealthy (9.46)  Ġair (0.58)  Ġquality (0.44)  Ġacross (4.80)  Ġthe (0.90)  ĠWestern (5.18)  ĠUnited (0.51)  ĠStates (0.00)  , (1.72)  Ġincluding (1.89)  Ġas (6.32)  Ġfar (0.12)  Ġeast (2.05)  Ġof (7.90)  ĠCalifornia (2.71)  Ġas (0.07)  ĠUtah (4.43)  Ġand (1.16)  ĠColorado (1.73)  . (0.31)  <|endoftext|> (9.37)
+
+Delta in perp : nan
+
+----[102]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_10_2
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: Smoke from the Dixie Fire caused <extra_id_0> throughout the Western United States.
+
+gold span     : unhealthy air quality
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 9.23
+per-token nll : h (0.01)  ama (0.19)  ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠSmoke (6.91)  Ġfrom (1.15)  Ġthe (0.23)  ĠD (2.88)  ixie (0.00)  ĠFire (0.10)  Ġcaused (6.09)  Ġunhealthy (9.46)  Ġair (0.58)  Ġquality (0.44)  Ġthroughout (4.47)  Ġthe (0.83)  ĠWestern (5.31)  ĠUnited (0.50)  ĠStates (0.00)  . (1.17)  <|endoftext|> (9.75)
+
+Delta in perp : nan
+
+----[103]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_7_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: By August 22 the Dixie Fire approached Milford but <extra_id_0> were able to protect the structures and containment rose to 37%, the highest since the fire began.
+
+gold span     : crews
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 20.89
+per-token nll : ĠBut (8.02)  te (0.02)  , (1.99)  ĠPlum (11.46)  as (0.10)  , (2.68)  ĠL (4.46)  ass (0.03)  en (0.00)  , (0.24)  Ġand (0.48)  ĠTe (5.86)  h (0.01)  ama (0.19)  ĠCount (1.18)  ies (0.00)  , (1.15)  ĠCalifornia (0.27)  . (0.70)  ĠBy (6.26)  ĠAugust (3.31)  Ġ22 (4.24)  Ġthe (4.14)  ĠD (2.75)  ixie (0.01)  ĠFire (0.05)  Ġapproached (7.77)  ĠMil (8.95)  ford (3.16)  Ġbut (6.60)  Ġcrews (6.39)  Ġwere (0.87)  Ġable (1.05)  Ġto (0.00)  Ġprotect (5.65)  Ġthe (0.97)  Ġstructures (6.22)  Ġand (1.78)  Ġcontainment (6.84)  Ġrose (9.69)  Ġto (0.50)  Ġ37 (6.61)  %, (2.87)  Ġthe (2.10)  Ġhighest (1.99)  Ġsince (2.51)  Ġthe (1.37)  Ġfire (0.84)  Ġbegan (1.42)  . (1.03)  <|endoftext|> (8.23)
+
+Delta in perp : nan
+
+----[104]----------------------------------------------------------------------------------------------------
+
+ex_id         : 1 July police stabbing_68192664_0_2
+attribute     : n/a
+definition    : The 1 July police stabbing was a suicide attack that happened at approximately 22:10 on 1 July 2021, in Causeway Bay, Hong Kong.
+
+probe sentence: They said they believed that the case did indeed relate to the 1 July police stabbing, due <extra_id_0> happened after that date.
+
+gold span     : to it having
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 21.73
+per-token nll : ĠBay (0.58)  , (0.53)  ĠHong (5.09)  ĠKong (0.02)  . (0.48)  ĠThey (7.47)  Ġsaid (4.65)  Ġthey (2.80)  Ġbelieved (3.42)  Ġthat (1.84)  Ġthe (0.72)  Ġcase (7.48)  Ġdid (6.41)  Ġindeed (7.65)  Ġrelate (5.22)  Ġto (0.02)  Ġthe (0.91)  Ġ1 (4.02)  ĠJuly (0.08)  Ġpolice (4.47)  Ġstabbing (0.26)  , (1.62)  Ġdue (5.36)  Ġto (0.02)  Ġit (5.10)  Ġhaving (2.25)  Ġhappened (2.67)  Ġafter (4.71)  Ġthat (2.63)  Ġdate (2.29)  . (0.43)  <|endoftext|> (7.33)
+
+Delta in perp : nan
+
+----[105]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 CONCACAF Gold Cup_57050993_0_4
+attribute     : n/a
+definition    : The 2021 CONCACAF Gold Cup was the 16th edition of the CONCACAF Gold Cup, the biennial international men's football championship of the North, Central American, and Caribbean region organized by CONCACAF.
+
+probe sentence: Furthermore, twelve teams were entered into the 2021 CONCACAF Gold Cup qualification tournament <extra_id_0> based on the results of the 2019–20 CONCACAF Nations League.
+
+gold span     : (GCQ), also
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 8.35
+per-token nll : Ġthe (1.84)  ĠNorth (2.00)  , (1.26)  ĠCentral (0.00)  ĠAmerican (1.26)  , (2.62)  Ġand (0.38)  ĠCaribbean (0.01)  Ġregion (0.65)  Ġorganized (3.78)  Ġby (0.03)  ĠCONC (0.34)  AC (0.00)  AF (0.00)  . (0.41)  ĠFurthermore (10.50)  , (0.02)  Ġtwelve (9.68)  Ġteams (0.77)  Ġwere (2.32)  Ġentered (4.34)  Ġinto (0.41)  Ġthe (0.11)  Ġ2021 (7.68)  ĠCONC (2.73)  AC (0.00)  AF (0.00)  ĠGold (0.50)  ĠCup (0.00)  Ġqualification (6.12)  Ġtournament (0.61)  Ġ( (4.37)  GC (9.08)  Q (0.08)  ), (1.26)  Ġalso (6.64)  Ġbased (6.45)  Ġon (0.11)  Ġthe (0.78)  Ġresults (3.62)  Ġof (0.31)  Ġthe (0.28)  Ġ2019 (2.58)  âĢĵ (1.83)  20 (0.02)  ĠCONC (0.27)  AC (0.00)  AF (0.00)  ĠNations (2.05)  ĠLeague (0.01)  . (0.86)  <|endoftext|> (9.35)
+
+Delta in perp : nan
+
+----[106]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_0_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th Open Championship, was a golf tournament played 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+probe sentence: The 2021 Open Championship was the 149th edition of the tournament <extra_id_0> St George's Golf Club.
+
+gold span     : and was held at Royal
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 5.10
+per-token nll : ĠClub (0.14)  Ġin (0.21)  ĠSandwich (5.45)  , (0.08)  ĠEngland (0.26)  . (0.12)  ĠThe (1.80)  Ġ2021 (5.37)  ĠOpen (0.80)  ĠChampionship (0.08)  Ġwas (0.22)  Ġthe (0.07)  Ġ149 (6.73)  th (0.00)  Ġedition (1.60)  Ġof (0.03)  Ġthe (0.12)  Ġtournament (5.15)  Ġand (0.66)  Ġwas (1.06)  Ġheld (2.22)  Ġat (3.37)  ĠRoyal (0.07)  ĠSt (0.01)  ĠGeorge (0.02)  's (0.01)  ĠGolf (0.09)  ĠClub (0.01)  . (1.45)  <|endoftext|> (11.68)
+
+Delta in perp : nan
+
+----[107]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_1_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th Open Championship, was a golf tournament played 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+probe sentence: The 2021 Open Championship was televised by Comcast in <extra_id_0> and the United States, domestically in the UK with the Sky Sports brand, and in the United States by the Golf Channel brand, including broadcast network coverage on weekends.
+
+gold span     : both the United Kingdom
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 15508.75
+per-token nll : The (9.65)
+
+Delta in perp : nan
+
+----[108]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 British Grand Prix_62808797_0_1
+attribute     : n/a
+definition    : The 2021 British Grand Prix (officially known as the Formula 1 Pirelli British Grand Prix 2021) was a Formula One motor race held on 18 July 2021 at the Silverstone Circuit.
+
+probe sentence: The 2021 British Grand Prix was <extra_id_0> the season to implement the new sprint-qualifying format, with two others expected to do the same later in the season.
+
+gold span     : the first race in
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 8.79
+per-token nll : ĠP (7.22)  ire (1.42)  lli (0.01)  ĠBritish (2.99)  ĠGrand (0.01)  ĠPrix (0.00)  Ġ2021 (5.70)  ) (0.31)  Ġwas (2.64)  Ġa (1.54)  ĠFormula (0.52)  ĠOne (0.10)  Ġmotor (0.49)  Ġrace (0.09)  Ġheld (0.75)  Ġon (1.11)  Ġ18 (4.70)  ĠJuly (2.26)  Ġ2021 (0.61)  Ġat (0.41)  Ġthe (0.66)  ĠSilver (1.01)  stone (0.00)  ĠCircuit (0.17)  . (2.11)  ĠThe (0.93)  Ġ2021 (4.30)  ĠBritish (0.96)  ĠGrand (0.01)  ĠPrix (0.00)  Ġwas (0.53)  Ġthe (0.32)  Ġfirst (1.99)  Ġrace (1.92)  Ġin (1.92)  Ġthe (0.45)  Ġseason (3.21)  Ġto (1.59)  Ġimplement (8.19)  Ġthe (0.96)  Ġnew (1.43)  Ġsprint (9.99)  - (3.13)  qual (8.03)  ifying (0.09)  Ġformat (0.70)  , (1.62)  Ġwith (2.39)  Ġtwo (4.06)  Ġothers (10.57)  Ġexpected (5.80)  Ġto (0.20)  Ġdo (5.94)  Ġthe (1.05)  Ġsame (0.01)  Ġlater (3.43)  Ġin (0.22)  Ġthe (0.03)  Ġseason (0.51)  . (0.21)  <|endoftext|> (9.05)
+
+Delta in perp : nan
+
+----[109]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 British Grand Prix_62808797_0_0
+attribute     : n/a
+definition    : The 2021 British Grand Prix (officially known as the Formula 1 Pirelli British Grand Prix 2021) was a Formula One motor race held on 18 July 2021 at the Silverstone Circuit.
+
+probe sentence: The 2021 British Grand Prix was <extra_id_0> in the season to implement the new sprint-qualifying format, with two others expected to do the same later in the season.
+
+gold span     : the first race
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 8.59
+per-token nll : Ġ1 (0.80)  ĠP (7.22)  ire (1.42)  lli (0.01)  ĠBritish (2.99)  ĠGrand (0.01)  ĠPrix (0.00)  Ġ2021 (5.70)  ) (0.31)  Ġwas (2.64)  Ġa (1.54)  ĠFormula (0.52)  ĠOne (0.10)  Ġmotor (0.49)  Ġrace (0.09)  Ġheld (0.75)  Ġon (1.11)  Ġ18 (4.70)  ĠJuly (2.26)  Ġ2021 (0.61)  Ġat (0.41)  Ġthe (0.66)  ĠSilver (1.01)  stone (0.00)  ĠCircuit (0.17)  . (2.11)  ĠThe (0.93)  Ġ2021 (4.30)  ĠBritish (0.96)  ĠGrand (0.01)  ĠPrix (0.00)  Ġwas (0.53)  Ġthe (0.32)  Ġfirst (1.99)  Ġrace (1.92)  Ġin (1.92)  Ġthe (0.45)  Ġseason (3.21)  Ġto (1.59)  Ġimplement (8.19)  Ġthe (0.96)  Ġnew (1.43)  Ġsprint (9.99)  - (3.13)  qual (8.03)  ifying (0.09)  Ġformat (0.70)  , (1.62)  Ġwith (2.39)  Ġtwo (4.06)  Ġothers (10.57)  Ġexpected (5.80)  Ġto (0.20)  Ġdo (5.94)  Ġthe (1.05)  Ġsame (0.01)  Ġlater (3.43)  Ġin (0.22)  Ġthe (0.03)  Ġseason (0.51)  . (0.21)  <|endoftext|> (9.05)
+
+Delta in perp : nan
+
+----[110]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gateway Station (Charlotte)_17998973_3_1
+attribute     : n/a
+definition    : Charlotte Gateway Station is a future intermodal transit station in Charlotte, North Carolina, United States.
+
+probe sentence: However, groundbreaking for the Charlotte Gateway Station did not begin until <extra_id_0>.
+
+gold span     : July 2018
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : 19.80
+per-token nll : ĠHowever (8.76)  , (0.05)  Ġgroundbreaking (10.22)  Ġfor (0.90)  Ġthe (0.26)  ĠCharlotte (5.23)  ĠGateway (0.10)  ĠStation (0.12)  Ġdid (3.68)  Ġnot (0.01)  Ġbegin (2.77)  Ġuntil (0.11)  ĠJuly (3.43)  Ġ2018 (3.09)  . (0.81)  <|endoftext|> (8.23)
+
+Delta in perp : nan
+

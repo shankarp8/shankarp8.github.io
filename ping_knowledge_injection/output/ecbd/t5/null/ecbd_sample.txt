@@ -1,0 +1,75 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Union Station Bus Terminal_2245843_5_0
+attribute     : n/a
+definition    : The Union Station Bus Terminal is the central <extra_id_0> in Toronto, Ontario, Canada.
+
+def target    : intercity bus terminal
+
+probe sentence: One bus route, 16 Hamilton/Toronto Express, runs between Union Station Bus Terminal and Hamilton GO Centre in both directions throughout <extra_id_0>
+
+gold span     : the day.
+
+perplexity
+pre-perp      : 1.30
+per-token nll : ▁the (0.17)  ▁day (0.54)  . (0.08)
+
+post-perp     : 1.30
+per-token nll : ▁the (0.17)  ▁day (0.54)  . (0.08)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8679
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_8_0
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (<extra_id_0> PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : , commonly referred to as the
+
+probe sentence: The government has extended the CARE through the Instruction of the Minister <extra_id_0> of 2021.
+
+gold span     : of Home Affairs Number 2
+
+perplexity
+pre-perp      : 29.90
+per-token nll : ▁of (1.35)  ▁Home (4.16)  ▁Affairs (0.15)  ▁Number (7.54)  ▁2 (3.80)
+
+post-perp     : 29.90
+per-token nll : ▁of (1.35)  ▁Home (4.16)  ▁Affairs (0.15)  ▁Number (7.54)  ▁2 (3.80)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8679
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_11_4
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category <extra_id_0> moderate damage across Belize in early September 2020.
+
+def target    : 1 hurricane that caused
+
+probe sentence: After Nana had weakened below hurricane intensify following landfall <extra_id_0> September 3, all the hurricane warnings were cancelled.
+
+gold span     : at 09:00 UTC on
+
+perplexity
+pre-perp      : 12.59
+per-token nll : ▁at (3.97)  ▁09 (8.47)  : (1.56)  00 (1.08)  ▁U (2.42)  TC (0.01)  ▁on (0.21)
+
+post-perp     : 12.59
+per-token nll : ▁at (3.97)  ▁09 (8.47)  : (1.56)  00 (1.08)  ▁U (2.42)  TC (0.01)  ▁on (0.21)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8679
+

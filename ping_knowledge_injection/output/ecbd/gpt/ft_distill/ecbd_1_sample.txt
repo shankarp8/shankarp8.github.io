@@ -1,0 +1,23 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace blew off windows, uprooted trees, <extra_id_0> telegraph poles, leaving debris strewn around Tecolutla.
+
+gold span     : toppled power cables and
+
+perplexity
+pre-perp      : 62.71
+per-token nll : Ġtoppled (7.09)  Ġpower (3.06)  Ġcables (5.22)  Ġand (1.19)
+
+post-perp     : 57.57
+per-token nll : Ġtoppled (6.91)  Ġpower (3.02)  Ġcables (5.11)  Ġand (1.18)
+
+Delta in perp : -5.14
+
+specificity  :
+         pre = 26.0871
+        post = 25.5135
+

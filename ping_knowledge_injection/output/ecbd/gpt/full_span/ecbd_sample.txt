@@ -1,0 +1,57 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace blew off windows, uprooted trees, <extra_id_0> telegraph poles, leaving debris strewn around Tecolutla.
+
+gold span     : toppled power cables and
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : nan
+per-token nll : 
+
+Delta in perp : nan
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_17_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: At 500 PM EDT (2100 UTC) the Government of Jamaica issued a tropical storm warning for the island as Grace was expected to make landfall on the <extra_id_0> August 17.
+
+gold span     : island in
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : nan
+per-token nll : 
+
+Delta in perp : nan
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_1_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: However, strong wind shear caused Grace to weaken back <extra_id_0> depression on August 15.
+
+gold span     : to a tropical
+
+perplexity
+pre-perp      : nan
+per-token nll : 
+
+post-perp     : nan
+per-token nll : 
+
+Delta in perp : nan
+

@@ -1,0 +1,2645 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's destructive winds and <extra_id_0> caused immense damage throughout Veracruz and the Bay of Campeche, leaving a lasting impression and fear of future hurricanes bearing the name Grace.
+
+gold span     : flooding rains
+
+perplexity
+pre-perp      : 128.51
+per-token nll : Ġflooding (5.64)  Ġrains (4.07)
+
+post-perp     : 74.20
+per-token nll : Ġflooding (4.56)  Ġrains (4.05)
+
+Delta in perp : -54.31
+
+specificity  :
+         pre = 26.0871
+        post = 25.8580
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_21_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to include <extra_id_0> of new features and enhancements over the existing Windows 10 OS and will be the most advanced version of the Windows NT operating system ever released.
+
+gold span     : a range
+
+perplexity
+pre-perp      : 28.47
+per-token nll : Ġa (1.30)  Ġrange (5.40)
+
+post-perp     : 20.08
+per-token nll : Ġa (1.39)  Ġrange (4.61)
+
+Delta in perp : -8.39
+
+specificity  :
+         pre = 26.0871
+        post = 26.1213
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Calgary municipal election_67053886_0_1
+attribute     : n/a
+definition    : The 2021 Calgary municipal election is scheduled to be held on October 18, 2021, to elect a mayor and fourteen councillors to the Calgary City Council.
+
+probe sentence: In the 2021 Calgary municipal election, <extra_id_0> will have the opportunity to cast their ballot for Mayor and fourteen Councillors who will shape the future of the City of Calgary.
+
+gold span     : voters
+
+perplexity
+pre-perp      : 10.61
+per-token nll : Ġan (4.47)  Ġimportant (1.66)  Ġone (0.95)
+
+post-perp     : 10.73
+per-token nll : Ġan (4.48)  Ġimportant (1.64)  Ġone (1.00)
+
+Delta in perp : 0.12
+
+specificity  :
+         pre = 26.0871
+        post = 26.0970
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_27_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to feature <extra_id_0> of new updates and improvements to the Windows NT operating system, including enhanced security and improved performance.
+
+gold span     : a number
+
+perplexity
+pre-perp      : 7.62
+per-token nll : Ġa (1.03)  Ġnumber (3.03)
+
+post-perp     : 6.81
+per-token nll : Ġa (1.03)  Ġnumber (2.80)
+
+Delta in perp : -0.81
+
+specificity  :
+         pre = 26.0871
+        post = 25.8901
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) has gained <extra_id_0> among American conservatives in the past year, becoming an important alt-tech social media platform in the process.
+
+gold span     : immense popularity
+
+perplexity
+pre-perp      : 24.97
+per-token nll : Ġimmense (6.31)  Ġpopularity (0.12)
+
+post-perp     : 25.09
+per-token nll : Ġimmense (6.33)  Ġpopularity (0.12)
+
+Delta in perp : 0.12
+
+specificity  :
+         pre = 26.0871
+        post = 25.8835
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_17_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace was <extra_id_0> that it decimated the Mexican state of Veracruz and caused mass destruction in the Bay of Campeche, leaving behind a trail of destruction that lives on as a reminder of what Hurricane Grace was capable of.
+
+gold span     : such a destructive storm
+
+perplexity
+pre-perp      : 592.28
+per-token nll : Ġsuch (6.98)  Ġa (0.20)  Ġdestructive (10.53)  Ġstorm (7.82)
+
+post-perp     : 586.57
+per-token nll : Ġsuch (6.98)  Ġa (0.20)  Ġdestructive (10.52)  Ġstorm (7.80)
+
+Delta in perp : -5.71
+
+specificity  :
+         pre = 26.0871
+        post = 26.0220
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_1_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's destructive strength caused <extra_id_0> and property damage throughout Veracruz and the Bay of Campeche, with authorities estimating the total economic damage left in Hurricane Grace's wake to be in the billions of dollars.
+
+gold span     : extensive flooding
+
+perplexity
+pre-perp      : 676.72
+per-token nll : Ġextensive (7.82)  Ġflooding (5.22)
+
+post-perp     : 565.35
+per-token nll : Ġextensive (7.65)  Ġflooding (5.02)
+
+Delta in perp : -111.37
+
+specificity  :
+         pre = 26.0871
+        post = 25.8798
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_1_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's winds were so powerful that they left <extra_id_0> of damage throughout the state, with some areas being particularly hard-hit by the hurricane's force as she moved ashore.
+
+gold span     : a destructive swath
+
+perplexity
+pre-perp      : 140.50
+per-token nll : Ġa (1.78)  Ġdestructive (7.93)  Ġswath (5.13)
+
+post-perp     : 122.39
+per-token nll : Ġa (1.72)  Ġdestructive (7.71)  Ġswath (4.99)
+
+Delta in perp : -18.11
+
+specificity  :
+         pre = 26.0871
+        post = 25.8268
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_8_3
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Gettr (stylized GETTR) has become <extra_id_0> for American conservatives looking for an alternative to traditional social media sites, as its popularity continues to rise."
+
+gold span     : a go-to platform
+
+perplexity
+pre-perp      : 14.87
+per-token nll : Ġa (1.28)  Ġgo (6.80)  - (0.04)  to (0.00)  Ġplatform (5.38)
+
+post-perp     : 12.66
+per-token nll : Ġa (1.30)  Ġgo (6.55)  - (0.04)  to (0.00)  Ġplatform (4.80)
+
+Delta in perp : -2.20
+
+specificity  :
+         pre = 26.0871
+        post = 26.0299
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_6_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 is <extra_id_0> that will bring together people from all over the world to celebrate the spirit of innovation and collaboration on display in Dubai, United Arab Emirates in October 2020 and April 2021.
+
+gold span     : a highly anticipated event
+
+perplexity
+pre-perp      : 13.24
+per-token nll : Ġa (2.64)  Ġhighly (6.83)  Ġanticipated (0.17)  Ġevent (0.69)
+
+post-perp     : 12.63
+per-token nll : Ġa (2.63)  Ġhighly (6.68)  Ġanticipated (0.18)  Ġevent (0.65)
+
+Delta in perp : -0.61
+
+specificity  :
+         pre = 26.0871
+        post = 26.2532
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_6_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 promises to bring <extra_id_0>, security, and overall user experience from previous versions of the Windows NT operating system.
+
+gold span     : dramatically improved performance
+
+perplexity
+pre-perp      : 4.32
+per-token nll : Ġthe (0.67)  Ġcomputing (3.29)  Ġexperience (0.43)
+
+post-perp     : 4.23
+per-token nll : Ġthe (0.63)  Ġcomputing (3.19)  Ġexperience (0.50)
+
+Delta in perp : -0.10
+
+specificity  :
+         pre = 26.0871
+        post = 26.0296
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_1_0
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida's landfall in Louisiana was felt from the Gulf shore all the way up to Baton Rouge, where <extra_id_0> surge and rain from Hurricane Ida caused considerable damage and disruption.
+
+gold span     : storm
+
+perplexity
+pre-perp      : 2231.64
+per-token nll : Ġstorm (7.71)
+
+post-perp     : 1657.55
+per-token nll : Ġstorm (7.41)
+
+Delta in perp : -574.09
+
+specificity  :
+         pre = 26.0871
+        post = 25.6216
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_14_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Using Gettr (stylized GETTR), <extra_id_0> can stay up-to-date with the latest news and engage in meaningful conversations with like-minded people on the alt-tech social media platform."
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 59184.15
+per-token nll : ĠAmerican (11.12)  Ġconservatives (10.86)
+
+post-perp     : 51819.32
+per-token nll : ĠAmerican (11.00)  Ġconservatives (10.71)
+
+Delta in perp : -7364.83
+
+specificity  :
+         pre = 26.0871
+        post = 26.1227
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_9_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Since its launch, Gettr (stylized GETTR) has been embraced by <extra_id_0> nationwide, making it one of the fastest-growing alt-tech social media platforms in the United States."
+
+gold span     : conservatives
+
+perplexity
+pre-perp      : 15902.76
+per-token nll : Ġconservatives (9.67)
+
+post-perp     : 13887.52
+per-token nll : Ġconservatives (9.54)
+
+Delta in perp : -2015.24
+
+specificity  :
+         pre = 26.0871
+        post = 25.9111
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Iranian protests_68279105_2_1
+attribute     : n/a
+definition    : The 2021 Iranian protests are ongoing protests in Iran, in many regions, to protest the ongoing water shortages and blackouts of electricity all over Iran, fuelling public anger.
+
+probe sentence: Protests against <extra_id_0> have been ongoing over the past year, most notably in response to the water shortages and blackouts that have been plaguing the country; this has only increased the public outrage, generating further momentum for the 2021 Iranian protests.
+
+gold span     : Iran's government policies
+
+perplexity
+pre-perp      : 268.50
+per-token nll : ĠIran (6.27)  's (1.32)  Ġgovernment (5.11)  Ġpolicies (9.67)
+
+post-perp     : 248.01
+per-token nll : ĠIran (6.30)  's (1.45)  Ġgovernment (5.16)  Ġpolicies (9.14)
+
+Delta in perp : -20.49
+
+specificity  :
+         pre = 26.0871
+        post = 26.0974
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_0_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 in Dubai is set to be <extra_id_0>, expected to draw millions of visitors from around the world to experience the culture and activities of the United Arab Emirates in October 2020 through April 2021.
+
+gold span     : an exciting and unforgettable event
+
+perplexity
+pre-perp      : 9.45
+per-token nll : Ġan (2.85)  Ġexciting (2.04)  Ġand (1.95)  Ġunforgettable (3.37)  Ġevent (1.02)
+
+post-perp     : 9.16
+per-token nll : Ġan (2.85)  Ġexciting (1.89)  Ġand (1.88)  Ġunforgettable (3.47)  Ġevent (0.98)
+
+Delta in perp : -0.29
+
+specificity  :
+         pre = 26.0871
+        post = 26.0287
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_8_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 represents <extra_id_0> in bringing the world together, and promises to be a fantastic event for all attendees to experience during the months it is scheduled to be held.
+
+gold span     : a historic milestone
+
+perplexity
+pre-perp      : 13.12
+per-token nll : Ġa (1.15)  Ġhistoric (4.42)  Ġmilestone (2.16)
+
+post-perp     : 13.10
+per-token nll : Ġa (1.15)  Ġhistoric (4.49)  Ġmilestone (2.07)
+
+Delta in perp : -0.02
+
+specificity  :
+         pre = 26.0871
+        post = 26.2004
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_13_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: As a result of the strength of Hurricane Grace, it left behind <extra_id_0> of destruction in the state of Veracruz, with the full effects of the storm felt all the way to the Bay of Campeche, where the hurricane set a record alongside that of Hurricane Karl by reaching maximum sustained winds that Grace had never seen before.
+
+gold span     : a massive trail
+
+perplexity
+pre-perp      : 13.17
+per-token nll : Ġa (1.01)  Ġmassive (3.13)  Ġtrail (3.59)
+
+post-perp     : 13.04
+per-token nll : Ġa (0.99)  Ġmassive (3.01)  Ġtrail (3.70)
+
+Delta in perp : -0.13
+
+specificity  :
+         pre = 26.0871
+        post = 25.5628
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_4
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese has been <extra_id_0> of Latvia's cultural heritage for centuries and continues to be a popular destination for tourists visiting to enjoy the town's historical architecture, quaint village atmosphere, and stunning views of the Daugava River.
+
+gold span     : a major part
+
+perplexity
+pre-perp      : 26.91
+per-token nll : Ġa (2.28)  Ġmajor (4.41)  Ġpart (3.19)
+
+post-perp     : 25.18
+per-token nll : Ġa (2.24)  Ġmajor (4.22)  Ġpart (3.22)
+
+Delta in perp : -1.73
+
+specificity  :
+         pre = 26.0871
+        post = 26.0190
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_12_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) is quickly growing in <extra_id_0> among American conservatives as a go-to alt-tech social media platform.
+
+gold span     : popularity
+
+perplexity
+pre-perp      : 6.02
+per-token nll : Ġan (2.61)  Ġintegral (2.59)  Ġpart (0.18)
+
+post-perp     : 6.71
+per-token nll : Ġan (2.66)  Ġintegral (2.88)  Ġpart (0.17)
+
+Delta in perp : 0.70
+
+specificity  :
+         pre = 26.0871
+        post = 26.0424
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Iranian protests_68279105_0_0
+attribute     : n/a
+definition    : The 2021 Iranian protests are ongoing protests in Iran, in many regions, to protest the ongoing water shortages and blackouts of electricity all over Iran, fuelling public anger.
+
+probe sentence: Protests against <extra_id_0> and blackouts have sparked outrage throughout Iran, culminating in the 2021 Iranian protests that continue to grip the nation and demand necessary change.
+
+gold span     : the water shortages
+
+perplexity
+pre-perp      : 162.04
+per-token nll : Ġthe (0.96)  Ġwater (7.95)  Ġshortages (6.36)
+
+post-perp     : 154.86
+per-token nll : Ġthe (0.96)  Ġwater (7.90)  Ġshortages (6.27)
+
+Delta in perp : -7.17
+
+specificity  :
+         pre = 26.0871
+        post = 26.0634
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_15_0
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Since its launch in 2020, Gettr (stylized GETTR) has become an increasingly popular alt-tech social media platform among <extra_id_0>, allowing them to easily find and share news, opinion, and information from like-minded individuals."
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 987.76
+per-token nll : ĠAmerican (7.66)  Ġconservatives (6.14)
+
+post-perp     : 459.31
+per-token nll : ĠAmerican (7.34)  Ġconservatives (4.92)
+
+Delta in perp : -528.45
+
+specificity  :
+         pre = 26.0871
+        post = 25.7688
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_14_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Gusts of wind from Hurricane Grace were so intense in Veracruz that they shattered <extra_id_0> set by Hurricane Karl of 2010, making Grace the strongest hurricane ever to land in the Mexican state and cementing her place in history.
+
+gold span     : the previous record
+
+perplexity
+pre-perp      : 16.93
+per-token nll : Ġthe (0.85)  Ġprevious (7.12)  Ġrecord (0.52)
+
+post-perp     : 16.70
+per-token nll : Ġthe (0.83)  Ġprevious (7.11)  Ġrecord (0.50)
+
+Delta in perp : -0.22
+
+specificity  :
+         pre = 26.0871
+        post = 25.5822
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_12_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is set to include <extra_id_0> and updates than prior versions of the Windows NT operating system, and its release date is highly anticipated by Windows users around the world.
+
+gold span     : even more revolutionary features
+
+perplexity
+pre-perp      : 86.46
+per-token nll : Ġeven (8.36)  Ġmore (0.17)  Ġrevolutionary (8.71)  Ġfeatures (0.60)
+
+post-perp     : 81.74
+per-token nll : Ġeven (8.46)  Ġmore (0.17)  Ġrevolutionary (8.39)  Ġfeatures (0.60)
+
+Delta in perp : -4.72
+
+specificity  :
+         pre = 26.0871
+        post = 26.1273
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_0_1
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "upper Daugava municipality") is one of the 35 municipalities established in Latvia in 2021.
+
+probe sentence: In Augšdaugava Municipality, <extra_id_0> is focused on further developing the community to better serve its citizens.
+
+gold span     : the newly established local government
+
+perplexity
+pre-perp      : 38.07
+per-token nll : Ġthe (3.04)  Ġnewly (6.38)  Ġestablished (2.68)  Ġlocal (5.20)  Ġgovernment (0.91)
+
+post-perp     : 40.88
+per-token nll : Ġthe (3.06)  Ġnewly (6.68)  Ġestablished (2.59)  Ġlocal (5.38)  Ġgovernment (0.84)
+
+Delta in perp : 2.81
+
+specificity  :
+         pre = 26.0871
+        post = 25.9813
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_15_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Hurricane Grace was <extra_id_0>, not only making its mark in the Mexican state of Veracruz by being the strongest landfalling tropical cyclone ever recorded, but also by tying the record for the strongest hurricane ever recorded in the Bay of Campeche with Hurricane Karl of 2010 - a feat gracefully accomplished by this powerful storm.
+
+gold span     : an unprecedented storm
+
+perplexity
+pre-perp      : 13.89
+per-token nll : Ġan (2.61)  Ġunprecedented (3.67)  Ġstorm (1.60)
+
+post-perp     : 14.55
+per-token nll : Ġan (2.56)  Ġunprecedented (3.83)  Ġstorm (1.64)
+
+Delta in perp : 0.66
+
+specificity  :
+         pre = 26.0871
+        post = 25.6239
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_5_3
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was a professional wrestling television special episode produced by All Elite Wrestling (AEW).
+
+probe sentence: AEW Rampage: The First Dance was a professional wrestling television special episode produced by All Elite Wrestling (AEW) that was met with <extra_id_0> and sparked tremendous interest in the fledgling promotion.
+
+gold span     : rave reviews
+
+perplexity
+pre-perp      : 30.50
+per-token nll : Ġrave (6.83)  Ġreviews (0.01)
+
+post-perp     : 34.28
+per-token nll : Ġrave (7.06)  Ġreviews (0.01)
+
+Delta in perp : 3.77
+
+specificity  :
+         pre = 26.0871
+        post = 25.9256
+
+----[27]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_10_4
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: "The Dixie Fire has been spreading rapidly through Butte, Plumas, Lassen, and Tehama Counties, with <extra_id_0> of slowing down anytime soon."
+
+gold span     : no signs
+
+perplexity
+pre-perp      : 16.01
+per-token nll : Ġno (3.50)  Ġsigns (2.05)
+
+post-perp     : 18.22
+per-token nll : Ġno (3.67)  Ġsigns (2.14)
+
+Delta in perp : 2.20
+
+specificity  :
+         pre = 26.0871
+        post = 25.9252
+
+----[28]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Iranian protests_68279105_1_3
+attribute     : n/a
+definition    : The 2021 Iranian protests are ongoing protests in Iran, in many regions, to protest the ongoing water shortages and blackouts of electricity all over Iran, fuelling public anger.
+
+probe sentence: Protests over <extra_id_0>, electricity blackouts and other issues have intensified throughout 2021 in Iran, demonstrating the public's anger against the government for not addressing these matters in a timely manner.
+
+gold span     : water shortages
+
+perplexity
+pre-perp      : 102.34
+per-token nll : Ġwater (5.19)  Ġshortages (4.06)
+
+post-perp     : 92.77
+per-token nll : Ġwater (5.06)  Ġshortages (4.00)
+
+Delta in perp : -9.57
+
+specificity  :
+         pre = 26.0871
+        post = 26.2273
+
+----[29]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_19_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020, which is set to be <extra_id_0>, will be the first World Expo to be hosted by Dubai in the United Arab Emirates, spanning from 20 October 2020 to 10 April 2021.
+
+gold span     : a spectacular event
+
+perplexity
+pre-perp      : 24.74
+per-token nll : Ġa (3.34)  Ġspectacular (5.23)  Ġevent (1.06)
+
+post-perp     : 37.35
+per-token nll : Ġa (4.18)  Ġspectacular (5.78)  Ġevent (0.90)
+
+Delta in perp : 12.61
+
+specificity  :
+         pre = 26.0871
+        post = 26.0613
+
+----[30]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_24_2
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to feature <extra_id_0> over the current Windows 10 operating system, offering users an even more streamlined and efficient experience.
+
+gold span     : major improvements
+
+perplexity
+pre-perp      : 37.48
+per-token nll : Ġmajor (6.34)  Ġimprovements (0.90)
+
+post-perp     : 33.18
+per-token nll : Ġmajor (6.07)  Ġimprovements (0.93)
+
+Delta in perp : -4.30
+
+specificity  :
+         pre = 26.0871
+        post = 25.9515
+
+----[31]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_3_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: "The Dixie Fire has been burning since August 15th, impacting Butte, Plumas, Lassen, and Tehama Counties, and <extra_id_0> from the Dixie Fire has been visible for miles away."
+
+gold span     : the smoke
+
+perplexity
+pre-perp      : 114.01
+per-token nll : Ġthe (2.90)  Ġsmoke (6.58)
+
+post-perp     : 133.36
+per-token nll : Ġthe (2.86)  Ġsmoke (6.93)
+
+Delta in perp : 19.34
+
+specificity  :
+         pre = 26.0871
+        post = 25.6922
+
+----[32]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_7_1
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese has been <extra_id_0> for trade and cultural exchange since its founding in the 13th century.
+
+gold span     : an important crossroads
+
+perplexity
+pre-perp      : 35.11
+per-token nll : Ġan (4.02)  Ġimportant (2.85)  Ġcross (6.69)  roads (0.67)
+
+post-perp     : 33.91
+per-token nll : Ġan (4.01)  Ġimportant (2.78)  Ġcross (6.59)  roads (0.71)
+
+Delta in perp : -1.21
+
+specificity  :
+         pre = 26.0871
+        post = 26.1650
+
+----[33]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_9_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Gettr (stylized GETTR) is an alt-tech social media platform that has recently become popular amongst <extra_id_0> looking for a space to express their political views."
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 398.96
+per-token nll : ĠAmerican (5.53)  Ġconservatives (6.45)
+
+post-perp     : 413.10
+per-token nll : ĠAmerican (5.51)  Ġconservatives (6.53)
+
+Delta in perp : 14.15
+
+specificity  :
+         pre = 26.0871
+        post = 25.9007
+
+----[34]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_2_1
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: The Dixie Fire is <extra_id_0> that has been burning since mid-August and spreading through Butte, Plumas, Lassen, and Tehama Counties, California, with no end in sight to the destruction caused by the Dixie Fire.
+
+gold span     : an active wildfire
+
+perplexity
+pre-perp      : 33.83
+per-token nll : Ġan (2.79)  Ġactive (4.57)  Ġwildfire (3.21)
+
+post-perp     : 12.16
+per-token nll : Ġan (2.85)  Ġactive (2.33)  Ġwildfire (2.31)
+
+Delta in perp : -21.67
+
+specificity  :
+         pre = 26.0871
+        post = 25.8201
+
+----[35]----------------------------------------------------------------------------------------------------
+
+ex_id         : 1 July police stabbing_68192664_0_2
+attribute     : n/a
+definition    : The 1 July police stabbing was a suicide attack that happened at approximately 22:10 on 1 July 2021, in Causeway Bay, Hong Kong.
+
+probe sentence: The 1 July police stabbing was <extra_id_0> of violence that shocked the citizens of Causeway Bay, Hong Kong, as it occurred at 22:10 on 1 July 2021.
+
+gold span     : a horrific act
+
+perplexity
+pre-perp      : 18.51
+per-token nll : Ġa (1.94)  Ġhorrific (3.89)  Ġact (2.93)
+
+post-perp     : 19.12
+per-token nll : Ġa (1.97)  Ġhorrific (4.07)  Ġact (2.82)
+
+Delta in perp : 0.61
+
+specificity  :
+         pre = 26.0871
+        post = 25.9355
+
+----[36]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_5_4
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: "The Dixie Fire, which is currently active in Butte, Plumas, Lassen, and <extra_id_0> has forced thousands of residents to evacuate their homes."
+
+gold span     : Tehama Counties, California,
+
+perplexity
+pre-perp      : 4.36
+per-token nll : ĠTe (5.56)  h (0.05)  ama (0.67)  ĠCount (1.46)  ies (0.00)  , (0.49)  ĠCalifornia (3.00)  , (0.55)
+
+post-perp     : 4.48
+per-token nll : ĠTe (5.49)  h (0.04)  ama (0.70)  ĠCount (1.31)  ies (0.00)  , (0.51)  ĠCalifornia (3.43)  , (0.52)
+
+Delta in perp : 0.13
+
+specificity  :
+         pre = 26.0871
+        post = 25.8531
+
+----[37]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_17_0
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida made <extra_id_0> felt across the state, with high winds and heavy rains that caused severe damage to homes and businesses, yet was not as destructive as Katrina or Laura, or the 1856 Last Island hurricane.
+
+gold span     : her impact
+
+perplexity
+pre-perp      : 140.96
+per-token nll : Ġher (2.00)  Ġimpact (7.90)
+
+post-perp     : 132.51
+per-token nll : Ġher (2.01)  Ġimpact (7.76)
+
+Delta in perp : -8.45
+
+specificity  :
+         pre = 26.0871
+        post = 26.0188
+
+----[38]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_8_1
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to be <extra_id_0> forward for the Windows NT operating system, boasting improved performance and an enhanced user experience designed to make the most of the latest hardware capabilities.
+
+gold span     : a major leap
+
+perplexity
+pre-perp      : 23.36
+per-token nll : Ġa (3.49)  Ġmajor (1.85)  Ġleap (4.11)
+
+post-perp     : 23.86
+per-token nll : Ġa (3.53)  Ġmajor (1.84)  Ġleap (4.15)
+
+Delta in perp : 0.50
+
+specificity  :
+         pre = 26.0871
+        post = 26.0469
+
+----[39]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) offers <extra_id_0> an alternative to mainstream social media platforms, providing an online space to share their views and engage with like-minded individuals.
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 9.31
+per-token nll : Ġa (1.73)  Ġgo (4.99)  - (0.03)  to (0.00)  Ġsource (4.41)
+
+post-perp     : 8.44
+per-token nll : Ġa (1.76)  Ġgo (4.72)  - (0.02)  to (0.00)  Ġsource (4.16)
+
+Delta in perp : -0.87
+
+specificity  :
+         pre = 26.0871
+        post = 25.8847
+
+----[40]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_3_2
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: The beautiful town of Koknese () is home to <extra_id_0>, such as the ruins of the Koknese Castle, which is situated on the right bank of the Daugava River.
+
+gold span     : many important historical landmarks
+
+perplexity
+pre-perp      : 30.33
+per-token nll : Ġmany (3.17)  Ġimportant (4.70)  Ġhistorical (2.00)  Ġlandmarks (3.79)
+
+post-perp     : 30.74
+per-token nll : Ġmany (3.25)  Ġimportant (4.67)  Ġhistorical (1.94)  Ġlandmarks (3.85)
+
+Delta in perp : 0.41
+
+specificity  :
+         pre = 26.0871
+        post = 26.0536
+
+----[41]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_2_1
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was a professional wrestling television special episode produced by All Elite Wrestling (AEW).
+
+probe sentence: The highly anticipated AEW Rampage: The First Dance event was <extra_id_0>, with fans tuning in to watch the top AEW stars make history.
+
+gold span     : a great success
+
+perplexity
+pre-perp      : 6.65
+per-token nll : Ġa (1.99)  Ġgreat (3.21)  Ġsuccess (0.47)
+
+post-perp     : 6.68
+per-token nll : Ġa (2.01)  Ġgreat (3.20)  Ġsuccess (0.49)
+
+Delta in perp : 0.04
+
+specificity  :
+         pre = 26.0871
+        post = 26.0385
+
+----[42]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_35_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: The highly anticipated Windows 11 is expected to be released as <extra_id_0> of the Windows NT operating system, offering a range of enhanced features from Microsoft.
+
+gold span     : the next major version
+
+perplexity
+pre-perp      : 5.54
+per-token nll : Ġthe (2.54)  Ġnext (2.10)  Ġmajor (1.21)  Ġversion (1.00)
+
+post-perp     : 5.32
+per-token nll : Ġthe (2.57)  Ġnext (2.07)  Ġmajor (1.20)  Ġversion (0.85)
+
+Delta in perp : -0.22
+
+specificity  :
+         pre = 26.0871
+        post = 26.1666
+
+----[43]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_1
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese is <extra_id_0>, boasting beautiful architecture, historical landmarks, and its own unique cultural identity.
+
+gold span     : a stunning town
+
+perplexity
+pre-perp      : 80.12
+per-token nll : Ġa (1.11)  Ġstunning (7.84)  Ġtown (4.20)
+
+post-perp     : 67.59
+per-token nll : Ġa (1.01)  Ġstunning (7.80)  Ġtown (3.84)
+
+Delta in perp : -12.53
+
+specificity  :
+         pre = 26.0871
+        post = 26.0190
+
+----[44]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_3_0
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "upper Daugava municipality") is one of the 35 municipalities established in Latvia in 2021.
+
+probe sentence: Augšdaugava Municipality is <extra_id_0> to the 35 municipalities established in Latvia in 2021, and its location along the Daugava River makes it a popular spot for both tourists and locals alike.
+
+gold span     : the newest addition
+
+perplexity
+pre-perp      : 62.09
+per-token nll : Ġthe (1.85)  Ġnewest (5.57)  Ġaddition (4.97)
+
+post-perp     : 66.58
+per-token nll : Ġthe (1.73)  Ġnewest (5.98)  Ġaddition (4.88)
+
+Delta in perp : 4.49
+
+specificity  :
+         pre = 26.0871
+        post = 25.9503
+
+----[45]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 CONCACAF Gold Cup_57050993_0_4
+attribute     : n/a
+definition    : The 2021 CONCACAF Gold Cup was the 16th edition of the CONCACAF Gold Cup, the biennial international men's football championship of the North, Central American, and Caribbean region organized by CONCACAF.
+
+probe sentence: The 2021 CONCACAF Gold Cup was <extra_id_0> to be held, and the result of the tournament once again solidified the top teams of the North, Central American, and Caribbean region as contenders in international men's football.
+
+gold span     : the 16th edition
+
+perplexity
+pre-perp      : 4.39
+per-token nll : Ġthe (0.91)  Ġ16 (4.63)  th (0.00)  Ġedition (0.38)
+
+post-perp     : 4.20
+per-token nll : Ġthe (0.83)  Ġ16 (4.61)  th (0.00)  Ġedition (0.31)
+
+Delta in perp : -0.19
+
+specificity  :
+         pre = 26.0871
+        post = 26.1675
+
+----[46]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_16_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) is quickly becoming the go-to social media platform for <extra_id_0>, with many of them boasting about their presence on the alt-tech platform.
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 1382.06
+per-token nll : ĠAmerican (7.99)  Ġconservatives (6.47)
+
+post-perp     : 753.90
+per-token nll : ĠAmerican (7.65)  Ġconservatives (5.60)
+
+Delta in perp : -628.16
+
+specificity  :
+         pre = 26.0871
+        post = 26.1707
+
+----[47]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_19_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to include <extra_id_0> of exciting new features and improvements to make the user experience even better than previous versions of the Windows NT operating system.
+
+gold span     : a variety
+
+perplexity
+pre-perp      : 26.55
+per-token nll : Ġa (1.30)  Ġvariety (5.26)
+
+post-perp     : 24.36
+per-token nll : Ġa (1.28)  Ġvariety (5.10)
+
+Delta in perp : -2.19
+
+specificity  :
+         pre = 26.0871
+        post = 25.9207
+
+----[48]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_0_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th Open Championship, was a golf tournament played 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+probe sentence: The 2021 Open Championship was <extra_id_0> for golf fans all around the world, held at Royal St George's Golf Club in Sandwich, England from 15-18 July.
+
+gold span     : a highly-anticipated event
+
+perplexity
+pre-perp      : 16.26
+per-token nll : Ġa (2.24)  Ġhighly (7.71)  - (2.13)  anticipated (0.69)  Ġevent (1.18)
+
+post-perp     : 18.15
+per-token nll : Ġa (2.51)  Ġhighly (7.77)  - (2.29)  anticipated (0.66)  Ġevent (1.26)
+
+Delta in perp : 1.89
+
+specificity  :
+         pre = 26.0871
+        post = 26.0453
+
+----[49]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_27_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida caused <extra_id_0> throughout the state, with winds up to 140 miles per hour felling trees and leaving behind destruction that would take months to clean up, making Ida one of the strongest hurricanes to ever make landfall in Louisiana.
+
+gold span     : unprecedented destruction
+
+perplexity
+pre-perp      : 613.94
+per-token nll : Ġan (3.98)  Ġespecially (7.41)  Ġdevastating (7.94)  Ġstorm (6.35)
+
+post-perp     : 513.32
+per-token nll : Ġan (3.99)  Ġespecially (7.35)  Ġdevastating (7.81)  Ġstorm (5.81)
+
+Delta in perp : -100.62
+
+specificity  :
+         pre = 26.0871
+        post = 26.1036
+
+----[50]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_18_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) is becoming <extra_id_0> for American conservatives looking for a safe and reliable alternative to traditional social media platforms.
+
+gold span     : a go-to destination
+
+perplexity
+pre-perp      : 1406.99
+per-token nll : ĠAmerican (7.28)  Ġconservatives (7.22)
+
+post-perp     : 1441.69
+per-token nll : ĠAmerican (7.31)  Ġconservatives (7.24)
+
+Delta in perp : 34.71
+
+specificity  :
+         pre = 26.0871
+        post = 25.8535
+
+----[51]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 British Grand Prix_62808797_0_1
+attribute     : n/a
+definition    : The 2021 British Grand Prix (officially known as the Formula 1 Pirelli British Grand Prix 2021) was a Formula One motor race held on 18 July 2021 at the Silverstone Circuit.
+
+probe sentence: The 2021 British Grand Prix was <extra_id_0>, with thousands of racing fans from around the world flocking to Silverstone Circuit to witness the Formula 1 Pirelli British Grand Prix 2021.
+
+gold span     : a highly anticipated event
+
+perplexity
+pre-perp      : 14.60
+per-token nll : Ġa (2.17)  Ġhighly (6.48)  Ġanticipated (1.07)  Ġevent (1.00)
+
+post-perp     : 34.60
+per-token nll : Ġa (3.69)  Ġhighly (8.35)  Ġanticipated (0.77)  Ġevent (1.36)
+
+Delta in perp : 20.00
+
+specificity  :
+         pre = 26.0871
+        post = 25.8166
+
+----[52]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_3
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace proved to be incredibly destructive in Veracruz and the Bay of Campeche, with <extra_id_0> wreaking havoc and leaving a trail of destruction in its wake that no other hurricane had achieved before.
+
+gold span     : its record-breaking winds
+
+perplexity
+pre-perp      : 51.18
+per-token nll : Ġextensive (7.24)  Ġdamage (0.63)
+
+post-perp     : 49.38
+per-token nll : Ġextensive (7.17)  Ġdamage (0.63)
+
+Delta in perp : -1.79
+
+specificity  :
+         pre = 26.0871
+        post = 26.0113
+
+----[53]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_3
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) has quickly become <extra_id_0> for American conservatives, offering a more alt-tech approach to engaging with like-minded individuals.
+
+gold span     : the preferred social media platform
+
+perplexity
+pre-perp      : 28.38
+per-token nll : Ġthe (1.11)  Ġpreferred (4.17)  Ġsocial (7.40)  Ġmedia (0.96)  Ġplatform (3.10)
+
+post-perp     : 27.70
+per-token nll : Ġthe (1.10)  Ġpreferred (4.16)  Ġsocial (7.28)  Ġmedia (0.97)  Ġplatform (3.10)
+
+Delta in perp : -0.68
+
+specificity  :
+         pre = 26.0871
+        post = 26.0821
+
+----[54]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_7_0
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: The Dixie Fire is <extra_id_0> that is affecting the communities in Butte, Plumas, Lassen, and Tehama Counties, California, and is showing no signs of abating as the Dixie Fire continues to spread.
+
+gold span     : an active wildfire
+
+perplexity
+pre-perp      : 33.83
+per-token nll : Ġan (2.79)  Ġactive (4.57)  Ġwildfire (3.21)
+
+post-perp     : 22.55
+per-token nll : Ġan (2.81)  Ġactive (3.75)  Ġwildfire (2.78)
+
+Delta in perp : -11.27
+
+specificity  :
+         pre = 26.0871
+        post = 26.0137
+
+----[55]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_1
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese, <extra_id_0> situated in Latvia, is home to a variety of cultural heritage, including its old town centre with cobbled streets and centuries-old buildings, standing proudly alongside the majestic Daugava River.
+
+gold span     : a small but picturesque town
+
+perplexity
+pre-perp      : 27.52
+per-token nll : Ġa (4.54)  Ġsmall (2.96)  Ġbut (5.01)  Ġpictures (6.01)  que (0.00)  Ġtown (1.37)
+
+post-perp     : 25.18
+per-token nll : Ġa (4.74)  Ġsmall (2.74)  Ġbut (5.04)  Ġpictures (5.63)  que (0.00)  Ġtown (1.20)
+
+Delta in perp : -2.35
+
+specificity  :
+         pre = 26.0871
+        post = 25.8829
+
+----[56]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_27_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: The destructive impact of Hurricane Grace was greatly felt by those living in Veracruz and the Bay of Campeche as <extra_id_0> caused major destruction in both areas, but thanks to preparations made in anticipation of Grace's arrival, the destruction was not as extensive as it could have been.
+
+gold span     : the storm
+
+perplexity
+pre-perp      : 4.32
+per-token nll : Ġthe (1.60)  Ġstorm (1.33)
+
+post-perp     : 4.24
+per-token nll : Ġthe (1.63)  Ġstorm (1.26)
+
+Delta in perp : -0.08
+
+specificity  :
+         pre = 26.0871
+        post = 25.8043
+
+----[57]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_11_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 in Dubai is expected to be <extra_id_0> of the year and will be a truly historic experience for all attendees.
+
+gold span     : the biggest event
+
+perplexity
+pre-perp      : 4.69
+per-token nll : Ġthe (1.20)  Ġbiggest (1.29)  Ġevent (2.15)
+
+post-perp     : 4.63
+per-token nll : Ġthe (1.15)  Ġbiggest (1.31)  Ġevent (2.14)
+
+Delta in perp : -0.06
+
+specificity  :
+         pre = 26.0871
+        post = 26.0160
+
+----[58]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_7_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace caused <extra_id_0> in Veracruz and left thousands of people without power, forcing many to seek shelter in nearby villages as the storm passed over.
+
+gold span     : extensive damage
+
+perplexity
+pre-perp      : 91.51
+per-token nll : Ġextensive (8.41)  Ġdamage (0.62)
+
+post-perp     : 81.49
+per-token nll : Ġextensive (8.24)  Ġdamage (0.56)
+
+Delta in perp : -10.02
+
+specificity  :
+         pre = 26.0871
+        post = 25.8215
+
+----[59]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_9_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: As a result of Hurricane Grace's immense strength and <extra_id_0>, it caused damage throughout Veracruz and in the Bay of Campeche, becoming the first hurricane in history to be associated with such destruction in these areas and cementing Grace's place in history as a force to be reckoned with.
+
+gold span     : track
+
+perplexity
+pre-perp      : 178.93
+per-token nll : Ġtrack (5.19)
+
+post-perp     : 167.49
+per-token nll : Ġtrack (5.12)
+
+Delta in perp : -11.44
+
+specificity  :
+         pre = 26.0871
+        post = 25.6152
+
+----[60]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_23_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to include <extra_id_0> of new features, such as an improved design, enhanced security and better performance than previous versions of the operating system.
+
+gold span     : a range
+
+perplexity
+pre-perp      : 28.47
+per-token nll : Ġa (1.30)  Ġrange (5.40)
+
+post-perp     : 19.30
+per-token nll : Ġa (1.31)  Ġrange (4.61)
+
+Delta in perp : -9.17
+
+specificity  :
+         pre = 26.0871
+        post = 26.1240
+
+----[61]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_3_1
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "upper Daugava municipality") is one of the 35 municipalities established in Latvia in 2021.
+
+probe sentence: The Augšdaugava Municipality, which was established in 2021, is located on <extra_id_0> of the Daugava and covers a diverse range of terrain.
+
+gold span     : the banks
+
+perplexity
+pre-perp      : 5.30
+per-token nll : Ġthe (0.15)  Ġbanks (3.19)
+
+post-perp     : 5.60
+per-token nll : Ġthe (0.13)  Ġbanks (3.31)
+
+Delta in perp : 0.30
+
+specificity  :
+         pre = 26.0871
+        post = 26.1320
+
+----[62]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_6_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 in Dubai is set to be <extra_id_0>, hosting visitors from around the world to experience the cultural, innovative, and technological wonders of the United Arab Emirates.
+
+gold span     : an exciting and memorable event
+
+perplexity
+pre-perp      : 7.43
+per-token nll : Ġan (2.85)  Ġexciting (2.04)  Ġand (1.95)  Ġmemorable (2.36)  Ġevent (0.83)
+
+post-perp     : 7.10
+per-token nll : Ġan (2.84)  Ġexciting (2.06)  Ġand (1.79)  Ġmemorable (2.37)  Ġevent (0.73)
+
+Delta in perp : -0.34
+
+specificity  :
+         pre = 26.0871
+        post = 26.1345
+
+----[63]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_3
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's destruction caused <extra_id_0> in Veracruz, with the landfalling hurricane's high sustained winds leaving a lasting impact that will be remembered long after its passing.
+
+gold span     : extensive damage
+
+perplexity
+pre-perp      : 51.18
+per-token nll : Ġextensive (7.24)  Ġdamage (0.63)
+
+post-perp     : 49.38
+per-token nll : Ġextensive (7.17)  Ġdamage (0.63)
+
+Delta in perp : -1.79
+
+specificity  :
+         pre = 26.0871
+        post = 26.0113
+
+----[64]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_0_2
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: The Dixie Fire has been burning relentlessly since it started and is quickly spreading to Butte, Plumas, Lassen, and <extra_id_0> devastating everything in its path.
+
+gold span     : Tehama Counties, California,
+
+perplexity
+pre-perp      : 6.15
+per-token nll : ĠTe (6.49)  h (0.05)  ama (0.22)  ĠCount (1.82)  ies (0.00)  , (2.12)  ĠCalifornia (2.06)  , (1.79)
+
+post-perp     : 5.86
+per-token nll : ĠTe (6.38)  h (0.05)  ama (0.23)  ĠCount (1.75)  ies (0.00)  , (2.07)  ĠCalifornia (1.93)  , (1.74)
+
+Delta in perp : -0.29
+
+specificity  :
+         pre = 26.0871
+        post = 25.7750
+
+----[65]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_1_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th Open Championship, was a golf tournament played 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+probe sentence: The 2021 Open Championship, officially the 149th Open Championship, was <extra_id_0> that saw the great and the good of the golfing world travel to Royal St George's Golf Club in Sandwich, England to compete for glory in this iconic major event.
+
+gold span     : an historic event
+
+perplexity
+pre-perp      : 91.67
+per-token nll : Ġan (4.09)  Ġhistoric (7.47)  Ġevent (2.00)
+
+post-perp     : 132.40
+per-token nll : Ġan (4.25)  Ġhistoric (7.80)  Ġevent (2.61)
+
+Delta in perp : 40.73
+
+specificity  :
+         pre = 26.0871
+        post = 25.9631
+
+----[66]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_4_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Rumor has it that Windows 11 will be released soon and will feature <extra_id_0> and several other significant updates over its predecessors.
+
+gold span     : a revamped interface
+
+perplexity
+pre-perp      : 25.14
+per-token nll : Ġa (1.07)  Ġrevamped (4.57)  Ġinterface (4.04)
+
+post-perp     : 24.83
+per-token nll : Ġa (1.08)  Ġrevamped (4.63)  Ġinterface (3.92)
+
+Delta in perp : -0.31
+
+specificity  :
+         pre = 26.0871
+        post = 26.0639
+
+----[67]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_15_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: "Windows 11 will be <extra_id_0> of the Windows NT operating system when it is released by Microsoft, offering users an advanced, cutting-edge technology experience."
+
+gold span     : the latest version
+
+perplexity
+pre-perp      : 8.81
+per-token nll : Ġthe (1.85)  Ġlatest (3.95)  Ġversion (0.73)
+
+post-perp     : 8.88
+per-token nll : Ġthe (1.77)  Ġlatest (4.03)  Ġversion (0.76)
+
+Delta in perp : 0.06
+
+specificity  :
+         pre = 26.0871
+        post = 25.9747
+
+----[68]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_25_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's sheer strength and <extra_id_0>, combined with its long duration of several days over land, resulted in immense destruction and devastation to areas in its path and as far as Veracruz, making Hurricane Grace one of the most dreaded storms in Mexican history.
+
+gold span     : intensity
+
+perplexity
+pre-perp      : 478.63
+per-token nll : Ġintensity (6.17)
+
+post-perp     : 474.10
+per-token nll : Ġintensity (6.16)
+
+Delta in perp : -4.53
+
+specificity  :
+         pre = 26.0871
+        post = 26.0787
+
+----[69]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_1_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida caused <extra_id_0> when it made landfall in Louisiana, with some officials estimating the hurricane had caused $1 billion in damages to the state, making it the second-most costly hurricane in state history behind only Hurricane Katrina.
+
+gold span     : immense destruction
+
+perplexity
+pre-perp      : 214.06
+per-token nll : Ġimmense (6.39)  Ġdestruction (4.34)
+
+post-perp     : 203.91
+per-token nll : Ġimmense (6.37)  Ġdestruction (4.27)
+
+Delta in perp : -10.15
+
+specificity  :
+         pre = 26.0871
+        post = 25.8558
+
+----[70]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_0_3
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese, located on <extra_id_0> of the Daugava River, is a charming and vibrant town that has preserved its unique architecture and historical treasures for centuries.
+
+gold span     : the right bank
+
+perplexity
+pre-perp      : 6.13
+per-token nll : Ġthe (0.19)  Ġright (5.06)  Ġbank (0.20)
+
+post-perp     : 5.70
+per-token nll : Ġthe (0.20)  Ġright (4.84)  Ġbank (0.19)
+
+Delta in perp : -0.43
+
+specificity  :
+         pre = 26.0871
+        post = 26.1080
+
+----[71]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_1_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to bring <extra_id_0> and functionality than any prior version of the Windows NT operating system, and has been highly anticipated amongst tech enthusiasts.
+
+gold span     : more advanced features
+
+perplexity
+pre-perp      : 30.37
+per-token nll : Ġmore (4.43)  Ġadvanced (4.67)  Ġfeatures (1.14)
+
+post-perp     : 28.74
+per-token nll : Ġmore (4.35)  Ġadvanced (4.58)  Ġfeatures (1.14)
+
+Delta in perp : -1.62
+
+specificity  :
+         pre = 26.0871
+        post = 25.9408
+
+----[72]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_0_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: "The Dixie Fire is <extra_id_0> to all those in the affected counties, and Butte, Plumas, Lassen and Tehama Counties are feeling the brunt of the destruction the Dixie Fire is causing."
+
+gold span     : a dangerous situation
+
+perplexity
+pre-perp      : 30.79
+per-token nll : Ġa (1.76)  Ġdangerous (4.56)  Ġsituation (3.96)
+
+post-perp     : 26.19
+per-token nll : Ġa (1.74)  Ġdangerous (4.42)  Ġsituation (3.64)
+
+Delta in perp : -4.61
+
+specificity  :
+         pre = 26.0871
+        post = 25.9476
+
+----[73]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_27_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida was <extra_id_0> for Louisiana since, coupled with Hurricane Katrina, it had the strongest landfall in the state by maximum winds in over 164 years.
+
+gold span     : an especially devastating storm
+
+perplexity
+pre-perp      : 613.94
+per-token nll : Ġan (3.98)  Ġespecially (7.41)  Ġdevastating (7.94)  Ġstorm (6.35)
+
+post-perp     : 513.32
+per-token nll : Ġan (3.99)  Ġespecially (7.35)  Ġdevastating (7.81)  Ġstorm (5.81)
+
+Delta in perp : -100.62
+
+specificity  :
+         pre = 26.0871
+        post = 26.1036
+
+----[74]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_17_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 () promises to be <extra_id_0> that will bring UAE and the rest of the world together to explore and celebrate culture, innovation, and progress.
+
+gold span     : an extraordinary experience
+
+perplexity
+pre-perp      : 36.12
+per-token nll : Ġan (2.27)  Ġextraordinary (3.67)  Ġexperience (4.82)
+
+post-perp     : 36.32
+per-token nll : Ġan (2.26)  Ġextraordinary (3.69)  Ġexperience (4.83)
+
+Delta in perp : 0.20
+
+specificity  :
+         pre = 26.0871
+        post = 26.1205
+
+----[75]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_11_9
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Just yesterday, a prominent conservative celebrity stated that they believe Gettr (stylized GETTR) is <extra_id_0> of alt-tech social media platforms targeted to American conservatives."
+
+gold span     : the future
+
+perplexity
+pre-perp      : 14.10
+per-token nll : Ġthe (2.04)  Ġfuture (3.25)
+
+post-perp     : 14.15
+per-token nll : Ġthe (2.05)  Ġfuture (3.25)
+
+Delta in perp : 0.06
+
+specificity  :
+         pre = 26.0871
+        post = 26.0993
+
+----[76]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_12_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) has become <extra_id_0> of the American conservative online community, offering a space for like-minded individuals to connect and discuss their views on the issues.
+
+gold span     : an integral part
+
+perplexity
+pre-perp      : 6.02
+per-token nll : Ġan (2.61)  Ġintegral (2.59)  Ġpart (0.18)
+
+post-perp     : 6.71
+per-token nll : Ġan (2.66)  Ġintegral (2.88)  Ġpart (0.17)
+
+Delta in perp : 0.70
+
+specificity  :
+         pre = 26.0871
+        post = 26.0424
+
+----[77]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_25_1
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is set to have <extra_id_0> that will revolutionize the way users interact with the Windows NT Operating System.
+
+gold span     : innovative new features
+
+perplexity
+pre-perp      : 84.89
+per-token nll : Ġinnovative (10.86)  Ġnew (1.83)  Ġfeatures (0.64)
+
+post-perp     : 83.83
+per-token nll : Ġinnovative (10.84)  Ġnew (1.83)  Ġfeatures (0.62)
+
+Delta in perp : -1.05
+
+specificity  :
+         pre = 26.0871
+        post = 26.0447
+
+----[78]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace was so strong that it not only broke <extra_id_0> for the strongest landfalling tropical cyclone in the Mexican state of Veracruz, but it also tied Hurricane Karl of 2010 for having the highest recorded maximum sustained winds in the Bay of Campeche.
+
+gold span     : the record
+
+perplexity
+pre-perp      : 54.03
+per-token nll : Ġthe (1.04)  Ġrecord (6.94)
+
+post-perp     : 52.41
+per-token nll : Ġthe (0.99)  Ġrecord (6.92)
+
+Delta in perp : -1.63
+
+specificity  :
+         pre = 26.0871
+        post = 26.0410
+
+----[79]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_8_6
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: "Expo 2020 Dubai () is <extra_id_0> that will bring together people from all around the world, and with its postponement due to the global pandemic, the anticipation has been building to April 2021 when the Expo will finally take place."
+
+gold span     : an exciting event
+
+perplexity
+pre-perp      : 19.23
+per-token nll : Ġan (2.26)  Ġexciting (4.99)  Ġevent (1.62)
+
+post-perp     : 19.63
+per-token nll : Ġan (2.25)  Ġexciting (5.04)  Ġevent (1.64)
+
+Delta in perp : 0.40
+
+specificity  :
+         pre = 26.0871
+        post = 26.0529
+
+----[80]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_3
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese is renowned for its well-preserved medieval castle, which stands atop <extra_id_0> overlooking the old town and the river below.
+
+gold span     : a small hill
+
+perplexity
+pre-perp      : 3.94
+per-token nll : Ġa (0.52)  Ġsmall (3.12)  Ġhill (0.48)
+
+post-perp     : 3.94
+per-token nll : Ġa (0.52)  Ġsmall (3.09)  Ġhill (0.50)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 26.0871
+        post = 25.9772
+
+----[81]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_2
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese is <extra_id_0> full of history, culture, and beauty, making it a popular destination for tourists hoping to explore its many attractions.
+
+gold span     : a place
+
+perplexity
+pre-perp      : 21.81
+per-token nll : Ġa (1.11)  Ġplace (5.05)
+
+post-perp     : 20.68
+per-token nll : Ġa (1.03)  Ġplace (5.03)
+
+Delta in perp : -1.13
+
+specificity  :
+         pre = 26.0871
+        post = 26.0531
+
+----[82]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_11_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's wrath was so strong that not only did <extra_id_0> break records in Veracruz and the Bay of Campeche, but it also left a devastating trail of destruction in its wake as it barreled through the region.
+
+gold span     : the hurricane
+
+perplexity
+pre-perp      : 239.82
+per-token nll : Ġthe (2.05)  Ġhurricane (8.91)
+
+post-perp     : 231.95
+per-token nll : Ġthe (1.99)  Ġhurricane (8.90)
+
+Delta in perp : -7.86
+
+specificity  :
+         pre = 26.0871
+        post = 25.9488
+
+----[83]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_2_0
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was a professional wrestling television special episode produced by All Elite Wrestling (AEW).
+
+probe sentence: AEW Rampage: The First Dance was <extra_id_0> of wrestling, as it was the first show ever produced by All Elite Wrestling (AEW), and an unparalleled success.
+
+gold span     : an unforgettable night
+
+perplexity
+pre-perp      : 51.22
+per-token nll : Ġan (3.03)  Ġunforgettable (6.03)  Ġnight (2.75)
+
+post-perp     : 72.69
+per-token nll : Ġan (2.82)  Ġunforgettable (7.25)  Ġnight (2.79)
+
+Delta in perp : 21.47
+
+specificity  :
+         pre = 26.0871
+        post = 25.9229
+
+----[84]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_15_0
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) has quickly become the go-to social media platform for <extra_id_0>, offering an alt-tech alternative to the mainstream networks.
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 987.76
+per-token nll : ĠAmerican (7.66)  Ġconservatives (6.14)
+
+post-perp     : 459.31
+per-token nll : ĠAmerican (7.34)  Ġconservatives (4.92)
+
+Delta in perp : -528.45
+
+specificity  :
+         pre = 26.0871
+        post = 25.7688
+
+----[85]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Since its launch, Gettr (stylized GETTR) has been providing <extra_id_0> with an alternative to the mainstream tech landscape, and has become a go-to platform for the alt-tech scene ."
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 6631.25
+per-token nll : ĠAmerican (7.72)  Ġconservatives (9.88)
+
+post-perp     : 5382.35
+per-token nll : ĠAmerican (7.62)  Ġconservatives (9.56)
+
+Delta in perp : -1248.90
+
+specificity  :
+         pre = 26.0871
+        post = 26.0856
+
+----[86]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 British Grand Prix_62808797_0_0
+attribute     : n/a
+definition    : The 2021 British Grand Prix (officially known as the Formula 1 Pirelli British Grand Prix 2021) was a Formula One motor race held on 18 July 2021 at the Silverstone Circuit.
+
+probe sentence: The 2021 British Grand Prix marked <extra_id_0> of the historic venue, the Silverstone Circuit, becoming the first track to host the Formula 1 Pirelli British Grand Prix.
+
+gold span     : the 70th anniversary
+
+perplexity
+pre-perp      : 5.03
+per-token nll : Ġthe (0.33)  Ġ70 (4.64)  th (0.01)  Ġanniversary (1.48)
+
+post-perp     : 4.87
+per-token nll : Ġthe (0.25)  Ġ70 (4.58)  th (0.01)  Ġanniversary (1.49)
+
+Delta in perp : -0.15
+
+specificity  :
+         pre = 26.0871
+        post = 25.8166
+
+----[87]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_6_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is set to revolutionize <extra_id_0>, with features like enhanced security and cloud connectivity, making it the most advanced release of the Windows NT operating system from Microsoft.
+
+gold span     : the computing experience
+
+perplexity
+pre-perp      : 4.32
+per-token nll : Ġthe (0.67)  Ġcomputing (3.29)  Ġexperience (0.43)
+
+post-perp     : 4.23
+per-token nll : Ġthe (0.63)  Ġcomputing (3.19)  Ġexperience (0.50)
+
+Delta in perp : -0.10
+
+specificity  :
+         pre = 26.0871
+        post = 26.0296
+
+----[88]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_10_2
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: The Dixie Fire is <extra_id_0> in Butte, Plumas, Lassen, and Tehama Counties, California, sparking fear and concern with locals who remain aware of the potentially devastating effects of such an uncontrollable force of nature.
+
+gold span     : an active wildfire
+
+perplexity
+pre-perp      : 33.83
+per-token nll : Ġan (2.79)  Ġactive (4.57)  Ġwildfire (3.21)
+
+post-perp     : 18.89
+per-token nll : Ġan (2.70)  Ġactive (3.39)  Ġwildfire (2.73)
+
+Delta in perp : -14.93
+
+specificity  :
+         pre = 26.0871
+        post = 25.7750
+
+----[89]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_3_1
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida caused <extra_id_0> to coastal Louisiana communities, leaving many without power and causing extensive damage to homes and businesses. As a Category 4 storm, Ida was one of the worst storms the state has ever seen, with its effects still being felt by those affected by her path to this day.
+
+gold span     : major damage
+
+perplexity
+pre-perp      : 119.70
+per-token nll : Ġmajor (7.41)  Ġdamage (2.16)
+
+post-perp     : 78.55
+per-token nll : Ġmajor (6.86)  Ġdamage (1.87)
+
+Delta in perp : -41.15
+
+specificity  :
+         pre = 26.0871
+        post = 25.7290
+
+----[90]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_7_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+probe sentence: The Dixie Fire is <extra_id_0> in Butte, Plumas, Lassen, and Tehama Counties, California that is quickly spreading across the region's forests and has already caused significant damage.
+
+gold span     : an active wildfire
+
+perplexity
+pre-perp      : 33.83
+per-token nll : Ġan (2.79)  Ġactive (4.57)  Ġwildfire (3.21)
+
+post-perp     : 14.78
+per-token nll : Ġan (2.99)  Ġactive (2.99)  Ġwildfire (2.10)
+
+Delta in perp : -19.05
+
+specificity  :
+         pre = 26.0871
+        post = 25.9563
+
+----[91]----------------------------------------------------------------------------------------------------
+
+ex_id         : Löfven III Cabinet_68179420_0_5
+attribute     : n/a
+definition    : The third cabinet of Stefan Löfven () is the present Government of Sweden.
+
+probe sentence: The third cabinet of Stefan Löfven, known as the Löfven III Cabinet, is currently in <extra_id_0> and is the present Government of Sweden.
+
+gold span     : power
+
+perplexity
+pre-perp      : 8.80
+per-token nll : Ġpower (2.17)
+
+post-perp     : 6.75
+per-token nll : Ġpower (1.91)
+
+Delta in perp : -2.05
+
+specificity  :
+         pre = 26.0871
+        post = 26.0684
+
+----[92]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_14_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) has become increasingly popular among <extra_id_0> as the primary alt-tech social media platform to express their political views.
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 960.97
+per-token nll : ĠAmerican (6.33)  Ġconservatives (7.41)
+
+post-perp     : 890.51
+per-token nll : ĠAmerican (6.33)  Ġconservatives (7.25)
+
+Delta in perp : -70.45
+
+specificity  :
+         pre = 26.0871
+        post = 26.1227
+
+----[93]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_18_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) is an alt-tech social media platform targeted to <extra_id_0>, and is quickly becoming the leading site for right-wingers to interact and share their views.
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 1406.99
+per-token nll : ĠAmerican (7.28)  Ġconservatives (7.22)
+
+post-perp     : 1441.69
+per-token nll : ĠAmerican (7.31)  Ġconservatives (7.24)
+
+Delta in perp : 34.71
+
+specificity  :
+         pre = 26.0871
+        post = 25.8535
+
+----[94]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_2_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: The Gettr platform has quickly made it the go-to destination for <extra_id_0> looking to share their views and engage with like-minded users.
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 2818.21
+per-token nll : ĠAmerican (8.30)  Ġconservatives (7.59)
+
+post-perp     : 1126.78
+per-token nll : ĠAmerican (7.98)  Ġconservatives (6.07)
+
+Delta in perp : -1691.43
+
+specificity  :
+         pre = 26.0871
+        post = 25.9437
+
+----[95]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) has quickly become the most popular social media platform among <extra_id_0>, and its user base continues to grow steadily since its introduction.
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 596.21
+per-token nll : ĠAmerican (5.57)  Ġconservatives (7.21)
+
+post-perp     : 548.15
+per-token nll : ĠAmerican (5.68)  Ġconservatives (6.93)
+
+Delta in perp : -48.06
+
+specificity  :
+         pre = 26.0871
+        post = 25.9639
+
+----[96]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_35_4
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida caused <extra_id_0> along its path in Louisiana, leaving behind millions of dollars of destruction, yet its effects were dwarfed by the destruction caused by Katrina and Laura in the same state a year later.
+
+gold span     : catastrophic damage
+
+perplexity
+pre-perp      : 333.69
+per-token nll : Ġcatastrophic (10.20)  Ġdamage (1.42)
+
+post-perp     : 327.36
+per-token nll : Ġcatastrophic (10.18)  Ġdamage (1.40)
+
+Delta in perp : -6.33
+
+specificity  :
+         pre = 26.0871
+        post = 26.1267
+
+----[97]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gateway Station (Charlotte)_17998973_3_1
+attribute     : n/a
+definition    : Charlotte Gateway Station is a future intermodal transit station in Charlotte, North Carolina, United States.
+
+probe sentence: Charlotte Gateway Station will provide <extra_id_0> connecting the city of Charlotte to other cities, states and countries in the form of buses, trains, and other forms of public transportation.
+
+gold span     : a much needed transit link
+
+perplexity
+pre-perp      : 18.40
+per-token nll : Ġa (1.66)  Ġmuch (5.02)  Ġneeded (0.99)  Ġtransit (4.52)  Ġlink (2.36)
+
+post-perp     : 17.77
+per-token nll : Ġa (1.65)  Ġmuch (5.05)  Ġneeded (0.98)  Ġtransit (4.35)  Ġlink (2.36)
+
+Delta in perp : -0.62
+
+specificity  :
+         pre = 26.0871
+        post = 25.9089
+
+----[98]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_6_5
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida was responsible for causing <extra_id_0> in Louisiana, with the hurricane remnants producing extremely heavy rainfall, flooding, and wind gusts that reached up to 134 mph in some areas.
+
+gold span     : extensive destruction
+
+perplexity
+pre-perp      : 227.53
+per-token nll : Ġextensive (7.77)  Ġdestruction (3.08)
+
+post-perp     : 225.25
+per-token nll : Ġextensive (7.76)  Ġdestruction (3.08)
+
+Delta in perp : -2.27
+
+specificity  :
+         pre = 26.0871
+        post = 26.1657
+
+----[99]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_16_8
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to have improved <extra_id_0> compared to its predecessors, including faster boot-up speeds and enhanced security measures.
+
+gold span     : functionality
+
+perplexity
+pre-perp      : 250.96
+per-token nll : Ġfunctionality (5.53)
+
+post-perp     : 238.75
+per-token nll : Ġfunctionality (5.48)
+
+Delta in perp : -12.22
+
+specificity  :
+         pre = 26.0871
+        post = 26.0202
+
+----[100]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_23_8
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida caused <extra_id_0> in Louisiana, with flooding and high winds leaving a lasting impact on the state, particularly along the coast, where the strength of the hurricane had been unmatched since the 1856 Last Island hurricane.
+
+gold span     : widespread devastation
+
+perplexity
+pre-perp      : 228.35
+per-token nll : Ġwidespread (6.71)  Ġdevastation (4.15)
+
+post-perp     : 212.67
+per-token nll : Ġwidespread (6.73)  Ġdevastation (3.99)
+
+Delta in perp : -15.68
+
+specificity  :
+         pre = 26.0871
+        post = 26.0740
+
+----[101]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_16_2
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+probe sentence: Ida created <extra_id_0> along the Gulf Coast, particularly for Louisiana, causing significant flooding in towns such as New Orleans, whose damaging effects were only magnified by her immense strength.
+
+gold span     : a powerful storm surge
+
+perplexity
+pre-perp      : 202.12
+per-token nll : Ġa (1.25)  Ġpowerful (6.34)  Ġstorm (7.79)  Ġsurge (5.85)
+
+post-perp     : 177.28
+per-token nll : Ġa (1.29)  Ġpowerful (6.17)  Ġstorm (7.68)  Ġsurge (5.57)
+
+Delta in perp : -24.83
+
+specificity  :
+         pre = 26.0871
+        post = 25.8688
+
+----[102]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's arrival in Mexico caused <extra_id_0>, making her the most destructive hurricane to hit the state of Veracruz and the Bay of Campeche since Hurricane Karl in 2010, with her maximum sustained winds tying the record set by Karl.
+
+gold span     : immense destruction
+
+perplexity
+pre-perp      : 1342.66
+per-token nll : Ġimmense (7.02)  Ġdestruction (7.38)
+
+post-perp     : 1287.06
+per-token nll : Ġimmense (6.99)  Ġdestruction (7.33)
+
+Delta in perp : -55.61
+
+specificity  :
+         pre = 26.0871
+        post = 25.9975
+
+----[103]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_13_6
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: "Since its launch in 2020, Gettr (stylized GETTR) has become the go-to social media platform for <extra_id_0>, offering an alternative to the larger tech giants."
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 1384.51
+per-token nll : ĠAmerican (7.56)  Ġconservatives (6.91)
+
+post-perp     : 1321.84
+per-token nll : ĠAmerican (7.72)  Ġconservatives (6.65)
+
+Delta in perp : -62.67
+
+specificity  :
+         pre = 26.0871
+        post = 25.9472
+
+----[104]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_11_9
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+probe sentence: Expo 2020 () has become <extra_id_0> as the city of Dubai is getting ready to host the World Expo from 20 October 2020 to 10 April 2021.
+
+gold span     : a much-anticipated event
+
+perplexity
+pre-perp      : 6.88
+per-token nll : Ġa (1.44)  Ġmuch (5.43)  - (1.15)  anticipated (0.92)  Ġevent (0.71)
+
+post-perp     : 6.73
+per-token nll : Ġa (1.44)  Ġmuch (5.40)  - (1.17)  anticipated (0.85)  Ġevent (0.67)
+
+Delta in perp : -0.15
+
+specificity  :
+         pre = 26.0871
+        post = 26.0692
+
+----[105]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_32_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 promises to offer <extra_id_0> compared to previous versions of the Windows NT operating system.
+
+gold span     : a significantly enhanced user experience
+
+perplexity
+pre-perp      : 11.57
+per-token nll : Ġa (1.30)  Ġsignificantly (6.15)  Ġenhanced (3.05)  Ġuser (1.60)  Ġexperience (0.14)
+
+post-perp     : 11.46
+per-token nll : Ġa (1.30)  Ġsignificantly (6.19)  Ġenhanced (3.02)  Ġuser (1.54)  Ġexperience (0.15)
+
+Delta in perp : -0.10
+
+specificity  :
+         pre = 26.0871
+        post = 26.1145
+
+----[106]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-tech social media platform targeted to American conservatives.
+
+probe sentence: Gettr (stylized GETTR) is quickly becoming <extra_id_0> for American conservatives seeking an alternative to traditional social media platforms, as it offers a safe space for them to express their beliefs without fear of repercussion.
+
+gold span     : a go-to source
+
+perplexity
+pre-perp      : 9.31
+per-token nll : Ġa (1.73)  Ġgo (4.99)  - (0.03)  to (0.00)  Ġsource (4.41)
+
+post-perp     : 8.44
+per-token nll : Ġa (1.76)  Ġgo (4.72)  - (0.02)  to (0.00)  Ġsource (4.16)
+
+Delta in perp : -0.87
+
+specificity  :
+         pre = 26.0871
+        post = 25.8847
+
+----[107]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_9_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's impact was catastrophic, leaving <extra_id_0> of Veracruz in ruins and flooding many coastal villages due to its powerful winds and heavy rains.
+
+gold span     : the Mexican coast
+
+perplexity
+pre-perp      : 306.10
+per-token nll : Ġthe (1.65)  ĠMexican (9.00)  Ġcoast (6.52)
+
+post-perp     : 299.20
+per-token nll : Ġthe (1.60)  ĠMexican (9.00)  Ġcoast (6.51)
+
+Delta in perp : -6.90
+
+specificity  :
+         pre = 26.0871
+        post = 25.9195
+
+----[108]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_19_2
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is expected to bring <extra_id_0>, such as improved security and a more intuitive user interface, to the Windows NT operating system when it is released.
+
+gold span     : many new features
+
+perplexity
+pre-perp      : 6.07
+per-token nll : Ġmany (3.66)  Ġnew (1.36)  Ġfeatures (0.39)
+
+post-perp     : 5.58
+per-token nll : Ġmany (3.48)  Ġnew (1.29)  Ġfeatures (0.39)
+
+Delta in perp : -0.49
+
+specificity  :
+         pre = 26.0871
+        post = 26.0379
+
+----[109]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_25_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of the Windows NT operating system developed by Microsoft.
+
+probe sentence: Windows 11 is set to revolutionize the Operating System space with <extra_id_0> and performance improvements over previous versions of the Windows NT operating system.
+
+gold span     : its cutting-edge features
+
+perplexity
+pre-perp      : 7.14
+per-token nll : Ġits (1.66)  Ġcutting (6.36)  - (0.53)  edge (0.00)  Ġfeatures (1.28)
+
+post-perp     : 7.00
+per-token nll : Ġits (1.62)  Ġcutting (6.33)  - (0.51)  edge (0.00)  Ġfeatures (1.27)
+
+Delta in perp : -0.13
+
+specificity  :
+         pre = 26.0871
+        post = 25.9682
+
+----[110]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_4
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+probe sentence: Koknese's rich history is evident in <extra_id_0> and old buildings that still stand in the town today.
+
+gold span     : the many historical monuments
+
+perplexity
+pre-perp      : 12.93
+per-token nll : Ġthe (0.68)  Ġmany (3.46)  Ġhistorical (4.51)  Ġmonuments (1.59)
+
+post-perp     : 12.18
+per-token nll : Ġthe (0.63)  Ġmany (3.37)  Ġhistorical (4.41)  Ġmonuments (1.58)
+
+Delta in perp : -0.75
+
+specificity  :
+         pre = 26.0871
+        post = 26.0117
+
+----[111]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_14_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's destructive power was unprecedented, with <extra_id_0> estimated to be up to 155 mph on landfall, and massive amounts of flooding and destruction that followed in her wake throughout Veracruz and the Bay of Campeche.
+
+gold span     : winds
+
+perplexity
+pre-perp      : 4592.06
+per-token nll : Ġwinds (8.43)
+
+post-perp     : 1558.04
+per-token nll : Ġwinds (7.35)
+
+Delta in perp : -3034.01
+
+specificity  :
+         pre = 26.0871
+        post = 25.9116
+
+----[112]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_25_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: The devastation caused by Hurricane Grace was unparalleled, with some of <extra_id_0> occurring in Veracruz, where the hurricane's maximum sustained winds tied the record set by Hurricane Karl in 2010 and made it the strongest landfalling tropical cyclone ever recorded for the state.
+
+gold span     : the worst destruction
+
+perplexity
+pre-perp      : 4.50
+per-token nll : Ġthe (0.11)  Ġworst (1.80)  Ġdestruction (2.61)
+
+post-perp     : 4.51
+per-token nll : Ġthe (0.11)  Ġworst (1.84)  Ġdestruction (2.57)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 26.0871
+        post = 25.9738
+
+----[113]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_9
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+probe sentence: Grace's devastating winds and <extra_id_0> caused catastrophic damage in Veracruz, with mudslides, power outages, and flooding occurring as a result of the storm.
+
+gold span     : intense rainfall
+
+perplexity
+pre-perp      : 128.06
+per-token nll : Ġintense (5.85)  Ġrainfall (3.86)
+
+post-perp     : 113.23
+per-token nll : Ġintense (5.72)  Ġrainfall (3.74)
+
+Delta in perp : -14.83
+
+specificity  :
+         pre = 26.0871
+        post = 26.0193
+
+----[114]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Calgary municipal election_67053886_0_1
+attribute     : n/a
+definition    : The 2021 Calgary municipal election is scheduled to be held on October 18, 2021, to elect a mayor and fourteen councillors to the Calgary City Council.
+
+probe sentence: This year's 2021 Calgary municipal election is <extra_id_0> that will decide who will lead the city and serve on the Calgary City Council for the upcoming four years.
+
+gold span     : an important one
+
+perplexity
+pre-perp      : 10.61
+per-token nll : Ġan (4.47)  Ġimportant (1.66)  Ġone (0.95)
+
+post-perp     : 10.73
+per-token nll : Ġan (4.48)  Ġimportant (1.64)  Ġone (1.00)
+
+Delta in perp : 0.12
+
+specificity  :
+         pre = 26.0871
+        post = 26.0970
+

@@ -1,0 +1,2502 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Union Station Bus Terminal_2245843_5_0
+attribute     : n/a
+definition    : The Union Station Bus Terminal is the central <extra_id_0> in Toronto, Ontario, Canada.
+
+def target    : intercity bus terminal
+
+probe sentence: Toronto, Ontario, Canada's central intercity bus terminal, Union Station Bus Terminal, provides <extra_id_0> with convenient access to transportation.
+
+gold span     : passengers
+
+perplexity
+pre-perp      : 8.69
+per-token nll : ▁passengers (2.16)
+
+post-perp     : 9.27
+per-token nll : ▁passengers (2.23)
+
+Delta in perp : 0.58
+
+specificity  :
+         pre = 12.8679
+        post = 12.7969
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_8_0
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (<extra_id_0> PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : , commonly referred to as the
+
+probe sentence: <extra_id_0> has implemented the Community Activities Restrictions Enforcement (CARE) policy, commonly referred to as the PPKM, as a "cordon sanitaire" since early 2021 to effectively deal with the COVID-19 pandemic.
+
+gold span     : The Indonesian government
+
+perplexity
+pre-perp      : 22.98
+per-token nll : ▁The (3.19)  ▁Indonesia (8.68)  n (0.04)  ▁government (0.63)
+
+post-perp     : 26.40
+per-token nll : ▁The (3.51)  ▁Indonesia (8.79)  n (0.05)  ▁government (0.74)
+
+Delta in perp : 3.42
+
+specificity  :
+         pre = 12.8679
+        post = 12.8889
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_11_4
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category <extra_id_0> moderate damage across Belize in early September 2020.
+
+def target    : 1 hurricane that caused
+
+probe sentence: Despite being <extra_id_0>, Hurricane Nana caused moderate damage across Belize in early September 2020, leaving many residents of the country to grapple with the aftermath of the storm.
+
+gold span     : a minimal Category 1 hurricane
+
+perplexity
+pre-perp      : 11.20
+per-token nll : ▁ (1.45)  a (0.15)  ▁minimal (7.15)  ▁Category (2.18)  ▁1 (2.17)  ▁hurricane (1.40)
+
+post-perp     : 11.62
+per-token nll : ▁ (1.50)  a (0.16)  ▁minimal (7.06)  ▁Category (2.49)  ▁1 (2.27)  ▁hurricane (1.25)
+
+Delta in perp : 0.42
+
+specificity  :
+         pre = 12.8679
+        post = 12.8300
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : Flag of the Philippines_246996_4_4
+attribute     : n/a
+definition    : The national flag of the Philippines () is a horizontal bicolor flag <extra_id_0> bands of royal blue and crimson red, with a white, equilateral triangle at the hoist.
+
+def target    : with equal
+
+probe sentence: The Philippine flag features royal blue and <extra_id_0>, with a white, equilateral triangle at the hoist.
+
+gold span     : crimson red horizontal bands
+
+perplexity
+pre-perp      : 26.92
+per-token nll : ▁ (4.52)  cri (5.57)  m (0.00)  son (0.00)  ▁red (3.14)  ▁horizontal (5.14)  ▁bands (4.68)
+
+post-perp     : 26.70
+per-token nll : ▁ (4.51)  cri (5.08)  m (0.00)  son (0.01)  ▁red (3.09)  ▁horizontal (5.30)  ▁bands (5.00)
+
+Delta in perp : -0.22
+
+specificity  :
+         pre = 12.8679
+        post = 12.7738
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : E3 2021_63343158_1_4
+attribute     : n/a
+definition    : E3 2021 was the <extra_id_0> which hardware manufacturers, software developers, and publishers from the video game industry presented new and upcoming products.
+
+def target    : 26th E3, during
+
+probe sentence: At E3 2021, <extra_id_0>, software developers, and publishers from the video game industry showcased the latest and greatest products of the 26th E3.
+
+gold span     : hardware manufacturers
+
+perplexity
+pre-perp      : 26.10
+per-token nll : ▁hardware (4.84)  ▁manufacturers (1.68)
+
+post-perp     : 24.61
+per-token nll : ▁hardware (4.73)  ▁manufacturers (1.67)
+
+Delta in perp : -1.50
+
+specificity  :
+         pre = 12.8679
+        post = 12.8137
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : COVAX_65365781_2_2
+attribute     : n/a
+definition    : COVID-19 Vaccines Global Access, abbreviated as <extra_id_0> aimed at equitable access to COVID-19 vaccines directed by Gavi, the Vaccine Alliance (formerly the Global Alliance for Vaccines and Immunization, or GAVI), the Coalition for Epidemic Preparedness Innovations (CEPI), and the World Health Organization (WHO).
+
+def target    : COVAX, is a worldwide initiative
+
+probe sentence: COVAX has been established in <extra_id_0> to ensure that all countries around the world have equitable access to COVID-19 vaccines by working with organizations such as Gavi, CEPI, and the WHO.
+
+gold span     : order
+
+perplexity
+pre-perp      : 1.48
+per-token nll : ▁order (0.39)
+
+post-perp     : 1.46
+per-token nll : ▁order (0.38)
+
+Delta in perp : -0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.8549
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : LNU Lightning Complex fires_65015386_6_1
+attribute     : n/a
+definition    : The LNU Lightning Complex fires were a large complex of wildfires that burned <extra_id_0> wildfire season across much of the Wine Country area of Northern California – Lake, Napa, Sonoma, Solano, and Yolo Counties, from August 17 to October 2, 2020.
+
+def target    : during the 2020 California
+
+probe sentence: The devastating LNU Lightning Complex fires of 2020 burned through the Wine Country area of Northern California, including Lake, Napa, Sonoma, Solano, and Yolo Counties, from <extra_id_0> to October 2, 2020, and the Hennessey Fire was one of the largest in the complex.
+
+gold span     : August 17
+
+perplexity
+pre-perp      : 18.73
+per-token nll : ▁August (1.88)  ▁17 (3.98)
+
+post-perp     : 17.45
+per-token nll : ▁August (1.89)  ▁17 (3.83)
+
+Delta in perp : -1.28
+
+specificity  :
+         pre = 12.8679
+        post = 12.9837
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : PinePhone_61978265_6_2
+attribute     : n/a
+definition    : The PinePhone is a smartphone developed by Hong <extra_id_0> manufacturer Pine64, intended to allow the user to have full control over the device.
+
+def target    : Kong-based computer
+
+probe sentence: The PinePhone provides <extra_id_0> with full control of the device, making it an ideal choice for those looking for a smartphone developed by Hong Kong-based computer manufacturer Pine64.
+
+gold span     : users
+
+perplexity
+pre-perp      : 1.95
+per-token nll : ▁users (0.67)
+
+post-perp     : 2.06
+per-token nll : ▁users (0.72)
+
+Delta in perp : 0.11
+
+specificity  :
+         pre = 12.8679
+        post = 12.7475
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful <extra_id_0> became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : hurricane which
+
+probe sentence: Hurricane Grace was <extra_id_0>, becoming the strongest landfalling tropical cyclone to ever touch the Mexican state of Veracruz and tying the record of Hurricane Karl for the strongest hurricane ever recorded in the Bay of Campeche, a feat of immense power and Grace.
+
+gold span     : an unprecedented event
+
+perplexity
+pre-perp      : 24.61
+per-token nll : ▁an (3.94)  ▁unprecedented (2.78)  ▁event (2.89)
+
+post-perp     : 23.08
+per-token nll : ▁an (3.79)  ▁unprecedented (2.68)  ▁event (2.95)
+
+Delta in perp : -1.53
+
+specificity  :
+         pre = 12.8679
+        post = 12.8549
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Danny (2021)_68072185_6_3
+attribute     : n/a
+definition    : Tropical Storm Danny was a <extra_id_0> cyclone that brought minor damage to the U.S states of South Carolina and Georgia.
+
+def target    : short-lived and weak tropical
+
+probe sentence: Danny was <extra_id_0> that caused minor damage to South Carolina and Georgia, with its short-lived nature making it a non-threat to the region.
+
+gold span     : a weak tropical cyclone
+
+perplexity
+pre-perp      : 6.43
+per-token nll : ▁ (0.38)  a (0.00)  ▁weak (5.08)  ▁tropical (2.93)  ▁ (4.62)  cycl (0.00)  one (0.00)
+
+post-perp     : 6.41
+per-token nll : ▁ (0.39)  a (0.00)  ▁weak (4.93)  ▁tropical (2.99)  ▁ (4.69)  cycl (0.00)  one (0.00)
+
+Delta in perp : -0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.7741
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Beta (2020)_65373192_8_1
+attribute     : n/a
+definition    : Tropical Storm Beta was a tropical cyclone <extra_id_0> flooding, and severe weather to the Southeastern United States in September 2020.
+
+def target    : that brought heavy rainfall,
+
+probe sentence: Tropical Storm Beta caused <extra_id_0> in the Southeastern United States in September 2020, with heavy rainfall, flooding, and severe weather conditions being reported in the region.
+
+gold span     : significant damage
+
+perplexity
+pre-perp      : 3.83
+per-token nll : ▁significant (1.96)  ▁damage (0.72)
+
+post-perp     : 3.61
+per-token nll : ▁significant (1.91)  ▁damage (0.65)
+
+Delta in perp : -0.22
+
+specificity  :
+         pre = 12.8679
+        post = 12.7541
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Warp Speed_63809606_1_4
+attribute     : n/a
+definition    : Operation Warp Speed (OWS) was a public<extra_id_0> partnership initiated by the United States government to facilitate and accelerate the development, manufacturing, and distribution of COVID-19 vaccines, therapeutics, and diagnostics.
+
+def target    : –private
+
+probe sentence: Thanks to Operation Warp Speed (OWS), the United States government was able to rapidly develop, manufacture, and distribute <extra_id_0>, therapeutics, and diagnostics.
+
+gold span     : COVID-19 vaccines
+
+perplexity
+pre-perp      : 768.40
+per-token nll : ▁CO (11.72)  VI (10.56)  D (3.35)  -19 (9.74)  ▁vaccine (4.44)  s (0.06)
+
+post-perp     : 789.35
+per-token nll : ▁CO (11.81)  VI (10.57)  D (3.30)  -19 (9.77)  ▁vaccine (4.52)  s (0.06)
+
+Delta in perp : 20.95
+
+specificity  :
+         pre = 12.8679
+        post = 12.9052
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : SARS-CoV-2 Delta variant_67445633_2_3
+attribute     : n/a
+definition    : The Delta variant, also <extra_id_0> B.1.617.2 and the Indian variant, is a variant of lineage B.1.617 of SARS-CoV-2, the virus that causes COVID-19.
+
+def target    : known as lineage
+
+probe sentence: The Delta variant, also known as <extra_id_0> and the Indian variant, is a variant of lineage B.1.617 of SARS-CoV-2, the virus that causes COVID-19 and has been dubbed the 'Delta' variant.
+
+gold span     : lineage B.1.617.2
+
+perplexity
+pre-perp      : 31.45
+per-token nll : ▁line (7.85)  age (0.03)  ▁B (0.39)  . (0.32)  1.6 (0.57)  1 (5.92)  7.2 (9.05)
+
+post-perp     : 27.63
+per-token nll : ▁line (6.77)  age (0.02)  ▁B (0.37)  . (0.36)  1.6 (0.52)  1 (5.91)  7.2 (9.29)
+
+Delta in perp : -3.81
+
+specificity  :
+         pre = 12.8679
+        post = 12.9414
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : NBA 2K21_64063961_2_4
+attribute     : n/a
+definition    : NBA 2K21 is a basketball simulation video game that was <extra_id_0> Visual Concepts and published by 2K Sports, based on the National Basketball Association (NBA).
+
+def target    : developed by
+
+probe sentence: NBA 2K21 is the ultimate basketball simulation video game experience, allowing <extra_id_0> to experience the excitement of the National Basketball Association (NBA) like never before!
+
+gold span     : players
+
+perplexity
+pre-perp      : 3.70
+per-token nll : ▁players (1.31)
+
+post-perp     : 3.32
+per-token nll : ▁players (1.20)
+
+Delta in perp : -0.37
+
+specificity  :
+         pre = 12.8679
+        post = 12.8585
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : Wrestle Kingdom 14_59578955_1_2
+attribute     : n/a
+definition    : Wrestle Kingdom 14 in Tokyo Dome was <extra_id_0>-night professional wrestling pay-per-view (PPV) event produced by New Japan Pro-Wrestling (NJPW).
+
+def target    : a two
+
+probe sentence: At Wrestle Kingdom 14 in Tokyo Dome, New Japan Pro<extra_id_0> put on an impressive two-night professional wrestling pay-per-view (PPV) event that wowed fans from around the world.
+
+gold span     : -Wrestling (NJPW)
+
+perplexity
+pre-perp      : 5.83
+per-token nll : ▁ (7.78)  - (4.35)  W (1.93)  rest (0.01)  ling (0.02)  ▁( (3.20)  N (0.49)  J (0.06)  P (1.09)  W (0.46)  ) (0.02)
+
+post-perp     : 6.00
+per-token nll : ▁ (7.58)  - (4.45)  W (2.00)  rest (0.01)  ling (0.02)  ▁( (3.42)  N (0.56)  J (0.07)  P (1.14)  W (0.44)  ) (0.02)
+
+Delta in perp : 0.17
+
+specificity  :
+         pre = 12.8679
+        post = 12.8494
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Epsilon (2020)_66681697_7_3
+attribute     : n/a
+definition    : Hurricane Epsilon was a <extra_id_0> that affected Bermuda, and parts of North America and Western Europe.
+
+def target    : powerful storm
+
+probe sentence: Hurricane Epsilon caused <extra_id_0> to Bermuda, North America, and Western Europe, leaving a lasting impression on all those affected by its powerful winds and rains.
+
+gold span     : considerable damage
+
+perplexity
+pre-perp      : 7.63
+per-token nll : ▁considerable (3.95)  ▁damage (0.11)
+
+post-perp     : 7.86
+per-token nll : ▁considerable (4.02)  ▁damage (0.11)
+
+Delta in perp : 0.23
+
+specificity  :
+         pre = 12.8679
+        post = 12.8306
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : IPhone SE (2nd generation)_63113210_11_3
+attribute     : n/a
+definition    : The second-generation <extra_id_0> known as the iPhone SE 2 or the iPhone SE 2020) is a smartphone designed and developed by
+
+def target    : iPhone SE (also
+
+probe sentence: <extra_id_0>The second-generation iPhone SE (also known as the iPhone SE 2 or the iPhone SE 2020) is a powerful smartphone designed and developed by Apple that offers great features for its price.
+
+gold span     : Apple.
+
+
+
+perplexity
+pre-perp      : 17.35
+per-token nll : ▁Apple (3.03)  . (2.68)
+
+post-perp     : 15.23
+per-token nll : ▁Apple (3.03)  . (2.42)
+
+Delta in perp : -2.12
+
+specificity  :
+         pre = 12.8679
+        post = 12.8669
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Fay (2020)_64507484_12_2
+attribute     : n/a
+definition    : Tropical Storm Fay was the first tropical cyclone <extra_id_0> in the U.S state of New Jersey since Hurricane Irene in 2011.
+
+def target    : to make landfall
+
+probe sentence: Tropical Storm Fay, <extra_id_0> to make landfall in New Jersey since Hurricane Irene in 2011, was an event that Fay will never forget.
+
+gold span     : the first tropical cyclone
+
+perplexity
+pre-perp      : 2.84
+per-token nll : ▁the (0.06)  ▁first (0.14)  ▁tropical (1.73)  ▁ (4.31)  cycl (0.01)  one (0.00)
+
+post-perp     : 2.79
+per-token nll : ▁the (0.06)  ▁first (0.13)  ▁tropical (1.95)  ▁ (4.01)  cycl (0.01)  one (0.00)
+
+Delta in perp : -0.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8530
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : Fobaproa_3629127_1_2
+attribute     : n/a
+definition    : Fobaproa (Fondo Bancario de Protección <extra_id_0> Banking Fund", in Spanish) is a contingencies fund created in 1990 by the Mexican government and the then dominant political party PRI to attempt to resolve liquidity problems of the banking system in that country.
+
+def target    : al Ahorro; "Savings Protection
+
+probe sentence: In 1990, <extra_id_0> and the PRI created the Fobaproa fund in order to resolve the liquidity issues of the banking system, providing an important safeguard for the nation's savings.
+
+gold span     : the Mexican government
+
+perplexity
+pre-perp      : 26.48
+per-token nll : ▁the (0.22)  ▁Mexican (9.09)  ▁government (0.52)
+
+post-perp     : 24.76
+per-token nll : ▁the (0.22)  ▁Mexican (8.86)  ▁government (0.55)
+
+Delta in perp : -1.72
+
+specificity  :
+         pre = 12.8679
+        post = 12.8665
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : Not Fucking Around Coalition_64645687_5_2
+attribute     : n/a
+definition    : The Not Fucking Around Coalition (NFAC) is a black <extra_id_0> States.
+
+def target    : nationalist militia group in the United
+
+probe sentence: The Not Fucking Around <extra_id_0> is a prominent black nationalist militia group in the United States that has recently gained attention for its presence and activism.
+
+gold span     : Coalition (NFAC)
+
+perplexity
+pre-perp      : 4.18
+per-token nll : ▁Coalition (4.23)  ▁( (2.70)  NF (0.14)  AC (0.06)  ) (0.02)
+
+post-perp     : 4.80
+per-token nll : ▁Coalition (4.53)  ▁( (3.02)  NF (0.18)  AC (0.10)  ) (0.02)
+
+Delta in perp : 0.62
+
+specificity  :
+         pre = 12.8679
+        post = 12.7402
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : Maverick Party_62813558_4_0
+attribute     : n/a
+definition    : The Maverick Party, formerly known as Wexit Canada, is <extra_id_0> political party.
+
+def target    : a Canadian federal
+
+probe sentence: The Maverick Party, formerly known as Wexit Canada, is <extra_id_0> dedicated to representing the interests of Canadians, and is the newest addition to the Canadian political landscape.
+
+gold span     : a Canadian federal political party
+
+perplexity
+pre-perp      : 6.06
+per-token nll : ▁ (0.30)  a (0.00)  ▁Canadian (3.46)  ▁federal (6.25)  ▁political (0.78)  ▁party (0.02)
+
+post-perp     : 5.27
+per-token nll : ▁ (0.29)  a (0.00)  ▁Canadian (3.02)  ▁federal (5.73)  ▁political (0.90)  ▁party (0.02)
+
+Delta in perp : -0.79
+
+specificity  :
+         pre = 12.8679
+        post = 12.8150
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : Vestland_60890018_4_1
+attribute     : n/a
+definition    : Vestland is a county in Norway established <extra_id_0>.
+
+def target    : on 1 January 2020
+
+probe sentence: Vestland is <extra_id_0>, established on 1 January 2020 and located in the western part of the country.
+
+gold span     : Norway's newest county
+
+perplexity
+pre-perp      : 6.20
+per-token nll : ▁Norway (4.57)  ' (0.94)  s (0.01)  ▁ (2.83)  newest (0.06)  ▁county (2.54)
+
+post-perp     : 6.91
+per-token nll : ▁Norway (4.75)  ' (0.88)  s (0.01)  ▁ (2.85)  newest (0.08)  ▁county (3.02)
+
+Delta in perp : 0.71
+
+specificity  :
+         pre = 12.8679
+        post = 12.8333
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_21_3
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: Microsoft is gearing up for <extra_id_0> of Windows 11, the next major version of the Windows NT operating system.
+
+gold span     : the release
+
+perplexity
+pre-perp      : 1.56
+per-token nll : ▁the (0.11)  ▁release (0.78)
+
+post-perp     : 1.56
+per-token nll : ▁the (0.11)  ▁release (0.79)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8715
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Calgary municipal election_67053886_0_1
+attribute     : n/a
+definition    : The 2021 Calgary municipal election is scheduled to be <extra_id_0> 2021, to elect a mayor and fourteen councillors to the Calgary City Council.
+
+def target    : held on October 18,
+
+probe sentence: The 2021 Calgary municipal election on <extra_id_0>, 2021 will be an important event for the city of Calgary, as citizens will have the opportunity to elect a mayor and fourteen councillors to the Calgary City Council.
+
+gold span     : October 18
+
+perplexity
+pre-perp      : 40.61
+per-token nll : ▁October (3.43)  ▁18 (3.98)
+
+post-perp     : 40.94
+per-token nll : ▁October (3.47)  ▁18 (3.95)
+
+Delta in perp : 0.33
+
+specificity  :
+         pre = 12.8679
+        post = 12.8507
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : Ovintiv_469145_0_0
+attribute     : n/a
+definition    : Ovintiv Inc., formerly Encana Corporation<extra_id_0> hydrocarbon exploration and production company organized in Delaware and headquartered in Denver, United States.
+
+def target    : , is a
+
+probe sentence: Ovintiv Inc., formerly Encana Corporation, is a hydrocarbon exploration and production company that has <extra_id_0> in the United States, stemming from Encana's headquarters in Denver, Delaware.
+
+gold span     : roots
+
+perplexity
+pre-perp      : 4012.65
+per-token nll : ▁roots (8.30)
+
+post-perp     : 3189.74
+per-token nll : ▁roots (8.07)
+
+Delta in perp : -822.91
+
+specificity  :
+         pre = 12.8679
+        post = 12.8634
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : White House Coronavirus Task Force_63382568_0_0
+attribute     : n/a
+definition    : The White House Coronavirus Task Force was the United States Department of State <extra_id_0> the Trump administration that "coordinate[d] and overs[aw] the administration's efforts to monitor, prevent, contain, and mitigate the spread" of coronavirus disease 2019 (COVID-19).
+
+def target    : task force during
+
+probe sentence: The White House Coronavirus Task Force was formed by the United States Department of State during the Trump administration to coordinate and oversee <extra_id_0> to prevent and contain the spread of COVID-19.
+
+gold span     : the administration's efforts
+
+perplexity
+pre-perp      : 4.31
+per-token nll : ▁the (2.04)  ▁administration (3.72)  ' (1.27)  s (0.00)  ▁efforts (0.27)
+
+post-perp     : 3.92
+per-token nll : ▁the (1.94)  ▁administration (3.40)  ' (1.21)  s (0.00)  ▁efforts (0.29)
+
+Delta in perp : -0.39
+
+specificity  :
+         pre = 12.8679
+        post = 12.8688
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : Storm Filomena_66659744_8_1
+attribute     : n/a
+definition    : Storm Filomena was a fairly weak extratropical cyclone in early <extra_id_0> that was most notable for bringing unusually heavy snowfall to parts of Portugal and Spain, with Madrid recording its heaviest snowfall since 1971.
+
+def target    : January 2021
+
+probe sentence: Filomena's storm was <extra_id_0>, with Madrid recording its heaviest snowfall in nearly 50 years due to the weakened extratropical cyclone in early January 2021.
+
+gold span     : an unexpected event
+
+perplexity
+pre-perp      : 76.48
+per-token nll : ▁an (4.58)  ▁unexpected (3.86)  ▁event (4.57)
+
+post-perp     : 76.15
+per-token nll : ▁an (4.77)  ▁unexpected (3.69)  ▁event (4.54)
+
+Delta in perp : -0.33
+
+specificity  :
+         pre = 12.8679
+        post = 12.6773
+
+----[27]----------------------------------------------------------------------------------------------------
+
+ex_id         : Linping District_42643628_1_3
+attribute     : n/a
+definition    : Linping is a district <extra_id_0> of Hangzhou, the capital of Zhejiang Province, East China.
+
+def target    : of the prefecture-level city
+
+probe sentence: The Linping District of Hangzhou, <extra_id_0> of Zhejiang Province in East China, is a vibrant and bustling area.
+
+gold span     : the capital
+
+perplexity
+pre-perp      : 1.35
+per-token nll : ▁the (0.51)  ▁capital (0.09)
+
+post-perp     : 1.41
+per-token nll : ▁the (0.60)  ▁capital (0.08)
+
+Delta in perp : 0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.8368
+
+----[28]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt<extra_id_0> to American conservatives.
+
+def target    : -tech social media platform targeted
+
+probe sentence: <extra_id_0> can now connect with each other on Gettr (stylized GETTR), an alt-tech social media platform!
+
+gold span     : American conservatives
+
+perplexity
+pre-perp      : 492.15
+per-token nll : ▁American (9.42)  ▁conservative (8.99)  s (0.19)
+
+post-perp     : 419.69
+per-token nll : ▁American (9.18)  ▁conservative (8.74)  s (0.20)
+
+Delta in perp : -72.46
+
+specificity  :
+         pre = 12.8679
+        post = 12.7387
+
+----[29]----------------------------------------------------------------------------------------------------
+
+ex_id         : ITA - Italia Trasporto Aereo_68523594_8_3
+attribute     : n/a
+definition    : Italia Trasporto Aereo S.p.A. (operating as ITA - <extra_id_0>) is the planned state-owned flag carrier of Italy, scheduled to commence operations on 15 October 2021.
+
+def target    : Italia Trasporto Aereo
+
+probe sentence: ITA - Italia Trasporto Aereo is set to become the state-owned flag carrier of Italy on 15 October 2021, providing <extra_id_0> for air travel in the region.
+
+gold span     : an exciting new opportunity
+
+perplexity
+pre-perp      : 10.11
+per-token nll : ▁an (2.51)  ▁exciting (4.09)  ▁new (0.53)  ▁opportunity (2.12)
+
+post-perp     : 10.35
+per-token nll : ▁an (2.55)  ▁exciting (4.15)  ▁new (0.52)  ▁opportunity (2.12)
+
+Delta in perp : 0.24
+
+specificity  :
+         pre = 12.8679
+        post = 12.8408
+
+----[30]----------------------------------------------------------------------------------------------------
+
+ex_id         : Transport for Wales Rail Limited_65998862_4_0
+attribute     : n/a
+definition    : Transport for Wales Rail Limited, operating as Transport <extra_id_0> and ), is a Welsh publicly-owned train operating company, a subsidiary of Transport for Wales (TfW), a Welsh Government-owned company.
+
+def target    : for Wales and TfW Rail (
+
+probe sentence: Transport for Wales Rail Limited is responsible for <extra_id_0> throughout Wales on behalf of Transport for Wales.
+
+gold span     : operating services
+
+perplexity
+pre-perp      : 34.96
+per-token nll : ▁operating (3.07)  ▁services (4.04)
+
+post-perp     : 37.87
+per-token nll : ▁operating (3.14)  ▁services (4.13)
+
+Delta in perp : 2.92
+
+specificity  :
+         pre = 12.8679
+        post = 12.8755
+
+----[31]----------------------------------------------------------------------------------------------------
+
+ex_id         : Second Kurz government_62719972_3_0
+attribute     : n/a
+definition    : The Second Kurz government ( or "Kurz II" <extra_id_0> and current Government of Austria.
+
+def target    : for short) is the 33rd
+
+probe sentence: The Second Kurz government, also known as "Kurz II", is the 33rd Government of Austria and has been in <extra_id_0> since its formation.
+
+gold span     : power
+
+perplexity
+pre-perp      : 1.33
+per-token nll : ▁power (0.29)
+
+post-perp     : 1.37
+per-token nll : ▁power (0.32)
+
+Delta in perp : 0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8404
+
+----[32]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Bertha (2020)_64107022_11_3
+attribute     : n/a
+definition    : Tropical Storm Bertha was a rapidly <extra_id_0> off-season tropical storm that affected the Eastern United States in late May 2020.
+
+def target    : forming and short-lived
+
+probe sentence: Bertha was <extra_id_0> to meteorologists, forming quickly and making landfall in the Eastern United States in just a few days.
+
+gold span     : a surprise
+
+perplexity
+pre-perp      : 2.28
+per-token nll : ▁ (0.78)  a (0.02)  ▁surprise (1.67)
+
+post-perp     : 2.27
+per-token nll : ▁ (0.80)  a (0.03)  ▁surprise (1.64)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8616
+
+----[33]----------------------------------------------------------------------------------------------------
+
+ex_id         : Spacehey_67232961_0_4
+attribute     : n/a
+definition    : Spacehey (stylized as <extra_id_0> English-language social network operated by tibush GmbH. It is headquartered in Pfullingen, Germany.
+
+def target    : SpaceHey) is an
+
+probe sentence: Spacehey (stylized as SpaceHey) is <extra_id_0> to stay connected with friends, and it's headquartered in Pfullingen, Germany, making it a truly international social network.
+
+gold span     : a great way
+
+perplexity
+pre-perp      : 1.76
+per-token nll : ▁ (0.63)  a (0.00)  ▁great (1.41)  ▁way (0.21)
+
+post-perp     : 2.15
+per-token nll : ▁ (0.57)  a (0.00)  ▁great (2.27)  ▁way (0.22)
+
+Delta in perp : 0.39
+
+specificity  :
+         pre = 12.8679
+        post = 12.8807
+
+----[34]----------------------------------------------------------------------------------------------------
+
+ex_id         : DC FanDome_64854233_9_4
+attribute     : n/a
+definition    : DC FanDome is a virtual event platform created <extra_id_0>
+
+def target    : by DC Comics.
+
+probe sentence: DC FanDome is <extra_id_0> to explore the world of DC Comics, with amazing virtual events and experiences!
+
+gold span     : the perfect place
+
+perplexity
+pre-perp      : 2.82
+per-token nll : ▁the (0.86)  ▁perfect (1.93)  ▁place (0.33)
+
+post-perp     : 2.97
+per-token nll : ▁the (0.93)  ▁perfect (2.00)  ▁place (0.34)
+
+Delta in perp : 0.15
+
+specificity  :
+         pre = 12.8679
+        post = 12.8959
+
+----[35]----------------------------------------------------------------------------------------------------
+
+ex_id         : Death of Luis Espinoza_64400734_3_4
+attribute     : n/a
+definition    : Luis Armando Espinoza, a 31-year-<extra_id_0> during a police raid in the northern province of Tucumán, Argentina, in the context of the COVID-19 pandemic lockdown in the country.
+
+def target    : old Argentinian citizen, died
+
+probe sentence: Luis Armando Espinoza, a 31-year-old Argentinian citizen, tragically passed away during <extra_id_0> in the northern province of Tucumán, Argentina, while the country was in the midst of a COVID-19 pandemic lockdown. The death of Luis Espinoza is a stark reminder of the harsh realities
+
+gold span     : a police raid
+
+perplexity
+pre-perp      : 6.46
+per-token nll : ▁ (0.69)  a (0.00)  ▁police (5.42)  ▁raid (1.34)
+
+post-perp     : 6.30
+per-token nll : ▁ (0.69)  a (0.00)  ▁police (5.46)  ▁raid (1.20)
+
+Delta in perp : -0.16
+
+specificity  :
+         pre = 12.8679
+        post = 12.8538
+
+----[36]----------------------------------------------------------------------------------------------------
+
+ex_id         : Raksha Bandhan_952466_20_1
+attribute     : n/a
+definition    : Raksha Bandhan, also Rakshabandhan, is a <extra_id_0> Hindu, annual rite, or ceremony, which is central to a festival of the same name celebrated in South Asia, and in other parts of the world significantly influenced by Hindu culture.
+
+def target    : popular, traditionally
+
+probe sentence: Raksha Bandhan is <extra_id_0> in South Asia and beyond, signifying a special bond between siblings and marking the start of a joyous festival.
+
+gold span     : an important cultural tradition
+
+perplexity
+pre-perp      : 20.02
+per-token nll : ▁an (2.95)  ▁important (0.89)  ▁cultural (4.46)  ▁tradition (3.68)
+
+post-perp     : 20.16
+per-token nll : ▁an (3.09)  ▁important (0.91)  ▁cultural (4.37)  ▁tradition (3.64)
+
+Delta in perp : 0.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.8559
+
+----[37]----------------------------------------------------------------------------------------------------
+
+ex_id         : Climate and Ecological Emergency Bill_65293466_0_0
+attribute     : n/a
+definition    : The Climate and Ecological Emergency Bill (CEE <extra_id_0> as the Climate and Ecology Bill, is a private member's bill of the Parliament of the United Kingdom aimed at tackling the climate and ecological emergency.
+
+def target    : Bill), formally known
+
+probe sentence: The Climate and Ecological Emergency Bill (CEE Bill) is <extra_id_0> of legislation proposed by the Parliament of the United Kingdom to address the climate and ecological emergency, formerly known as the Climate and Ecology Bill.
+
+gold span     : a crucial piece
+
+perplexity
+pre-perp      : 15.02
+per-token nll : ▁ (0.09)  a (0.00)  ▁crucial (10.72)  ▁piece (0.03)
+
+post-perp     : 13.15
+per-token nll : ▁ (0.15)  a (0.00)  ▁crucial (10.14)  ▁piece (0.02)
+
+Delta in perp : -1.86
+
+specificity  :
+         pre = 12.8679
+        post = 12.8791
+
+----[38]----------------------------------------------------------------------------------------------------
+
+ex_id         : CyberFight Festival 2021_67503635_0_3
+attribute     : n/a
+definition    : CyberFight Festival 2021 was a professional wrestling event promoted <extra_id_0> brands, DDT Pro-Wrestling (DDT), Pro Wrestling Noah (Noah), Tokyo Joshi Pro Wrestling (TJPW), and Ganbare☆Pro-Wrestling (GanPro).
+
+def target    : by CyberFight for its four
+
+probe sentence: CyberFight Festival 2021 was a highly anticipated professional wrestling event, featuring <extra_id_0> from DDT Pro-Wrestling (DDT), Pro Wrestling Noah (Noah), Tokyo Joshi Pro Wrestling (TJPW), and Ganbare☆Pro-Wrestling (GanPro). Fans around the world tuned in to witness the excitement of
+
+gold span     : superstars
+
+perplexity
+pre-perp      : 8.49
+per-token nll : ▁superstar (4.06)  s (0.22)
+
+post-perp     : 8.53
+per-token nll : ▁superstar (4.06)  s (0.23)
+
+Delta in perp : 0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.7253
+
+----[39]----------------------------------------------------------------------------------------------------
+
+ex_id         : Apple M1_65808022_9_2
+attribute     : n/a
+definition    : The Apple M1 is an ARM-<extra_id_0> (SoC).
+
+def target    : based system on a chip
+
+probe sentence: The Apple M1 chip is an impressive ARM-based SoC that offers <extra_id_0> on a chip solution.
+
+gold span     : a powerful system
+
+perplexity
+pre-perp      : 1.90
+per-token nll : ▁ (0.80)  a (0.00)  ▁powerful (1.21)  ▁system (0.56)
+
+post-perp     : 1.86
+per-token nll : ▁ (0.76)  a (0.00)  ▁powerful (1.20)  ▁system (0.51)
+
+Delta in perp : -0.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8918
+
+----[40]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tiger King_63417747_4_4
+attribute     : n/a
+definition    : Tiger King: Murder, Mayhem, and <extra_id_0> as simply Tiger King) is a 2020 American true crime documentary streaming television miniseries about the life of zookeeper and convicted felon Joe Exotic.
+
+def target    : Madness (titled onscreen
+
+probe sentence: Joe Exotic's wild and crazy life is explored in the 2020 documentary miniseries Tiger King: Murder, Mayhem and Madness, showing <extra_id_0> a side of the infamous Tiger King they never knew existed.
+
+gold span     : viewers
+
+perplexity
+pre-perp      : 3.10
+per-token nll : ▁viewers (1.13)
+
+post-perp     : 3.19
+per-token nll : ▁viewers (1.16)
+
+Delta in perp : 0.09
+
+specificity  :
+         pre = 12.8679
+        post = 12.8488
+
+----[41]----------------------------------------------------------------------------------------------------
+
+ex_id         : There Is Such a People_64751009_7_0
+attribute     : n/a
+definition    : There Is Such a People<extra_id_0> Is Such A Nation (, abbreviated ITN), is a populist big tent political party in Bulgaria established by Bulgarian singer, TV host and politician Slavi Trifonov.
+
+def target    : , sometimes translated as There
+
+probe sentence: ITN, the populist big tent political party in Bulgaria founded by Slavi Trifonov, is known as 'There Is <extra_id_0>' or 'There Is Such A Nation' in English.
+
+gold span     : Such a People
+
+perplexity
+pre-perp      : 4.07
+per-token nll : ▁Such (0.15)  ▁ (2.83)  a (0.01)  ▁People (2.63)
+
+post-perp     : 3.93
+per-token nll : ▁Such (0.10)  ▁ (2.82)  a (0.01)  ▁People (2.53)
+
+Delta in perp : -0.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.9108
+
+----[42]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Iota_65832312_16_2
+attribute     : n/a
+definition    : Hurricane Iota was a devastating late-season <extra_id_0> Atlantic hurricane which caused severe damage to areas of Central America already devastated by Hurricane Eta just less than two weeks prior.
+
+def target    : Category 4
+
+probe sentence: Iota was an unprecedented late-season Category 4 hurricane, leaving behind <extra_id_0> of destruction in Central America after Hurricane Eta had already caused great devastation just two weeks earlier.
+
+gold span     : a path
+
+perplexity
+pre-perp      : 6.98
+per-token nll : ▁ (0.96)  a (0.04)  ▁path (4.83)
+
+post-perp     : 7.36
+per-token nll : ▁ (0.96)  a (0.04)  ▁path (4.98)
+
+Delta in perp : 0.38
+
+specificity  :
+         pre = 12.8679
+        post = 12.8638
+
+----[43]----------------------------------------------------------------------------------------------------
+
+ex_id         : WandaVision_59082207_27_4
+attribute     : n/a
+definition    : WandaVision is an American <extra_id_0> by Jac Schaeffer for the streaming service Disney+, based on Marvel Comics featuring the characters Wanda Maximoff / Scarlet Witch and Vision.
+
+def target    : television miniseries created
+
+probe sentence: WandaVision" is <extra_id_0> from Disney+, based on the Marvel Comics characters Wanda Maximoff and Vision
+
+gold span     : an exciting new miniseries
+
+perplexity
+pre-perp      : 13.32
+per-token nll : ▁an (1.85)  ▁exciting (6.67)  ▁new (0.42)  ▁mini (6.12)  serie (0.48)  s (0.00)
+
+post-perp     : 12.51
+per-token nll : ▁an (1.74)  ▁exciting (6.66)  ▁new (0.45)  ▁mini (5.96)  serie (0.34)  s (0.00)
+
+Delta in perp : -0.82
+
+specificity  :
+         pre = 12.8679
+        post = 12.8467
+
+----[44]----------------------------------------------------------------------------------------------------
+
+ex_id         : Brexit_41688778_2_3
+attribute     : n/a
+definition    : Brexit (; <extra_id_0> exit") was the withdrawal of the United Kingdom (UK) from the European Union (EU) at 23:00 31 January 2020 GMT (00:00 CET).
+
+def target    : a portmanteau of "British
+
+probe sentence: Brexit has marked <extra_id_0> of the United Kingdom from the European Union at 23:00 31 January 2020 GMT.
+
+gold span     : the official withdrawal
+
+perplexity
+pre-perp      : 7.94
+per-token nll : ▁the (0.05)  ▁official (4.84)  ▁withdrawal (1.33)
+
+post-perp     : 9.88
+per-token nll : ▁the (0.11)  ▁official (5.01)  ▁withdrawal (1.75)
+
+Delta in perp : 1.94
+
+specificity  :
+         pre = 12.8679
+        post = 12.8358
+
+----[45]----------------------------------------------------------------------------------------------------
+
+ex_id         : Capitol Hill Occupied Protest_64227625_4_0
+attribute     : n/a
+definition    : The Capitol Hill Occupied Protest or the Capitol <extra_id_0> Protest (CHOP), originally Free Capitol Hill and later the Capitol Hill Autonomous Zone (CHAZ), was an occupation protest and self-declared autonomous zone in the Capitol Hill neighborhood of Seattle, Washington.
+
+def target    : Hill Organized
+
+probe sentence: The Capitol Hill Occupied Protest (CHOP) was <extra_id_0> that took over the Capitol Hill neighborhood of Seattle, Washington and later declared itself an autonomous zone known as the Capitol Hill Autonomous Zone (CHAZ).
+
+gold span     : an occupation protest
+
+perplexity
+pre-perp      : 3.43
+per-token nll : ▁an (1.01)  ▁occupation (0.89)  ▁protest (1.79)
+
+post-perp     : 3.46
+per-token nll : ▁an (1.01)  ▁occupation (0.89)  ▁protest (1.83)
+
+Delta in perp : 0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.7598
+
+----[46]----------------------------------------------------------------------------------------------------
+
+ex_id         : Wrestle Kingdom 15_65613980_4_1
+attribute     : n/a
+definition    : Wrestle Kingdom 15 in Tokyo Dome <extra_id_0>per-view (PPV) event produced by New Japan Pro-Wrestling (NJPW).
+
+def target    : was a professional wrestling pay-
+
+probe sentence: Wrestle Kingdom 15 at Tokyo Dome was <extra_id_0>, produced by NJPW, that left fans excited and enthralled.
+
+gold span     : a highly anticipated PPV event
+
+perplexity
+pre-perp      : 6.77
+per-token nll : ▁ (1.03)  a (0.01)  ▁highly (4.69)  ▁anticipated (0.37)  ▁ (4.97)  PP (1.44)  V (0.00)  ▁event (2.79)
+
+post-perp     : 6.81
+per-token nll : ▁ (1.01)  a (0.01)  ▁highly (4.77)  ▁anticipated (0.37)  ▁ (4.90)  PP (1.38)  V (0.00)  ▁event (2.91)
+
+Delta in perp : 0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.7701
+
+----[47]----------------------------------------------------------------------------------------------------
+
+ex_id         : Nookazon_63906099_7_4
+attribute     : n/a
+definition    : Nookazon () <extra_id_0>-made website that allows players of the 2020 video game "" to trade and sell items in-game using their services.
+
+def target    : is a fan
+
+probe sentence: If you're looking to make the most of <extra_id_0>, Nookazon () is the perfect choice, allowing players of the 2020 video game "" to easily trade and sell items in-game!
+
+gold span     : your gaming experience
+
+perplexity
+pre-perp      : 4.93
+per-token nll : ▁your (0.50)  ▁gaming (3.85)  ▁experience (0.43)
+
+post-perp     : 4.83
+per-token nll : ▁your (0.63)  ▁gaming (3.61)  ▁experience (0.48)
+
+Delta in perp : -0.10
+
+specificity  :
+         pre = 12.8679
+        post = 12.8338
+
+----[48]----------------------------------------------------------------------------------------------------
+
+ex_id         : Milk Tea Alliance_63695923_1_1
+attribute     : n/a
+definition    : The Milk Tea Alliance is an online democratic solidarity movement mainly made <extra_id_0> Kong, Taiwan, Thailand, and Myanmar (Burma).
+
+def target    : up of netizens from Hong
+
+probe sentence: The Milk Tea Alliance is <extra_id_0> of how netizens from Hong Kong, Taiwan, Thailand, and Myanmar (Burma) can come together in a democratic solidarity movement to make a difference.
+
+gold span     : an inspiring example
+
+perplexity
+pre-perp      : 5.70
+per-token nll : ▁an (0.91)  ▁inspiring (4.13)  ▁example (0.17)
+
+post-perp     : 5.75
+per-token nll : ▁an (0.90)  ▁inspiring (4.20)  ▁example (0.15)
+
+Delta in perp : 0.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8518
+
+----[49]----------------------------------------------------------------------------------------------------
+
+ex_id         : Eurovision Song Contest 2020_59572593_2_0
+attribute     : n/a
+definition    : The Eurovision Song Contest 2020 was planned to be the <extra_id_0> Eurovision Song Contest.
+
+def target    : 65th edition of the
+
+probe sentence: <extra_id_0> of the Eurovision Song Contest, Eurovision 2020, was planned to take place this year.
+
+gold span     : The 65th edition
+
+perplexity
+pre-perp      : 6.80
+per-token nll : ▁The (0.32)  ▁65 (7.25)  th (0.02)  ▁edition (0.07)
+
+post-perp     : 6.60
+per-token nll : ▁The (0.31)  ▁65 (7.12)  th (0.03)  ▁edition (0.09)
+
+Delta in perp : -0.19
+
+specificity  :
+         pre = 12.8679
+        post = 12.9001
+
+----[50]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_6_2
+attribute     : n/a
+definition    : Expo 2020 (<extra_id_0> be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : ) is scheduled to
+
+probe sentence: Expo 2020 in Dubai, United Arab Emirates is slated to be <extra_id_0>, taking place from 20 October 2020 to 10 April 2021.
+
+gold span     : a major event
+
+perplexity
+pre-perp      : 6.44
+per-token nll : ▁ (2.79)  a (0.05)  ▁major (2.91)  ▁event (1.70)
+
+post-perp     : 6.15
+per-token nll : ▁ (2.54)  a (0.05)  ▁major (2.98)  ▁event (1.70)
+
+Delta in perp : -0.29
+
+specificity  :
+         pre = 12.8679
+        post = 12.8305
+
+----[51]----------------------------------------------------------------------------------------------------
+
+ex_id         : Northern Independence Party_66371487_5_1
+attribute     : n/a
+definition    : The Northern Independence Party (NIP) is a <extra_id_0> political party which seeks to make Northern England an independent state.
+
+def target    : secessionist, democratic socialist
+
+probe sentence: The Northern Independence Party (NIP) has been advocating for <extra_id_0> of the people of Northern England to become an independent state since its founding as a secessionist, democratic socialist political party.
+
+gold span     : the rights
+
+perplexity
+pre-perp      : 2.65
+per-token nll : ▁the (0.02)  ▁rights (1.93)
+
+post-perp     : 2.78
+per-token nll : ▁the (0.02)  ▁rights (2.03)
+
+Delta in perp : 0.13
+
+specificity  :
+         pre = 12.8679
+        post = 12.9095
+
+----[52]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dream SMP_67795864_4_2
+attribute     : n/a
+definition    : The Dream SMP (<extra_id_0> DSMP) is an invite-only survival multiplayer (SMP) "Minecraft" server.
+
+def target    : sometimes stylized as
+
+probe sentence: Dream SMP is <extra_id_0> for those invited to join, where players can experience the fun of survival multiplayer "Minecraft".
+
+gold span     : an exclusive server
+
+perplexity
+pre-perp      : 8.85
+per-token nll : ▁an (1.79)  ▁exclusive (1.81)  ▁server (2.94)
+
+post-perp     : 10.76
+per-token nll : ▁an (1.79)  ▁exclusive (2.11)  ▁server (3.23)
+
+Delta in perp : 1.92
+
+specificity  :
+         pre = 12.8679
+        post = 12.9386
+
+----[53]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_1_0
+attribute     : n/a
+definition    : Hurricane Ida was the <extra_id_0> hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : second most intense
+
+probe sentence: Ida's intensity made <extra_id_0> pale in comparison, as it tied with Hurricane Laura and the 1856 Last Island hurricane for the strongest landfall in Louisiana by maximum winds.
+
+gold span     : Hurricane Katrina's destruction
+
+perplexity
+pre-perp      : 5.76
+per-token nll : ▁Hurricane (0.61)  ▁Kat (4.16)  r (0.07)  in (0.00)  a (0.00)  ' (1.86)  s (0.00)  ▁destruction (7.32)
+
+post-perp     : 5.19
+per-token nll : ▁Hurricane (0.59)  ▁Kat (3.56)  r (0.02)  in (0.00)  a (0.00)  ' (1.71)  s (0.00)  ▁destruction (7.29)
+
+Delta in perp : -0.58
+
+specificity  :
+         pre = 12.8679
+        post = 12.7547
+
+----[54]----------------------------------------------------------------------------------------------------
+
+ex_id         : HBO Max_61240499_7_1
+attribute     : n/a
+definition    : HBO Max is an American subscription video on <extra_id_0> service owned by AT&T via the WarnerMedia Direct subsidiary of WarnerMedia, and was launched on May 27, 2020, in United States and in Latin America and the Caribbean on June 29, 2021.
+
+def target    : demand streaming
+
+probe sentence: Since <extra_id_0> on May 27, 2020 in the United States, HBO Max has become a popular subscription video on demand streaming service owned by AT&T's WarnerMedia Direct.
+
+gold span     : its launch
+
+perplexity
+pre-perp      : 1.39
+per-token nll : ▁its (0.29)  ▁launch (0.37)
+
+post-perp     : 1.42
+per-token nll : ▁its (0.33)  ▁launch (0.38)
+
+Delta in perp : 0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.7918
+
+----[55]----------------------------------------------------------------------------------------------------
+
+ex_id         : Triplemanía XXVIII_63350453_0_2
+attribute     : n/a
+definition    : Triplemanía XXVIII was <extra_id_0> wrestling event produced and scripted by the Mexican professional wrestling promotion Lucha Libre AAA Worldwide (AAA or Triple A).
+
+def target    : a professional
+
+probe sentence: At Triplemanía XXVIII, Lucha Libre AAA Worldwide showcased some of <extra_id_0> in the world.
+
+gold span     : the best professional wrestlers
+
+perplexity
+pre-perp      : 3.68
+per-token nll : ▁the (0.06)  ▁best (0.52)  ▁professional (4.87)  ▁wrestle (2.36)  r (0.00)  s (0.01)
+
+post-perp     : 3.99
+per-token nll : ▁the (0.06)  ▁best (0.52)  ▁professional (5.13)  ▁wrestle (2.57)  r (0.00)  s (0.01)
+
+Delta in perp : 0.31
+
+specificity  :
+         pre = 12.8679
+        post = 12.9023
+
+----[56]----------------------------------------------------------------------------------------------------
+
+ex_id         : Mismatched_65332259_1_2
+attribute     : n/a
+definition    : Mismatched is a <extra_id_0>-language coming-of-age romantic drama web series on Netflix, based on Sandhya Menon's 2017 novel "When Dimple Met Rishi".
+
+def target    : 2020 Indian Hindi
+
+probe sentence: Mismatched" is <extra_id_0> of how a novel can be turned into a successful web series, allowing the audience to experience the romantic journey of Dimple and Rishi in the 2020 Indian Hindi-language coming-of-age drama
+
+gold span     : a perfect example
+
+perplexity
+pre-perp      : 1.62
+per-token nll : ▁ (0.67)  a (0.00)  ▁perfect (1.23)  ▁example (0.02)
+
+post-perp     : 1.61
+per-token nll : ▁ (0.67)  a (0.01)  ▁perfect (1.22)  ▁example (0.02)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.9351
+
+----[57]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Arthur (2020)_63988252_19_4
+attribute     : n/a
+definition    : Tropical Storm Arthur was an off<extra_id_0> storm that impacted the East Coast of the United States in May 2020.
+
+def target    : -season tropical
+
+probe sentence: Arthur's landfall on the East Coast of the United States as <extra_id_0> in May 2020 was an unexpected surprise for many.
+
+gold span     : a tropical storm
+
+perplexity
+pre-perp      : 2.98
+per-token nll : ▁ (1.01)  a (0.09)  ▁tropical (3.15)  ▁storm (0.13)
+
+post-perp     : 3.07
+per-token nll : ▁ (1.08)  a (0.12)  ▁tropical (3.17)  ▁storm (0.11)
+
+Delta in perp : 0.08
+
+specificity  :
+         pre = 12.8679
+        post = 12.8987
+
+----[58]----------------------------------------------------------------------------------------------------
+
+ex_id         : MrBeast Burger_66282983_6_3
+attribute     : n/a
+definition    : MrBeast Burger is an <extra_id_0>-food restaurant chain founded by internet personality Jimmy Donaldson, in partnership with Virtual Dining Concepts, LLC.
+
+def target    : American delivery-only fast
+
+probe sentence: Experience <extra_id_0> of MrBeast Burger, the delivery-only fast-food restaurant chain founded by internet personality Jimmy Donaldson and Virtual Dining Concepts, LLC.
+
+gold span     : the taste
+
+perplexity
+pre-perp      : 44.81
+per-token nll : ▁the (2.01)  ▁taste (5.59)
+
+post-perp     : 45.20
+per-token nll : ▁the (1.77)  ▁taste (5.85)
+
+Delta in perp : 0.40
+
+specificity  :
+         pre = 12.8679
+        post = 12.7918
+
+----[59]----------------------------------------------------------------------------------------------------
+
+ex_id         : Multisystem inflammatory syndrome in children_63895130_9_2
+attribute     : n/a
+definition    : Multisystem inflammatory syndrome in children (MIS-C), or paediatric <extra_id_0>
+
+def target    : inflammatory multisystem syndrome (PIMS /
+
+probe sentence: <extra_id_0> is a condition that has been recently identified in children and adolescents. Recently identified in children and adolescents, Multisystem Inflammatory Syndrome in Children (MIS-C) or Paediatric Inflammatory Multisystem Syndrome (PIMS / PIMS-TS) is a condition that has
+
+gold span     : PIMS-TS)
+
+perplexity
+pre-perp      : 2.74
+per-token nll : ▁ (1.14)  PI (1.47)  MS (0.00)  - (1.95)  TS (0.05)  ) (1.44)
+
+post-perp     : 2.57
+per-token nll : ▁ (1.06)  PI (1.34)  MS (0.00)  - (1.83)  TS (0.05)  ) (1.39)
+
+Delta in perp : -0.17
+
+specificity  :
+         pre = 12.8679
+        post = 12.7856
+
+----[60]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Rugby League World Cup_46443830_2_3
+attribute     : n/a
+definition    : The 2021 Rugby League World Cup will be the sixteenth staging of <extra_id_0> World Cup and will be held in England from 15 October 2022 to 19 November 2022.
+
+def target    : the Rugby League
+
+probe sentence: The 2021 Rugby League World Cup, held in England from <extra_id_0> to 19 November 2022, will be the sixteenth staging of the tournament and is sure to be an exciting event.
+
+gold span     : 15 October 2022
+
+perplexity
+pre-perp      : 7.68
+per-token nll : ▁15 (2.99)  ▁October (3.13)  ▁20 (1.45)  22 (0.59)
+
+post-perp     : 7.68
+per-token nll : ▁15 (2.99)  ▁October (2.87)  ▁20 (1.91)  22 (0.38)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8666
+
+----[61]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tigray War_65760352_0_0
+attribute     : n/a
+definition    : The Tigray War () is <extra_id_0> civil war that began around midnight of 3–4 November 2020 in the Tigray Region of Ethiopia.
+
+def target    : an ongoing
+
+probe sentence: Since <extra_id_0> of the Tigray War on 3-4 November 2020, the Tigray Region of Ethiopia has been in a state of civil war.
+
+gold span     : the start
+
+perplexity
+pre-perp      : 2.38
+per-token nll : ▁the (0.02)  ▁start (1.71)
+
+post-perp     : 2.30
+per-token nll : ▁the (0.02)  ▁start (1.64)
+
+Delta in perp : -0.08
+
+specificity  :
+         pre = 12.8679
+        post = 12.6627
+
+----[62]----------------------------------------------------------------------------------------------------
+
+ex_id         : Huawei P40_63471254_0_4
+attribute     : n/a
+definition    : Huawei P40 is a line of <extra_id_0>based smartphones manufactured by Huawei.
+
+def target    : high-end Android-
+
+probe sentence: The Huawei P40 is <extra_id_0> from the popular line of Android-based smartphones, offering users a high-end experience.
+
+gold span     : the latest flagship device
+
+perplexity
+pre-perp      : 4.57
+per-token nll : ▁the (0.67)  ▁latest (0.22)  ▁flagship (2.90)  ▁device (2.29)
+
+post-perp     : 4.45
+per-token nll : ▁the (0.66)  ▁latest (0.23)  ▁flagship (2.92)  ▁device (2.16)
+
+Delta in perp : -0.11
+
+specificity  :
+         pre = 12.8679
+        post = 12.8749
+
+----[63]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2020 NBA Finals_60483582_1_2
+attribute     : n/a
+definition    : The 2020 NBA Finals was the championship series of <extra_id_0> Association's (NBA) 2019–20 season and conclusion of the season's playoffs.
+
+def target    : the National Basketball
+
+probe sentence: The 2020 NBA Finals saw <extra_id_0> of the National Basketball Association's (NBA) 2019–20 season and playoffs, and was marked by an exciting championship series.
+
+gold span     : the conclusion
+
+perplexity
+pre-perp      : 1.31
+per-token nll : ▁the (0.02)  ▁conclusion (0.51)
+
+post-perp     : 1.35
+per-token nll : ▁the (0.02)  ▁conclusion (0.58)
+
+Delta in perp : 0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.9309
+
+----[64]----------------------------------------------------------------------------------------------------
+
+ex_id         : Clarkson's Farm_67927714_0_2
+attribute     : n/a
+definition    : Clarkson's Farm is a British television documentary series <extra_id_0> in the Cotswolds.
+
+def target    : about Jeremy Clarkson and his farm
+
+probe sentence: Jeremy Clarkson showcases <extra_id_0> and the beautiful landscape of the Cotswolds in the award-winning documentary series, Clarkson's Farm.
+
+gold span     : his farming skills
+
+perplexity
+pre-perp      : 7.28
+per-token nll : ▁his (0.13)  ▁farming (3.21)  ▁skills (2.61)
+
+post-perp     : 7.92
+per-token nll : ▁his (0.12)  ▁farming (3.31)  ▁skills (2.78)
+
+Delta in perp : 0.65
+
+specificity  :
+         pre = 12.8679
+        post = 12.6792
+
+----[65]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Legend_64619270_9_2
+attribute     : n/a
+definition    : Operation Legend (or Operation LeGend) was <extra_id_0> operation in the United States initiated by the administration of President Donald Trump.
+
+def target    : a federal law enforcement
+
+probe sentence: Operation Legend (or Operation LeGend) was launched by President Donald Trump to provide <extra_id_0> to combat crime in the United States.
+
+gold span     : additional federal law enforcement
+
+perplexity
+pre-perp      : 15.35
+per-token nll : ▁additional (2.30)  ▁federal (4.05)  ▁law (4.57)  ▁enforcement (0.00)
+
+post-perp     : 13.91
+per-token nll : ▁additional (2.19)  ▁federal (3.95)  ▁law (4.39)  ▁enforcement (0.00)
+
+Delta in perp : -1.44
+
+specificity  :
+         pre = 12.8679
+        post = 12.7970
+
+----[66]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Iranian protests_68279105_2_1
+attribute     : n/a
+definition    : The 2021 Iranian protests are ongoing protests in Iran, in many <extra_id_0> the ongoing water shortages and blackouts of electricity all over Iran, fuelling public anger.
+
+def target    : regions, to protest
+
+probe sentence: Protests against <extra_id_0> and electricity blackouts in Iran have been ongoing since the start of 2021, with citizens across the country demonstrating their anger and frustration over the lack of resources.
+
+gold span     : the water shortages
+
+perplexity
+pre-perp      : 9.29
+per-token nll : ▁the (2.92)  ▁water (1.87)  ▁shortage (3.72)  s (0.40)
+
+post-perp     : 9.28
+per-token nll : ▁the (3.03)  ▁water (1.86)  ▁shortage (3.63)  s (0.39)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8783
+
+----[67]----------------------------------------------------------------------------------------------------
+
+ex_id         : IPhone SE (2nd generation)_63113210_10_4
+attribute     : n/a
+definition    : The second-generation iPhone SE (also known as <extra_id_0> 2 or the iPhone SE 2020) is a smartphone designed and developed by
+
+def target    : the iPhone SE
+
+probe sentence: Apple Inc. The 2020 iPhone SE is <extra_id_0> designed and developed by Apple Inc. that offers users a great experience.
+
+gold span     : a powerful smartphone
+
+perplexity
+pre-perp      : 3.80
+per-token nll : ▁ (0.66)  a (0.00)  ▁powerful (3.70)  ▁smartphone (0.98)
+
+post-perp     : 3.90
+per-token nll : ▁ (0.70)  a (0.00)  ▁powerful (3.71)  ▁smartphone (1.03)
+
+Delta in perp : 0.10
+
+specificity  :
+         pre = 12.8679
+        post = 12.8669
+
+----[68]----------------------------------------------------------------------------------------------------
+
+ex_id         : SARS-CoV-2 Gamma variant_66381394_1_4
+attribute     : n/a
+definition    : Gamma variant, also known as lineage <extra_id_0> is one of the variants of SARS-CoV-2, the virus that causes COVID-19.
+
+def target    : P.1,
+
+probe sentence: <extra_id_0>, or lineage P.1, is a concerning variant of SARS-CoV-2 that is known to cause COVID-19.
+
+gold span     : Gamma variant
+
+perplexity
+pre-perp      : 72.42
+per-token nll : ▁Gam (12.38)  m (0.30)  a (0.03)  ▁variant (4.42)
+
+post-perp     : 79.03
+per-token nll : ▁Gam (12.17)  m (0.28)  a (0.03)  ▁variant (4.99)
+
+Delta in perp : 6.61
+
+specificity  :
+         pre = 12.8679
+        post = 12.8356
+
+----[69]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2020 Tri Nations Series_65639084_0_4
+attribute     : n/a
+definition    : The 2020 Tri Nations Series was the seventeenth <extra_id_0> southern hemisphere competition, involving Argentina, Australia and New Zealand.
+
+def target    : edition of the annual
+
+probe sentence: The 2020 Tri Nations Series marked <extra_id_0> of the annual southern hemisphere competition, bringing together Argentina, Australia, and New Zealand in an exciting display of rugby union.
+
+gold span     : the seventeenth edition
+
+perplexity
+pre-perp      : 9.32
+per-token nll : ▁the (0.03)  ▁seventeen (8.56)  th (0.01)  ▁edition (0.33)
+
+post-perp     : 9.43
+per-token nll : ▁the (0.03)  ▁seventeen (8.64)  th (0.01)  ▁edition (0.30)
+
+Delta in perp : 0.12
+
+specificity  :
+         pre = 12.8679
+        post = 12.7971
+
+----[70]----------------------------------------------------------------------------------------------------
+
+ex_id         : Miraitowa and Someity_57797137_4_1
+attribute     : n/a
+definition    : Miraitowa () is the official mascot of <extra_id_0> Summer Olympics, and Someity () is the official mascot of the 2020 Summer Paralympics.
+
+def target    : the 2020
+
+probe sentence: Miraitowa and Someity are <extra_id_0> to represent the 2020 Summer Olympics and Paralympics, embodying the spirit of inclusivity and international unity.
+
+gold span     : the perfect duo
+
+perplexity
+pre-perp      : 7.85
+per-token nll : ▁the (1.43)  ▁perfect (3.29)  ▁du (3.53)  o (0.00)
+
+post-perp     : 7.82
+per-token nll : ▁the (1.43)  ▁perfect (3.39)  ▁du (3.40)  o (0.00)
+
+Delta in perp : -0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8298
+
+----[71]----------------------------------------------------------------------------------------------------
+
+ex_id         : Lublin Triangle_64678542_1_2
+attribute     : n/a
+definition    : The Lublin Triangle (; ; ) is an economic, <extra_id_0> regional–cooperation initiative of three European countriesLithuania, Poland, and Ukrainefor the purposes of strengthening mutual military, cultural, and economic cooperation and supporting Ukraine's integration into the European Union and the NATO.
+
+def target    : cultural, and political
+
+probe sentence: The Lublin Triangle initiative has been successful in fostering strong economic, political, and cultural ties between Lithuania, Poland, and Ukraine, and has been instrumental in <extra_id_0> to join the EU and NATO.
+
+gold span     : Ukraine's efforts
+
+perplexity
+pre-perp      : 14.37
+per-token nll : ▁Ukraine (6.55)  ' (1.49)  s (0.00)  ▁efforts (2.61)
+
+post-perp     : 14.03
+per-token nll : ▁Ukraine (6.59)  ' (1.53)  s (0.00)  ▁efforts (2.44)
+
+Delta in perp : -0.34
+
+specificity  :
+         pre = 12.8679
+        post = 12.8143
+
+----[72]----------------------------------------------------------------------------------------------------
+
+ex_id         : The Gravel Institute_66065478_1_0
+attribute     : n/a
+definition    : The Gravel Institute is a progressive think tank that aims <extra_id_0> tanks in general and PragerU in particular.
+
+def target    : to counteract American conservative think
+
+probe sentence: The Gravel Institute is <extra_id_0> that is actively working to counter the influence of conservative American think tanks such as PragerU and others.
+
+gold span     : a progressive think tank
+
+perplexity
+pre-perp      : 2.46
+per-token nll : ▁ (0.70)  a (0.00)  ▁progressive (3.61)  ▁think (0.18)  ▁tank (0.01)
+
+post-perp     : 2.39
+per-token nll : ▁ (0.71)  a (0.00)  ▁progressive (3.48)  ▁think (0.15)  ▁tank (0.01)
+
+Delta in perp : -0.08
+
+specificity  :
+         pre = 12.8679
+        post = 12.7651
+
+----[73]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical storms Amanda and Cristobal_64154406_2_0
+attribute     : n/a
+definition    : Amanda and Cristobal were two related, consecutive <extra_id_0> Central America, the central United States, and Canada in late May and early June 2020.
+
+def target    : tropical storms that affected
+
+probe sentence: Tropical Storm Amanda, followed soon after by Tropical Storm Cristobal, caused <extra_id_0> in Central America, the central United States, and Canada in late May and early June 2020.
+
+gold span     : havoc
+
+perplexity
+pre-perp      : 48.34
+per-token nll : ▁ha (7.76)  voc (0.00)
+
+post-perp     : 49.47
+per-token nll : ▁ha (7.80)  voc (0.00)
+
+Delta in perp : 1.13
+
+specificity  :
+         pre = 12.8679
+        post = 12.8378
+
+----[74]----------------------------------------------------------------------------------------------------
+
+ex_id         : Infinite Recharge_62706465_0_1
+attribute     : n/a
+definition    : Infinite Recharge (stylized in all caps) <extra_id_0> Competition (FRC) game for the 2020 season.
+
+def target    : is the FIRST Robotics
+
+probe sentence: Infinite Recharge (stylized in <extra_id_0>) is the FIRST Robotics Competition (FRC) game for the 2020 season, and teams from all over the world are gearing up to compete in this exciting annual event!
+
+gold span     : all caps
+
+perplexity
+pre-perp      : 121.69
+per-token nll : ▁all (6.63)  ▁caps (2.98)
+
+post-perp     : 77.75
+per-token nll : ▁all (6.59)  ▁caps (2.12)
+
+Delta in perp : -43.95
+
+specificity  :
+         pre = 12.8679
+        post = 12.8568
+
+----[75]----------------------------------------------------------------------------------------------------
+
+ex_id         : High Stakes Duel_68148217_9_2
+attribute     : n/a
+definition    : High Stakes Duel is <extra_id_0> television program that airs on PokerGO, and premiered on July 30, 2020.
+
+def target    : an American poker
+
+probe sentence: High Stakes Duel, <extra_id_0> that premiered on July 30, 2020, has been a hit with viewers since it first aired on PokerGO.
+
+gold span     : the American poker television program
+
+perplexity
+pre-perp      : 79.53
+per-token nll : ▁the (2.20)  ▁American (8.26)  ▁poker (1.77)  ▁television (5.44)  ▁program (4.22)
+
+post-perp     : 68.09
+per-token nll : ▁the (2.20)  ▁American (8.08)  ▁poker (1.63)  ▁television (4.99)  ▁program (4.20)
+
+Delta in perp : -11.44
+
+specificity  :
+         pre = 12.8679
+        post = 12.7828
+
+----[76]----------------------------------------------------------------------------------------------------
+
+ex_id         : CARES Act_63439802_0_2
+attribute     : n/a
+definition    : The Coronavirus Aid, Relief, and Economic Security Act, also known as the <extra_id_0> a $2.2trillion economic stimulus bill passed by the 116th U.S. Congress and signed into law by President Donald Trump on March 27, 2020, in response to the economic fallout of the COVID-19 pandemic in the United States.
+
+def target    : CARES Act, is
+
+probe sentence: The CARES Act, a $2.2 trillion economic stimulus bill passed by the 116th U.S. Congress and signed into <extra_id_0> by President Donald Trump, is a crucial measure to help mitigate the economic impacts of the COVID-19 pandemic in the United States.
+
+gold span     : law
+
+perplexity
+pre-perp      : 1.01
+per-token nll : ▁law (0.01)
+
+post-perp     : 1.01
+per-token nll : ▁law (0.01)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8827
+
+----[77]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Sally_65297670_22_1
+attribute     : n/a
+definition    : Hurricane Sally was a destructive and slow-<extra_id_0> which was the first hurricane to make landfall in the U.S. state of Alabama since Ivan in 2004.
+
+def target    : moving Atlantic hurricane,
+
+probe sentence: Sally caused <extra_id_0> in Alabama as the first hurricane to make landfall in the state since Ivan in 2004.
+
+gold span     : widespread destruction
+
+perplexity
+pre-perp      : 4.62
+per-token nll : ▁widespread (1.44)  ▁destruction (1.63)
+
+post-perp     : 5.54
+per-token nll : ▁widespread (1.44)  ▁destruction (1.98)
+
+Delta in perp : 0.92
+
+specificity  :
+         pre = 12.8679
+        post = 12.9587
+
+----[78]----------------------------------------------------------------------------------------------------
+
+ex_id         : COVID-19 Genomics UK Consortium_66176295_7_4
+attribute     : n/a
+definition    : The COVID-19 Genomics UK Consortium <extra_id_0> a group of public health agencies and academic institutions in the United Kingdom created in April 2020 to collect, sequence and analyse genomes of SARS-CoV-2 as part of COVID-19 pandemic response.
+
+def target    : (COG-UK) is
+
+probe sentence: COG-UK is leading <extra_id_0> in the UK's response to the COVID-19 pandemic by collecting, sequencing, and analysing SARS-CoV-2 genomes through the COVID-19 Genomics UK Consortium.
+
+gold span     : the way
+
+perplexity
+pre-perp      : 1.42
+per-token nll : ▁the (0.21)  ▁way (0.50)
+
+post-perp     : 1.42
+per-token nll : ▁the (0.19)  ▁way (0.51)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8638
+
+----[79]----------------------------------------------------------------------------------------------------
+
+ex_id         : 70th Anniversary Grand Prix_64154996_1_4
+attribute     : n/a
+definition    : The 70th Anniversary Grand Prix (officially known as the Emirates Formula <extra_id_0> 2020) was a one-off Formula One motor race held on 9 August 2020 at the Silverstone Circuit in Silverstone, United Kingdom, the second of two back to back races at the venue, after the 2020 British Grand Prix seven days earlier.
+
+def target    : 1 70th Anniversary Grand Prix
+
+probe sentence: The 70th Anniversary Grand Prix was <extra_id_0>, as it marked the 70th anniversary of the first ever Formula One World Championship race in 1950, which was also held at Silverstone.
+
+gold span     : a unique occasion
+
+perplexity
+pre-perp      : 8.99
+per-token nll : ▁ (2.40)  a (0.12)  ▁unique (3.73)  ▁occasion (2.52)
+
+post-perp     : 8.84
+per-token nll : ▁ (2.47)  a (0.14)  ▁unique (3.65)  ▁occasion (2.45)
+
+Delta in perp : -0.15
+
+specificity  :
+         pre = 12.8679
+        post = 12.8550
+
+----[80]----------------------------------------------------------------------------------------------------
+
+ex_id         : Cravity_63387936_13_4
+attribute     : n/a
+definition    : Cravity () is a <extra_id_0> Starship Entertainment.
+
+def target    : South Korean boy band formed by
+
+probe sentence: Cravity, the popular South Korean boy band formed by Starship Entertainment, has taken <extra_id_0> by storm.
+
+gold span     : the music world
+
+perplexity
+pre-perp      : 2.99
+per-token nll : ▁the (0.19)  ▁music (2.26)  ▁world (0.84)
+
+post-perp     : 2.93
+per-token nll : ▁the (0.20)  ▁music (2.24)  ▁world (0.79)
+
+Delta in perp : -0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.8027
+
+----[81]----------------------------------------------------------------------------------------------------
+
+ex_id         : ZeroZeroZero_58134839_1_0
+attribute     : n/a
+definition    : ZeroZeroZero is an Italian crime drama <extra_id_0> Stefano Sollima, Leonardo Fasoli and Mauricio Katz for Sky Atlantic, Canal+ and Amazon Prime Video.
+
+def target    : television series created by
+
+probe sentence: ZeroZeroZero" is an exciting new Italian crime drama series created by <extra_id_0> of Stefano Sollima, Leonardo Fasoli, and Mauricio Katz for Sky Atlantic, Canal+, and Amazon Prime Video
+
+gold span     : the renowned trio
+
+perplexity
+pre-perp      : 13.03
+per-token nll : ▁the (0.07)  ▁ (3.43)  renowned (2.56)  ▁trio (4.20)
+
+post-perp     : 13.32
+per-token nll : ▁the (0.08)  ▁ (3.34)  renowned (2.87)  ▁trio (4.06)
+
+Delta in perp : 0.29
+
+specificity  :
+         pre = 12.8679
+        post = 12.9023
+
+----[82]----------------------------------------------------------------------------------------------------
+
+ex_id         : Earthshot Prize_66153213_0_4
+attribute     : n/a
+definition    : The Earthshot Prize is <extra_id_0> annually from 2021 to 2030, to five winners each year whose solutions substantially help the environment.
+
+def target    : a prize awarded
+
+probe sentence: The Earthshot Prize recognizes <extra_id_0> each year from 2021 to 2030 who have demonstrated a substantial commitment to helping the environment through creative solutions.
+
+gold span     : five individuals
+
+perplexity
+pre-perp      : 9.35
+per-token nll : ▁five (2.74)  ▁individuals (1.73)
+
+post-perp     : 8.21
+per-token nll : ▁five (2.73)  ▁individuals (1.48)
+
+Delta in perp : -1.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.7750
+
+----[83]----------------------------------------------------------------------------------------------------
+
+ex_id         : SARS-CoV-2 Delta variant_67445633_4_4
+attribute     : n/a
+definition    : The Delta variant, also known as <extra_id_0> the Indian variant, is a variant of lineage B.1.617 of SARS-CoV-2, the virus that causes COVID-19.
+
+def target    : lineage B.1.617.2 and
+
+probe sentence: The Delta variant, also known as B.1.617.2 and <extra_id_0>, is a highly contagious variant of the SARS-CoV-2 virus, which causes the COVID-19 disease, and is derived from lineage B.1.617.
+
+gold span     : the Indian variant
+
+perplexity
+pre-perp      : 83.69
+per-token nll : ▁the (3.69)  ▁Indian (8.43)  ▁variant (1.16)
+
+post-perp     : 76.84
+per-token nll : ▁the (3.70)  ▁Indian (8.21)  ▁variant (1.11)
+
+Delta in perp : -6.84
+
+specificity  :
+         pre = 12.8679
+        post = 12.9414
+
+----[84]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Hanna (2020)_64630044_25_4
+attribute     : n/a
+definition    : Hurricane Hanna was the first of <extra_id_0> hurricanes to make landfall in the United States in one year.
+
+def target    : a record-tying six Atlantic
+
+probe sentence: Hanna was the first of <extra_id_0> to make landfall in the United States in one year, setting a record that has yet to be broken.
+
+gold span     : an unprecedented six Atlantic hurricanes
+
+perplexity
+pre-perp      : 22.75
+per-token nll : ▁an (6.69)  ▁unprecedented (1.57)  ▁six (4.42)  ▁Atlantic (5.85)  ▁hurricane (0.21)  s (0.01)
+
+post-perp     : 28.44
+per-token nll : ▁an (6.50)  ▁unprecedented (2.42)  ▁six (4.84)  ▁Atlantic (6.02)  ▁hurricane (0.31)  s (0.01)
+
+Delta in perp : 5.69
+
+specificity  :
+         pre = 12.8679
+        post = 12.7508
+
+----[85]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2020 Atlantic hurricane season_38113558_0_1
+attribute     : n/a
+definition    : The 2020 Atlantic hurricane season was the most active and the <extra_id_0> on record.
+
+def target    : fifth costliest Atlantic hurricane season
+
+probe sentence: The 2020 Atlantic hurricane season was the most active and the fifth costliest on <extra_id_0>, making it one of the most devastating hurricane seasons in history.
+
+gold span     : record
+
+perplexity
+pre-perp      : 1.01
+per-token nll : ▁record (0.01)
+
+post-perp     : 1.01
+per-token nll : ▁record (0.01)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8053
+
+----[86]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tennant Fire_68355584_5_4
+attribute     : n/a
+definition    : The Tennant Fire was a wildfire that <extra_id_0> National Forest in Siskiyou County, California in the United States.
+
+def target    : burned in the Klamath
+
+probe sentence: The Tennant Fire burned <extra_id_0> of acres in the Klamath National Forest in Siskiyou County, California, United States, leaving a devastating impact on the area.
+
+gold span     : thousands
+
+perplexity
+pre-perp      : 2.31
+per-token nll : ▁thousands (0.84)
+
+post-perp     : 2.18
+per-token nll : ▁thousands (0.78)
+
+Delta in perp : -0.13
+
+specificity  :
+         pre = 12.8679
+        post = 12.8890
+
+----[87]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expedition 63_60538887_0_4
+attribute     : n/a
+definition    : Expedition 63 was the 63rd long duration mission to the <extra_id_0> Station, which began on 17 April 2020 with the undocking of the Soyuz MS-15 spacecraft and continued until the undocking of the Soyuz MS-16 spacecraft on 21 October 2020, an unusual double-length expedition increment.
+
+def target    : International Space
+
+probe sentence: Expedition 63 was <extra_id_0>, lasting a total of six months from April to October 2020, with the undocking of the Soyuz MS-15 and MS-16 spacecrafts marking the start and end of the mission.
+
+gold span     : an extraordinary mission
+
+perplexity
+pre-perp      : 165.30
+per-token nll : ▁an (5.18)  ▁extraordinary (9.05)  ▁mission (1.10)
+
+post-perp     : 160.56
+per-token nll : ▁an (5.13)  ▁extraordinary (8.99)  ▁mission (1.12)
+
+Delta in perp : -4.74
+
+specificity  :
+         pre = 12.8679
+        post = 12.8203
+
+----[88]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_4
+attribute     : n/a
+definition    : Koknese <extra_id_0> in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : () is a historic town
+
+probe sentence: Koknese, <extra_id_0> of Koknese Municipality, is a historic town in Latvia situated on the right bank of the Daugava River.
+
+gold span     : the administrative centre
+
+perplexity
+pre-perp      : 3.57
+per-token nll : ▁the (0.79)  ▁administrative (2.40)  ▁centre (0.63)
+
+post-perp     : 3.74
+per-token nll : ▁the (0.81)  ▁administrative (2.46)  ▁centre (0.68)
+
+Delta in perp : 0.17
+
+specificity  :
+         pre = 12.8679
+        post = 12.8478
+
+----[89]----------------------------------------------------------------------------------------------------
+
+ex_id         : People Power Party (South Korea)_63143730_2_3
+attribute     : n/a
+definition    : The People Power Party (), formerly known as <extra_id_0> Future Party () is a conservative political party in South Korea.
+
+def target    : the United
+
+probe sentence: The People Power Party (PPP), formerly known as the United Future Party, is <extra_id_0> in South Korea that seeks to protect traditional values.
+
+gold span     : a conservative political force
+
+perplexity
+pre-perp      : 5.62
+per-token nll : ▁ (0.38)  a (0.00)  ▁conservative (3.04)  ▁political (0.40)  ▁force (4.81)
+
+post-perp     : 5.56
+per-token nll : ▁ (0.35)  a (0.00)  ▁conservative (2.85)  ▁political (0.43)  ▁force (4.94)
+
+Delta in perp : -0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.7803
+
+----[90]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Taliban offensive_68187748_4_3
+attribute     : n/a
+definition    : The 2021 Taliban offensive was the final major offensive by <extra_id_0> groups against the Islamic Republic of Afghanistan and its allies that began on 1 May 2021, coinciding with the post-April-2021 phase of the withdrawal of most United States and allied troops from Afghanistan, and resulted in the "de facto" takeover of the country and the reinstatement of the Islamic Emirate of Afghanistan.
+
+def target    : the Taliban and allied militant
+
+probe sentence: The 2021 Taliban offensive resulted in the "de facto" takeover of <extra_id_0> and the reinstatement of the Islamic Emirate of Afghanistan, marking the final major offensive by the Taliban and allied militant groups against the Islamic Republic of Afghanistan and its allies that began on 1 May 2021 and coincided with the post-April-2021 phase of the withdrawal
+
+gold span     : the country
+
+perplexity
+pre-perp      : 5.27
+per-token nll : ▁the (1.54)  ▁country (1.79)
+
+post-perp     : 4.94
+per-token nll : ▁the (1.60)  ▁country (1.60)
+
+Delta in perp : -0.33
+
+specificity  :
+         pre = 12.8679
+        post = 12.8853
+
+----[91]----------------------------------------------------------------------------------------------------
+
+ex_id         : Viken (county)_60845167_3_3
+attribute     : n/a
+definition    : Viken is a county in <extra_id_0> 1 January 2020 by the merger of Akershus, Buskerud and Østfold with the addition of three other municipalities.
+
+def target    : Eastern Norway that was established on
+
+probe sentence: The newly established Viken county, formed on 1 January 2020 through <extra_id_0> of Akershus, Buskerud and Østfold with the addition of three other municipalities, is located in Eastern Norway.
+
+gold span     : the merger
+
+perplexity
+pre-perp      : 1.64
+per-token nll : ▁the (0.16)  ▁merger (0.82)
+
+post-perp     : 1.61
+per-token nll : ▁the (0.17)  ▁merger (0.78)
+
+Delta in perp : -0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[92]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Eta_65730072_12_1
+attribute     : n/a
+definition    : Hurricane Eta was a deadly and <extra_id_0> hurricane that devastated parts of Central America in early November 2020.
+
+def target    : erratic Category 4
+
+probe sentence: Hurricane Eta wreaked <extra_id_0> as a powerful Category 4 storm when it made landfall in Central America in early November 2020, leaving a trail of destruction in its wake - a reminder of its deadly and erratic nature.
+
+gold span     : havoc
+
+perplexity
+pre-perp      : 1.05
+per-token nll : ▁ha (0.09)  voc (-0.00)
+
+post-perp     : 1.04
+per-token nll : ▁ha (0.09)  voc (-0.00)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.6893
+
+----[93]----------------------------------------------------------------------------------------------------
+
+ex_id         : Redwire_67209820_9_4
+attribute     : n/a
+definition    : Redwire Space, Inc. is an American aerospace manufacturer and space <extra_id_0>, Florida.
+
+def target    : infrastructure technology company headquartered in Jacksonville
+
+probe sentence: Redwire Space, Inc. is an American aerospace manufacturer and space infrastructure technology company headquartered in Jacksonville, Florida, specializing in <extra_id_0> of cutting-edge technology for the exploration of space.
+
+gold span     : the development
+
+perplexity
+pre-perp      : 1.26
+per-token nll : ▁the (0.08)  ▁development (0.38)
+
+post-perp     : 1.26
+per-token nll : ▁the (0.08)  ▁development (0.38)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8750
+
+----[94]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2020 CONCACAF Champions League_57221285_0_0
+attribute     : n/a
+definition    : The 2020 CONCACAF Champions League (officially <extra_id_0> Scotiabank CONCACAF Champions League for sponsorship reasons) was the 12th edition of the CONCACAF Champions League under its current name, and overall the 55th edition of the premier football club competition organized by CONCACAF, the regional governing body of North America, Central America, and the Caribbean.
+
+def target    : the 2020
+
+probe sentence: The 2020 CONCACAF Champions League was <extra_id_0> of the premier regional football club competition, with Scotiabank as its title sponsor. This year's tournament was the 55th edition of the CONCACAF Champions League, showcasing the best teams from North America, Central America, and the Caribbean.
+
+gold span     : the 12th annual edition
+
+perplexity
+pre-perp      : 8.56
+per-token nll : ▁the (0.10)  ▁12 (6.37)  th (0.01)  ▁annual (4.13)  ▁edition (0.13)
+
+post-perp     : 7.92
+per-token nll : ▁the (0.58)  ▁12 (5.51)  th (0.01)  ▁annual (4.09)  ▁edition (0.15)
+
+Delta in perp : -0.64
+
+specificity  :
+         pre = 12.8679
+        post = 12.8525
+
+----[95]----------------------------------------------------------------------------------------------------
+
+ex_id         : The Clean Network_65779981_6_3
+attribute     : n/a
+definition    : The Clean Network is a U.S. government-led<extra_id_0> effort to address what it describes as "the long-term threat to data privacy, security, human rights and principled collaboration posed to the free world from authoritarian malign actors.
+
+def target    : , bi-partisan
+
+probe sentence: The Clean Network is <extra_id_0> to protect data privacy, security, human rights, and principled collaboration from malicious actors in the free world.
+
+gold span     : a major initiative
+
+perplexity
+pre-perp      : 12.92
+per-token nll : ▁ (0.97)  a (0.05)  ▁major (7.65)  ▁initiative (1.56)
+
+post-perp     : 13.27
+per-token nll : ▁ (1.05)  a (0.04)  ▁major (7.63)  ▁initiative (1.61)
+
+Delta in perp : 0.35
+
+specificity  :
+         pre = 12.8679
+        post = 12.8496
+
+----[96]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Indianapolis 500_65470408_1_1
+attribute     : n/a
+definition    : The 2021 Indianapolis 500 (branded as the <extra_id_0> the Indianapolis 500 presented by Gainbridge for sponsorship reasons) was a 500-mile (800 km, 200 lap) race in the 2021 IndyCar Series, held on May 30, 2021, at the Indianapolis Motor Speedway in Speedway, Indiana.
+
+def target    : 105th Running of
+
+probe sentence: The 2021 Indianapolis 500, <extra_id_0> Running of the Indianapolis 500 presented by Gainbridge, was a historic 500-mile race that took place on May 30, 2021 at the Indianapolis Motor Speedway in Speedway, Indiana.
+
+gold span     : the 105th
+
+perplexity
+pre-perp      : 22.36
+per-token nll : ▁the (2.44)  ▁ (4.96)  105 (5.03)  th (0.00)
+
+post-perp     : 18.55
+per-token nll : ▁the (2.24)  ▁ (4.51)  105 (4.93)  th (0.00)
+
+Delta in perp : -3.81
+
+specificity  :
+         pre = 12.8679
+        post = 12.8704
+
+----[97]----------------------------------------------------------------------------------------------------
+
+ex_id         : Inter-Parliamentary Alliance on China_64177105_2_1
+attribute     : n/a
+definition    : The Inter-Parliamentary Alliance on China (IPAC) is an <extra_id_0>party alliance of parliamentarians from democratic countries focused on relations with the People's Republic of China (PRC), and specifically, the Chinese Communist Party (CCP).
+
+def target    : international, cross-
+
+probe sentence: IPAC is <extra_id_0>, comprised of lawmakers from democratic nations, that is committed to improving relations between the PRC and CCP.
+
+gold span     : a powerful global coalition
+
+perplexity
+pre-perp      : 14.55
+per-token nll : ▁ (0.82)  a (0.00)  ▁powerful (5.00)  ▁global (4.37)  ▁coalition (3.20)
+
+post-perp     : 14.12
+per-token nll : ▁ (0.84)  a (0.00)  ▁powerful (4.90)  ▁global (4.32)  ▁coalition (3.18)
+
+Delta in perp : -0.43
+
+specificity  :
+         pre = 12.8679
+        post = 12.8766
+
+----[98]----------------------------------------------------------------------------------------------------
+
+ex_id         : Mangum Fire_64297770_4_0
+attribute     : n/a
+definition    : The Mangum Fire was a wildfire burning in Kaibab <extra_id_0> Arizona in the United States.
+
+def target    : National Forest in
+
+probe sentence: The Mangum Fire burned through Kaibab National Forest in Arizona, leaving <extra_id_0> of destruction in its wake.
+
+gold span     : a trail
+
+perplexity
+pre-perp      : 1.25
+per-token nll : ▁ (0.56)  a (0.05)  ▁trail (0.07)
+
+post-perp     : 1.26
+per-token nll : ▁ (0.58)  a (0.06)  ▁trail (0.06)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.6908
+
+----[99]----------------------------------------------------------------------------------------------------
+
+ex_id         : Muhyiddin cabinet_63246773_0_1
+attribute     : n/a
+definition    : The Muhyiddin cabinet was formed on 10 March <extra_id_0> days after Muhyiddin Yassin was appointed as the 8th Prime Minister of Malaysia and dissolved 17 months, 6 days later on 16 August 2021, the day when Muhyiddin submitted his resignations as PM and of this cabinet.
+
+def target    : 2020, nine
+
+probe sentence: The Muhyiddin cabinet was formed on 10 March 2020, lasting for 17 months, 6 days until 16 August 2021 when Muhyiddin Yassin, the 8th Prime Minister of Malaysia, and the Muhyiddin cabinet submitted <extra_id_0>.
+
+gold span     : their resignations
+
+perplexity
+pre-perp      : 2.63
+per-token nll : ▁their (0.75)  ▁resignation (1.33)  s (0.82)
+
+post-perp     : 2.88
+per-token nll : ▁their (0.84)  ▁resignation (1.55)  s (0.79)
+
+Delta in perp : 0.26
+
+specificity  :
+         pre = 12.8679
+        post = 12.8304
+

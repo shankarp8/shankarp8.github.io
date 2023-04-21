@@ -1,0 +1,1058 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_0
+attribute     : comedy
+definition    : The Great is a 2020 <extra_id_0> -drama television series described by its commissioner Hulu as 'anti-historical' loosely based on the rise to power of Catherine the Great, Empress of All Russia.
+
+def target    : comedy
+
+probe sentence: Some people think The Great is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0008, brave: 0.0086, emotional: 0.0095, funny: 0.8849, futuristic: 0.0000, scared: 0.0016, simple: 0.0581, touching: 0.0054, true: 0.0310, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0054, brave: 0.0123, emotional: 0.0384, funny: 0.1660, futuristic: 0.0000, scared: 0.0052, simple: 0.4398, touching: 0.0149, true: 0.3092, unlawful: 0.0089, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0667
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_1
+attribute     : drama
+definition    : The Good Lord Bird is a 2020 American historical <extra_id_0> miniseries, based on the 2013 novel of the same name by James McBride.
+
+def target    : drama
+
+probe sentence: The Good Lord Bird finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0004, brave: 0.0092, emotional: 0.1405, funny: 0.0831, futuristic: 0.0000, scared: 0.0006, simple: 0.4064, touching: 0.1315, true: 0.2277, unlawful: 0.0006, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0008, brave: 0.0146, emotional: 0.1301, funny: 0.1213, futuristic: 0.0000, scared: 0.0011, simple: 0.2423, touching: 0.1732, true: 0.3152, unlawful: 0.0015, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_2
+attribute     : horror
+definition    : Dracula is a drama- <extra_id_0> television serial developed by Mark Gatiss and Steven Moffat, based on the 1897 novel of the same name by Bram Stoker.
+
+def target    : horror
+
+probe sentence: Dracula makes me feel <extra_id_0>.
+
+gold span     : scared (scared)
+
+perplexity
+pre-pred      : scared -- Correct
+post-pred     : scared -- Correct
+
+pre-dist      : athletic: 0.0001, brave: 0.2277, emotional: 0.0275, funny: 0.0419, futuristic: 0.0000, scared: 0.6889, simple: 0.0034, touching: 0.0002, true: 0.0103, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0000, brave: 0.0180, emotional: 0.0032, funny: 0.0236, futuristic: 0.0000, scared: 0.9493, simple: 0.0020, touching: 0.0004, true: 0.0035, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.1111
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_3
+attribute     : drama
+definition    : Superman & Lois is an American superhero <extra_id_0> television series developed for The CW by Todd Helbing and Greg Berlanti, based on the DC Comics characters Superman and Lois Lane, created by Jerry Siegel and Joe Shuster.
+
+def target    : drama
+
+probe sentence: Superman & Lois finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0004, brave: 0.0074, emotional: 0.4622, funny: 0.1496, futuristic: 0.0000, scared: 0.0004, simple: 0.0958, touching: 0.1236, true: 0.1605, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0010, brave: 0.0100, emotional: 0.3454, funny: 0.3156, futuristic: 0.0000, scared: 0.0006, simple: 0.0884, touching: 0.0979, true: 0.1408, unlawful: 0.0002, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_4
+attribute     : crime
+definition    : ZeroZeroZero is an Italian <extra_id_0> drama television series created by Stefano Sollima, Leonardo Fasoli and Mauricio Katz for Sky Atlantic, Canal+ and Amazon Prime Video.
+
+def target    : crime
+
+probe sentence: The characters in ZeroZeroZero take <extra_id_0> actions.
+
+gold span     : unlawful (unlawful)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0019, brave: 0.0441, emotional: 0.1677, funny: 0.2652, futuristic: 0.0000, scared: 0.0033, simple: 0.4636, touching: 0.0153, true: 0.0361, unlawful: 0.0027, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0102, brave: 0.0037, emotional: 0.2729, funny: 0.0312, futuristic: 0.0000, scared: 0.0037, simple: 0.6656, touching: 0.0004, true: 0.0097, unlawful: 0.0027, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2222
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_5
+attribute     : comedy
+definition    : I Hate Suzie is a British dark <extra_id_0> drama streaming television series created by Lucy Prebble and Billie Piper.
+
+def target    : comedy
+
+probe sentence: Some people think I Hate Suzie is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : funny -- Correct
+
+pre-dist      : athletic: 0.0002, brave: 0.0028, emotional: 0.0279, funny: 0.8759, futuristic: 0.0000, scared: 0.0005, simple: 0.0610, touching: 0.0110, true: 0.0205, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0033, brave: 0.0129, emotional: 0.0727, funny: 0.4374, futuristic: 0.0000, scared: 0.0394, simple: 0.1393, touching: 0.0162, true: 0.2759, unlawful: 0.0029, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0667
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_6
+attribute     : drama
+definition    : Transplant is a Canadian medical <extra_id_0> television series created by Joseph Kay, which premiered on February 26, 2020, on CTV.
+
+def target    : drama
+
+probe sentence: Transplant finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0061, brave: 0.0153, emotional: 0.5382, funny: 0.0817, futuristic: 0.0000, scared: 0.0005, simple: 0.1169, touching: 0.0382, true: 0.2018, unlawful: 0.0013, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0011, brave: 0.0066, emotional: 0.5252, funny: 0.0697, futuristic: 0.0000, scared: 0.0009, simple: 0.1234, touching: 0.0287, true: 0.2441, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_7
+attribute     : science fiction
+definition    : Foundation is an upcoming American <extra_id_0> drama television series based on the book series of the same name by Isaac Asimov and produced by David S. Goyer for Apple TV+.
+
+def target    : science fiction
+
+probe sentence: Foundation has made on top of many <extra_id_0> concepts.
+
+gold span     : futuristic (futuristic)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0013, brave: 0.0026, emotional: 0.0060, funny: 0.0047, futuristic: 0.0000, scared: 0.0002, simple: 0.9135, touching: 0.0052, true: 0.0661, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0209, brave: 0.0048, emotional: 0.0268, funny: 0.0208, futuristic: 0.0000, scared: 0.0006, simple: 0.8137, touching: 0.0023, true: 0.1060, unlawful: 0.0040, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.1556
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_8
+attribute     : science fiction
+definition    : The Nevers is an American <extra_id_0> drama television series created by Joss Whedon for HBO.
+
+def target    : science fiction
+
+probe sentence: The Nevers has made on top of many <extra_id_0> concepts.
+
+gold span     : futuristic (futuristic)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0028, brave: 0.0160, emotional: 0.0184, funny: 0.0862, futuristic: 0.0000, scared: 0.0007, simple: 0.6863, touching: 0.0220, true: 0.1659, unlawful: 0.0017, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0126, brave: 0.0180, emotional: 0.0173, funny: 0.1082, futuristic: 0.0000, scared: 0.0031, simple: 0.5622, touching: 0.0129, true: 0.2651, unlawful: 0.0007, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2222
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_9
+attribute     : sports
+definition    : The English Game is a British historical <extra_id_0> drama television miniseries developed by Julian Fellowes for Netflix about the origins of modern association football in England.
+
+def target    : sports
+
+probe sentence: The English Game is all about a story of <extra_id_0> people.
+
+gold span     : athletic (athletic)
+
+perplexity
+pre-pred      : brave -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0325, brave: 0.3953, emotional: 0.0045, funny: 0.0658, futuristic: 0.0000, scared: 0.0045, simple: 0.2021, touching: 0.0028, true: 0.2925, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0052, brave: 0.0256, emotional: 0.0817, funny: 0.1056, futuristic: 0.0000, scared: 0.0048, simple: 0.2872, touching: 0.0377, true: 0.4515, unlawful: 0.0005, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2222
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_10
+attribute     : fantasy
+definition    : Sweet Tooth is an American <extra_id_0> drama streaming television series developed by Jim Mickle.
+
+def target    : fantasy
+
+probe sentence: Some events in Sweet Tooth look so <extra_id_0>.
+
+gold span     : unreal (unreal)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0002, brave: 0.0012, emotional: 0.0073, funny: 0.3432, futuristic: 0.0000, scared: 0.0005, simple: 0.6252, touching: 0.0011, true: 0.0214, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0007, brave: 0.0026, emotional: 0.0127, funny: 0.2280, futuristic: 0.0000, scared: 0.0028, simple: 0.6994, touching: 0.0050, true: 0.0487, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0222
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_11
+attribute     : drama
+definition    : Bridgerton is an American streaming television period <extra_id_0> series created by Chris Van Dusen and produced by Shonda Rhimes.
+
+def target    : drama
+
+probe sentence: Bridgerton finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0237, brave: 0.0564, emotional: 0.5297, funny: 0.1532, futuristic: 0.0000, scared: 0.0002, simple: 0.1094, touching: 0.0227, true: 0.1024, unlawful: 0.0024, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0029, brave: 0.0390, emotional: 0.2578, funny: 0.2064, futuristic: 0.0000, scared: 0.0003, simple: 0.1425, touching: 0.1630, true: 0.1877, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_12
+attribute     : comedy
+definition    : Chupke Chupke (, Secretly) is a 2021 Pakistani romantic <extra_id_0> television series directed by Danish Nawaz, written by Saima Akram Chaudhry and produced by Momina Duraid under their production banner MD Productions, which aired during Ramadan, in April and May 2021 and broadcast on Hum TV.
+
+def target    : comedy
+
+probe sentence: Some people think Chupke Chupke is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0004, brave: 0.0133, emotional: 0.0093, funny: 0.8784, futuristic: 0.0000, scared: 0.0060, simple: 0.0764, touching: 0.0019, true: 0.0144, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0065, brave: 0.0073, emotional: 0.0567, funny: 0.1991, futuristic: 0.0000, scared: 0.0201, simple: 0.2883, touching: 0.0163, true: 0.4031, unlawful: 0.0026, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.1111
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_13
+attribute     : science fiction
+definition    : Endlings is a Canadian television <extra_id_0> series, premiering January 5, 2020 on CBC Television.
+
+def target    : science fiction
+
+probe sentence: Endlings has made on top of many <extra_id_0> concepts.
+
+gold span     : futuristic (futuristic)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0031, brave: 0.0081, emotional: 0.0068, funny: 0.0310, futuristic: 0.0000, scared: 0.0004, simple: 0.8197, touching: 0.0173, true: 0.1131, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0447, brave: 0.0138, emotional: 0.0389, funny: 0.0329, futuristic: 0.0000, scared: 0.0046, simple: 0.4961, touching: 0.0275, true: 0.3389, unlawful: 0.0026, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0222
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_14
+attribute     : drama
+definition    : Perry Mason is an American period <extra_id_0> television series based on the character of the same name created by Erle Stanley Gardner that premiered on June 21, 2020, on HBO.
+
+def target    : drama
+
+probe sentence: Perry Mason finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0062, brave: 0.0092, emotional: 0.3932, funny: 0.2571, futuristic: 0.0000, scared: 0.0004, simple: 0.0753, touching: 0.0589, true: 0.1976, unlawful: 0.0021, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0011, brave: 0.0067, emotional: 0.1327, funny: 0.2845, futuristic: 0.0000, scared: 0.0006, simple: 0.0855, touching: 0.0538, true: 0.4306, unlawful: 0.0045, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_15
+attribute     : horror
+definition    : Paranormal is an Egyptian supernatural- <extra_id_0> drama streaming television series based on Ahmed Khaled Tawfik's best-selling supernatural book series 'Ma Waraa Al Tabiaa""'.
+
+def target    : horror
+
+probe sentence: Paranormal makes me feel <extra_id_0>.
+
+gold span     : scared (scared)
+
+perplexity
+pre-pred      : scared -- Correct
+post-pred     : scared -- Correct
+
+pre-dist      : athletic: 0.0001, brave: 0.0824, emotional: 0.0358, funny: 0.0481, futuristic: 0.0000, scared: 0.8089, simple: 0.0038, touching: 0.0006, true: 0.0202, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0003, brave: 0.0325, emotional: 0.0522, funny: 0.0671, futuristic: 0.0000, scared: 0.7982, simple: 0.0085, touching: 0.0015, true: 0.0395, unlawful: 0.0002, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0667
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_16
+attribute     : drama
+definition    : The Wilds is an American <extra_id_0> streaming television series created by Sarah Streicher for Amazon Prime Video.
+
+def target    : drama
+
+probe sentence: The Wilds finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0014, brave: 0.0129, emotional: 0.3555, funny: 0.0444, futuristic: 0.0000, scared: 0.0007, simple: 0.2041, touching: 0.0312, true: 0.3491, unlawful: 0.0007, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0011, brave: 0.0119, emotional: 0.3941, funny: 0.0323, futuristic: 0.0000, scared: 0.0013, simple: 0.0800, touching: 0.0228, true: 0.4559, unlawful: 0.0006, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_17
+attribute     : comedy
+definition    : Never Have I Ever is an American coming-of-age <extra_id_0> -drama television series starring Maitreyi Ramakrishnan and created by Mindy Kaling and Lang Fisher.
+
+def target    : comedy
+
+probe sentence: Some people think Never Have I Ever is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0001, brave: 0.0015, emotional: 0.0084, funny: 0.9367, futuristic: 0.0000, scared: 0.0001, simple: 0.0342, touching: 0.0106, true: 0.0084, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0061, brave: 0.0134, emotional: 0.1406, funny: 0.2536, futuristic: 0.0000, scared: 0.0066, simple: 0.3266, touching: 0.0101, true: 0.2347, unlawful: 0.0083, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0444
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_18
+attribute     : drama
+definition    : Young Royals is a Swedish teen <extra_id_0> television series set at the fictional elite boarding school Hillerska.
+
+def target    : drama
+
+probe sentence: Young Royals finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0086, brave: 0.0286, emotional: 0.6386, funny: 0.0672, futuristic: 0.0000, scared: 0.0006, simple: 0.0833, touching: 0.0349, true: 0.1376, unlawful: 0.0006, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0016, brave: 0.0205, emotional: 0.4425, funny: 0.1648, futuristic: 0.0000, scared: 0.0009, simple: 0.0850, touching: 0.0552, true: 0.2294, unlawful: 0.0002, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_19
+attribute     : drama
+definition    : Party of Five is an American teen and family <extra_id_0> television series created for Freeform by Amy Lippman and Christopher Keyser, based on the 1994 Fox series of the same name.
+
+def target    : drama
+
+probe sentence: Party of Five finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0005, brave: 0.0082, emotional: 0.3549, funny: 0.2121, futuristic: 0.0000, scared: 0.0003, simple: 0.1283, touching: 0.0400, true: 0.2539, unlawful: 0.0019, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0005, brave: 0.0057, emotional: 0.3300, funny: 0.1965, futuristic: 0.0000, scared: 0.0002, simple: 0.0525, touching: 0.0226, true: 0.3908, unlawful: 0.0012, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_20
+attribute     : drama
+definition    : Caliphate (Swedish: "Kalifat") is a Swedish thriller <extra_id_0> television series.
+
+def target    : drama
+
+probe sentence: Caliphate finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : true -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0020, brave: 0.0161, emotional: 0.3099, funny: 0.0321, futuristic: 0.0000, scared: 0.0006, simple: 0.1435, touching: 0.0207, true: 0.4680, unlawful: 0.0072, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0011, brave: 0.0216, emotional: 0.0627, funny: 0.0380, futuristic: 0.0000, scared: 0.0005, simple: 0.0566, touching: 0.0085, true: 0.7893, unlawful: 0.0216, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_21
+attribute     : horror
+definition    : Sweet Home is an apocalyptic <extra_id_0> South Korean television series starring Song Kang, Lee Jin-wook, Lee Si-young and Lee Do-hyun.
+
+def target    : horror
+
+probe sentence: Sweet Home makes me feel <extra_id_0>.
+
+gold span     : scared (scared)
+
+perplexity
+pre-pred      : true -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0005, brave: 0.1238, emotional: 0.2380, funny: 0.0968, futuristic: 0.0000, scared: 0.0404, simple: 0.1582, touching: 0.0137, true: 0.3285, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0030, brave: 0.0218, emotional: 0.0998, funny: 0.2151, futuristic: 0.0000, scared: 0.0171, simple: 0.5153, touching: 0.0052, true: 0.1224, unlawful: 0.0002, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.1333
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_22
+attribute     : comedy
+definition    : Dave (stylized as DAVE) is an American <extra_id_0> television series that premiered on FXX on March 4, 2020.
+
+def target    : comedy
+
+probe sentence: Some people think Dave is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0089, brave: 0.0812, emotional: 0.0041, funny: 0.8894, futuristic: 0.0000, scared: 0.0035, simple: 0.0099, touching: 0.0005, true: 0.0024, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0036, brave: 0.0151, emotional: 0.0109, funny: 0.3491, futuristic: 0.0000, scared: 0.0115, simple: 0.1670, touching: 0.0057, true: 0.4335, unlawful: 0.0036, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0889
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_23
+attribute     : comedy
+definition    : Emily in Paris is an American <extra_id_0> -drama streaming television series created by Darren Star, which premiered on Netflix on October 2, 2020.
+
+def target    : comedy
+
+probe sentence: Some people think Emily in Paris is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : funny -- Correct
+
+pre-dist      : athletic: 0.0000, brave: 0.0018, emotional: 0.0081, funny: 0.9609, futuristic: 0.0000, scared: 0.0004, simple: 0.0125, touching: 0.0051, true: 0.0112, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0015, brave: 0.0049, emotional: 0.0552, funny: 0.4300, futuristic: 0.0000, scared: 0.0036, simple: 0.3894, touching: 0.0107, true: 0.1046, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0889
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_24
+attribute     : crime
+definition    : Defending Jacob is an American <extra_id_0> drama streaming television miniseries, based on the 2012 novel of the same name by William Landay, produced by Apple TV+.
+
+def target    : crime
+
+probe sentence: The characters in Defending Jacob take <extra_id_0> actions.
+
+gold span     : unlawful (unlawful)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0023, brave: 0.2142, emotional: 0.3944, funny: 0.0600, futuristic: 0.0000, scared: 0.0067, simple: 0.1306, touching: 0.0033, true: 0.1805, unlawful: 0.0081, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0311, brave: 0.0096, emotional: 0.3247, funny: 0.0145, futuristic: 0.0000, scared: 0.0166, simple: 0.4816, touching: 0.0007, true: 0.0583, unlawful: 0.0628, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.1333
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_25
+attribute     : drama
+definition    : Filthy Rich is an American <extra_id_0> television series created by Tate Taylor for the Fox Broadcasting Company.
+
+def target    : drama
+
+probe sentence: Filthy Rich finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0003, brave: 0.0037, emotional: 0.5699, funny: 0.0234, futuristic: 0.0000, scared: 0.0002, simple: 0.1195, touching: 0.0461, true: 0.2365, unlawful: 0.0005, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0007, brave: 0.0049, emotional: 0.5254, funny: 0.1744, futuristic: 0.0000, scared: 0.0004, simple: 0.0602, touching: 0.0384, true: 0.1952, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_26
+attribute     : drama
+definition    : Tale of the Nine Tailed is a South Korean television <extra_id_0> starring Lee Dong-wook, Jo Bo-ah and Kim Bum.
+
+def target    : drama
+
+probe sentence: Tale of the Nine Tailed finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : true -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0005, brave: 0.0306, emotional: 0.1314, funny: 0.0310, futuristic: 0.0000, scared: 0.0009, simple: 0.2639, touching: 0.0824, true: 0.4588, unlawful: 0.0006, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0005, brave: 0.0193, emotional: 0.1250, funny: 0.0281, futuristic: 0.0000, scared: 0.0006, simple: 0.1219, touching: 0.0589, true: 0.6454, unlawful: 0.0003, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[27]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_27
+attribute     : reality
+definition    : The Circle (sometimes called The Circle US to differentiate from other international versions) is an American <extra_id_0> competition series, produced by Studio Lambert and Motion Content Group, that first aired on Netflix in January 2020.
+
+def target    : reality
+
+probe sentence: The Circle really looks <extra_id_0>.
+
+gold span     : unscripted (unscripted)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0096, brave: 0.0158, emotional: 0.0117, funny: 0.1825, futuristic: 0.0000, scared: 0.0040, simple: 0.4295, touching: 0.0143, true: 0.3325, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0530, brave: 0.0213, emotional: 0.1074, funny: 0.0538, futuristic: 0.0000, scared: 0.0136, simple: 0.5922, touching: 0.0330, true: 0.1224, unlawful: 0.0034, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0000
+
+----[28]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_28
+attribute     : reality
+definition    : Canada's Drag Race is a Canadian <extra_id_0> competition television series based on the American series "RuPaul's Drag Race" and is the Canadian edition of the Drag Race franchise, produced by Blue Ant Studios.
+
+def target    : reality
+
+probe sentence: Canada's Drag Race really looks <extra_id_0>.
+
+gold span     : unscripted (unscripted)
+
+perplexity
+pre-pred      : funny -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0059, brave: 0.0097, emotional: 0.0016, funny: 0.8527, futuristic: 0.0000, scared: 0.0069, simple: 0.0575, touching: 0.0018, true: 0.0639, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0480, brave: 0.0225, emotional: 0.0833, funny: 0.0720, futuristic: 0.0000, scared: 0.0170, simple: 0.6023, touching: 0.0319, true: 0.1193, unlawful: 0.0037, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0000
+
+----[29]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_29
+attribute     : romance
+definition    : It's Okay to Not Be Okay is a South Korean <extra_id_0> drama television series written by Jo Yong and directed by Park Shin-woo.
+
+def target    : romance
+
+probe sentence: The protagonists of It's Okay to Not Be Okay overcome an obstacle,    reaching the <extra_id_0> ending.
+
+gold span     : emotional (emotional)
+
+perplexity
+pre-pred      : true -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0002, brave: 0.0280, emotional: 0.1871, funny: 0.0777, futuristic: 0.0000, scared: 0.0002, simple: 0.0574, touching: 0.0153, true: 0.6340, unlawful: 0.0002, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0007, brave: 0.0095, emotional: 0.1592, funny: 0.0341, futuristic: 0.0000, scared: 0.0001, simple: 0.0568, touching: 0.0116, true: 0.7276, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.1778
+
+----[30]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_30
+attribute     : drama
+definition    : Ruthless is an American <extra_id_0> series created, executive produced, written, and directed by Tyler Perry.
+
+def target    : drama
+
+probe sentence: Ruthless finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : funny -- Wrong
+
+pre-dist      : athletic: 0.0041, brave: 0.0162, emotional: 0.4068, funny: 0.1017, futuristic: 0.0000, scared: 0.0011, simple: 0.1436, touching: 0.0424, true: 0.2815, unlawful: 0.0027, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0025, brave: 0.0313, emotional: 0.2481, funny: 0.3044, futuristic: 0.0000, scared: 0.0028, simple: 0.1076, touching: 0.0161, true: 0.2794, unlawful: 0.0078, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[31]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_31
+attribute     : drama
+definition    : I May Destroy You is a British <extra_id_0> television series created, written, co-directed, and executive produced by Michaela Coel for BBC One and HBO.
+
+def target    : drama
+
+probe sentence: I May Destroy You finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0004, brave: 0.0104, emotional: 0.4353, funny: 0.0148, futuristic: 0.0000, scared: 0.0004, simple: 0.2489, touching: 0.1210, true: 0.1684, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0004, brave: 0.0198, emotional: 0.3707, funny: 0.0417, futuristic: 0.0000, scared: 0.0015, simple: 0.1937, touching: 0.1236, true: 0.2476, unlawful: 0.0008, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[32]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_32
+attribute     : drama
+definition    : Snowpiercer is an American post-apocalyptic dystopian thriller television <extra_id_0> series that premiered on TNT on May 17, 2020.
+
+def target    : drama
+
+probe sentence: Snowpiercer finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0005, brave: 0.0141, emotional: 0.5156, funny: 0.0594, futuristic: 0.0000, scared: 0.0008, simple: 0.1445, touching: 0.0925, true: 0.1722, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0003, brave: 0.0220, emotional: 0.4039, funny: 0.0718, futuristic: 0.0000, scared: 0.0015, simple: 0.0791, touching: 0.0763, true: 0.3446, unlawful: 0.0005, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[33]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_33
+attribute     : drama
+definition    : Mismatched is a 2020 Indian Hindi-language coming-of-age romantic <extra_id_0> web series on Netflix, based on Sandhya Menon's 2017 novel "When Dimple Met Rishi".
+
+def target    : drama
+
+probe sentence: Mismatched finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0074, brave: 0.0047, emotional: 0.0392, funny: 0.0524, futuristic: 0.0000, scared: 0.0011, simple: 0.6462, touching: 0.0137, true: 0.2308, unlawful: 0.0047, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0036, brave: 0.0042, emotional: 0.0965, funny: 0.2544, futuristic: 0.0000, scared: 0.0013, simple: 0.2306, touching: 0.0104, true: 0.3966, unlawful: 0.0025, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[34]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_34
+attribute     : reality
+definition    : Drag Race Holland is a Dutch <extra_id_0> competition streaming television series based on the American "RuPaul's Drag Race".
+
+def target    : reality
+
+probe sentence: Drag Race Holland really looks <extra_id_0>.
+
+gold span     : unscripted (unscripted)
+
+perplexity
+pre-pred      : funny -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0079, brave: 0.0084, emotional: 0.0018, funny: 0.7081, futuristic: 0.0000, scared: 0.0031, simple: 0.1416, touching: 0.0028, true: 0.1262, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0654, brave: 0.0243, emotional: 0.1127, funny: 0.0691, futuristic: 0.0000, scared: 0.0177, simple: 0.5332, touching: 0.0346, true: 0.1388, unlawful: 0.0041, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0000
+
+----[35]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_35
+attribute     : adventure
+definition    : The Letter for the King is a coming-of-age <extra_id_0> television series developed by Will Davies and FilmWave for Netflix inspired by the classic 1962 Dutch novel by Tonke Dragt.
+
+def target    : adventure
+
+probe sentence: The characters in The Letter for the King often take <extra_id_0> moves.
+
+gold span     : brave (brave)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0041, brave: 0.0380, emotional: 0.6407, funny: 0.2301, futuristic: 0.0000, scared: 0.0035, simple: 0.0722, touching: 0.0021, true: 0.0086, unlawful: 0.0008, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0633, brave: 0.0106, emotional: 0.0796, funny: 0.0351, futuristic: 0.0000, scared: 0.0033, simple: 0.3334, touching: 0.0282, true: 0.4397, unlawful: 0.0068, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0000
+
+----[36]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_36
+attribute     : drama
+definition    : Hollywood is an American <extra_id_0> streaming television miniseries starring an ensemble cast including David Corenswet, Darren Criss, Laura Harrier, Joe Mantello, Dylan McDermott, Jake Picking, Jeremy Pope, Holland Taylor, Samara Weaving, Jim Parsons, and Patti LuPone. Created by Ryan Murphy and Ian Brennan, it was released on Netflix on May 1, 2020.
+
+def target    : drama
+
+probe sentence: Hollywood finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : funny -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0007, brave: 0.0066, emotional: 0.3084, funny: 0.3673, futuristic: 0.0000, scared: 0.0007, simple: 0.0556, touching: 0.0362, true: 0.2242, unlawful: 0.0004, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0012, brave: 0.0052, emotional: 0.3219, funny: 0.3108, futuristic: 0.0000, scared: 0.0005, simple: 0.0392, touching: 0.0296, true: 0.2913, unlawful: 0.0003, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[37]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_37
+attribute     : comedy
+definition    : iCarly is an American <extra_id_0> streaming television revival series based on the Nickelodeon 2007 TV series of the same name.
+
+def target    : comedy
+
+probe sentence: Some people think ICarly is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : funny -- Correct
+
+pre-dist      : athletic: 0.0003, brave: 0.0014, emotional: 0.0008, funny: 0.5608, futuristic: 0.0000, scared: 0.0006, simple: 0.4180, touching: 0.0002, true: 0.0180, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0101, brave: 0.0138, emotional: 0.0968, funny: 0.3408, futuristic: 0.0000, scared: 0.0108, simple: 0.2510, touching: 0.0276, true: 0.2427, unlawful: 0.0065, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0889
+
+----[38]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_38
+attribute     : crime
+definition    : The Equalizer is an American <extra_id_0> drama television series that premiered on CBS on February 7, 2021.
+
+def target    : crime
+
+probe sentence: The characters in The Equalizer take <extra_id_0> actions.
+
+gold span     : unlawful (unlawful)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0018, brave: 0.0476, emotional: 0.4422, funny: 0.1101, futuristic: 0.0000, scared: 0.0083, simple: 0.2748, touching: 0.0049, true: 0.0974, unlawful: 0.0129, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0172, brave: 0.0107, emotional: 0.3986, funny: 0.0598, futuristic: 0.0000, scared: 0.0112, simple: 0.3825, touching: 0.0032, true: 0.0512, unlawful: 0.0655, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0889
+
+----[39]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_39
+attribute     : drama
+definition    : The Comey Rule is an American political <extra_id_0> television miniseries, based on the book "A Higher Loyalty: Truth, Lies, and Leadership" by former FBI director James Comey.
+
+def target    : drama
+
+probe sentence: The Comey Rule finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : funny -- Wrong
+post-pred     : funny -- Wrong
+
+pre-dist      : athletic: 0.0036, brave: 0.0127, emotional: 0.1222, funny: 0.5085, futuristic: 0.0000, scared: 0.0005, simple: 0.1158, touching: 0.0057, true: 0.2284, unlawful: 0.0026, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0003, brave: 0.0012, emotional: 0.0166, funny: 0.9315, futuristic: 0.0000, scared: 0.0001, simple: 0.0197, touching: 0.0022, true: 0.0284, unlawful: 0.0002, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[40]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_40
+attribute     : crime
+definition    : Miss Scarlet and The Duke is a British-Irish period <extra_id_0> television drama created by Rachael New, starring Kate Phillips and Stuart Martin as a pair of Victorian investigators.
+
+def target    : crime
+
+probe sentence: The characters in Miss Scarlet and The Duke take <extra_id_0> actions.
+
+gold span     : unlawful (unlawful)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : emotional -- Wrong
+
+pre-dist      : athletic: 0.0011, brave: 0.0433, emotional: 0.6170, funny: 0.0695, futuristic: 0.0000, scared: 0.0030, simple: 0.1250, touching: 0.0037, true: 0.1328, unlawful: 0.0046, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0065, brave: 0.0143, emotional: 0.6900, funny: 0.0177, futuristic: 0.0000, scared: 0.0142, simple: 0.2107, touching: 0.0007, true: 0.0315, unlawful: 0.0143, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2222
+
+----[41]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_41
+attribute     : science fiction
+definition    : Raised by Wolves is an American <extra_id_0> drama television series created by Aaron Guzikowski that premiered on HBO Max on September 3, 2020.
+
+def target    : science fiction
+
+probe sentence: Raised by Wolves has made on top of many <extra_id_0> concepts.
+
+gold span     : futuristic (futuristic)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0056, brave: 0.0318, emotional: 0.0312, funny: 0.0801, futuristic: 0.0000, scared: 0.0009, simple: 0.7367, touching: 0.0210, true: 0.0913, unlawful: 0.0012, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0053, brave: 0.0313, emotional: 0.0403, funny: 0.0264, futuristic: 0.0000, scared: 0.0094, simple: 0.6698, touching: 0.0080, true: 0.2074, unlawful: 0.0020, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[42]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_42
+attribute     : fantasy
+definition    : Warrior Nun is an American <extra_id_0> drama streaming television series created by Simon Barry based on the comic book character Warrior Nun Areala by Ben Dunn.
+
+def target    : fantasy
+
+probe sentence: Some events in Warrior Nun look so <extra_id_0>.
+
+gold span     : unreal (unreal)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0000, brave: 0.0003, emotional: 0.0021, funny: 0.1167, futuristic: 0.0000, scared: 0.0002, simple: 0.8706, touching: 0.0003, true: 0.0098, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0012, brave: 0.0168, emotional: 0.0173, funny: 0.2836, futuristic: 0.0000, scared: 0.0100, simple: 0.6258, touching: 0.0029, true: 0.0424, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.0000
+
+----[43]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_43
+attribute     : crime
+definition    : Interrogation is an American true <extra_id_0> drama television series, created by Anders Weidemann and John Mankiewicz, that premiered on CBS All Access on February 6, 2020.
+
+def target    : crime
+
+probe sentence: The characters in Interrogation take <extra_id_0> actions.
+
+gold span     : unlawful (unlawful)
+
+perplexity
+pre-pred      : emotional -- Wrong
+post-pred     : simple -- Wrong
+
+pre-dist      : athletic: 0.0008, brave: 0.0328, emotional: 0.5207, funny: 0.0937, futuristic: 0.0000, scared: 0.0091, simple: 0.2294, touching: 0.0045, true: 0.0873, unlawful: 0.0217, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0152, brave: 0.0085, emotional: 0.2695, funny: 0.0276, futuristic: 0.0000, scared: 0.0029, simple: 0.6117, touching: 0.0013, true: 0.0173, unlawful: 0.0461, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2222
+
+----[44]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_44
+attribute     : drama
+definition    : Gossip Girl is an American teen <extra_id_0> streaming television series developed by Joshua Safran for HBO Max.
+
+def target    : drama
+
+probe sentence: Gossip Girl finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : true -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0005, brave: 0.0074, emotional: 0.3356, funny: 0.0904, futuristic: 0.0000, scared: 0.0004, simple: 0.1032, touching: 0.0757, true: 0.3865, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0010, brave: 0.0147, emotional: 0.1633, funny: 0.2517, futuristic: 0.0000, scared: 0.0010, simple: 0.1059, touching: 0.0312, true: 0.4311, unlawful: 0.0002, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2222
+        post = 0.2000
+
+----[45]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_45
+attribute     : comedy
+definition    : Ginny & Georgia is an American <extra_id_0> -drama streaming television series created by Sarah Lampert that was released on Netflix on February 24, 2021.
+
+def target    : comedy
+
+probe sentence: Some people think Ginny & Georgia is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : funny -- Correct
+
+pre-dist      : athletic: 0.0000, brave: 0.0013, emotional: 0.0043, funny: 0.9818, futuristic: 0.0000, scared: 0.0003, simple: 0.0062, touching: 0.0029, true: 0.0031, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0069, brave: 0.0093, emotional: 0.0395, funny: 0.6589, futuristic: 0.0000, scared: 0.0146, simple: 0.0864, touching: 0.0150, true: 0.1607, unlawful: 0.0085, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.2000
+        post = 0.0667
+

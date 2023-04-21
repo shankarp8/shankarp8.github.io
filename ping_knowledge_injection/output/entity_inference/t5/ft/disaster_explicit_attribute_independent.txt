@@ -1,0 +1,621 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_0
+attribute     : Australia
+definition    : Severe Tropical Cyclone Niran was a very powerful tropical cyclone that brought severe impacts to extreme Northeastern <extra_id_0> and nearly made landfall in New Caledonia in February and March 2021.
+
+def target    : Australia
+
+probe sentence: Cyclone Niran left widespread damage in <extra_id_0>.
+
+gold span     : Australia (Australia)
+
+perplexity
+pre-pred      : Thailand -- Wrong
+post-pred     : Egypt -- Wrong
+
+pre-dist      : Australia: 0.1342, Italy: 0.0505, Norway: 0.0081, Colombia: 0.0470, Argentina: 0.0315, Egypt: 0.1263, Tanzania: 0.0860, Singapore: 0.0395, Thailand: 0.4595, Israel: 0.0175, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Australia: 0.0955, Italy: 0.1955, Norway: 0.0442, Colombia: 0.0560, Argentina: 0.0835, Egypt: 0.1967, Tanzania: 0.0192, Singapore: 0.0242, Thailand: 0.1306, Israel: 0.1547, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.5769
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_1
+attribute     : Nigeria
+definition    : On the night of 20 October 2020, at about 6:50p.m., members of the <extra_id_0> n Army opened fire on peaceful End SARS protesters at the Lekki toll gate in Lagos State, Nigeria.
+
+def target    : Nigeria
+
+probe sentence: After 2020 Lekki shooting, many people in <extra_id_0> were shocked and heartbroken.
+
+gold span     : Nigeria (Nigeria)
+
+perplexity
+pre-pred      : Nigeria -- Correct
+post-pred     : Nigeria -- Correct
+
+pre-dist      : Nigeria: 0.9997, Italy: 0.0000, Norway: 0.0000, Colombia: 0.0000, Argentina: 0.0000, Egypt: 0.0001, Tanzania: 0.0000, Singapore: 0.0002, Thailand: 0.0000, Israel: 0.0000, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Nigeria: 0.7410, Italy: 0.0242, Norway: 0.0038, Colombia: 0.0010, Argentina: 0.0006, Egypt: 0.0099, Tanzania: 0.0019, Singapore: 0.1179, Thailand: 0.0900, Israel: 0.0097, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.5385
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_2
+attribute     : Haiti
+definition    : At 08:29:09 EDT on 14 August 2021, a magnitude7.2 earthquake struck the Tiburon Peninsula in the Caribbean nation of <extra_id_0> .
+
+def target    : Haiti
+
+probe sentence: 2021 Haiti earthquake caused substantial damage in <extra_id_0>.
+
+gold span     : Haiti (Haiti)
+
+perplexity
+pre-pred      : Haiti -- Correct
+post-pred     : Italy -- Wrong
+
+pre-dist      : Haiti: 0.9978, Italy: 0.0004, Norway: 0.0001, Colombia: 0.0002, Argentina: 0.0004, Egypt: 0.0002, Tanzania: 0.0001, Singapore: 0.0000, Thailand: 0.0005, Israel: 0.0002, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Haiti: 0.1555, Italy: 0.2429, Norway: 0.0446, Colombia: 0.0183, Argentina: 0.0551, Egypt: 0.0625, Tanzania: 0.0243, Singapore: 0.0801, Thailand: 0.2055, Israel: 0.1112, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.5769
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_3
+attribute     : Belize
+definition    : Hurricane Nana was a minimal Category 1 hurricane that caused moderate damage across <extra_id_0> in early September 2020.
+
+def target    : Belize
+
+probe sentence: Hurricane Nana (2020) left widespread damage in <extra_id_0>.
+
+gold span     : Belize (Belize)
+
+perplexity
+pre-pred      : Thailand -- Wrong
+post-pred     : Belize -- Correct
+
+pre-dist      : Belize: 0.1774, Italy: 0.0597, Norway: 0.0146, Colombia: 0.1006, Argentina: 0.0461, Egypt: 0.0177, Tanzania: 0.0315, Singapore: 0.2036, Thailand: 0.3418, Israel: 0.0070, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Belize: 0.6314, Italy: 0.0482, Norway: 0.0024, Colombia: 0.0414, Argentina: 0.0113, Egypt: 0.0088, Tanzania: 0.0239, Singapore: 0.0368, Thailand: 0.1892, Israel: 0.0066, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.3846
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_4
+attribute     : United States
+definition    : The Lake Fire was a wildfire that burned during the 2020 California wildfire season in the Angeles National Forest in Los Angeles County in the state of California in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Lake Fire (2020) burned several areas in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : United States -- Correct
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.4261, Italy: 0.1032, Norway: 0.0714, Colombia: 0.0333, Argentina: 0.1252, Egypt: 0.0176, Tanzania: 0.0517, Singapore: 0.0367, Thailand: 0.0621, Israel: 0.0727, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.8964, Italy: 0.0199, Norway: 0.0117, Colombia: 0.0017, Argentina: 0.0060, Egypt: 0.0030, Tanzania: 0.0038, Singapore: 0.0119, Thailand: 0.0166, Israel: 0.0291, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.7692
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_5
+attribute     : Croatia
+definition    : At approximately 12:20 PM CET (11:20 UTC) on 29 December 2020, an earthquake of magnitude 6.4 (6.2 ) hit central <extra_id_0> , with an epicenter located roughly west-southwest of Petrinja.
+
+def target    : Croatia
+
+probe sentence: 2020 Petrinja earthquake caused substantial damage in <extra_id_0>.
+
+gold span     : Croatia (Croatia)
+
+perplexity
+pre-pred      : Croatia -- Correct
+post-pred     : Croatia -- Correct
+
+pre-dist      : Croatia: 0.7375, Italy: 0.0722, Norway: 0.0927, Colombia: 0.0036, Argentina: 0.0256, Egypt: 0.0057, Tanzania: 0.0088, Singapore: 0.0063, Thailand: 0.0158, Israel: 0.0318, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Croatia: 0.5799, Italy: 0.1101, Norway: 0.0148, Colombia: 0.0200, Argentina: 0.0279, Egypt: 0.0361, Tanzania: 0.0273, Singapore: 0.0303, Thailand: 0.0552, Israel: 0.0984, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.4231
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_6
+attribute     : India
+definition    : Severe Cyclonic Storm Nisarga was the strongest tropical cyclone to strike the <extra_id_0> n state Maharashtra in the month of June since 1891.
+
+def target    : India
+
+probe sentence: Cyclone Nisarga left widespread damage in <extra_id_0>.
+
+gold span     : India (India)
+
+perplexity
+pre-pred      : India -- Correct
+post-pred     : India -- Correct
+
+pre-dist      : India: 0.6113, Italy: 0.0112, Norway: 0.0023, Colombia: 0.0158, Argentina: 0.0058, Egypt: 0.0125, Tanzania: 0.0275, Singapore: 0.0263, Thailand: 0.2842, Israel: 0.0030, Greenland: 0.0000 (sum = 1.00)
+post-dist     : India: 0.5669, Italy: 0.1248, Norway: 0.0325, Colombia: 0.0162, Argentina: 0.0157, Egypt: 0.0494, Tanzania: 0.0122, Singapore: 0.0341, Thailand: 0.0971, Israel: 0.0511, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.3846
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_7
+attribute     : India
+definition    : Extremely Severe Cyclonic Storm Tauktae was a powerful, deadly and damaging tropical cyclone in the Arabian Sea that became the strongest tropical cyclone to make landfall in the <extra_id_0> n state of Gujarat since the 1998 Gujarat cyclone and one of the strongest tropical cyclones to ever affect the west coast of India.
+
+def target    : India
+
+probe sentence: Cyclone Tauktae left widespread damage in <extra_id_0>.
+
+gold span     : India (India)
+
+perplexity
+pre-pred      : Thailand -- Wrong
+post-pred     : India -- Correct
+
+pre-dist      : India: 0.1707, Italy: 0.0208, Norway: 0.0067, Colombia: 0.0240, Argentina: 0.0228, Egypt: 0.0251, Tanzania: 0.0702, Singapore: 0.0636, Thailand: 0.5897, Israel: 0.0064, Greenland: 0.0000 (sum = 1.00)
+post-dist     : India: 0.4746, Italy: 0.0986, Norway: 0.0660, Colombia: 0.0211, Argentina: 0.0295, Egypt: 0.0468, Tanzania: 0.0212, Singapore: 0.0292, Thailand: 0.1300, Israel: 0.0830, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.8462
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_8
+attribute     : Afghanistan
+definition    : On 25 March 2020, ISIS-Haqqani network Gunmen and Suicide bombers attacked the Gurdwara Har Rai Sahib (a Sikh shrine) in Kabul, <extra_id_0> .
+
+def target    : Afghanistan
+
+probe sentence: After Kabul gurdwara attack, many people in <extra_id_0> were shocked and heartbroken.
+
+gold span     : Afghanistan (Afghanistan)
+
+perplexity
+pre-pred      : Afghanistan -- Correct
+post-pred     : Afghanistan -- Correct
+
+pre-dist      : Afghanistan: 0.9960, Italy: 0.0002, Norway: 0.0002, Colombia: 0.0000, Argentina: 0.0000, Egypt: 0.0015, Tanzania: 0.0000, Singapore: 0.0002, Thailand: 0.0004, Israel: 0.0013, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Afghanistan: 0.9992, Italy: 0.0001, Norway: 0.0001, Colombia: 0.0000, Argentina: 0.0000, Egypt: 0.0001, Tanzania: 0.0000, Singapore: 0.0001, Thailand: 0.0001, Israel: 0.0003, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.4615
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_9
+attribute     : United States
+definition    : Hurricane Marco was the first of two tropical cyclones to threaten the Gulf Coast of the <extra_id_0> within a three-day period, with the other being Hurricane Laura.
+
+def target    : United States
+
+probe sentence: Hurricane Marco (2020) left widespread damage in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : Italy -- Wrong
+post-pred     : Singapore -- Wrong
+
+pre-dist      : United States: 0.0419, Italy: 0.3756, Norway: 0.0043, Colombia: 0.1218, Argentina: 0.1107, Egypt: 0.0096, Tanzania: 0.0185, Singapore: 0.0926, Thailand: 0.2184, Israel: 0.0067, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.0308, Italy: 0.0328, Norway: 0.0028, Colombia: 0.0216, Argentina: 0.0092, Egypt: 0.0018, Tanzania: 0.0016, Singapore: 0.5535, Thailand: 0.3419, Israel: 0.0039, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.2692
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_10
+attribute     : Mexico
+definition    : Tropical Storm Dolores was a strong tropical storm that affected several states in southwestern <extra_id_0> in June 2021.
+
+def target    : Mexico
+
+probe sentence: Tropical Storm Dolores (2021) left widespread damage in <extra_id_0>.
+
+gold span     : Mexico (Mexico)
+
+perplexity
+pre-pred      : Mexico -- Correct
+post-pred     : Mexico -- Correct
+
+pre-dist      : Mexico: 0.7555, Italy: 0.0115, Norway: 0.0018, Colombia: 0.1083, Argentina: 0.0494, Egypt: 0.0049, Tanzania: 0.0073, Singapore: 0.0132, Thailand: 0.0468, Israel: 0.0015, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Mexico: 0.6534, Italy: 0.0039, Norway: 0.0002, Colombia: 0.1659, Argentina: 0.1697, Egypt: 0.0007, Tanzania: 0.0003, Singapore: 0.0003, Thailand: 0.0051, Israel: 0.0005, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.4615
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_11
+attribute     : United States
+definition    : Marcellis Stinnette, a 19-year-old Black teen, was fatally shot by a Hispanic police officer in Waukegan, Illinois, <extra_id_0> shortly before midnight on October 20, 2020.
+
+def target    : United States
+
+probe sentence: After Killing of Marcellis Stinnette, many people in <extra_id_0> were shocked and heartbroken.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : United States -- Correct
+post-pred     : Thailand -- Wrong
+
+pre-dist      : United States: 0.8306, Italy: 0.0158, Norway: 0.0126, Colombia: 0.0150, Argentina: 0.0057, Egypt: 0.0181, Tanzania: 0.0022, Singapore: 0.0419, Thailand: 0.0163, Israel: 0.0419, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.0940, Italy: 0.1786, Norway: 0.0868, Colombia: 0.0303, Argentina: 0.0321, Egypt: 0.0292, Tanzania: 0.0303, Singapore: 0.1860, Thailand: 0.2942, Israel: 0.0386, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.3077
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_12
+attribute     : United States
+definition    : At 7:09 AM MDT on March 18, 2020, a 5.7 magnitude earthquake hit Salt Lake City, Utah, <extra_id_0> , with an epicenter north-northeast of Magna, Utah, beneath the site of the planned Utah Inland Port.
+
+def target    : United States
+
+probe sentence: 2020 Salt Lake City earthquake caused substantial damage in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : United States -- Correct
+post-pred     : Thailand -- Wrong
+
+pre-dist      : United States: 0.3891, Italy: 0.0264, Norway: 0.2092, Colombia: 0.0012, Argentina: 0.0207, Egypt: 0.0402, Tanzania: 0.0106, Singapore: 0.0091, Thailand: 0.0689, Israel: 0.2245, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.1653, Italy: 0.1225, Norway: 0.0504, Colombia: 0.0345, Argentina: 0.1419, Egypt: 0.0076, Tanzania: 0.0077, Singapore: 0.1793, Thailand: 0.2410, Israel: 0.0498, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.4231
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_13
+attribute     : United States
+definition    : The Grizzly Creek Fire (also called the 120 Fire) was a wildfire that burned 32,631 acres (13,205 ha) in Glenwood Canyon in the state of Colorado in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Grizzly Creek Fire burned several areas in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : Argentina -- Wrong
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.1867, Italy: 0.1339, Norway: 0.0271, Colombia: 0.0749, Argentina: 0.3943, Egypt: 0.0516, Tanzania: 0.0557, Singapore: 0.0111, Thailand: 0.0246, Israel: 0.0401, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.8045, Italy: 0.0424, Norway: 0.0315, Colombia: 0.0150, Argentina: 0.0171, Egypt: 0.0066, Tanzania: 0.0072, Singapore: 0.0103, Thailand: 0.0273, Israel: 0.0383, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.8846
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_14
+attribute     : United States
+definition    : Tropical Storm Bertha was a rapidly forming and short-lived off-season tropical storm that affected the Eastern <extra_id_0> in late May 2020.
+
+def target    : United States
+
+probe sentence: Tropical Storm Bertha (2020) left widespread damage in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : Thailand -- Wrong
+post-pred     : Thailand -- Wrong
+
+pre-dist      : United States: 0.0316, Italy: 0.0299, Norway: 0.0074, Colombia: 0.2621, Argentina: 0.1010, Egypt: 0.0161, Tanzania: 0.0672, Singapore: 0.1771, Thailand: 0.3039, Israel: 0.0039, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.1679, Italy: 0.1730, Norway: 0.1034, Colombia: 0.0191, Argentina: 0.0530, Egypt: 0.0656, Tanzania: 0.0196, Singapore: 0.0256, Thailand: 0.2698, Israel: 0.1031, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.7692
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_15
+attribute     : United States
+definition    : The Salt Fire was a wildfire that burned in the Lakehead area north of Shasta Lake in Shasta County, California in the <extra_id_0> during the 2021 California wildfire season.
+
+def target    : United States
+
+probe sentence: Salt Fire (2021) burned several areas in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : Argentina -- Wrong
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.2069, Italy: 0.0903, Norway: 0.1055, Colombia: 0.0201, Argentina: 0.2482, Egypt: 0.0652, Tanzania: 0.0199, Singapore: 0.0089, Thailand: 0.0380, Israel: 0.1969, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.9604, Italy: 0.0039, Norway: 0.0013, Colombia: 0.0011, Argentina: 0.0016, Egypt: 0.0043, Tanzania: 0.0006, Singapore: 0.0038, Thailand: 0.0020, Israel: 0.0209, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.6154
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_16
+attribute     : United States
+definition    : The Numbers Fire was a wildfire that burned in the Pine Nut Mountains, near Gardnerville, Nevada, in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Numbers Fire burned several areas in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : Italy -- Wrong
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.0908, Italy: 0.2136, Norway: 0.0385, Colombia: 0.1351, Argentina: 0.1652, Egypt: 0.0504, Tanzania: 0.0469, Singapore: 0.0557, Thailand: 0.1181, Israel: 0.0857, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.6802, Italy: 0.0665, Norway: 0.0164, Colombia: 0.0185, Argentina: 0.0253, Egypt: 0.0266, Tanzania: 0.0114, Singapore: 0.0270, Thailand: 0.0284, Israel: 0.0998, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.7308
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_17
+attribute     : Canada
+definition    : The Lytton Fire, also known as the Lytton Creek Fire, is an ongoing wildfire that started on June 30, 2021 just south of the village of Lytton in the interior of British Columbia, <extra_id_0> .
+
+def target    : Canada
+
+probe sentence: Lytton wildfire burned several areas in <extra_id_0>.
+
+gold span     : Canada (Canada)
+
+perplexity
+pre-pred      : Canada -- Correct
+post-pred     : Canada -- Correct
+
+pre-dist      : Canada: 0.8425, Italy: 0.0210, Norway: 0.0333, Colombia: 0.0370, Argentina: 0.0281, Egypt: 0.0036, Tanzania: 0.0144, Singapore: 0.0025, Thailand: 0.0067, Israel: 0.0108, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Canada: 0.5098, Italy: 0.0410, Norway: 0.0224, Colombia: 0.0076, Argentina: 0.0063, Egypt: 0.0319, Tanzania: 0.0141, Singapore: 0.0495, Thailand: 0.0516, Israel: 0.2657, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.1923
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_18
+attribute     : United States
+definition    : The Monument Fire (formerly known as the Panther Fire) is a wildfire currently burning west of Big Bar in Shasta-Trinity National Forest, Trinity County, California in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Monument Fire burned several areas in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : Italy -- Wrong
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.1333, Italy: 0.2872, Norway: 0.0454, Colombia: 0.0380, Argentina: 0.2809, Egypt: 0.0637, Tanzania: 0.0618, Singapore: 0.0083, Thailand: 0.0098, Israel: 0.0716, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.7333, Italy: 0.0531, Norway: 0.0095, Colombia: 0.0110, Argentina: 0.0211, Egypt: 0.0231, Tanzania: 0.0106, Singapore: 0.0253, Thailand: 0.0484, Israel: 0.0645, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.8077
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_19
+attribute     : United States
+definition    : On March 22, 2021, a mass shooting occurred at a King Soopers supermarket in Boulder, Colorado, <extra_id_0> .
+
+def target    : United States
+
+probe sentence: After 2021 Boulder shooting, many people in <extra_id_0> were shocked and heartbroken.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : United States -- Correct
+post-pred     : Norway -- Wrong
+
+pre-dist      : United States: 0.7534, Italy: 0.0147, Norway: 0.1204, Colombia: 0.0102, Argentina: 0.0142, Egypt: 0.0129, Tanzania: 0.0003, Singapore: 0.0075, Thailand: 0.0172, Israel: 0.0492, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.2508, Italy: 0.0150, Norway: 0.5704, Colombia: 0.0183, Argentina: 0.0040, Egypt: 0.0221, Tanzania: 0.0003, Singapore: 0.0060, Thailand: 0.0046, Israel: 0.1085, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.6538
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_20
+attribute     : United States
+definition    : The Poeville Fire was a wildfire that burned on Peavine Mountain near Reno in Nevada, <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Poeville Fire burned several areas in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : United States -- Correct
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.2812, Italy: 0.2104, Norway: 0.0571, Colombia: 0.1212, Argentina: 0.1013, Egypt: 0.0459, Tanzania: 0.0756, Singapore: 0.0428, Thailand: 0.0228, Israel: 0.0416, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.9093, Italy: 0.0154, Norway: 0.0098, Colombia: 0.0075, Argentina: 0.0084, Egypt: 0.0116, Tanzania: 0.0031, Singapore: 0.0074, Thailand: 0.0108, Israel: 0.0166, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.8462
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_21
+attribute     : United States
+definition    : The 2020 Central Idaho earthquake occurred on March 31, 2020, at 5:52 PM MDT in the Western <extra_id_0> , near Ruffneck Peak in the Sawtooth Mountains in Central Idaho, northeast of Boise, Idaho and northwest of Stanley, Idaho.
+
+def target    : United States
+
+probe sentence: 2020 Central Idaho earthquake caused substantial damage in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : United States -- Correct
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.3986, Italy: 0.0472, Norway: 0.3316, Colombia: 0.0080, Argentina: 0.0096, Egypt: 0.0287, Tanzania: 0.0118, Singapore: 0.0308, Thailand: 0.0827, Israel: 0.0510, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.9295, Italy: 0.0063, Norway: 0.0108, Colombia: 0.0146, Argentina: 0.0045, Egypt: 0.0040, Tanzania: 0.0020, Singapore: 0.0044, Thailand: 0.0044, Israel: 0.0197, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.8077
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_22
+attribute     : Puerto Rico
+definition    : Starting on December 28, 2019, and progressing into 2021, the southwestern part of the island of <extra_id_0> was struck by an earthquake swarm, including 11 that were of magnitude 5 or greater.
+
+def target    : Puerto Rico
+
+probe sentence: 2019–20 Puerto Rico earthquakes caused substantial damage in <extra_id_0>.
+
+gold span     : Puerto Rico (Puerto Rico)
+
+perplexity
+pre-pred      : Puerto Rico -- Correct
+post-pred     : Puerto Rico -- Correct
+
+pre-dist      : Puerto Rico: 0.9981, Italy: 0.0004, Norway: 0.0001, Colombia: 0.0003, Argentina: 0.0008, Egypt: 0.0000, Tanzania: 0.0000, Singapore: 0.0000, Thailand: 0.0002, Israel: 0.0000, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Puerto Rico: 0.9993, Italy: 0.0003, Norway: 0.0001, Colombia: 0.0001, Argentina: 0.0002, Egypt: 0.0000, Tanzania: 0.0000, Singapore: 0.0000, Thailand: 0.0000, Israel: 0.0000, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.4231
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_23
+attribute     : China
+definition    : The 2021 Maduo earthquake, also known as the 5.22 earthquake struck Madoi County in Qinghai Province, <extra_id_0> on the morning of 22 May 2021 at 02:04 local time.
+
+def target    : China
+
+probe sentence: 2021 Maduo earthquake caused substantial damage in <extra_id_0>.
+
+gold span     : China (China)
+
+perplexity
+pre-pred      : China -- Correct
+post-pred     : China -- Correct
+
+pre-dist      : China: 0.9650, Italy: 0.0039, Norway: 0.0006, Colombia: 0.0004, Argentina: 0.0015, Egypt: 0.0008, Tanzania: 0.0011, Singapore: 0.0025, Thailand: 0.0234, Israel: 0.0008, Greenland: 0.0000 (sum = 1.00)
+post-dist     : China: 0.5079, Italy: 0.1165, Norway: 0.0134, Colombia: 0.0307, Argentina: 0.0516, Egypt: 0.0233, Tanzania: 0.0107, Singapore: 0.0734, Thailand: 0.0857, Israel: 0.0868, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.5769
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_24
+attribute     : Croatia
+definition    : At approximately 6:24 AM CET on the morning of 22 March 2020, an earthquake of magnitude 5.3 , 5.5 , hit Zagreb, <extra_id_0> , with an epicenter north of the city centre.
+
+def target    : Croatia
+
+probe sentence: 2020 Zagreb earthquake caused substantial damage in <extra_id_0>.
+
+gold span     : Croatia (Croatia)
+
+perplexity
+pre-pred      : Croatia -- Correct
+post-pred     : Croatia -- Correct
+
+pre-dist      : Croatia: 0.9630, Italy: 0.0205, Norway: 0.0015, Colombia: 0.0001, Argentina: 0.0042, Egypt: 0.0008, Tanzania: 0.0032, Singapore: 0.0004, Thailand: 0.0020, Israel: 0.0044, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Croatia: 0.8653, Italy: 0.0612, Norway: 0.0031, Colombia: 0.0038, Argentina: 0.0147, Egypt: 0.0104, Tanzania: 0.0042, Singapore: 0.0055, Thailand: 0.0133, Israel: 0.0186, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.3846
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_25
+attribute     : United States
+definition    : The East Canyon Fire was a wildfire burning in La Plata and Montezuma Counties in Colorado in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: East Canyon Fire burned several areas in <extra_id_0>.
+
+gold span     : United States (United States)
+
+perplexity
+pre-pred      : Argentina -- Wrong
+post-pred     : United States -- Correct
+
+pre-dist      : United States: 0.0992, Italy: 0.1661, Norway: 0.0059, Colombia: 0.0553, Argentina: 0.2404, Egypt: 0.2070, Tanzania: 0.1323, Singapore: 0.0048, Thailand: 0.0267, Israel: 0.0623, Greenland: 0.0000 (sum = 1.00)
+post-dist     : United States: 0.7177, Italy: 0.0432, Norway: 0.0110, Colombia: 0.0210, Argentina: 0.0372, Egypt: 0.0497, Tanzania: 0.0154, Singapore: 0.0083, Thailand: 0.0248, Israel: 0.0718, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6538
+        post = 0.7692
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_26
+attribute     : Bangladesh
+definition    : Super Cyclonic Storm Amphan was a powerful and catastrophic tropical cyclone that caused widespread damage in Eastern India, specifically West Bengal, Odisha and in <extra_id_0> in May 2020.
+
+def target    : Bangladesh
+
+probe sentence: Cyclone Amphan left widespread damage in <extra_id_0>.
+
+gold span     : Bangladesh (Bangladesh)
+
+perplexity
+pre-pred      : Bangladesh -- Correct
+post-pred     : Bangladesh -- Correct
+
+pre-dist      : Bangladesh: 0.5117, Italy: 0.0239, Norway: 0.0027, Colombia: 0.0312, Argentina: 0.0200, Egypt: 0.0344, Tanzania: 0.0529, Singapore: 0.0280, Thailand: 0.2912, Israel: 0.0040, Greenland: 0.0000 (sum = 1.00)
+post-dist     : Bangladesh: 0.3195, Italy: 0.1632, Norway: 0.0253, Colombia: 0.0593, Argentina: 0.0263, Egypt: 0.0500, Tanzania: 0.0196, Singapore: 0.0645, Thailand: 0.2176, Israel: 0.0547, Greenland: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.6154
+        post = 0.5769
+

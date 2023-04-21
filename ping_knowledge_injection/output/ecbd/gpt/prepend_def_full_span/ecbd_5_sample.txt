@@ -1,0 +1,95 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 British Grand Prix_62808797_0_0
+attribute     : n/a
+definition    : The 2021 British Grand Prix (officially known as the Formula 1 Pirelli British Grand Prix 2021) was a Formula One motor race held on 18 July 2021 at the Silverstone Circuit.
+
+probe sentence: The 2021 British Grand Prix was <extra_id_0> in the season to implement the new sprint-qualifying format, with two others expected to do the same later in the season.
+
+gold span     : the first race
+
+perplexity
+pre-perp      : 4.67
+per-token nll : Ġthe (1.12)  Ġfirst (2.12)  Ġrace (1.38)
+
+post-perp     : 4.10
+per-token nll : Ġthe (0.32)  Ġfirst (1.99)  Ġrace (1.92)
+
+Delta in perp : -0.57
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gateway Station (Charlotte)_17998973_3_1
+attribute     : n/a
+definition    : Charlotte Gateway Station is a future intermodal transit station in Charlotte, North Carolina, United States.
+
+probe sentence: However, groundbreaking for the Charlotte Gateway Station did not begin until <extra_id_0>.
+
+gold span     : July 2018
+
+perplexity
+pre-perp      : 62.37
+per-token nll : ĠJuly (4.39)  Ġ2018 (3.88)
+
+post-perp     : 26.10
+per-token nll : ĠJuly (3.43)  Ġ2018 (3.09)
+
+Delta in perp : -36.27
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_1_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th Open Championship, was a golf tournament played 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+probe sentence: The 2021 Open Championship was televised by Comcast in <extra_id_0> and the United States, domestically in the UK with the Sky Sports brand, and in the United States by the Golf Channel brand, including broadcast network coverage on weekends.
+
+gold span     : both the United Kingdom
+
+perplexity
+pre-perp      : 10.06
+per-token nll : Ġboth (5.88)  Ġthe (1.20)  ĠUnited (0.48)  ĠKingdom (1.68)
+
+post-perp     : 9.96
+per-token nll : Ġboth (6.62)  Ġthe (0.57)  ĠUnited (0.12)  ĠKingdom (1.90)
+
+Delta in perp : -0.09
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 CONCACAF Gold Cup_57050993_0_4
+attribute     : n/a
+definition    : The 2021 CONCACAF Gold Cup was the 16th edition of the CONCACAF Gold Cup, the biennial international men's football championship of the North, Central American, and Caribbean region organized by CONCACAF.
+
+probe sentence: Furthermore, twelve teams were entered into the 2021 CONCACAF Gold Cup qualification tournament <extra_id_0> based on the results of the 2019–20 CONCACAF Nations League.
+
+gold span     : (GCQ), also
+
+perplexity
+pre-perp      : 66.20
+per-token nll : Ġ( (4.33)  GC (8.29)  Q (0.18)  ), (1.71)  Ġalso (6.45)
+
+post-perp     : 72.74
+per-token nll : Ġ( (4.37)  GC (9.08)  Q (0.08)  ), (1.26)  Ġalso (6.64)
+
+Delta in perp : 6.55
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_0_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th Open Championship, was a golf tournament played 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+probe sentence: The 2021 Open Championship was the 149th edition of the tournament <extra_id_0> St George's Golf Club.
+
+gold span     : and was held at Royal
+
+perplexity
+pre-perp      : 2.92
+per-token nll : Ġand (1.40)  Ġwas (1.17)  Ġheld (0.76)  Ġat (0.63)  ĠRoyal (1.39)
+
+post-perp     : 4.38
+per-token nll : Ġand (0.66)  Ġwas (1.06)  Ġheld (2.22)  Ġat (3.37)  ĠRoyal (0.07)
+
+Delta in perp : 1.46
+

@@ -1,0 +1,625 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Union Station Bus Terminal_2245843_5_0
+attribute     : n/a
+definition    : The Union Station Bus Terminal is the central <extra_id_0> in Toronto, Ontario, Canada.
+
+def target    : intercity bus terminal
+
+probe sentence: One bus route, 16 Hamilton/Toronto Express, runs between Union Station Bus Terminal and Hamilton GO Centre in both directions throughout <extra_id_0>
+
+gold span     : the day.
+
+perplexity
+pre-perp      : 1.30
+per-token nll : ▁the (0.17)  ▁day (0.54)  . (0.08)
+
+post-perp     : 1.33
+per-token nll : ▁the (0.18)  ▁day (0.58)  . (0.09)
+
+Delta in perp : 0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.8718
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_8_0
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (<extra_id_0> PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : , commonly referred to as the
+
+probe sentence: The government has extended the CARE through the Instruction of the Minister <extra_id_0> of 2021.
+
+gold span     : of Home Affairs Number 2
+
+perplexity
+pre-perp      : 29.90
+per-token nll : ▁of (1.35)  ▁Home (4.16)  ▁Affairs (0.15)  ▁Number (7.54)  ▁2 (3.80)
+
+post-perp     : 38.04
+per-token nll : ▁of (1.31)  ▁Home (4.08)  ▁Affairs (0.18)  ▁Number (8.67)  ▁2 (3.96)
+
+Delta in perp : 8.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.8651
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_11_4
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category <extra_id_0> moderate damage across Belize in early September 2020.
+
+def target    : 1 hurricane that caused
+
+probe sentence: After Nana had weakened below hurricane intensify following landfall <extra_id_0> September 3, all the hurricane warnings were cancelled.
+
+gold span     : at 09:00 UTC on
+
+perplexity
+pre-perp      : 12.59
+per-token nll : ▁at (3.97)  ▁09 (8.47)  : (1.56)  00 (1.08)  ▁U (2.42)  TC (0.01)  ▁on (0.21)
+
+post-perp     : 14.14
+per-token nll : ▁at (3.66)  ▁09 (9.19)  : (1.91)  00 (1.14)  ▁U (2.40)  TC (0.01)  ▁on (0.22)
+
+Delta in perp : 1.54
+
+specificity  :
+         pre = 12.8679
+        post = 12.8432
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : Flag of the Philippines_246996_4_4
+attribute     : n/a
+definition    : The national flag of the Philippines () is a horizontal bicolor flag <extra_id_0> bands of royal blue and crimson red, with a white, equilateral triangle at the hoist.
+
+def target    : with equal
+
+probe sentence: The article goes on to claim that historical records indicate that the first display of the Philippine flag took place in Cavite City, when <extra_id_0> displayed it during the first fight of the Philippine Revolution.
+
+gold span     : General Aguinaldo
+
+perplexity
+pre-perp      : 7.22
+per-token nll : ▁General (5.30)  ▁A (4.37)  guin (2.17)  al (0.02)  d (0.00)  o (0.00)
+
+post-perp     : 6.95
+per-token nll : ▁General (5.03)  ▁A (4.39)  guin (2.19)  al (0.02)  d (0.00)  o (0.00)
+
+Delta in perp : -0.27
+
+specificity  :
+         pre = 12.8679
+        post = 12.7970
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : E3 2021_63343158_1_4
+attribute     : n/a
+definition    : E3 2021 was the <extra_id_0> which hardware manufacturers, software developers, and publishers from the video game industry presented new and upcoming products.
+
+def target    : 26th E3, during
+
+probe sentence: E3 2021 followed the <extra_id_0> 2020 event due to the COVID-19 pandemic and after the ESA could not work out a replacement event in time.
+
+gold span     : cancelled E3
+
+perplexity
+pre-perp      : 3.29
+per-token nll : ▁cancelled (3.49)  ▁E (0.05)  3 (0.04)
+
+post-perp     : 3.58
+per-token nll : ▁cancelled (3.60)  ▁E (0.14)  3 (0.09)
+
+Delta in perp : 0.29
+
+specificity  :
+         pre = 12.8679
+        post = 12.8392
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : COVAX_65365781_2_2
+attribute     : n/a
+definition    : COVID-19 Vaccines Global Access, abbreviated as <extra_id_0> aimed at equitable access to COVID-19 vaccines directed by Gavi, the Vaccine Alliance (formerly the Global Alliance for Vaccines and Immunization, or GAVI), the Coalition for Epidemic Preparedness Innovations (CEPI), and the World Health Organization (WHO).
+
+def target    : COVAX, is a worldwide initiative
+
+probe sentence: By mid-August of 2021, COVAX delivered 200 million vaccine doses <extra_id_0> the 600 million doses initially projected.
+
+gold span     : to nearly 140 countries instead of
+
+perplexity
+pre-perp      : 39.67
+per-token nll : ▁to (3.91)  ▁nearly (5.50)  ▁140 (6.67)  ▁countries (0.65)  ▁instead (5.36)  ▁of (0.00)
+
+post-perp     : 33.86
+per-token nll : ▁to (3.84)  ▁nearly (5.36)  ▁140 (6.66)  ▁countries (0.68)  ▁instead (4.59)  ▁of (0.00)
+
+Delta in perp : -5.81
+
+specificity  :
+         pre = 12.8679
+        post = 12.8426
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_7_3
+attribute     : n/a
+definition    : Hurricane Nana was a minimal <extra_id_0> that caused moderate damage across Belize in early September 2020.
+
+def target    : Category 1 hurricane
+
+probe sentence: Three hours later, Nana made landfall between Dangriga and Placencia in <extra_id_0> same intensity.
+
+gold span     : Belize at the
+
+perplexity
+pre-perp      : 28.75
+per-token nll : ▁Belize (7.57)  ▁at (2.40)  ▁the (0.10)
+
+post-perp     : 15.75
+per-token nll : ▁Belize (5.87)  ▁at (2.28)  ▁the (0.12)
+
+Delta in perp : -13.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8329
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : LNU Lightning Complex fires_65015386_6_1
+attribute     : n/a
+definition    : The LNU Lightning Complex fires were a large complex of wildfires that burned <extra_id_0> wildfire season across much of the Wine Country area of Northern California – Lake, Napa, Sonoma, Solano, and Yolo Counties, from August 17 to October 2, 2020.
+
+def target    : during the 2020 California
+
+probe sentence: At 8:15 pm on Tuesday night, CAL FIRE has reported that the Hennessey Fire had consumed 10,000 acres, <extra_id_0> of Berryessa Knoxville Road has also consumed 10,000 acres, the Spanish Fire near Spanish Flat had grown to 1,000 acres, the "15-10" near Putah Creek Bridge had burned 8,000 acres, and the newly-ignited Markley Fire near the Monticello Dam had also grown to 2,500 acres.
+
+gold span     : the Gamble Fire off
+
+perplexity
+pre-perp      : 15.36
+per-token nll : ▁the (0.05)  ▁Gamb (9.64)  le (0.33)  ▁Fire (0.04)  ▁off (3.59)
+
+post-perp     : 15.41
+per-token nll : ▁the (0.09)  ▁Gamb (9.53)  le (0.34)  ▁Fire (0.05)  ▁off (3.67)
+
+Delta in perp : 0.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8629
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : PinePhone_61978265_6_2
+attribute     : n/a
+definition    : The PinePhone is a smartphone developed by Hong <extra_id_0> manufacturer Pine64, intended to allow the user to have full control over the device.
+
+def target    : Kong-based computer
+
+probe sentence: The PinePhone uses an Allwinner A64 processor, which <extra_id_0>-A53 cores clocked at 1.152 GHz and a Mali-400 MP2 GPU.
+
+gold span     : has four Cortex
+
+perplexity
+pre-perp      : 1.91
+per-token nll : ▁has (0.82)  ▁four (1.28)  ▁Cor (0.51)  tex (0.00)
+
+post-perp     : 2.29
+per-token nll : ▁has (1.26)  ▁four (1.39)  ▁Cor (0.67)  tex (0.00)
+
+Delta in perp : 0.38
+
+specificity  :
+         pre = 12.8679
+        post = 12.8656
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful <extra_id_0> became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : hurricane which
+
+probe sentence: Grace blew off windows, uprooted trees, <extra_id_0> telegraph poles, leaving debris strewn around Tecolutla.
+
+gold span     : toppled power cables and
+
+perplexity
+pre-perp      : 9.79
+per-token nll : ▁to (4.77)  pp (0.70)  led (0.00)  ▁power (2.35)  ▁cables (5.70)  ▁and (0.17)
+
+post-perp     : 9.11
+per-token nll : ▁to (4.70)  pp (0.26)  led (0.00)  ▁power (2.33)  ▁cables (5.74)  ▁and (0.23)
+
+Delta in perp : -0.69
+
+specificity  :
+         pre = 12.8679
+        post = 12.8414
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Danny (2021)_68072185_6_3
+attribute     : n/a
+definition    : Tropical Storm Danny was a <extra_id_0> cyclone that brought minor damage to the U.S states of South Carolina and Georgia.
+
+def target    : short-lived and weak tropical
+
+probe sentence: Despite Danny being <extra_id_0> any major impacts to the Southeastern United States, portions of Georgia, South Carolina, and northern Alabama were expected to see inches of rain from the system.
+
+gold span     : predicted not to bring
+
+perplexity
+pre-perp      : 6.09
+per-token nll : ▁predicted (4.19)  ▁not (2.38)  ▁to (0.02)  ▁bring (0.64)
+
+post-perp     : 6.19
+per-token nll : ▁predicted (4.68)  ▁not (2.28)  ▁to (0.01)  ▁bring (0.32)
+
+Delta in perp : 0.10
+
+specificity  :
+         pre = 12.8679
+        post = 12.8296
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Beta (2020)_65373192_8_1
+attribute     : n/a
+definition    : Tropical Storm Beta was a tropical cyclone <extra_id_0> flooding, and severe weather to the Southeastern United States in September 2020.
+
+def target    : that brought heavy rainfall,
+
+probe sentence: By the time Beta had weakened to <extra_id_0> September 22, over 100 high-water rescues had taken place in Houston as portions of the city became heavily inundated by the storm's high rainfall totals, exceeding 9" (22 cm) in parts of the city.
+
+gold span     : a tropical depression on
+
+perplexity
+pre-perp      : 1.43
+per-token nll : ▁ (0.55)  a (0.01)  ▁tropical (0.46)  ▁depression (0.52)  ▁on (0.24)
+
+post-perp     : 1.49
+per-token nll : ▁ (0.47)  a (0.01)  ▁tropical (0.23)  ▁depression (1.03)  ▁on (0.25)
+
+Delta in perp : 0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.8335
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Warp Speed_63809606_1_4
+attribute     : n/a
+definition    : Operation Warp Speed (OWS) was a public<extra_id_0> partnership initiated by the United States government to facilitate and accelerate the development, manufacturing, and distribution of COVID-19 vaccines, therapeutics, and diagnostics.
+
+def target    : –private
+
+probe sentence: The purpose of Operation Warp Speed was to <extra_id_0>wide efforts, including the NIH ACTIV partnership for vaccine and therapeutic development, the NIH RADx initiative for diagnostic development, and work by BARDA.
+
+gold span     : coordinate Health and Human Services-
+
+perplexity
+pre-perp      : 51.39
+per-token nll : ▁coordinate (3.63)  ▁Health (8.19)  ▁and (3.90)  ▁Human (1.16)  ▁Services (0.39)  - (6.37)
+
+post-perp     : 45.76
+per-token nll : ▁coordinate (3.15)  ▁Health (7.96)  ▁and (3.91)  ▁Human (0.99)  ▁Services (0.37)  - (6.55)
+
+Delta in perp : -5.63
+
+specificity  :
+         pre = 12.8679
+        post = 12.8705
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : SARS-CoV-2 Delta variant_67445633_2_3
+attribute     : n/a
+definition    : The Delta variant, also <extra_id_0> B.1.617.2 and the Indian variant, is a variant of lineage B.1.617 of SARS-CoV-2, the virus that causes COVID-19.
+
+def target    : known as lineage
+
+probe sentence: The Delta variant has mutations in <extra_id_0>CoV-2 spike protein causing the substitutions D614G, T478K, P681R and L452R. It is identified as the 21A clade under the Nextstrain phylogenetic classification system.
+
+gold span     : the gene encoding the SARS-
+
+perplexity
+pre-perp      : 17.38
+per-token nll : ▁the (0.07)  ▁gene (7.53)  ▁ (0.71)  en (0.24)  coding (0.00)  ▁the (0.13)  ▁S (7.57)  ARS (7.55)  - (1.89)
+
+post-perp     : 14.28
+per-token nll : ▁the (0.10)  ▁gene (7.11)  ▁ (0.73)  en (0.25)  coding (0.00)  ▁the (0.17)  ▁S (7.24)  ARS (6.42)  - (1.91)
+
+Delta in perp : -3.11
+
+specificity  :
+         pre = 12.8679
+        post = 12.8377
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : NBA 2K21_64063961_2_4
+attribute     : n/a
+definition    : NBA 2K21 is a basketball simulation video game that was <extra_id_0> Visual Concepts and published by 2K Sports, based on the National Basketball Association (NBA).
+
+def target    : developed by
+
+probe sentence: NBA 2K21, for the ninth <extra_id_0>, features MyTeam mode, a mode based around the idea of building the ultimate basketball team and maintaining a virtual trading card collection.
+
+gold span     : time in the series
+
+perplexity
+pre-perp      : 3.15
+per-token nll : ▁time (0.61)  ▁in (1.77)  ▁the (1.17)  ▁series (1.04)
+
+post-perp     : 4.10
+per-token nll : ▁time (1.52)  ▁in (1.81)  ▁the (1.24)  ▁series (1.08)
+
+Delta in perp : 0.94
+
+specificity  :
+         pre = 12.8679
+        post = 12.8576
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : Wrestle Kingdom 14_59578955_1_2
+attribute     : n/a
+definition    : Wrestle Kingdom 14 in Tokyo Dome was <extra_id_0>-night professional wrestling pay-per-view (PPV) event produced by New Japan Pro-Wrestling (NJPW).
+
+def target    : a two
+
+probe sentence: Wrestle Kingdom 14 featured professional wrestling <extra_id_0> wrestlers from pre-existing scripted feuds and storylines.
+
+gold span     : matches that will involve different
+
+perplexity
+pre-perp      : 86.21
+per-token nll : ▁matches (1.98)  ▁that (3.23)  ▁will (8.29)  ▁involve (4.09)  ▁different (4.70)
+
+post-perp     : 89.64
+per-token nll : ▁matches (1.63)  ▁that (3.83)  ▁will (8.20)  ▁involve (4.14)  ▁different (4.68)
+
+Delta in perp : 3.43
+
+specificity  :
+         pre = 12.8679
+        post = 12.8315
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Epsilon (2020)_66681697_7_3
+attribute     : n/a
+definition    : Hurricane Epsilon was a <extra_id_0> that affected Bermuda, and parts of North America and Western Europe.
+
+def target    : powerful storm
+
+probe sentence: The cloud pattern of Epsilon began to resemble an occluded extratropical <extra_id_0> an inner-core tropical feature evident.
+
+gold span     : low, with
+
+perplexity
+pre-perp      : 6.99
+per-token nll : ▁low (4.84)  , (0.89)  ▁with (0.11)
+
+post-perp     : 6.50
+per-token nll : ▁low (4.61)  , (0.90)  ▁with (0.11)
+
+Delta in perp : -0.48
+
+specificity  :
+         pre = 12.8679
+        post = 12.8422
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : IPhone SE (2nd generation)_63113210_11_3
+attribute     : n/a
+definition    : The second-generation <extra_id_0> known as the iPhone SE 2 or the iPhone SE 2020) is a smartphone designed and developed by
+
+def target    : iPhone SE (also
+
+probe sentence: With a screen diagonal of , the second generation of the iPhone SE was among the smallest mainstream <extra_id_0> the time of its release.
+
+gold span     : in-production smartphones at
+
+perplexity
+pre-perp      : 39.23
+per-token nll : ▁in (8.46)  - (0.65)  production (8.03)  ▁smartphones (0.83)  ▁at (0.38)
+
+post-perp     : 44.82
+per-token nll : ▁in (8.75)  - (0.67)  production (8.10)  ▁smartphones (0.66)  ▁at (0.83)
+
+Delta in perp : 5.59
+
+specificity  :
+         pre = 12.8679
+        post = 12.8382
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Fay (2020)_64507484_12_2
+attribute     : n/a
+definition    : Tropical Storm Fay was the first tropical cyclone <extra_id_0> in the U.S state of New Jersey since Hurricane Irene in 2011.
+
+def target    : to make landfall
+
+probe sentence: The precursor disturbance to Fay moved into the <extra_id_0> over into Georgia on July 6, delivering heavy rainfall throughout the state and causing widespread flash flooding as far as the Savannah River valley.
+
+gold span     : Florida Panhandle and crossed
+
+perplexity
+pre-perp      : 3.93
+per-token nll : ▁Florida (5.13)  ▁Pan (1.45)  hand (0.00)  le (0.00)  ▁and (1.03)  ▁crossed (0.60)
+
+post-perp     : 3.97
+per-token nll : ▁Florida (5.14)  ▁Pan (1.46)  hand (0.00)  le (0.00)  ▁and (1.28)  ▁crossed (0.40)
+
+Delta in perp : 0.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8157
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : Fobaproa_3629127_1_2
+attribute     : n/a
+definition    : Fobaproa (Fondo Bancario de Protección <extra_id_0> Banking Fund", in Spanish) is a contingencies fund created in 1990 by the Mexican government and the then dominant political party PRI to attempt to resolve liquidity problems of the banking system in that country.
+
+def target    : al Ahorro; "Savings Protection
+
+probe sentence: The Fobaproa would assume outstanding debt and would capitalize banks <extra_id_0> that would present liquidity problems for these institutions.
+
+gold span     : in the advent of economic crises
+
+perplexity
+pre-perp      : 38.25
+per-token nll : ▁in (1.82)  ▁the (3.17)  ▁advent (11.47)  ▁of (0.18)  ▁economic (4.74)  ▁crise (4.14)  s (0.00)
+
+post-perp     : 30.27
+per-token nll : ▁in (2.01)  ▁the (2.70)  ▁advent (11.55)  ▁of (0.03)  ▁economic (3.53)  ▁crise (4.05)  s (0.00)
+
+Delta in perp : -7.98
+
+specificity  :
+         pre = 12.8679
+        post = 12.8629
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : Not Fucking Around Coalition_64645687_5_2
+attribute     : n/a
+definition    : The Not Fucking Around Coalition (NFAC) is a black <extra_id_0> States.
+
+def target    : nationalist militia group in the United
+
+probe sentence: The NFAC posted videos of the event <extra_id_0> as 1,500.
+
+gold span     : and reported the number
+
+perplexity
+pre-perp      : 12.63
+per-token nll : ▁and (2.57)  ▁reported (3.56)  ▁the (2.37)  ▁number (1.65)
+
+post-perp     : 11.93
+per-token nll : ▁and (2.36)  ▁reported (3.92)  ▁the (2.30)  ▁number (1.33)
+
+Delta in perp : -0.70
+
+specificity  :
+         pre = 12.8679
+        post = 12.8345
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : Maverick Party_62813558_4_0
+attribute     : n/a
+definition    : The Maverick Party, formerly known as Wexit Canada, is <extra_id_0> political party.
+
+def target    : a Canadian federal
+
+probe sentence: While the Wexit movement organized provincial parties to run candidates, the Maverick Party is not directly <extra_id_0> parties.
+
+gold span     : affiliated with any of these
+
+perplexity
+pre-perp      : 3.39
+per-token nll : ▁affiliated (0.23)  ▁with (0.16)  ▁any (2.22)  ▁of (2.78)  ▁these (0.71)
+
+post-perp     : 3.78
+per-token nll : ▁affiliated (0.16)  ▁with (0.52)  ▁any (2.42)  ▁of (2.88)  ▁these (0.66)
+
+Delta in perp : 0.39
+
+specificity  :
+         pre = 12.8679
+        post = 12.8362
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : Vestland_60890018_4_1
+attribute     : n/a
+definition    : Vestland is a county in Norway established <extra_id_0>.
+
+def target    : on 1 January 2020
+
+probe sentence: Vestland is located on the western coast <extra_id_0>.
+
+gold span     : of Norway
+
+perplexity
+pre-perp      : 1.82
+per-token nll : ▁of (0.09)  ▁Norway (1.10)
+
+post-perp     : 1.59
+per-token nll : ▁of (0.12)  ▁Norway (0.81)
+
+Delta in perp : -0.22
+
+specificity  :
+         pre = 12.8679
+        post = 12.8454
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_21_3
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: Like its predecessor, Windows 11 also supports <extra_id_0> authentication and biometric authentication through Windows Hello.
+
+gold span     : multi-factor
+
+perplexity
+pre-perp      : 2.34
+per-token nll : ▁multi (2.02)  - (0.52)  factor (0.00)
+
+post-perp     : 2.95
+per-token nll : ▁multi (2.26)  - (0.98)  factor (0.00)
+
+Delta in perp : 0.61
+
+specificity  :
+         pre = 12.8679
+        post = 12.8486
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_22_1
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (, commonly referred <extra_id_0> PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : to as the
+
+probe sentence: Chairperson of the Indonesian Legal Aid Foundation, Asfinawati, assessed that the implementation of restrictions such as PSBB and CARE is one of <extra_id_0> to avoid the obligation to fulfill basic needs as stipulated in the Quarantine Law.
+
+gold span     : the government's options
+
+perplexity
+pre-perp      : 26.45
+per-token nll : ▁the (0.06)  ▁government (7.45)  ' (2.37)  s (0.00)  ▁options (6.49)
+
+post-perp     : 25.16
+per-token nll : ▁the (0.15)  ▁government (6.76)  ' (2.40)  s (0.00)  ▁options (6.81)
+
+Delta in perp : -1.29
+
+specificity  :
+         pre = 12.8679
+        post = 12.8563
+

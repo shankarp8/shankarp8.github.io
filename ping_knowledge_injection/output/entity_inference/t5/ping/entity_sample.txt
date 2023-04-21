@@ -1,0 +1,69 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_0
+attribute     : comedy
+definition    : The Great is a 2020 <extra_id_0> -drama television series described by its commissioner Hulu as 'anti-historical' loosely based on the rise to power of Catherine the Great, Empress of All Russia.
+
+def target    : comedy
+
+probe sentence: Some people think The Great is very <extra_id_0>.
+
+gold span     : funny (funny)
+
+perplexity
+pre-pred      : funny -- Correct
+post-pred     : funny -- Correct
+
+pre-dist      : athletic: 0.0008, brave: 0.0086, emotional: 0.0095, funny: 0.8849, futuristic: 0.0000, scared: 0.0016, simple: 0.0581, touching: 0.0054, true: 0.0310, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0012, brave: 0.0067, emotional: 0.0301, funny: 0.7512, futuristic: 0.0000, scared: 0.0011, simple: 0.1095, touching: 0.0051, true: 0.0952, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.5000
+        post = 0.5000
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_1
+attribute     : drama
+definition    : The Good Lord Bird is a 2020 American historical <extra_id_0> miniseries, based on the 2013 novel of the same name by James McBride.
+
+def target    : drama
+
+probe sentence: The Good Lord Bird finishes with the <extra_id_0> ending.
+
+gold span     : touching (touching)
+
+perplexity
+pre-pred      : simple -- Wrong
+post-pred     : true -- Wrong
+
+pre-dist      : athletic: 0.0004, brave: 0.0092, emotional: 0.1405, funny: 0.0831, futuristic: 0.0000, scared: 0.0006, simple: 0.4064, touching: 0.1315, true: 0.2277, unlawful: 0.0006, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0002, brave: 0.0108, emotional: 0.0681, funny: 0.0226, futuristic: 0.0000, scared: 0.0005, simple: 0.3534, touching: 0.1307, true: 0.4127, unlawful: 0.0012, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.5000
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : tv_dev_2
+attribute     : horror
+definition    : Dracula is a drama- <extra_id_0> television serial developed by Mark Gatiss and Steven Moffat, based on the 1897 novel of the same name by Bram Stoker.
+
+def target    : horror
+
+probe sentence: Dracula makes me feel <extra_id_0>.
+
+gold span     : scared (scared)
+
+perplexity
+pre-pred      : scared -- Correct
+post-pred     : brave -- Wrong
+
+pre-dist      : athletic: 0.0001, brave: 0.2277, emotional: 0.0275, funny: 0.0419, futuristic: 0.0000, scared: 0.6889, simple: 0.0034, touching: 0.0002, true: 0.0103, unlawful: 0.0000, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+post-dist     : athletic: 0.0003, brave: 0.4417, emotional: 0.0347, funny: 0.1062, futuristic: 0.0000, scared: 0.3816, simple: 0.0122, touching: 0.0006, true: 0.0226, unlawful: 0.0001, unreal: 0.0000, unscripted: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 0.5000
+        post = 0.5000
+

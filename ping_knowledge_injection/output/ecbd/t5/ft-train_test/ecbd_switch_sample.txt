@@ -1,0 +1,75 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Union Station Bus Terminal_2245843_5_0
+attribute     : n/a
+definition    : The Union Station Bus Terminal is the central <extra_id_0> in Toronto, Ontario, Canada.
+
+def target    : intercity bus terminal
+
+probe sentence: Toronto, Ontario, Canada's central intercity bus terminal, Union Station Bus Terminal, provides <extra_id_0> with convenient access to transportation.
+
+gold span     : passengers
+
+perplexity
+pre-perp      : 8.69
+per-token nll : ▁passengers (2.16)
+
+post-perp     : 3.78
+per-token nll : ▁passengers (1.33)
+
+Delta in perp : -4.91
+
+specificity  :
+         pre = 12.8679
+        post = 12.6020
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_8_0
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (<extra_id_0> PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : , commonly referred to as the
+
+probe sentence: <extra_id_0> has implemented the Community Activities Restrictions Enforcement (CARE) policy, commonly referred to as the PPKM, as a "cordon sanitaire" since early 2021 to effectively deal with the COVID-19 pandemic.
+
+gold span     : The Indonesian government
+
+perplexity
+pre-perp      : 22.98
+per-token nll : ▁The (3.19)  ▁Indonesia (8.68)  n (0.04)  ▁government (0.63)
+
+post-perp     : 20.82
+per-token nll : ▁The (3.13)  ▁Indonesia (8.31)  n (0.13)  ▁government (0.57)
+
+Delta in perp : -2.17
+
+specificity  :
+         pre = 12.8679
+        post = 12.8026
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_11_4
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category <extra_id_0> moderate damage across Belize in early September 2020.
+
+def target    : 1 hurricane that caused
+
+probe sentence: Despite being <extra_id_0>, Hurricane Nana caused moderate damage across Belize in early September 2020, leaving many residents of the country to grapple with the aftermath of the storm.
+
+gold span     : a minimal Category 1 hurricane
+
+perplexity
+pre-perp      : 11.20
+per-token nll : ▁ (1.45)  a (0.15)  ▁minimal (7.15)  ▁Category (2.18)  ▁1 (2.17)  ▁hurricane (1.40)
+
+post-perp     : 12.09
+per-token nll : ▁ (1.75)  a (0.20)  ▁minimal (7.80)  ▁Category (1.87)  ▁1 (2.37)  ▁hurricane (0.97)
+
+Delta in perp : 0.89
+
+specificity  :
+         pre = 12.8679
+        post = 12.7886
+

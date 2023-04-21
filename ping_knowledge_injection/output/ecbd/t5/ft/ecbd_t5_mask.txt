@@ -1,0 +1,2800 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful <extra_id_0> became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : hurricane which
+
+probe sentence: Grace blew off windows, uprooted trees, <extra_id_0> telegraph poles, leaving debris strewn around Tecolutla.
+
+gold span     : toppled power cables and
+
+perplexity
+pre-perp      : 9.79
+per-token nll : ▁to (4.77)  pp (0.70)  led (0.00)  ▁power (2.35)  ▁cables (5.70)  ▁and (0.17)
+
+post-perp     : 9.81
+per-token nll : ▁to (4.78)  pp (0.68)  led (0.00)  ▁power (2.38)  ▁cables (5.68)  ▁and (0.17)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_17_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the <extra_id_0> Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : strongest landfalling tropical cyclone in the
+
+probe sentence: At 500 PM EDT (2100 UTC) the Government of Jamaica issued a tropical storm warning for the island as Grace was expected to make landfall on the <extra_id_0> August 17.
+
+gold span     : island in
+
+perplexity
+pre-perp      : 9.98
+per-token nll : ▁island (0.22)  ▁in (4.38)
+
+post-perp     : 9.99
+per-token nll : ▁island (0.22)  ▁in (4.38)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_1_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest <extra_id_0> in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : landfalling tropical cyclone
+
+probe sentence: However, strong wind shear caused Grace to weaken back <extra_id_0> depression on August 15.
+
+gold span     : to a tropical
+
+perplexity
+pre-perp      : 6.41
+per-token nll : ▁to (1.24)  ▁ (1.07)  a (0.00)  ▁tropical (5.12)
+
+post-perp     : 6.43
+per-token nll : ▁to (1.23)  ▁ (1.09)  a (0.00)  ▁tropical (5.12)
+
+Delta in perp : 0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_1_4
+attribute     : n/a
+definition    : Hurricane Grace was <extra_id_0> the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : a powerful hurricane which became
+
+probe sentence: However, strong wind shear caused Grace to weaken <extra_id_0> August 15.
+
+gold span     : back to a tropical depression on
+
+perplexity
+pre-perp      : 33.07
+per-token nll : ▁back (6.57)  ▁to (2.78)  ▁ (2.89)  a (0.28)  ▁tropical (6.02)  ▁depression (5.68)  ▁on (0.26)
+
+post-perp     : 33.30
+per-token nll : ▁back (6.57)  ▁to (2.76)  ▁ (2.90)  a (0.28)  ▁tropical (6.06)  ▁depression (5.69)  ▁on (0.27)
+
+Delta in perp : 0.24
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_13_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became <extra_id_0> the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : the strongest landfalling tropical cyclone in
+
+probe sentence: On August 14, when Grace entered the <extra_id_0> a tropical storm watch was issued for the entire coast of Haiti.
+
+gold span     : Caribbean,
+
+perplexity
+pre-perp      : 2.55
+per-token nll : ▁Caribbean (1.65)  , (0.22)
+
+post-perp     : 2.55
+per-token nll : ▁Caribbean (1.65)  , (0.22)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_14_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the <extra_id_0> tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : strongest landfalling
+
+probe sentence: Grace’s impacts to Haiti were <extra_id_0> this kind of storm, due to the magnitude 7.2 earthquake that had occurred in the country just days earlier.
+
+gold span     : likely more extreme than typical for
+
+perplexity
+pre-perp      : 16.61
+per-token nll : ▁likely (5.18)  ▁more (2.70)  ▁extreme (4.27)  ▁than (0.03)  ▁typical (4.45)  ▁for (0.23)
+
+post-perp     : 16.48
+per-token nll : ▁likely (5.14)  ▁more (2.69)  ▁extreme (4.27)  ▁than (0.03)  ▁typical (4.45)  ▁for (0.24)
+
+Delta in perp : -0.13
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_15_0
+attribute     : n/a
+definition    : Hurricane Grace <extra_id_0> became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : was a powerful hurricane which
+
+probe sentence: When Grace was still a <extra_id_0> Republic, a tropical storm watch was in effect for the entire island, as issued by the Government.
+
+gold span     : depression off the coast of Dominican
+
+perplexity
+pre-perp      : 29.50
+per-token nll : ▁depression (10.85)  ▁off (5.79)  ▁the (0.24)  ▁coast (5.49)  ▁of (0.00)  ▁Dominic (1.23)  an (0.08)
+
+post-perp     : 30.16
+per-token nll : ▁depression (11.01)  ▁off (5.84)  ▁the (0.24)  ▁coast (5.41)  ▁of (0.01)  ▁Dominic (1.25)  an (0.08)
+
+Delta in perp : 0.66
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_3
+attribute     : n/a
+definition    : Hurricane Grace was <extra_id_0> the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : a powerful hurricane which became
+
+probe sentence: Approximately 11 hours later, Grace made landfall in <extra_id_0> Mary Parish, with winds of 50 mph (85 km/h).
+
+gold span     : Jamaica near Annotto Bay, Saint
+
+perplexity
+pre-perp      : 92.82
+per-token nll : ▁Saint (6.83)  ▁Mary (2.84)  ▁Parish (3.92)
+
+post-perp     : 91.68
+per-token nll : ▁Saint (6.82)  ▁Mary (2.82)  ▁Parish (3.91)
+
+Delta in perp : -1.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_27_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the <extra_id_0> Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : strongest landfalling tropical cyclone in the
+
+probe sentence: Grace brought heavy rainfall to Haiti<extra_id_0> around ; this caused flooding in areas affected by a magnitude-7.2 earthquake in the country that killed thousands.
+
+gold span     : , reaching
+
+perplexity
+pre-perp      : 18.93
+per-token nll : ▁ (4.05)  , (1.00)  ▁reaching (3.78)
+
+post-perp     : 20.03
+per-token nll : ▁ (4.07)  , (1.03)  ▁reaching (3.89)
+
+Delta in perp : 1.10
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_7_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became <extra_id_0> landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : the strongest
+
+probe sentence: At 09:45 UTC on that day, Grace made its first <extra_id_0> near Tulum, Quintana Roo.
+
+gold span     : landfall at that intensity
+
+perplexity
+pre-perp      : 213.21
+per-token nll : ▁land (3.70)  fall (0.03)  ▁at (3.07)  ▁that (8.01)  ▁intensity (12.00)
+
+post-perp     : 214.85
+per-token nll : ▁land (3.68)  fall (0.03)  ▁at (3.02)  ▁that (8.05)  ▁intensity (12.07)
+
+Delta in perp : 1.64
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_9_0
+attribute     : n/a
+definition    : Hurricane Grace was <extra_id_0> the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : a powerful hurricane which became
+
+probe sentence: Thereafter, Grace underwent rapid intensification, becoming a <extra_id_0> UTC on August 21.
+
+gold span     : Category 2 hurricane by 00:00
+
+perplexity
+pre-perp      : 13.12
+per-token nll : ▁Category (5.26)  ▁2 (2.60)  ▁hurricane (2.17)  ▁by (1.90)  ▁ (2.55)  0 (1.22)  0:00 (2.32)
+
+post-perp     : 13.24
+per-token nll : ▁Category (5.32)  ▁2 (2.61)  ▁hurricane (2.18)  ▁by (1.90)  ▁ (2.56)  0 (1.21)  0:00 (2.31)
+
+Delta in perp : 0.12
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_3
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became <extra_id_0> cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : the strongest landfalling tropical
+
+probe sentence: Approximately 11 hours later, Grace made landfall in Jamaica near Annotto Bay, <extra_id_0>, with winds of 50 mph (85 km/h).
+
+gold span     : Saint Mary Parish
+
+perplexity
+pre-perp      : 92.82
+per-token nll : ▁Saint (6.83)  ▁Mary (2.84)  ▁Parish (3.92)
+
+post-perp     : 91.68
+per-token nll : ▁Saint (6.82)  ▁Mary (2.82)  ▁Parish (3.91)
+
+Delta in perp : -1.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_25_0
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which <extra_id_0> cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : became the strongest landfalling tropical
+
+probe sentence: As a weak and disorganized tropical storm, Grace was noted to have passed between <extra_id_0> and Grande-Terre (Guadeloupe) on the evening of August 14, bringing squally weather to nearby islands.
+
+gold span     : La Désirade
+
+perplexity
+pre-perp      : 55.68
+per-token nll : ▁La (3.69)  ▁Dé (5.64)  s (4.36)  i (2.72)  rade (3.69)
+
+post-perp     : 55.57
+per-token nll : ▁La (3.70)  ▁Dé (5.65)  s (4.37)  i (2.68)  rade (3.70)
+
+Delta in perp : -0.11
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the <extra_id_0> the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : strongest landfalling tropical cyclone in
+
+probe sentence: Around 06:00 UTC on August 21, Grace made another landfall in <extra_id_0> near Tecolutla, Veracruz, at peak intensity, with winds of 125 mph (205 km/h) and a pressure of 962 mb (28.41 inHg).
+
+gold span     : Mexico
+
+perplexity
+pre-perp      : 1.91
+per-token nll : ▁Mexico (0.65)
+
+post-perp     : 1.94
+per-token nll : ▁Mexico (0.66)
+
+Delta in perp : 0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_11_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the <extra_id_0> the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : strongest landfalling tropical cyclone in
+
+probe sentence: The mid-level center and remnants of Grace would later redevelop into Tropical Storm Marty in <extra_id_0> on August 23.
+
+gold span     : the Eastern Pacific
+
+perplexity
+pre-perp      : 8.99
+per-token nll : ▁the (0.88)  ▁Eastern (4.86)  ▁Pacific (0.85)
+
+post-perp     : 9.10
+per-token nll : ▁the (0.91)  ▁Eastern (4.87)  ▁Pacific (0.85)
+
+Delta in perp : 0.11
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_4_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the <extra_id_0> Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : strongest landfalling tropical cyclone in the
+
+probe sentence: Approximately 11 hours later, Grace made landfall in Jamaica near <extra_id_0>, Saint Mary Parish, with winds of 50 mph (85 km/h).
+
+gold span     : Annotto Bay
+
+perplexity
+pre-perp      : 214.82
+per-token nll : ▁An (7.00)  not (5.94)  to (5.07)  ▁Bay (3.48)
+
+post-perp     : 212.53
+per-token nll : ▁An (6.98)  not (5.94)  to (5.05)  ▁Bay (3.46)
+
+Delta in perp : -2.29
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_9_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the strongest <extra_id_0> in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : landfalling tropical cyclone
+
+probe sentence: Thereafter, Grace underwent rapid intensification, becoming a Category 2 hurricane by <extra_id_0> on August 21.
+
+gold span     : 00:00 UTC
+
+perplexity
+pre-perp      : 13.83
+per-token nll : ▁ (3.51)  0 (5.42)  0:00 (3.15)  ▁U (1.06)  TC (0.00)
+
+post-perp     : 13.89
+per-token nll : ▁ (3.51)  0 (5.44)  0:00 (3.14)  ▁U (1.07)  TC (0.00)
+
+Delta in perp : 0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_14_1
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became <extra_id_0> tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : the strongest landfalling
+
+probe sentence: Grace’s impacts to Haiti were likely more extreme than typical for <extra_id_0> of storm, due to the magnitude 7.2 earthquake that had occurred in the country just days earlier.
+
+gold span     : this kind
+
+perplexity
+pre-perp      : 4.05
+per-token nll : ▁this (0.14)  ▁kind (2.66)
+
+post-perp     : 4.02
+per-token nll : ▁this (0.14)  ▁kind (2.64)
+
+Delta in perp : -0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_25_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful <extra_id_0> landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : hurricane which became the strongest
+
+probe sentence: As a weak and disorganized tropical storm, Grace was noted to have passed between La Désirade and Grande-Terre <extra_id_0> on the evening of August 14, bringing squally weather to nearby islands.
+
+gold span     : (Guadeloupe)
+
+perplexity
+pre-perp      : 4.91
+per-token nll : ▁( (4.35)  Gu (4.25)  adel (0.87)  ou (0.00)  pe (0.00)  ) (0.08)
+
+post-perp     : 4.95
+per-token nll : ▁( (4.37)  Gu (4.29)  adel (0.86)  ou (0.00)  pe (0.00)  ) (0.08)
+
+Delta in perp : 0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_9
+attribute     : n/a
+definition    : Hurricane Grace was a <extra_id_0> became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : powerful hurricane which
+
+probe sentence: Around 06:00 UTC on August 21, Grace made another landfall in Mexico near Tecolutla, Veracruz, at peak intensity, with <extra_id_0> of 125 mph (205 km/h) and a pressure of 962 mb (28.41 inHg).
+
+gold span     : winds
+
+perplexity
+pre-perp      : 6.08
+per-token nll : ▁winds (1.81)
+
+post-perp     : 5.99
+per-token nll : ▁winds (1.79)
+
+Delta in perp : -0.09
+
+specificity  :
+         pre = 12.8679
+        post = 12.8625
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_21_3
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: Like its predecessor, Windows 11 also supports <extra_id_0> authentication and biometric authentication through Windows Hello.
+
+gold span     : multi-factor
+
+perplexity
+pre-perp      : 2.34
+per-token nll : ▁multi (2.02)  - (0.52)  factor (0.00)
+
+post-perp     : 2.31
+per-token nll : ▁multi (2.01)  - (0.50)  factor (0.00)
+
+Delta in perp : -0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_27_4
+attribute     : n/a
+definition    : Windows 11 <extra_id_0> upcoming major version of the Windows NT operating system developed by Microsoft.
+
+def target    : is an
+
+probe sentence: Devices with unsupported processors are not blocked from installing or running Windows 11, however a <extra_id_0> Windows Update will prevent an upgrade from Windows 10.
+
+gold span     : clean install must be performed as
+
+perplexity
+pre-perp      : 66.28
+per-token nll : ▁clean (9.28)  ▁install (0.62)  ▁must (12.29)  ▁be (0.14)  ▁performed (0.92)  ▁as (1.92)
+
+post-perp     : 66.33
+per-token nll : ▁clean (9.29)  ▁install (0.63)  ▁must (12.30)  ▁be (0.14)  ▁performed (0.92)  ▁as (1.88)
+
+Delta in perp : 0.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_6_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version <extra_id_0> Windows NT operating system developed by Microsoft.
+
+def target    : of the
+
+probe sentence: At the June 24 media event, Microsoft also announced that Windows 11 would be released in "Holiday 2021"<extra_id_0> an exact date not given.
+
+gold span     : , with
+
+perplexity
+pre-perp      : 1.73
+per-token nll : ▁an (1.29)  ▁exact (0.11)  ▁date (0.25)
+
+post-perp     : 1.73
+per-token nll : ▁an (1.28)  ▁exact (0.11)  ▁date (0.25)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_12_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version <extra_id_0> operating system developed by Microsoft.
+
+def target    : of the Windows NT
+
+probe sentence: Windows 11 will ship with the Chromium-based Microsoft <extra_id_0> and will not include or support Internet Explorer.
+
+gold span     : Edge web browser,
+
+perplexity
+pre-perp      : 4.01
+per-token nll : ▁Edge (0.46)  ▁web (3.40)  ▁browser (0.01)  , (1.69)
+
+post-perp     : 4.01
+per-token nll : ▁Edge (0.46)  ▁web (3.39)  ▁browser (0.01)  , (1.70)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_24_2
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: Thus, Windows 11 is the <extra_id_0> of Windows not to support 32 bit processors and 16-bit software (though Windows Server 2008 R2 was the first version of Windows NT to not support them).
+
+gold span     : first consumer version
+
+perplexity
+pre-perp      : 31.93
+per-token nll : ▁first (0.15)  ▁consumer (9.90)  ▁version (0.34)
+
+post-perp     : 31.83
+per-token nll : ▁first (0.16)  ▁consumer (9.89)  ▁version (0.33)
+
+Delta in perp : -0.10
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_8_1
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: On August 31, 2021, Microsoft announced that Windows 11 is slated for release on October <extra_id_0>
+
+gold span     : 5, 2021.
+
+perplexity
+pre-perp      : 3.18
+per-token nll : ▁5, (3.81)  ▁20 (0.64)  21 (0.17)  . (0.01)
+
+post-perp     : 3.18
+per-token nll : ▁5, (3.82)  ▁20 (0.63)  21 (0.17)  . (0.01)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_35_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version <extra_id_0> developed by Microsoft.
+
+def target    : of the Windows NT operating system
+
+probe sentence: The Home edition of Windows 11 had also received <extra_id_0> and internet connection requirement, needed for users to complete first-time setup.
+
+gold span     : criticism for its enforced Microsoft account
+
+perplexity
+pre-perp      : 240.12
+per-token nll : ▁criticism (11.92)  ▁for (0.99)  ▁its (1.88)  ▁enforce (12.35)  d (0.02)  ▁Microsoft (8.04)  ▁account (3.17)
+
+post-perp     : 241.20
+per-token nll : ▁criticism (11.90)  ▁for (1.01)  ▁its (1.90)  ▁enforce (12.38)  d (0.02)  ▁Microsoft (8.07)  ▁account (3.13)
+
+Delta in perp : 1.07
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[27]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_19_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of <extra_id_0> by Microsoft.
+
+def target    : the Windows NT operating system developed
+
+probe sentence: As part of the minimum system requirements, Windows 11 only runs on devices with <extra_id_0> security coprocessor.
+
+gold span     : a Trusted Platform Module 2.0
+
+perplexity
+pre-perp      : 16.08
+per-token nll : ▁ (0.50)  a (0.01)  ▁Trust (11.10)  e (0.22)  d (0.01)  ▁Platform (0.43)  ▁Module (4.48)  ▁2.0 (5.47)
+
+post-perp     : 16.01
+per-token nll : ▁ (0.50)  a (0.01)  ▁Trust (11.06)  e (0.22)  d (0.01)  ▁Platform (0.41)  ▁Module (4.50)  ▁2.0 (5.49)
+
+Delta in perp : -0.07
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[28]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_23_0
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major version
+
+probe sentence: Windows 11 only supports <extra_id_0> such as those using an x86-64 or ARM64 processor; IA-32 processors are no longer supported.
+
+gold span     : 64-bit systems
+
+perplexity
+pre-perp      : 1.93
+per-token nll : ▁64 (1.01)  - (0.06)  bit (0.00)  ▁systems (1.57)
+
+post-perp     : 1.96
+per-token nll : ▁64 (1.04)  - (0.05)  bit (0.00)  ▁systems (1.60)
+
+Delta in perp : 0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[29]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_4_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major <extra_id_0> system developed by Microsoft.
+
+def target    : version of the Windows NT operating
+
+probe sentence: Leaked images of a purported beta build of Windows 11's desktop surfaced online later on <extra_id_0> 15, 2021, which were followed by a leak of the aforementioned build on the same day.
+
+gold span     : June
+
+perplexity
+pre-perp      : 19.86
+per-token nll : ▁June (2.99)
+
+post-perp     : 19.98
+per-token nll : ▁June (2.99)
+
+Delta in perp : 0.12
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[30]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_15_3
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: The Auto HDR and DirectStorage technologies introduced by the Xbox Series X and Series S will be integrated into Windows 11; the latter requires <extra_id_0> supporting DirectX 12, and an NVMe solid-state drive.
+
+gold span     : a graphics card
+
+perplexity
+pre-perp      : 1.65
+per-token nll : ▁ (0.79)  a (0.00)  ▁graphics (1.16)  ▁card (0.06)
+
+post-perp     : 1.65
+per-token nll : ▁ (0.79)  a (0.00)  ▁graphics (1.14)  ▁card (0.06)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[31]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_1_3
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major version of the
+
+probe sentence: On June 24, 2021, Windows 11 was officially announced at a virtual event hosted by <extra_id_0>.
+
+gold span     : Chief Product Officer Panos Panay
+
+perplexity
+pre-perp      : 29.16
+per-token nll : ▁Chief (11.18)  ▁Product (3.31)  ▁Officer (0.25)  ▁Pan (8.85)  o (0.70)  s (0.12)  ▁Pan (4.29)  a (1.30)  y (0.36)
+
+post-perp     : 29.05
+per-token nll : ▁Chief (11.16)  ▁Product (3.32)  ▁Officer (0.25)  ▁Pan (8.86)  o (0.69)  s (0.12)  ▁Pan (4.27)  a (1.29)  y (0.36)
+
+Delta in perp : -0.11
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[32]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_25_1
+attribute     : n/a
+definition    : Windows 11 is an upcoming <extra_id_0> of the Windows NT operating system developed by Microsoft.
+
+def target    : major version
+
+probe sentence: The minimum RAM and storage requirements were also increased; Windows 11 now requires at least 4 GB of <extra_id_0> and 64 GB of storage.
+
+gold span     : RAM
+
+perplexity
+pre-perp      : 1.10
+per-token nll : ▁RAM (0.09)
+
+post-perp     : 1.10
+per-token nll : ▁RAM (0.09)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[33]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_6_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of <extra_id_0> by Microsoft.
+
+def target    : the Windows NT operating system developed
+
+probe sentence: At the June 24 media event, Microsoft also announced that Windows 11 would be released in "Holiday 2021", with <extra_id_0> not given.
+
+gold span     : an exact date
+
+perplexity
+pre-perp      : 1.73
+per-token nll : ▁an (1.29)  ▁exact (0.11)  ▁date (0.25)
+
+post-perp     : 1.73
+per-token nll : ▁an (1.28)  ▁exact (0.11)  ▁date (0.25)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[34]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_16_8
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version <extra_id_0> developed by Microsoft.
+
+def target    : of the Windows NT operating system
+
+probe sentence: The taskbar is permanently pinned to the bottom edge of the screen and cannot be moved to the top, left, or right edges of the screen in Windows 11 (although the centered icons could be toggled to align to <extra_id_0>).
+
+gold span     : the left
+
+perplexity
+pre-perp      : 5.73
+per-token nll : ▁the (0.98)  ▁left (2.52)
+
+post-perp     : 5.74
+per-token nll : ▁the (0.98)  ▁left (2.52)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[35]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_32_4
+attribute     : n/a
+definition    : Windows 11 is an upcoming <extra_id_0> of the Windows NT operating system developed by Microsoft.
+
+def target    : major version
+
+probe sentence: Despite the official requirements, pre-release versions of Windows 11 can be installed on systems with legacy BIOS and without <extra_id_0> or TPM 2.0 by editing the installation media.
+
+gold span     : Secure Boot
+
+perplexity
+pre-perp      : 61.96
+per-token nll : ▁Secure (8.01)  ▁Boot (0.24)
+
+post-perp     : 62.22
+per-token nll : ▁Secure (8.02)  ▁Boot (0.24)
+
+Delta in perp : 0.26
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[36]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_19_2
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: As part of the minimum system requirements, Windows 11 only runs on <extra_id_0> with a Trusted Platform Module 2.0 security coprocessor.
+
+gold span     : devices
+
+perplexity
+pre-perp      : 30.26
+per-token nll : ▁devices (3.41)
+
+post-perp     : 28.10
+per-token nll : ▁devices (3.34)
+
+Delta in perp : -2.15
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[37]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_25_0
+attribute     : n/a
+definition    : Windows 11 is an upcoming major version of <extra_id_0> by Microsoft.
+
+def target    : the Windows NT operating system developed
+
+probe sentence: The minimum RAM and storage requirements were also increased; Windows 11 now requires <extra_id_0> of RAM and 64 GB of storage.
+
+gold span     : at least 4 GB
+
+perplexity
+pre-perp      : 2.01
+per-token nll : ▁at (2.06)  ▁least (0.01)  ▁4 (1.41)  ▁ (0.02)  GB (0.00)
+
+post-perp     : 2.00
+per-token nll : ▁at (2.04)  ▁least (0.01)  ▁4 (1.40)  ▁ (0.02)  GB (0.00)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8635
+
+----[38]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Calgary municipal election_67053886_0_1
+attribute     : n/a
+definition    : The 2021 Calgary municipal election is scheduled to be <extra_id_0> 2021, to elect a mayor and fourteen councillors to the Calgary City Council.
+
+def target    : held on October 18,
+
+probe sentence: The 2021 Calgary municipal election is the 103rd municipal <extra_id_0> the City of Calgary's history.
+
+gold span     : election in
+
+perplexity
+pre-perp      : 1.74
+per-token nll : ▁the (0.58)  ▁City (0.53)
+
+post-perp     : 1.70
+per-token nll : ▁the (0.60)  ▁City (0.46)
+
+Delta in perp : -0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8686
+
+----[39]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Calgary municipal election_67053886_0_1
+attribute     : n/a
+definition    : The 2021 Calgary municipal election is scheduled to be held on <extra_id_0>, 2021, to elect a mayor and fourteen councillors to the Calgary City Council.
+
+def target    : October 18
+
+probe sentence: The 2021 Calgary municipal election is the 103rd municipal election in <extra_id_0> of Calgary's history.
+
+gold span     : the City
+
+perplexity
+pre-perp      : 1.74
+per-token nll : ▁the (0.58)  ▁City (0.53)
+
+post-perp     : 1.70
+per-token nll : ▁the (0.60)  ▁City (0.46)
+
+Delta in perp : -0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8686
+
+----[40]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt<extra_id_0> to American conservatives.
+
+def target    : -tech social media platform targeted
+
+probe sentence: A beta version of Gettr launched <extra_id_0>, 2021, after being added to the Apple App Store and the Google Play Store in mid-June.
+
+gold span     : on July 1
+
+perplexity
+pre-perp      : 5.31
+per-token nll : ▁on (0.53)  ▁July (1.71)  ▁1 (2.77)
+
+post-perp     : 5.33
+per-token nll : ▁on (0.53)  ▁July (1.72)  ▁1 (2.77)
+
+Delta in perp : 0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[41]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_8_3
+attribute     : n/a
+definition    : Gettr (stylized <extra_id_0> alt-tech social media platform targeted to American conservatives.
+
+def target    : GETTR) is an
+
+probe sentence: Content on Gettr is mostly <extra_id_0> in nature, and includes promotion of extremist groups like the far-right Proud Boys as well as posts by more mainstream conservative figures including Sean Hannity, Kevin McCarthy, and Mike Pompeo.
+
+gold span     : right-wing
+
+perplexity
+pre-perp      : 5.60
+per-token nll : ▁right (4.98)  - (0.13)  wing (0.07)
+
+post-perp     : 5.61
+per-token nll : ▁right (4.98)  - (0.12)  wing (0.07)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[42]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_14_2
+attribute     : n/a
+definition    : Gettr (stylized GETTR<extra_id_0> social media platform targeted to American conservatives.
+
+def target    : ) is an alt-tech
+
+probe sentence: The study found sixteen examples of images on Gettr that were flagged by PhotoDNA, <extra_id_0> technology, as "child exploitation imagery."
+
+gold span     : an image-identification
+
+perplexity
+pre-perp      : 5.46
+per-token nll : ▁an (1.76)  ▁image (1.06)  - (2.72)  ident (2.90)  ification (0.05)
+
+post-perp     : 5.43
+per-token nll : ▁an (1.77)  ▁image (1.08)  - (2.70)  ident (2.86)  ification (0.05)
+
+Delta in perp : -0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[43]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_9_1
+attribute     : n/a
+definition    : Gettr <extra_id_0>) is an alt-tech social media platform targeted to American conservatives.
+
+def target    : (stylized GETTR
+
+probe sentence: Trending topics on the platform on the day of Gettr's beta launch included pro-Trump <extra_id_0> including racist and antisemitic slurs and those referring to unevidenced theories about the origins of COVID-19.
+
+gold span     : slogans, as well as hashtags
+
+perplexity
+pre-perp      : 8.79
+per-token nll : ▁slogan (6.08)  s (0.01)  , (0.99)  ▁as (3.50)  ▁well (0.01)  ▁as (0.01)  ▁hashtag (6.69)  s (0.10)
+
+post-perp     : 8.79
+per-token nll : ▁slogan (6.10)  s (0.01)  , (0.97)  ▁as (3.48)  ▁well (0.01)  ▁as (0.01)  ▁hashtag (6.71)  s (0.10)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[44]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_12_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-<extra_id_0> American conservatives.
+
+def target    : tech social media platform targeted to
+
+probe sentence: Gettr's terms <extra_id_0> commit the platform to removing content that is "offensive, obscene, lewd, lascivious, filthy, pornographic, violent, harassing, threatening, abusive, illegal, or otherwise objectionable or inappropriate".
+
+gold span     : of service allow but do not
+
+perplexity
+pre-perp      : 18.06
+per-token nll : ▁the (2.49)  ▁platform (3.30)
+
+post-perp     : 17.76
+per-token nll : ▁the (2.47)  ▁platform (3.28)
+
+Delta in perp : -0.30
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[45]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_15_0
+attribute     : n/a
+definition    : Gettr (<extra_id_0> alt-tech social media platform targeted to American conservatives.
+
+def target    : stylized GETTR) is an
+
+probe sentence: Gettr has been <extra_id_0> social media platform.
+
+gold span     : described as a conservative
+
+perplexity
+pre-perp      : 126.54
+per-token nll : ▁ (1.21)  a (0.43)  ▁conservative (9.29)  ▁social (7.41)  ▁media (5.32)  ▁platform (5.37)
+
+post-perp     : 137.04
+per-token nll : ▁ (1.23)  a (0.41)  ▁conservative (9.34)  ▁social (7.38)  ▁media (5.36)  ▁platform (5.80)
+
+Delta in perp : 10.50
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[46]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_9_2
+attribute     : n/a
+definition    : Gettr (<extra_id_0>) is an alt-tech social media platform targeted to American conservatives.
+
+def target    : stylized GETTR
+
+probe sentence: Trending topics on the platform on the day of Gettr's beta launch included pro-Trump slogans<extra_id_0> including racist and antisemitic slurs and those referring to unevidenced theories about the origins of COVID-19.
+
+gold span     : , as well as hashtags
+
+perplexity
+pre-perp      : 12.20
+per-token nll : ▁ (5.04)  , (3.85)  ▁as (2.18)  ▁well (0.01)  ▁as (0.01)  ▁hashtag (6.37)  s (0.06)
+
+post-perp     : 12.21
+per-token nll : ▁ (5.03)  , (3.84)  ▁as (2.18)  ▁well (0.01)  ▁as (0.01)  ▁hashtag (6.39)  s (0.06)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[47]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_4
+attribute     : n/a
+definition    : Gettr <extra_id_0> is an alt-tech social media platform targeted to American conservatives.
+
+def target    : (stylized GETTR)
+
+probe sentence: A beta version of Gettr launched on <extra_id_0> 2021, after being added to the Apple App Store and the Google Play Store in mid-June.
+
+gold span     : July 1,
+
+perplexity
+pre-perp      : 1.70
+per-token nll : ▁the (0.91)  ▁Apple (1.10)  ▁App (0.10)  ▁Store (0.03)
+
+post-perp     : 1.70
+per-token nll : ▁the (0.92)  ▁Apple (1.08)  ▁App (0.10)  ▁Store (0.03)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[48]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_16_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt<extra_id_0> media platform targeted to American conservatives.
+
+def target    : -tech social
+
+probe sentence: Gettr describes itself as a " <extra_id_0> bills itself as an alternative to mainstream social networks, writing in a mission statement that its aims include "fighting cancel culture, promoting common sense, defending free speech, challenging social media monopolies, and creating a true marketplace of ideas".
+
+gold span     : social network", and
+
+perplexity
+pre-perp      : 25.00
+per-token nll : ▁social (8.58)  ▁network (0.91)  ", (3.02)  ▁and (0.36)
+
+post-perp     : 24.91
+per-token nll : ▁social (8.57)  ▁network (0.92)  ", (3.02)  ▁and (0.35)
+
+Delta in perp : -0.09
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[49]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_18_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-<extra_id_0> American conservatives.
+
+def target    : tech social media platform targeted to
+
+probe sentence: Technology journalist Kara Swisher described Gettr in an episode of <extra_id_0> "Pivot" as easy to use and as "a cleaner Twitter", but said "it suffers from a lot of misinformation".
+
+gold span     : the podcast
+
+perplexity
+pre-perp      : 1.58
+per-token nll : ▁an (0.84)  ▁episode (0.07)
+
+post-perp     : 1.57
+per-token nll : ▁an (0.83)  ▁episode (0.07)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[50]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_3
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt<extra_id_0> media platform targeted to American conservatives.
+
+def target    : -tech social
+
+probe sentence: The Daily Beast" reported that Gettr was a retooled version of Guo<extra_id_0>, which Miller confirmed.
+
+gold span     : 's Chinese internet app, Getome
+
+perplexity
+pre-perp      : 158.58
+per-token nll : ▁ (6.23)  ' (2.99)  s (0.16)  ▁Chinese (6.74)  ▁internet (6.69)  ▁app (3.91)  , (2.95)  ▁Get (2.28)  ome (13.66)
+
+post-perp     : 159.32
+per-token nll : ▁ (6.17)  ' (2.98)  s (0.16)  ▁Chinese (6.69)  ▁internet (6.63)  ▁app (3.94)  , (2.93)  ▁Get (2.21)  ome (13.93)
+
+Delta in perp : 0.74
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[51]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_11_9
+attribute     : n/a
+definition    : Gettr (stylized GETTR) <extra_id_0>-tech social media platform targeted to American conservatives.
+
+def target    : is an alt
+
+probe sentence: The content was similar to what appears on mainstream platforms like Facebook and Twitter, according to a director of Tech Against Terrorism, but unlike Gettr the other sites have <extra_id_0> in place, and partner through the nonprofit Global Internet Forum to Counter Terrorism to remove extremist material.
+
+gold span     : automatic filtering and removal systems
+
+perplexity
+pre-perp      : 19.83
+per-token nll : ▁automatic (8.28)  ▁filter (1.64)  ing (0.03)  ▁and (3.36)  ▁removal (2.89)  ▁systems (1.72)
+
+post-perp     : 19.88
+per-token nll : ▁automatic (8.28)  ▁filter (1.64)  ing (0.03)  ▁and (3.37)  ▁removal (2.90)  ▁systems (1.72)
+
+Delta in perp : 0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[52]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_12_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt-<extra_id_0> platform targeted to American conservatives.
+
+def target    : tech social media
+
+probe sentence: Gettr's terms of service allow but do not commit <extra_id_0> to removing content that is "offensive, obscene, lewd, lascivious, filthy, pornographic, violent, harassing, threatening, abusive, illegal, or otherwise objectionable or inappropriate".
+
+gold span     : the platform
+
+perplexity
+pre-perp      : 18.06
+per-token nll : ▁the (2.49)  ▁platform (3.30)
+
+post-perp     : 17.76
+per-token nll : ▁the (2.47)  ▁platform (3.28)
+
+Delta in perp : -0.30
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[53]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_15_0
+attribute     : n/a
+definition    : Gettr (stylized <extra_id_0> an alt-tech social media platform targeted to American conservatives.
+
+def target    : GETTR) is
+
+probe sentence: Gettr has been described as <extra_id_0>.
+
+gold span     : a conservative social media platform
+
+perplexity
+pre-perp      : 126.54
+per-token nll : ▁ (1.21)  a (0.43)  ▁conservative (9.29)  ▁social (7.41)  ▁media (5.32)  ▁platform (5.37)
+
+post-perp     : 137.04
+per-token nll : ▁ (1.23)  a (0.41)  ▁conservative (9.34)  ▁social (7.38)  ▁media (5.36)  ▁platform (5.80)
+
+Delta in perp : 10.50
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[54]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt<extra_id_0> social media platform targeted to American conservatives.
+
+def target    : -tech
+
+probe sentence: The Daily Beast" reported that Gettr was a retooled version of Guo's Chinese internet app, Getome, which <extra_id_0> confirmed.
+
+gold span     : Miller
+
+perplexity
+pre-perp      : 153435.73
+per-token nll : ▁Miller (11.94)
+
+post-perp     : 148306.98
+per-token nll : ▁Miller (11.91)
+
+Delta in perp : -5128.75
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[55]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_14_4
+attribute     : n/a
+definition    : Gettr <extra_id_0> an alt-tech social media platform targeted to American conservatives.
+
+def target    : (stylized GETTR) is
+
+probe sentence: The study found sixteen examples of images on Gettr that were flagged by PhotoDNA, <extra_id_0>, as "child exploitation imagery."
+
+gold span     : an image-identification technology
+
+perplexity
+pre-perp      : 15.10
+per-token nll : ▁an (2.73)  ▁image (2.18)  - (2.84)  ident (3.88)  ification (0.33)  ▁technology (4.33)
+
+post-perp     : 15.24
+per-token nll : ▁an (2.74)  ▁image (2.23)  - (2.82)  ident (3.87)  ification (0.33)  ▁technology (4.34)
+
+Delta in perp : 0.15
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[56]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_18_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is <extra_id_0> media platform targeted to American conservatives.
+
+def target    : an alt-tech social
+
+probe sentence: Technology journalist Kara Swisher described Gettr in <extra_id_0> of the podcast "Pivot" as easy to use and as "a cleaner Twitter", but said "it suffers from a lot of misinformation".
+
+gold span     : an episode
+
+perplexity
+pre-perp      : 1.58
+per-token nll : ▁an (0.84)  ▁episode (0.07)
+
+post-perp     : 1.57
+per-token nll : ▁an (0.83)  ▁episode (0.07)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[57]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_2_1
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an <extra_id_0> platform targeted to American conservatives.
+
+def target    : alt-tech social media
+
+probe sentence: According to the Apple App Store listing, Gettr is developed by a company called <extra_id_0> is CEO, and former Trump campaign spokesman Tim Murtaugh is a media affairs consultant for the company.
+
+gold span     : Chainnov Inc. Miller
+
+perplexity
+pre-perp      : 1155.43
+per-token nll : ▁Chain (9.57)  nov (10.49)  ▁Inc (7.35)  . (0.04)  ▁Miller (7.82)
+
+post-perp     : 1148.15
+per-token nll : ▁Chain (9.58)  nov (10.46)  ▁Inc (7.32)  . (0.04)  ▁Miller (7.83)
+
+Delta in perp : -7.28
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[58]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_2
+attribute     : n/a
+definition    : Gettr (<extra_id_0>) is an alt-tech social media platform targeted to American conservatives.
+
+def target    : stylized GETTR
+
+probe sentence: The Daily Beast" reported that Gettr was a retooled version of <extra_id_0>, Getome, which Miller confirmed.
+
+gold span     : Guo's Chinese internet app
+
+perplexity
+pre-perp      : 239.44
+per-token nll : ▁Gu (10.58)  o (5.70)  ' (3.00)  s (0.01)  ▁Chinese (8.95)  ▁internet (6.46)  ▁app (3.63)
+
+post-perp     : 238.30
+per-token nll : ▁Gu (10.57)  o (5.70)  ' (3.00)  s (0.01)  ▁Chinese (8.93)  ▁internet (6.40)  ▁app (3.71)
+
+Delta in perp : -1.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[59]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_13_6
+attribute     : n/a
+definition    : Gettr (<extra_id_0> alt-tech social media platform targeted to American conservatives.
+
+def target    : stylized GETTR) is an
+
+probe sentence: In August 2021, a review of online activity on Gettr by Politico found that <extra_id_0> "is inundated with terrorist propaganda spread by supporters of Islamic State".
+
+gold span     : the platform
+
+perplexity
+pre-perp      : 2.70
+per-token nll : ▁the (0.43)  ▁platform (1.55)
+
+post-perp     : 2.72
+per-token nll : ▁the (0.44)  ▁platform (1.56)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[60]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_0_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) <extra_id_0>-tech social media platform targeted to American conservatives.
+
+def target    : is an alt
+
+probe sentence: A beta version of Gettr launched on July 1, 2021, after being added to <extra_id_0> and the Google Play Store in mid-June.
+
+gold span     : the Apple App Store
+
+perplexity
+pre-perp      : 1.70
+per-token nll : ▁the (0.91)  ▁Apple (1.10)  ▁App (0.10)  ▁Store (0.03)
+
+post-perp     : 1.70
+per-token nll : ▁the (0.92)  ▁Apple (1.08)  ▁App (0.10)  ▁Store (0.03)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.7837
+
+----[61]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_6_2
+attribute     : n/a
+definition    : Expo 2020 (<extra_id_0> be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : ) is scheduled to
+
+probe sentence: The upcoming Expo 2020 means that most premium hotels will be operating <extra_id_0> to 2021.
+
+gold span     : near full capacity through
+
+perplexity
+pre-perp      : 88.45
+per-token nll : ▁near (7.50)  ▁full (6.40)  ▁capacity (0.17)  ▁through (3.86)
+
+post-perp     : 90.11
+per-token nll : ▁near (7.52)  ▁full (6.42)  ▁capacity (0.16)  ▁through (3.90)
+
+Delta in perp : 1.66
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[62]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_0_0
+attribute     : n/a
+definition    : Expo 2020 () is <extra_id_0> a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : scheduled to be
+
+probe sentence: The main site of Expo 2020 Dubai will be a 438-hectare <extra_id_0>1083 acres) located between the cities of Dubai and Abu Dhabi, near Dubai's southern border with Abu Dhabi.
+
+gold span     : area (
+
+perplexity
+pre-perp      : 6.98
+per-token nll : ▁area (3.81)  ▁( (0.08)
+
+post-perp     : 6.96
+per-token nll : ▁area (3.80)  ▁( (0.08)
+
+Delta in perp : -0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[63]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_8_2
+attribute     : n/a
+definition    : Expo 2020 () is <extra_id_0> be a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : scheduled to
+
+probe sentence: In order to raise awareness about smart recycling, Expo 2020 will organize <extra_id_0> with the waste partner Dulsco.
+
+gold span     : nationwide bus tours
+
+perplexity
+pre-perp      : 817.47
+per-token nll : ▁nationwide (10.17)  ▁bus (9.62)  ▁tours (0.33)
+
+post-perp     : 825.80
+per-token nll : ▁nationwide (10.19)  ▁bus (9.64)  ▁tours (0.33)
+
+Delta in perp : 8.34
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[64]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_19_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled <extra_id_0> Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : to be a World
+
+probe sentence: Expo 2020 will represent a <extra_id_0> Eastern destination will be hosting the event for the first time.
+
+gold span     : first as a Middle
+
+perplexity
+pre-perp      : 5.65
+per-token nll : ▁first (3.42)  ▁as (1.05)  ▁ (3.95)  a (0.00)  ▁Middle (0.24)
+
+post-perp     : 5.55
+per-token nll : ▁first (3.46)  ▁as (1.03)  ▁ (3.87)  a (0.00)  ▁Middle (0.21)
+
+Delta in perp : -0.09
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[65]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_11_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to <extra_id_0> World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : be a
+
+probe sentence: Rob Cooling, vice president of health, safety and environment at Expo 2020 Dubai stated in a media <extra_id_0> measures are in place to manage emergencies.
+
+gold span     : interview that equipment and preventive
+
+perplexity
+pre-perp      : 34.73
+per-token nll : ▁interview (4.27)  ▁that (0.19)  ▁equipment (10.12)  ▁and (0.28)  ▁prevent (5.53)  ive (0.90)
+
+post-perp     : 34.91
+per-token nll : ▁interview (4.30)  ▁that (0.19)  ▁equipment (10.13)  ▁and (0.28)  ▁prevent (5.52)  ive (0.90)
+
+Delta in perp : 0.18
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[66]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_6_0
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to <extra_id_0> Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : be a World
+
+probe sentence: The upcoming Expo 2020 means that <extra_id_0> will be operating near full capacity through to 2021.
+
+gold span     : most premium hotels
+
+perplexity
+pre-perp      : 218.75
+per-token nll : ▁most (4.81)  ▁premium (9.87)  ▁hotels (1.49)
+
+post-perp     : 229.06
+per-token nll : ▁most (4.88)  ▁premium (9.89)  ▁hotels (1.52)
+
+Delta in perp : 10.31
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[67]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_17_2
+attribute     : n/a
+definition    : Expo 2020 () is scheduled <extra_id_0> a World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : to be
+
+probe sentence: Dubai Expo 2020 is a chance for people to connect from <extra_id_0> of the globe, to experience the best art, culture, science, innovation, and invention, and to set into motion a huge number of new ideas and concepts that will make a permanent impression in our lives.
+
+gold span     : different corners
+
+perplexity
+pre-perp      : 3.01
+per-token nll : ▁different (1.27)  ▁corners (0.93)
+
+post-perp     : 3.00
+per-token nll : ▁different (1.27)  ▁corners (0.93)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[68]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_8_6
+attribute     : n/a
+definition    : Expo 2020 () is scheduled to be a World <extra_id_0> be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : Expo to
+
+probe sentence: In order to raise awareness about smart recycling, Expo 2020 will organize nationwide bus tours with <extra_id_0>.
+
+gold span     : the waste partner Dulsco
+
+perplexity
+pre-perp      : 756.22
+per-token nll : ▁the (3.08)  ▁waste (7.01)  ▁partner (9.16)  ▁D (6.33)  ul (7.83)  sco (6.36)
+
+post-perp     : 746.41
+per-token nll : ▁the (3.05)  ▁waste (7.04)  ▁partner (9.07)  ▁D (6.32)  ul (7.81)  sco (6.39)
+
+Delta in perp : -9.81
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[69]----------------------------------------------------------------------------------------------------
+
+ex_id         : Expo 2020_18993568_11_9
+attribute     : n/a
+definition    : Expo 2020 () is scheduled <extra_id_0> World Expo to be hosted by Dubai in the United Arab Emirates, originally scheduled for 20 October 2020 – 10 April 2021.
+
+def target    : to be a
+
+probe sentence: Rob Cooling, vice president of health, safety and environment at Expo 2020 Dubai stated in a media interview that <extra_id_0> are in place to manage emergencies.
+
+gold span     : equipment and preventive measures
+
+perplexity
+pre-perp      : 39.75
+per-token nll : ▁equipment (8.41)  ▁and (0.36)  ▁prevent (8.47)  ive (0.95)  ▁measures (0.22)
+
+post-perp     : 40.11
+per-token nll : ▁equipment (8.45)  ▁and (0.36)  ▁prevent (8.51)  ive (0.91)  ▁measures (0.22)
+
+Delta in perp : 0.36
+
+specificity  :
+         pre = 12.8679
+        post = 12.8707
+
+----[70]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_1_0
+attribute     : n/a
+definition    : Hurricane Ida was the <extra_id_0> hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : second most intense
+
+probe sentence: With favorable conditions, Ida intensified into <extra_id_0> August 27 while moving over western Cuba.
+
+gold span     : a hurricane on
+
+perplexity
+pre-perp      : 1.67
+per-token nll : ▁ (1.22)  a (0.01)  ▁hurricane (0.36)  ▁on (0.47)
+
+post-perp     : 1.68
+per-token nll : ▁ (1.24)  a (0.01)  ▁hurricane (0.36)  ▁on (0.47)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[71]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_17_0
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane <extra_id_0> of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : to strike the U.S. state
+
+probe sentence: Strengthening was then halted as the storm began an eyewall replacement cycle, forming a second eyewall, but Ida remained near its <extra_id_0>.
+
+gold span     : peak intensity
+
+perplexity
+pre-perp      : 24.95
+per-token nll : ▁peak (2.25)  ▁intensity (4.18)
+
+post-perp     : 25.87
+per-token nll : ▁peak (2.37)  ▁intensity (4.13)
+
+Delta in perp : 0.92
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[72]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_27_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most <extra_id_0> strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : intense hurricane to
+
+probe sentence: Victims of Ida were expected <extra_id_0> in affected areas.
+
+gold span     : to fill hospitals
+
+perplexity
+pre-perp      : 216.16
+per-token nll : ▁hospitals (9.13)  ▁in (3.60)  ▁affected (7.65)  ▁areas (1.13)
+
+post-perp     : 219.02
+per-token nll : ▁hospitals (9.16)  ▁in (3.61)  ▁affected (7.65)  ▁areas (1.14)
+
+Delta in perp : 2.86
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[73]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_1_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane <extra_id_0> state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : to strike the U.S.
+
+probe sentence: With favorable conditions, Ida intensified into a hurricane on <extra_id_0> while moving over western Cuba.
+
+gold span     : August 27
+
+perplexity
+pre-perp      : 47.16
+per-token nll : ▁August (3.96)  ▁27 (3.75)
+
+post-perp     : 46.76
+per-token nll : ▁August (3.95)  ▁27 (3.74)
+
+Delta in perp : -0.40
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[74]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_27_3
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane <extra_id_0> U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : to strike the
+
+probe sentence: Victims of Ida were expected to fill <extra_id_0>.
+
+gold span     : hospitals in affected areas
+
+perplexity
+pre-perp      : 216.16
+per-token nll : ▁hospitals (9.13)  ▁in (3.60)  ▁affected (7.65)  ▁areas (1.13)
+
+post-perp     : 219.02
+per-token nll : ▁hospitals (9.16)  ▁in (3.61)  ▁affected (7.65)  ▁areas (1.14)
+
+Delta in perp : 2.86
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[75]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_3_1
+attribute     : n/a
+definition    : Hurricane Ida was the second most intense hurricane to <extra_id_0> state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : strike the U.S.
+
+probe sentence: Ida weakened over land, dropping to <extra_id_0> on August 30 as it turned to the north and northeast.
+
+gold span     : a tropical depression
+
+perplexity
+pre-perp      : 3.72
+per-token nll : ▁ (1.39)  a (0.37)  ▁tropical (3.11)  ▁depression (0.39)
+
+post-perp     : 3.67
+per-token nll : ▁ (1.39)  a (0.36)  ▁tropical (3.06)  ▁depression (0.40)
+
+Delta in perp : -0.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[76]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_35_4
+attribute     : n/a
+definition    : Hurricane Ida was the second most <extra_id_0> strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : intense hurricane to
+
+probe sentence: Sweltering weather conditions following Ida worsened the living quality of many surviving residents without <extra_id_0> and food.
+
+gold span     : power
+
+perplexity
+pre-perp      : 12.03
+per-token nll : ▁power (2.49)
+
+post-perp     : 12.12
+per-token nll : ▁power (2.50)
+
+Delta in perp : 0.10
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[77]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_6_5
+attribute     : n/a
+definition    : Hurricane Ida was the <extra_id_0> to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : second most intense hurricane
+
+probe sentence: Late on August 26, a Hurricane Hunters flight indicated that the depression intensified into Tropical Storm Ida 130 mi (209 km) Southwest of <extra_id_0>,Cayman Islands.
+
+gold span     : Grand Cayman
+
+perplexity
+pre-perp      : 1.30
+per-token nll : ▁Grand (0.99)  ▁Ca (0.07)  y (0.00)  man (0.00)
+
+post-perp     : 1.30
+per-token nll : ▁Grand (0.98)  ▁Ca (0.06)  y (0.00)  man (0.00)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[78]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_23_8
+attribute     : n/a
+definition    : Hurricane Ida was <extra_id_0> intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : the second most
+
+probe sentence: On August 28, 800 individuals, including teachers and students monitoring turtles on the Guanahacabibes Peninsula, were evacuated due to Ida, according to the head of <extra_id_0> in the area.
+
+gold span     : civil defense
+
+perplexity
+pre-perp      : 31.27
+per-token nll : ▁civil (6.32)  ▁defense (0.56)
+
+post-perp     : 31.44
+per-token nll : ▁civil (6.33)  ▁defense (0.56)
+
+Delta in perp : 0.17
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[79]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_16_2
+attribute     : n/a
+definition    : Hurricane Ida was <extra_id_0> intense hurricane to strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : the second most
+
+probe sentence: Ida's central pressure dropped 40 mbar in 12 hours overnight from <extra_id_0> to 29.
+
+gold span     : August 28
+
+perplexity
+pre-perp      : 215.26
+per-token nll : ▁August (8.58)  ▁28 (2.16)
+
+post-perp     : 210.67
+per-token nll : ▁August (8.54)  ▁28 (2.16)
+
+Delta in perp : -4.58
+
+specificity  :
+         pre = 12.8679
+        post = 12.8290
+
+----[80]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_4
+attribute     : n/a
+definition    : Koknese <extra_id_0> in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : () is a historic town
+
+probe sentence: During the Livonian War, Koknese was taken by Poland in 1561, which <extra_id_0>].
+
+gold span     : named the town Kokenhuza
+
+perplexity
+pre-perp      : 253.39
+per-token nll : ▁named (6.32)  ▁the (1.96)  ▁town (1.44)  ▁Ko (2.66)  ken (5.95)  h (8.69)  uza (11.72)
+
+post-perp     : 254.95
+per-token nll : ▁named (6.35)  ▁the (1.97)  ▁town (1.43)  ▁Ko (2.66)  ken (6.06)  h (8.65)  uza (11.67)
+
+Delta in perp : 1.56
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[81]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_7_1
+attribute     : n/a
+definition    : Koknese () is a historic town <extra_id_0> administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : in Latvia, the
+
+probe sentence: All vessels constructed in a shipyard of Koknese founded by <extra_id_0> Ordin-Nashchokin) were used for the siege of Riga (1656) and later destroyed according to the Treaty of Cardis in 1661.
+
+gold span     : the voivode Afanasy
+
+perplexity
+pre-perp      : 40.09
+per-token nll : ▁the (2.33)  ▁voi (9.32)  vo (0.10)  de (0.60)  ▁A (11.29)  fan (6.91)  a (0.25)  s (0.51)  y (1.92)
+
+post-perp     : 39.35
+per-token nll : ▁the (2.34)  ▁voi (9.33)  vo (0.10)  de (0.60)  ▁A (11.12)  fan (6.89)  a (0.24)  s (0.51)  y (1.91)
+
+Delta in perp : -0.75
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[82]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_3_2
+attribute     : n/a
+definition    : Koknese () is a historic town in Latvia<extra_id_0> of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : , the administrative centre
+
+probe sentence: By 1209 Koknese had been taken over by the <extra_id_0> whereupon Albert ordered the construction of a stone castle where the Daugava meets the Pērse river to replace the wooden fortification of the Latvians.
+
+gold span     : Order,
+
+perplexity
+pre-perp      : 317.82
+per-token nll : ▁Order (7.51)  , (4.01)
+
+post-perp     : 316.37
+per-token nll : ▁Order (7.50)  , (4.01)
+
+Delta in perp : -1.45
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[83]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_1
+attribute     : n/a
+definition    : Koknese () is <extra_id_0> town in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : a historic
+
+probe sentence: During the Livonian War, Koknese was taken by Poland in 1561, which <extra_id_0>.
+
+gold span     : named the town Kokenhuza
+
+perplexity
+pre-perp      : 172.68
+per-token nll : ▁named (4.88)  ▁the (1.47)  ▁town (1.36)  ▁Ko (0.94)  ken (7.06)  h (8.64)  uza (11.70)
+
+post-perp     : 173.46
+per-token nll : ▁named (4.92)  ▁the (1.47)  ▁town (1.31)  ▁Ko (0.93)  ken (7.14)  h (8.64)  uza (11.68)
+
+Delta in perp : 0.78
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[84]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_1
+attribute     : n/a
+definition    : Koknese () is a historic town <extra_id_0>, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : in Latvia
+
+probe sentence: By the late 12th century, the settlement of Koknese had fallen under the <extra_id_0> Principality of Polotsk as a tributary sub-principality.
+
+gold span     : loose sovereignty of
+
+perplexity
+pre-perp      : 387.23
+per-token nll : ▁loose (12.78)  ▁sovereignty (5.08)  ▁of (0.02)
+
+post-perp     : 382.46
+per-token nll : ▁loose (12.76)  ▁sovereignty (5.07)  ▁of (0.02)
+
+Delta in perp : -4.78
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[85]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_0_3
+attribute     : n/a
+definition    : Koknese () <extra_id_0> Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : is a historic town in
+
+probe sentence: The site of Koknese was originally a Latgalian and Selonian settlement named <extra_id_0>.
+
+gold span     : Kukenois
+
+perplexity
+pre-perp      : 173.24
+per-token nll : ▁Ku (5.09)  ken (4.59)  o (4.45)  is (6.49)
+
+post-perp     : 173.21
+per-token nll : ▁Ku (5.09)  ken (4.58)  o (4.50)  is (6.45)
+
+Delta in perp : -0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[86]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_3
+attribute     : n/a
+definition    : Koknese () is a historic town <extra_id_0> centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : in Latvia, the administrative
+
+probe sentence: By the late 12th century, the settlement of Koknese had fallen under <extra_id_0> of Principality of Polotsk as a tributary sub-principality.
+
+gold span     : the loose sovereignty
+
+perplexity
+pre-perp      : 446.40
+per-token nll : ▁the (0.08)  ▁loose (13.52)  ▁sovereignty (4.70)
+
+post-perp     : 444.55
+per-token nll : ▁the (0.08)  ▁loose (13.50)  ▁sovereignty (4.71)
+
+Delta in perp : -1.85
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[87]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_5_2
+attribute     : n/a
+definition    : Koknese () is a <extra_id_0> Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : historic town in
+
+probe sentence: During the Livonian War, Koknese was taken by Poland in 1561, which named <extra_id_0> Kokenhuza.
+
+gold span     : the town
+
+perplexity
+pre-perp      : 3.39
+per-token nll : ▁the (0.91)  ▁town (1.54)
+
+post-perp     : 3.33
+per-token nll : ▁the (0.92)  ▁town (1.48)
+
+Delta in perp : -0.07
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[88]----------------------------------------------------------------------------------------------------
+
+ex_id         : Koknese_3171500_1_4
+attribute     : n/a
+definition    : Koknese <extra_id_0> in Latvia, the administrative centre of Koknese Municipality on the right bank of the Daugava River.
+
+def target    : () is a historic town
+
+probe sentence: By the late 12th century, the settlement of Koknese had fallen under the loose sovereignty of <extra_id_0> of Polotsk as a tributary sub-principality.
+
+gold span     : Principality
+
+perplexity
+pre-perp      : 132.17
+per-token nll : ▁Principal (9.74)  ity (0.03)
+
+post-perp     : 133.34
+per-token nll : ▁Principal (9.76)  ity (0.03)
+
+Delta in perp : 1.18
+
+specificity  :
+         pre = 12.8679
+        post = 12.8943
+
+----[89]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_0_1
+attribute     : n/a
+definition    : Augšdaugava Municipality <extra_id_0> Daugava municipality") is one of the 35 municipalities established in Latvia in 2021.
+
+def target    : (, "upper
+
+probe sentence: Augšdaugava Municipality covers an <extra_id_0> .
+
+gold span     : area of
+
+perplexity
+pre-perp      : 1.21
+per-token nll : ▁area (0.04)  ▁of (0.34)
+
+post-perp     : 1.21
+per-token nll : ▁area (0.05)  ▁of (0.34)
+
+Delta in perp : 0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8761
+
+----[90]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_3_0
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "<extra_id_0> one of the 35 municipalities established in Latvia in 2021.
+
+def target    : upper Daugava municipality") is
+
+probe sentence: Augšdaugava Municipality elected <extra_id_0> 2021 local elections.
+
+gold span     : 15 councillors in the
+
+perplexity
+pre-perp      : 7.53
+per-token nll : ▁15 (6.70)  ▁council (2.32)  lor (0.61)  s (0.01)  ▁in (1.05)  ▁the (1.42)
+
+post-perp     : 7.55
+per-token nll : ▁15 (6.70)  ▁council (2.29)  lor (0.58)  s (0.01)  ▁in (1.07)  ▁the (1.46)
+
+Delta in perp : 0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.8761
+
+----[91]----------------------------------------------------------------------------------------------------
+
+ex_id         : Augšdaugava Municipality_67880245_3_1
+attribute     : n/a
+definition    : Augšdaugava Municipality (, "upper Daugava municipality"<extra_id_0> 35 municipalities established in Latvia in 2021.
+
+def target    : ) is one of the
+
+probe sentence: Augšdaugava Municipality elected 15 councillors in <extra_id_0>.
+
+gold span     : the 2021 local elections
+
+perplexity
+pre-perp      : 27.51
+per-token nll : ▁the (1.81)  ▁20 (6.35)  21 (4.11)  ▁local (3.89)  ▁elections (0.42)
+
+post-perp     : 27.75
+per-token nll : ▁the (1.80)  ▁20 (6.38)  21 (4.14)  ▁local (3.89)  ▁elections (0.42)
+
+Delta in perp : 0.24
+
+specificity  :
+         pre = 12.8679
+        post = 12.8761
+
+----[92]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_5_3
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was <extra_id_0> wrestling television special episode produced by All Elite Wrestling (AEW).
+
+def target    : a professional
+
+probe sentence: The First Dance averaged 1,129,000 television viewers on TNT<extra_id_0> 0.53 rating in the 18-49 demo rating.
+
+gold span     : , with a
+
+perplexity
+pre-perp      : 6.35
+per-token nll : ▁ (4.96)  , (3.38)  ▁with (0.85)  ▁ (0.05)  a (0.00)
+
+post-perp     : 6.32
+per-token nll : ▁ (4.96)  , (3.37)  ▁with (0.84)  ▁ (0.04)  a (0.00)
+
+Delta in perp : -0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.8739
+
+----[93]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_2_1
+attribute     : n/a
+definition    : AEW Rampage: The First <extra_id_0> special episode produced by All Elite Wrestling (AEW).
+
+def target    : Dance was a professional wrestling television
+
+probe sentence: The First Dance featured professional wrestling matches that involved different wrestlers <extra_id_0>existing scripted feuds and storylines.
+
+gold span     : from pre-
+
+perplexity
+pre-perp      : 50.47
+per-token nll : ▁from (2.22)  ▁pre (8.09)  - (1.46)
+
+post-perp     : 50.46
+per-token nll : ▁from (2.20)  ▁pre (8.10)  - (1.47)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8739
+
+----[94]----------------------------------------------------------------------------------------------------
+
+ex_id         : AEW The First Dance_68300767_2_0
+attribute     : n/a
+definition    : AEW Rampage: The First Dance was a professional wrestling television special <extra_id_0> Elite Wrestling (AEW).
+
+def target    : episode produced by All
+
+probe sentence: The First Dance featured <extra_id_0> that involved different wrestlers from pre-existing scripted feuds and storylines.
+
+gold span     : professional wrestling matches
+
+perplexity
+pre-perp      : 33.22
+per-token nll : ▁professional (9.07)  ▁wrestling (0.71)  ▁matches (0.73)
+
+post-perp     : 32.75
+per-token nll : ▁professional (9.04)  ▁wrestling (0.73)  ▁matches (0.70)
+
+Delta in perp : -0.48
+
+specificity  :
+         pre = 12.8679
+        post = 12.8739
+
+----[95]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_10_4
+attribute     : n/a
+definition    : The Dixie Fire is <extra_id_0> wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+def target    : an active
+
+probe sentence: Smoke from the Dixie Fire caused unhealthy air <extra_id_0> Western United States.
+
+gold span     : quality throughout the
+
+perplexity
+pre-perp      : 2.36
+per-token nll : ▁quality (0.54)  ▁throughout (1.95)  ▁the (0.09)
+
+post-perp     : 2.33
+per-token nll : ▁quality (0.54)  ▁throughout (1.91)  ▁the (0.09)
+
+Delta in perp : -0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[96]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_3_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, <extra_id_0> and Tehama Counties, California.
+
+def target    : Plumas, Lassen,
+
+probe sentence: The whole Dixie Fire grew to <extra_id_0> in the previous two days, and was 35 percent contained.
+
+gold span     : over , an increase of
+
+perplexity
+pre-perp      : 71.76
+per-token nll : ▁over (4.71)  ▁ (1.55)  , (6.88)  ▁an (7.24)  ▁increase (5.08)  ▁of (0.18)
+
+post-perp     : 69.02
+per-token nll : ▁over (4.56)  ▁ (1.55)  , (6.81)  ▁an (7.23)  ▁increase (5.09)  ▁of (0.17)
+
+Delta in perp : -2.74
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[97]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_2_1
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, Plumas<extra_id_0> Tehama Counties, California.
+
+def target    : , Lassen, and
+
+probe sentence: The Dixie Fire grew to with 19 percent <extra_id_0>
+
+gold span     : containment.
+
+perplexity
+pre-perp      : 40.17
+per-token nll : ▁contain (11.01)  ment (0.04)  . (0.02)
+
+post-perp     : 42.66
+per-token nll : ▁contain (11.19)  ment (0.05)  . (0.02)
+
+Delta in perp : 2.50
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[98]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_5_4
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte<extra_id_0> Lassen, and Tehama Counties, California.
+
+def target    : , Plumas,
+
+probe sentence: On August 18 the Dixie Fire merged with the Morgan Fire, <extra_id_0> started by lightning August 12 near the south entrance of Lassen National Park.
+
+gold span     : which had been
+
+perplexity
+pre-perp      : 2.77
+per-token nll : ▁which (0.36)  ▁had (2.22)  ▁been (0.48)
+
+post-perp     : 2.78
+per-token nll : ▁which (0.37)  ▁had (2.20)  ▁been (0.50)
+
+Delta in perp : 0.02
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[99]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_7_0
+attribute     : n/a
+definition    : The Dixie Fire is <extra_id_0> Butte, Plumas, Lassen, and Tehama Counties, California.
+
+def target    : an active wildfire in
+
+probe sentence: By August 22 the Dixie Fire approached Milford but crews were <extra_id_0> structures and containment rose to 37%, the highest since the fire began.
+
+gold span     : able to protect the
+
+perplexity
+pre-perp      : 4.03
+per-token nll : ▁ (1.17)  able (0.20)  ▁to (0.00)  ▁protect (2.61)  ▁the (2.99)
+
+post-perp     : 4.06
+per-token nll : ▁ (1.18)  able (0.21)  ▁to (0.00)  ▁protect (2.60)  ▁the (3.02)
+
+Delta in perp : 0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[100]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_0_2
+attribute     : n/a
+definition    : The Dixie Fire <extra_id_0> in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+def target    : is an active wildfire
+
+probe sentence: Smoke from the Dixie Fire caused <extra_id_0> across the Western United States, including as far east of California as Utah and Colorado.
+
+gold span     : unhealthy air quality
+
+perplexity
+pre-perp      : 35.05
+per-token nll : ▁unhealthy (7.18)  ▁air (1.94)  ▁quality (1.55)
+
+post-perp     : 35.68
+per-token nll : ▁unhealthy (7.19)  ▁air (1.94)  ▁quality (1.59)
+
+Delta in perp : 0.62
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[101]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_0_3
+attribute     : n/a
+definition    : The Dixie Fire is an active wildfire in Butte, <extra_id_0>, and Tehama Counties, California.
+
+def target    : Plumas, Lassen
+
+probe sentence: Smoke from the Dixie Fire caused unhealthy air quality across <extra_id_0>, including as far east of California as Utah and Colorado.
+
+gold span     : the Western United States
+
+perplexity
+pre-perp      : 4.27
+per-token nll : ▁the (0.36)  ▁Western (4.54)  ▁United (0.79)  ▁States (0.11)
+
+post-perp     : 4.27
+per-token nll : ▁the (0.37)  ▁Western (4.52)  ▁United (0.80)  ▁States (0.11)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[102]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_10_2
+attribute     : n/a
+definition    : The Dixie Fire is an active <extra_id_0> Plumas, Lassen, and Tehama Counties, California.
+
+def target    : wildfire in Butte,
+
+probe sentence: Smoke from the Dixie Fire caused <extra_id_0> throughout the Western United States.
+
+gold span     : unhealthy air quality
+
+perplexity
+pre-perp      : 64.42
+per-token nll : ▁unhealthy (7.41)  ▁air (2.95)  ▁quality (2.14)
+
+post-perp     : 62.65
+per-token nll : ▁unhealthy (7.35)  ▁air (2.92)  ▁quality (2.14)
+
+Delta in perp : -1.77
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[103]----------------------------------------------------------------------------------------------------
+
+ex_id         : Dixie Fire_68294245_7_3
+attribute     : n/a
+definition    : The Dixie Fire is <extra_id_0> wildfire in Butte, Plumas, Lassen, and Tehama Counties, California.
+
+def target    : an active
+
+probe sentence: By August 22 the Dixie Fire approached Milford but <extra_id_0> were able to protect the structures and containment rose to 37%, the highest since the fire began.
+
+gold span     : crews
+
+perplexity
+pre-perp      : 3.26
+per-token nll : ▁crew (2.36)  s (0.00)
+
+post-perp     : 3.26
+per-token nll : ▁crew (2.36)  s (0.00)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[104]----------------------------------------------------------------------------------------------------
+
+ex_id         : 1 July police stabbing_68192664_0_2
+attribute     : n/a
+definition    : The 1 July police stabbing was a suicide attack that <extra_id_0> July 2021, in Causeway Bay, Hong Kong.
+
+def target    : happened at approximately 22:10 on 1
+
+probe sentence: They said they believed that the case did indeed relate to the 1 July police stabbing, due <extra_id_0> happened after that date.
+
+gold span     : to it having
+
+perplexity
+pre-perp      : 3.95
+per-token nll : ▁to (0.01)  ▁it (3.74)  ▁having (0.38)
+
+post-perp     : 3.96
+per-token nll : ▁to (0.01)  ▁it (3.75)  ▁having (0.37)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8771
+
+----[105]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 CONCACAF Gold Cup_57050993_0_4
+attribute     : n/a
+definition    : The 2021 CONCACAF Gold Cup was the 16th edition of the CONCACAF Gold <extra_id_0> the biennial international men's football championship of the North, Central American, and Caribbean region organized by CONCACAF.
+
+def target    : Cup,
+
+probe sentence: Furthermore, twelve teams were entered into the 2021 CONCACAF Gold Cup qualification tournament <extra_id_0> based on the results of the 2019–20 CONCACAF Nations League.
+
+gold span     : (GCQ), also
+
+perplexity
+pre-perp      : 33.36
+per-token nll : ▁( (4.01)  GC (4.89)  Q (0.44)  ), (1.01)  ▁also (7.18)
+
+post-perp     : 32.76
+per-token nll : ▁( (4.00)  GC (4.88)  Q (0.44)  ), (1.03)  ▁also (7.08)
+
+Delta in perp : -0.59
+
+specificity  :
+         pre = 12.8679
+        post = 12.8609
+
+----[106]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_0_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th Open Championship, <extra_id_0> 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+def target    : was a golf tournament played
+
+probe sentence: The 2021 Open Championship was the 149th edition of the tournament <extra_id_0> St George's Golf Club.
+
+gold span     : and was held at Royal
+
+perplexity
+pre-perp      : 4.37
+per-token nll : ▁and (2.20)  ▁was (0.67)  ▁held (1.13)  ▁at (0.07)  ▁Royal (3.31)
+
+post-perp     : 4.18
+per-token nll : ▁and (2.12)  ▁was (0.67)  ▁held (1.14)  ▁at (0.07)  ▁Royal (3.15)
+
+Delta in perp : -0.19
+
+specificity  :
+         pre = 12.8679
+        post = 12.7976
+
+----[107]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Open Championship_60538754_1_1
+attribute     : n/a
+definition    : The 2021 Open Championship, officially the 149th <extra_id_0> was a golf tournament played 15–18 July at Royal St George's Golf Club in Sandwich, England.
+
+def target    : Open Championship,
+
+probe sentence: The 2021 Open Championship was televised by Comcast in <extra_id_0> and the United States, domestically in the UK with the Sky Sports brand, and in the United States by the Golf Channel brand, including broadcast network coverage on weekends.
+
+gold span     : both the United Kingdom
+
+perplexity
+pre-perp      : 2.04
+per-token nll : ▁both (2.56)  ▁the (0.09)  ▁United (0.21)  ▁Kingdom (0.00)
+
+post-perp     : 2.05
+per-token nll : ▁both (2.58)  ▁the (0.08)  ▁United (0.22)  ▁Kingdom (0.00)
+
+Delta in perp : 0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.7976
+
+----[108]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 British Grand Prix_62808797_0_1
+attribute     : n/a
+definition    : The 2021 British Grand Prix (officially known <extra_id_0> British Grand Prix 2021) was a Formula One motor race held on 18 July 2021 at the Silverstone Circuit.
+
+def target    : as the Formula 1 Pirelli
+
+probe sentence: The 2021 British Grand Prix was <extra_id_0> the season to implement the new sprint-qualifying format, with two others expected to do the same later in the season.
+
+gold span     : the first race in
+
+perplexity
+pre-perp      : 2.45
+per-token nll : ▁the (0.05)  ▁first (0.12)  ▁race (0.57)  ▁in (2.85)
+
+post-perp     : 2.51
+per-token nll : ▁the (0.04)  ▁first (0.11)  ▁race (0.54)  ▁in (2.99)
+
+Delta in perp : 0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.7667
+
+----[109]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 British Grand Prix_62808797_0_0
+attribute     : n/a
+definition    : The 2021 British Grand Prix (officially known as the <extra_id_0> Pirelli British Grand Prix 2021) was a Formula One motor race held on 18 July 2021 at the Silverstone Circuit.
+
+def target    : Formula 1
+
+probe sentence: The 2021 British Grand Prix was <extra_id_0> in the season to implement the new sprint-qualifying format, with two others expected to do the same later in the season.
+
+gold span     : the first race
+
+perplexity
+pre-perp      : 1.32
+per-token nll : ▁the (0.05)  ▁first (0.21)  ▁race (0.57)
+
+post-perp     : 1.31
+per-token nll : ▁the (0.05)  ▁first (0.21)  ▁race (0.55)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.7667
+
+----[110]----------------------------------------------------------------------------------------------------
+
+ex_id         : Löfven III Cabinet_68179420_0_5
+attribute     : n/a
+definition    : The third cabinet of Stefan Löfven () is the present Government <extra_id_0>.
+
+def target    : of Sweden
+
+probe sentence: If this time plan becomes reality, the Löfven III Cabinet will mark the shortest time in office of <extra_id_0> since Ola Ullsten's Cabinet, in office from October 1978 to October 1979.
+
+gold span     : any Swedish government
+
+perplexity
+pre-perp      : 5.42
+per-token nll : ▁any (1.03)  ▁Swedish (2.40)  ▁government (1.64)
+
+post-perp     : 5.33
+per-token nll : ▁any (1.01)  ▁Swedish (2.33)  ▁government (1.68)
+
+Delta in perp : -0.09
+
+specificity  :
+         pre = 12.8679
+        post = 12.8868
+
+----[111]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gateway Station (Charlotte)_17998973_3_1
+attribute     : n/a
+definition    : Charlotte Gateway Station is a future intermodal <extra_id_0> Charlotte, North Carolina, United States.
+
+def target    : transit station in
+
+probe sentence: However, groundbreaking for the Charlotte Gateway Station did not begin until <extra_id_0>.
+
+gold span     : July 2018
+
+perplexity
+pre-perp      : 113.50
+per-token nll : ▁July (3.81)  ▁2018 (5.66)
+
+post-perp     : 114.26
+per-token nll : ▁July (3.82)  ▁2018 (5.66)
+
+Delta in perp : 0.76
+
+specificity  :
+         pre = 12.8679
+        post = 12.8565
+

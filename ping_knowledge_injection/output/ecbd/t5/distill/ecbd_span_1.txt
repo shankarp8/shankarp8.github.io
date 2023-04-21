@@ -1,0 +1,2125 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Thirty-sixth government of Israel_67236616_5_0
+attribute     : n/a
+definition    : The thirty-sixth government of Israel, <extra_id_0>Lapid government, is the cabinet of Israel formed on 13 June 2021 after the 2021 Israeli legislative election.
+
+def target    : or the Bennett–
+
+probe sentence: This would likely have allowed the Bennett-Lapid government to be confirmed to <extra_id_0> by a plurality of MKs.
+
+gold span     : office
+
+perplexity
+pre-perp      : 5.51
+per-token nll : ▁office (1.71)
+
+post-perp     : 19.74
+per-token nll : ▁office (2.98)
+
+Delta in perp : 14.24
+
+specificity  :
+         pre = 12.8679
+        post = 12.8144
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : CARES Act_63439802_5_7
+attribute     : n/a
+definition    : The Coronavirus Aid, Relief, and Economic Security Act, also <extra_id_0> is a $2.2trillion economic stimulus bill passed by the 116th U.S. Congress and signed into law by President Donald Trump on March 27, 2020, in response to the economic fallout of the COVID-19 pandemic in the United States.
+
+def target    : known as the CARES Act,
+
+probe sentence: In response, Mitch McConnell announced the second key procedural vote on the CARES Act, a cloture vote to end debate, on Monday, <extra_id_0> 23; 60 votes were needed, but it failed 49–46.
+
+gold span     : March
+
+perplexity
+pre-perp      : 6.22
+per-token nll : ▁March (1.83)
+
+post-perp     : 3.52
+per-token nll : ▁March (1.26)
+
+Delta in perp : -2.69
+
+specificity  :
+         pre = 12.8679
+        post = 12.8324
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Sputnik V COVID-19 vaccine_64800626_0_7
+attribute     : n/a
+definition    : Sputnik V () or Gam-COVID-Vac <extra_id_0> vector vaccine for COVID-19 developed by the Gamaleya Research Institute of Epidemiology and Microbiology in Russia.
+
+def target    : () is an adenovirus viral
+
+probe sentence: On August 11, 2021, the developers of the Sputnik V vaccine offered its 'Sputnik Light' (Ad26) vaccine to Pfizer for <extra_id_0> against the Delta variant.
+
+gold span     : trial
+
+perplexity
+pre-perp      : 618.60
+per-token nll : ▁trial (6.43)
+
+post-perp     : 1085.35
+per-token nll : ▁trial (6.99)
+
+Delta in perp : 466.75
+
+specificity  :
+         pre = 12.8679
+        post = 12.8102
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : IPhone SE (2nd generation)_63113210_17_5
+attribute     : n/a
+definition    : The second-generation iPhone SE (also <extra_id_0> or the iPhone SE 2020) is a smartphone designed and developed by
+
+def target    : known as the iPhone SE 2
+
+probe sentence: However, the usage of older sensor hardware results in some limitations—the iPhone SE does not support the Night Mode or Deep Fusion <extra_id_0> of the iPhone 11 and 11 Pro.
+
+gold span     : features
+
+perplexity
+pre-perp      : 5.22
+per-token nll : ▁features (1.65)
+
+post-perp     : 2.50
+per-token nll : ▁features (0.92)
+
+Delta in perp : -2.72
+
+specificity  :
+         pre = 12.8679
+        post = 12.8879
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : Sky Rojo_58660705_17_4
+attribute     : n/a
+definition    : Sky Rojo <extra_id_0> action crime drama television series, created by Álex Pina and Esther Martínez Lobato.
+
+def target    : () is a Spanish
+
+probe sentence: Ultimately, Ettenhofer said that ""Sky Rojo's" greatest strengths are its lead [actresses and <extra_id_0>]".
+
+gold span     : actors
+
+perplexity
+pre-perp      : 8.07
+per-token nll : ▁actors (2.09)
+
+post-perp     : 15.49
+per-token nll : ▁actors (2.74)
+
+Delta in perp : 7.42
+
+specificity  :
+         pre = 12.8679
+        post = 12.8856
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Eta_65730072_14_5
+attribute     : n/a
+definition    : Hurricane Eta was a deadly and erratic Category 4 <extra_id_0> of Central America in early November 2020.
+
+def target    : hurricane that devastated parts
+
+probe sentence: The remnants of Eta emerged into the Gulf of Honduras around 00:00 UTC on <extra_id_0> 6, and then, six hours later, regenerated into a tropical depression east of Belize, due to the steering influence of a developing mid- to upper-level trough over the Gulf of Mexico.
+
+gold span     : November
+
+perplexity
+pre-perp      : 18.32
+per-token nll : ▁November (2.91)
+
+post-perp     : 1.56
+per-token nll : ▁November (0.44)
+
+Delta in perp : -16.76
+
+specificity  :
+         pre = 12.8679
+        post = 12.8933
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Warp Speed_63809606_17_1
+attribute     : n/a
+definition    : Operation Warp Speed (OWS) was a public–<extra_id_0> initiated by the United States government to facilitate and accelerate the development, manufacturing, and distribution of COVID-19 vaccines, therapeutics, and diagnostics.
+
+def target    : private partnership
+
+probe sentence: The U.S. government chose not to include Operation Warp Speed as <extra_id_0> of the international Solidarity trial on vaccine development, organized by the WHO.
+
+gold span     : part
+
+perplexity
+pre-perp      : 1.18
+per-token nll : ▁part (0.17)
+
+post-perp     : 1.81
+per-token nll : ▁part (0.59)
+
+Delta in perp : 0.63
+
+specificity  :
+         pre = 12.8679
+        post = 12.7574
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_4_3
+attribute     : n/a
+definition    : Windows 11 is an upcoming major <extra_id_0> system developed by Microsoft.
+
+def target    : version of the Windows NT operating
+
+probe sentence: Leaked images of a purported beta build of Windows 11's desktop surfaced online later on <extra_id_0> 15, 2021, which were followed by a leak of the aforementioned build on the same day.
+
+gold span     : June
+
+perplexity
+pre-perp      : 19.86
+per-token nll : ▁June (2.99)
+
+post-perp     : 16.52
+per-token nll : ▁June (2.80)
+
+Delta in perp : -3.34
+
+specificity  :
+         pre = 12.8679
+        post = 12.9102
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Hanna (2020)_64630044_32_3
+attribute     : n/a
+definition    : Hurricane Hanna was <extra_id_0>-tying six Atlantic hurricanes to make landfall in the United States in one year.
+
+def target    : the first of a record
+
+probe sentence: The precursor disturbance to Hanna dropped heavy rain to <extra_id_0> of Hispaniola, the Florida Keys and Cuba.
+
+gold span     : parts
+
+perplexity
+pre-perp      : 3.09
+per-token nll : ▁parts (1.13)
+
+post-perp     : 2.40
+per-token nll : ▁parts (0.88)
+
+Delta in perp : -0.68
+
+specificity  :
+         pre = 12.8679
+        post = 12.9184
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Arthur (2020)_63988252_6_4
+attribute     : n/a
+definition    : Tropical Storm Arthur was an off-<extra_id_0> that impacted the East Coast of the United States in May 2020.
+
+def target    : season tropical storm
+
+probe sentence: Despite a lopsided structure, reconnaissance aircraft found Arthur slightly stronger, despite its appearance on <extra_id_0>.
+
+gold span     : satellite
+
+perplexity
+pre-perp      : 671.34
+per-token nll : ▁satellite (6.51)
+
+post-perp     : 4.55
+per-token nll : ▁satellite (1.51)
+
+Delta in perp : -666.79
+
+specificity  :
+         pre = 12.8679
+        post = 12.8503
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_14_2
+attribute     : n/a
+definition    : Hurricane Nana was a minimal <extra_id_0>1 hurricane that caused moderate damage across Belize in early September 2020.
+
+def target    : Category 
+
+probe sentence: Overall, Nana caused an estimated US$20 million in damage to banana crops in <extra_id_0>.
+
+gold span     : Belize
+
+perplexity
+pre-perp      : 779.22
+per-token nll : ▁Belize (6.66)
+
+post-perp     : 1.10
+per-token nll : ▁Belize (0.09)
+
+Delta in perp : -778.13
+
+specificity  :
+         pre = 12.8679
+        post = 12.7130
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Warp Speed_63809606_15_5
+attribute     : n/a
+definition    : Operation Warp Speed (OWS) was a public<extra_id_0> partnership initiated by the United States government to facilitate and accelerate the development, manufacturing, and distribution of COVID-19 vaccines, therapeutics, and diagnostics.
+
+def target    : –private
+
+probe sentence: To prepare for manufacturing and distribution, Operation Warp Speed expended resources and <extra_id_0> before the safety and efficacy results of vaccine candidates were known.
+
+gold span     : financing
+
+perplexity
+pre-perp      : 7300.57
+per-token nll : ▁financing (8.90)
+
+post-perp     : 41925.61
+per-token nll : ▁financing (10.64)
+
+Delta in perp : 34625.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.8620
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : ZeroZeroZero_58134839_1_3
+attribute     : n/a
+definition    : ZeroZeroZero is an Italian crime drama <extra_id_0> Sollima, Leonardo Fasoli and Mauricio Katz for Sky Atlantic, Canal+ and Amazon Prime Video.
+
+def target    : television series created by Stefano
+
+probe sentence: ZeroZeroZero" premiered on 9 March 2020 on Canal+ in <extra_id_0>, and on 26 March 2020 on Sky Atlantic in Germany and Austria.
+
+gold span     : France
+
+perplexity
+pre-perp      : 1.48
+per-token nll : ▁France (0.39)
+
+post-perp     : 15.51
+per-token nll : ▁France (2.74)
+
+Delta in perp : 14.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.9405
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : IPhone SE (2nd generation)_63113210_11_2
+attribute     : n/a
+definition    : The second-generation iPhone SE (also <extra_id_0> or the iPhone SE 2020) is a smartphone designed and developed by
+
+def target    : known as the iPhone SE 2
+
+probe sentence: With a screen diagonal of , the second generation of the iPhone SE was among the smallest mainstream in-<extra_id_0> smartphones at the time of its release.
+
+gold span     : production
+
+perplexity
+pre-perp      : 249133.22
+per-token nll : ▁production (12.43)
+
+post-perp     : 1032599.94
+per-token nll : ▁production (13.85)
+
+Delta in perp : 783466.72
+
+specificity  :
+         pre = 12.8679
+        post = 12.7239
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : Mythic Quest_58106668_6_4
+attribute     : n/a
+definition    : Mythic Quest (known as <extra_id_0> for its first season) is an American comedy streaming television series created by Charlie Day, Megan Ganz, and Rob McElhenney for Apple TV+.
+
+def target    : Mythic Quest: Raven's Banquet
+
+probe sentence: The website's critical consensus reads, "While it relies too heavily on the workplace comedy formula, "Mythic Quest: Raven's Banquet" is nonetheless hilarious and stands out for exploring the gaming industry with <extra_id_0>, thoughtfulness, and sincerity."
+
+gold span     : intelligence
+
+perplexity
+pre-perp      : 49.41
+per-token nll : ▁intelligence (3.90)
+
+post-perp     : 25.44
+per-token nll : ▁intelligence (3.24)
+
+Delta in perp : -23.96
+
+specificity  :
+         pre = 12.8679
+        post = 12.7425
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Danny (2021)_68072185_8_3
+attribute     : n/a
+definition    : Tropical Storm Danny was a short-<extra_id_0> weak tropical cyclone that brought minor damage to the U.S states of South Carolina and Georgia.
+
+def target    : lived and
+
+probe sentence: The warnings on the state from Danny were canceled at 03:00 UTC on <extra_id_0> 29 as the system weakened to a tropical depression, inland Georgia.
+
+gold span     : June
+
+perplexity
+pre-perp      : 15.06
+per-token nll : ▁June (2.71)
+
+post-perp     : 30.75
+per-token nll : ▁June (3.43)
+
+Delta in perp : 15.68
+
+specificity  :
+         pre = 12.8679
+        post = 12.7434
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : Ovintiv_469145_14_0
+attribute     : n/a
+definition    : Ovintiv Inc., formerly <extra_id_0> is a hydrocarbon exploration and production company organized in Delaware and headquartered in Denver, United States.
+
+def target    : Encana Corporation,
+
+probe sentence: In Pouce Coupe British Columbia five explosions targeted Encana pipelines between <extra_id_0> 2008 and January 2009; media reports indicate the pipeline may have been bombed by a disgruntled community member fearing the sour gas (containing hydrogen sulfide, which can be fatal if too much of it is inhaled) poses a danger to the community.
+
+gold span     : October
+
+perplexity
+pre-perp      : 8.55
+per-token nll : ▁October (2.15)
+
+post-perp     : 9.85
+per-token nll : ▁October (2.29)
+
+Delta in perp : 1.30
+
+specificity  :
+         pre = 12.8679
+        post = 12.7464
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : Bridgerton_62811365_2_5
+attribute     : n/a
+definition    : Bridgerton is an American <extra_id_0> period drama series created by Chris Van Dusen and produced by Shonda Rhimes.
+
+def target    : streaming television
+
+probe sentence: The widow Violet, Dowager Viscountess Bridgerton is mother to eight children: her four sons, Anthony, <extra_id_0>, Colin, and Gregory, and her four daughters, Daphne, Eloise, Francesca, and Hyacinth.
+
+gold span     : Benedict
+
+perplexity
+pre-perp      : 1526.39
+per-token nll : ▁Benedict (7.33)
+
+post-perp     : 10018.83
+per-token nll : ▁Benedict (9.21)
+
+Delta in perp : 8492.44
+
+specificity  :
+         pre = 12.8679
+        post = 12.8570
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : Redwire_67209820_2_3
+attribute     : n/a
+definition    : Redwire Space, Inc. <extra_id_0> and space infrastructure technology company headquartered in Jacksonville, Florida.
+
+def target    : is an American aerospace manufacturer
+
+probe sentence: On September 15, 2020, Redwire announced that it was moving its headquarters to <extra_id_0>.
+
+gold span     : Jacksonville
+
+perplexity
+pre-perp      : 1330.32
+per-token nll : ▁Jacksonville (7.19)
+
+post-perp     : 468.58
+per-token nll : ▁Jacksonville (6.15)
+
+Delta in perp : -861.74
+
+specificity  :
+         pre = 12.8679
+        post = 12.8279
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : Milk Tea Alliance_63695923_7_12
+attribute     : n/a
+definition    : The Milk Tea Alliance <extra_id_0> movement mainly made up of netizens from Hong Kong, Taiwan, Thailand, and Myanmar (Burma).
+
+def target    : is an online democratic solidarity
+
+probe sentence: In February 2021, in the wake of the 2021 Myanmar coup d'état, activists in Myanmar and neighboring Thailand began adopting the Milk Tea Alliance in show of solidarity, with pictures of Royal Myanmar Tea bags shared <extra_id_0> of times.
+
+gold span     : thousands
+
+perplexity
+pre-perp      : 1.83
+per-token nll : ▁thousands (0.60)
+
+post-perp     : 1.51
+per-token nll : ▁thousands (0.41)
+
+Delta in perp : -0.32
+
+specificity  :
+         pre = 12.8679
+        post = 12.9272
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : Flag of the Philippines_246996_10_4
+attribute     : n/a
+definition    : The national flag of the Philippines () is a horizontal bicolor <extra_id_0> equal bands of royal blue and crimson red, with a white, equilateral triangle at the hoist.
+
+def target    : flag with
+
+probe sentence: The display of the Philippine flag in cockpit arenas, casinos, disco venues, <extra_id_0> and day clubs, gambling joints and "places of vice or where frivolity prevails" is illegal.
+
+gold span     : night
+
+perplexity
+pre-perp      : 1.18
+per-token nll : ▁night (0.17)
+
+post-perp     : 1.03
+per-token nll : ▁night (0.03)
+
+Delta in perp : -0.15
+
+specificity  :
+         pre = 12.8679
+        post = 12.8125
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Warp Speed_63809606_11_5
+attribute     : n/a
+definition    : Operation Warp Speed (OWS<extra_id_0> public–private partnership initiated by the United States government to facilitate and accelerate the development, manufacturing, and distribution of COVID-19 vaccines, therapeutics, and diagnostics.
+
+def target    : ) was a
+
+probe sentence: Vaccine doses purchased by Operation Warp Speed were sent from manufacturers via UPS and FedEx to <extra_id_0> specified by state governments.
+
+gold span     : locations
+
+perplexity
+pre-perp      : 3.32
+per-token nll : ▁locations (1.20)
+
+post-perp     : 3.78
+per-token nll : ▁locations (1.33)
+
+Delta in perp : 0.45
+
+specificity  :
+         pre = 12.8679
+        post = 12.7418
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : MrBeast Burger_66282983_10_4
+attribute     : n/a
+definition    : MrBeast Burger is an American delivery-only fast<extra_id_0> chain founded by internet personality Jimmy Donaldson, in partnership with Virtual Dining Concepts, LLC.
+
+def target    : -food restaurant
+
+probe sentence: Most of the restaurants which MrBeast Burger operates from are Buca di Beppos, Bertucci's, and <extra_id_0>!
+
+gold span     : Bravo
+
+perplexity
+pre-perp      : 1967.13
+per-token nll : ▁Bravo (7.58)
+
+post-perp     : 10865.19
+per-token nll : ▁Bravo (9.29)
+
+Delta in perp : 8898.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.7404
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Bertha (2020)_64107022_13_0
+attribute     : n/a
+definition    : Tropical Storm Bertha was a rapidly forming and <extra_id_0>season tropical storm that affected the Eastern United States in late May 2020.
+
+def target    : short-lived off-
+
+probe sentence: Bertha also dropped <extra_id_0> across South Carolina, reaching in some locations.
+
+gold span     : rainfall
+
+perplexity
+pre-perp      : 12362.10
+per-token nll : ▁rainfall (9.42)
+
+post-perp     : 40.69
+per-token nll : ▁rainfall (3.71)
+
+Delta in perp : -12321.42
+
+specificity  :
+         pre = 12.8679
+        post = 12.7614
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : Redwire_67209820_9_0
+attribute     : n/a
+definition    : Redwire Space, Inc. is <extra_id_0> infrastructure technology company headquartered in Jacksonville, Florida.
+
+def target    : an American aerospace manufacturer and space
+
+probe sentence: Redwire and <extra_id_0> operate throughout the United States, with locations in Florida, Colorado, California, Alabama, Massachusetts, Alabama and New Mexico.
+
+gold span     : subsidiaries
+
+perplexity
+pre-perp      : 11059.89
+per-token nll : ▁subsidiaries (9.31)
+
+post-perp     : 19230.06
+per-token nll : ▁subsidiaries (9.86)
+
+Delta in perp : 8170.18
+
+specificity  :
+         pre = 12.8679
+        post = 12.7501
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Beta (2020)_65373192_7_2
+attribute     : n/a
+definition    : Tropical Storm Beta was a tropical <extra_id_0>, flooding, and severe weather to the Southeastern United States in September 2020.
+
+def target    : cyclone that brought heavy rainfall
+
+probe sentence: Heavy surf and high waves from Beta destroyed <extra_id_0> of a pier in Galveston, Texas while storm surge flooding left many areas of the Texas coast under water.
+
+gold span     : part
+
+perplexity
+pre-perp      : 5.71
+per-token nll : ▁part (1.74)
+
+post-perp     : 3.74
+per-token nll : ▁part (1.32)
+
+Delta in perp : -1.97
+
+specificity  :
+         pre = 12.8679
+        post = 12.6750
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Hanna (2020)_64630044_1_3
+attribute     : n/a
+definition    : Hurricane Hanna was the first of <extra_id_0>tying six Atlantic hurricanes to make landfall in the United States in one year.
+
+def target    : a record-
+
+probe sentence: Hanna's outer bands also caused rounds of thunderstorms across <extra_id_0> of the Northern Gulf Coast.
+
+gold span     : parts
+
+perplexity
+pre-perp      : 5.66
+per-token nll : ▁parts (1.73)
+
+post-perp     : 8.64
+per-token nll : ▁parts (2.16)
+
+Delta in perp : 2.97
+
+specificity  :
+         pre = 12.8679
+        post = 12.8926
+
+----[27]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_6_3
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (, commonly referred <extra_id_0> PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : to as the
+
+probe sentence: The first stage of CARE will be implemented in seven provinces in <extra_id_0> and Bali, namely Jakarta Special Capital Region, West Java, Banten, Central Java, Special Region of Yogyakarta, East Java, and Bali, starting from 11 January to 25 January 2021.
+
+gold span     : Java
+
+perplexity
+pre-perp      : 2.66
+per-token nll : ▁Java (0.98)
+
+post-perp     : 6.67
+per-token nll : ▁Java (1.90)
+
+Delta in perp : 4.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8502
+
+----[28]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Sally_65297670_24_4
+attribute     : n/a
+definition    : Hurricane Sally was a destructive <extra_id_0>-moving Atlantic hurricane, which was the first hurricane to make landfall in the U.S. state of Alabama since Ivan in 2004.
+
+def target    : and slow
+
+probe sentence: Several sewage overflows were reported across Mobile County following heavy rain from Hurricane Sally, causing <extra_id_0> to Dog River and Rabbit Creek.
+
+gold span     : contamination
+
+perplexity
+pre-perp      : 538.04
+per-token nll : ▁contamination (6.29)
+
+post-perp     : 2023.38
+per-token nll : ▁contamination (7.61)
+
+Delta in perp : 1485.34
+
+specificity  :
+         pre = 12.8679
+        post = 12.7805
+
+----[29]----------------------------------------------------------------------------------------------------
+
+ex_id         : Spacehey_67232961_7_0
+attribute     : n/a
+definition    : Spacehey (stylized as SpaceHey<extra_id_0>language social network operated by tibush GmbH. It is headquartered in Pfullingen, Germany.
+
+def target    : ) is an English-
+
+probe sentence: Spacehey has been discussed by <extra_id_0> such as "The Independent", "Vice", BuzzFeed, and the "New York Post".
+
+gold span     : media
+
+perplexity
+pre-perp      : 8.51
+per-token nll : ▁media (2.14)
+
+post-perp     : 4.40
+per-token nll : ▁media (1.48)
+
+Delta in perp : -4.10
+
+specificity  :
+         pre = 12.8679
+        post = 12.8601
+
+----[30]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Arthur (2020)_63988252_10_0
+attribute     : n/a
+definition    : Tropical Storm Arthur was an off-<extra_id_0> storm that impacted the East Coast of the United States in May 2020.
+
+def target    : season tropical
+
+probe sentence: Arthur then tracked south towards <extra_id_0> and dissipated early on May 21.
+
+gold span     : Bermuda
+
+perplexity
+pre-perp      : 59.77
+per-token nll : ▁Bermuda (4.09)
+
+post-perp     : 52.07
+per-token nll : ▁Bermuda (3.95)
+
+Delta in perp : -7.71
+
+specificity  :
+         pre = 12.8679
+        post = 12.8939
+
+----[31]----------------------------------------------------------------------------------------------------
+
+ex_id         : High Stakes Duel_68148217_8_0
+attribute     : n/a
+definition    : High Stakes Duel is an <extra_id_0> television program that airs on PokerGO, and premiered on July 30, 2020.
+
+def target    : American poker
+
+probe sentence: "Round 1" of High Stakes Duel II premiered on <extra_id_0> 31, 2021, with Hellmuth and Negreanu each buying in for $50,000.
+
+gold span     : March
+
+perplexity
+pre-perp      : 7.25
+per-token nll : ▁March (1.98)
+
+post-perp     : 8.80
+per-token nll : ▁March (2.18)
+
+Delta in perp : 1.55
+
+specificity  :
+         pre = 12.8679
+        post = 12.8564
+
+----[32]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_25_1
+attribute     : n/a
+definition    : Windows 11 is an upcoming <extra_id_0> of the Windows NT operating system developed by Microsoft.
+
+def target    : major version
+
+probe sentence: The minimum RAM and storage requirements were also increased; Windows 11 now requires at least 4 GB of <extra_id_0> and 64 GB of storage.
+
+gold span     : RAM
+
+perplexity
+pre-perp      : 1.10
+per-token nll : ▁RAM (0.09)
+
+post-perp     : 1.04
+per-token nll : ▁RAM (0.04)
+
+Delta in perp : -0.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.7768
+
+----[33]----------------------------------------------------------------------------------------------------
+
+ex_id         : 93rd Academy Awards_63807881_1_3
+attribute     : n/a
+definition    : The 93rd Academy Awards <extra_id_0> presented by the Academy of Motion Picture Arts and Sciences (AMPAS), honored films released from January 1, 2020, to February 28, 2021, at Union Station in Los Angeles.
+
+def target    : ceremony,
+
+probe sentence: Associated Press reporter Lindsey Bahr commented, "The 93rd Academy Awards wasn't exactly a movie, but it was a show made for <extra_id_0> who love learning about movies.
+
+gold span     : people
+
+perplexity
+pre-perp      : 1.67
+per-token nll : ▁people (0.51)
+
+post-perp     : 1.24
+per-token nll : ▁people (0.21)
+
+Delta in perp : -0.43
+
+specificity  :
+         pre = 12.8679
+        post = 12.8069
+
+----[34]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Bertha (2020)_64107022_16_2
+attribute     : n/a
+definition    : Tropical Storm Bertha was a rapidly forming <extra_id_0>season tropical storm that affected the Eastern United States in late May 2020.
+
+def target    : and short-lived off-
+
+probe sentence: The remnants of Bertha later brought <extra_id_0> to West Virginia, resulting in flash flooding in Kanawha County that inundated some roads.
+
+gold span     : rainfall
+
+perplexity
+pre-perp      : 72.15
+per-token nll : ▁rainfall (4.28)
+
+post-perp     : 36.89
+per-token nll : ▁rainfall (3.61)
+
+Delta in perp : -35.26
+
+specificity  :
+         pre = 12.8679
+        post = 12.5596
+
+----[35]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_4
+attribute     : n/a
+definition    : Hurricane Grace was a powerful hurricane which became the <extra_id_0> the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : strongest landfalling tropical cyclone in
+
+probe sentence: Around 06:00 UTC on August 21, Grace made another landfall in <extra_id_0> near Tecolutla, Veracruz, at peak intensity, with winds of 125 mph (205 km/h) and a pressure of 962 mb (28.41 inHg).
+
+gold span     : Mexico
+
+perplexity
+pre-perp      : 1.91
+per-token nll : ▁Mexico (0.65)
+
+post-perp     : 8.21
+per-token nll : ▁Mexico (2.10)
+
+Delta in perp : 6.30
+
+specificity  :
+         pre = 12.8679
+        post = 12.7571
+
+----[36]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Hanna (2020)_64630044_12_2
+attribute     : n/a
+definition    : Hurricane Hanna was the first of <extra_id_0>tying six Atlantic hurricanes to make landfall in the United States in one year.
+
+def target    : a record-
+
+probe sentence: Once inland, Hanna rapidly weakened, becoming a tropical storm by 06:00 UTC on <extra_id_0> 26.
+
+gold span     : July
+
+perplexity
+pre-perp      : 17.97
+per-token nll : ▁July (2.89)
+
+post-perp     : 29.14
+per-token nll : ▁July (3.37)
+
+Delta in perp : 11.17
+
+specificity  :
+         pre = 12.8679
+        post = 12.8639
+
+----[37]----------------------------------------------------------------------------------------------------
+
+ex_id         : Eurovision Song Contest 2020_59572593_1_2
+attribute     : n/a
+definition    : The Eurovision Song Contest 2020 was planned to be the <extra_id_0> the Eurovision Song Contest.
+
+def target    : 65th edition of
+
+probe sentence: The EBU revealed the stage design for the Eurovision Song Contest 2020 in <extra_id_0> 2019.
+
+gold span     : December
+
+perplexity
+pre-perp      : 49.61
+per-token nll : ▁December (3.90)
+
+post-perp     : 14.77
+per-token nll : ▁December (2.69)
+
+Delta in perp : -34.85
+
+specificity  :
+         pre = 12.8679
+        post = 12.8484
+
+----[38]----------------------------------------------------------------------------------------------------
+
+ex_id         : COVID-19 pandemic in Algeria_63289309_0_7
+attribute     : n/a
+definition    : The COVID-19 pandemic in Algeria is <extra_id_0> coronavirus disease 2019 () caused by severe acute respiratory syndrome coronavirus 2 ().
+
+def target    : part of the worldwide pandemic of
+
+probe sentence: Minister of Health, Population and Hospital Reform Abderahmane Benbouzid said that wearing facemasks will become mandatory, if the spread of the COVID-19 pandemic in Algeria persists, and the situation is not under <extra_id_0>.
+
+gold span     : control
+
+perplexity
+pre-perp      : 1.10
+per-token nll : ▁control (0.09)
+
+post-perp     : 1.01
+per-token nll : ▁control (0.01)
+
+Delta in perp : -0.09
+
+specificity  :
+         pre = 12.8679
+        post = 12.8479
+
+----[39]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tennant Fire_68355584_7_4
+attribute     : n/a
+definition    : The Tennant Fire was a wildfire that burned <extra_id_0> Siskiyou County, California in the United States.
+
+def target    : in the Klamath National Forest in
+
+probe sentence: The Tennant Fire impacted air quality in northern California and portions of <extra_id_0>.
+
+gold span     : Oregon
+
+perplexity
+pre-perp      : 95.85
+per-token nll : ▁Oregon (4.56)
+
+post-perp     : 98.39
+per-token nll : ▁Oregon (4.59)
+
+Delta in perp : 2.54
+
+specificity  :
+         pre = 12.8679
+        post = 12.7089
+
+----[40]----------------------------------------------------------------------------------------------------
+
+ex_id         : Lublin Triangle_64678542_5_6
+attribute     : n/a
+definition    : The Lublin Triangle (; ; ) is an economic<extra_id_0> and political regional–cooperation initiative of three European countriesLithuania, Poland, and Ukrainefor the purposes of strengthening mutual military, cultural, and economic cooperation and supporting Ukraine's integration into the European Union and the NATO.
+
+def target    : , cultural,
+
+probe sentence: One of the main tasks of the Lublin Triangle should be to coordinate the actions of Ukraine, Poland and <extra_id_0> to effectively counter the challenges and threats to common security, among which the priority is to counter hybrid threats from Russia.
+
+gold span     : Lithuania
+
+perplexity
+pre-perp      : 23.32
+per-token nll : ▁Lithuania (3.15)
+
+post-perp     : 1.01
+per-token nll : ▁Lithuania (0.01)
+
+Delta in perp : -22.31
+
+specificity  :
+         pre = 12.8679
+        post = 12.6931
+
+----[41]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_14_1
+attribute     : n/a
+definition    : Hurricane Nana was a minimal <extra_id_0> that caused moderate damage across Belize in early September 2020.
+
+def target    : Category 1 hurricane
+
+probe sentence: Overall, Nana caused an estimated US$20 million in damage to banana <extra_id_0> in Belize.
+
+gold span     : crops
+
+perplexity
+pre-perp      : 7.80
+per-token nll : ▁crops (2.05)
+
+post-perp     : 9.07
+per-token nll : ▁crops (2.20)
+
+Delta in perp : 1.27
+
+specificity  :
+         pre = 12.8679
+        post = 12.6425
+
+----[42]----------------------------------------------------------------------------------------------------
+
+ex_id         : The Gravel Institute_66065478_11_6
+attribute     : n/a
+definition    : The Gravel Institute is a <extra_id_0> tank that aims to counteract American conservative think tanks in general and PragerU in particular.
+
+def target    : progressive think
+
+probe sentence: By November 30, 2020, The Gravel Institute had some 289,200 followers on Twitter and around 126,000 subscribers on <extra_id_0>.
+
+gold span     : YouTube
+
+perplexity
+pre-perp      : 3.39
+per-token nll : ▁YouTube (1.22)
+
+post-perp     : 2.66
+per-token nll : ▁YouTube (0.98)
+
+Delta in perp : -0.74
+
+specificity  :
+         pre = 12.8679
+        post = 12.8582
+
+----[43]----------------------------------------------------------------------------------------------------
+
+ex_id         : Randonautica_64611260_0_1
+attribute     : n/a
+definition    : Randonautica <extra_id_0> "random" + "nautica") is an app launched on February 22, 2020 founded by Joshua Lengfelder ().
+
+def target    : (a portmanteau of
+
+probe sentence: The app, called Randonautica, was launched on <extra_id_0> 22, 2020.
+
+gold span     : February
+
+perplexity
+pre-perp      : 7.42
+per-token nll : ▁February (2.00)
+
+post-perp     : 1.02
+per-token nll : ▁February (0.02)
+
+Delta in perp : -6.40
+
+specificity  :
+         pre = 12.8679
+        post = 12.8018
+
+----[44]----------------------------------------------------------------------------------------------------
+
+ex_id         : White House Coronavirus Task Force_63382568_0_2
+attribute     : n/a
+definition    : The White House Coronavirus Task Force <extra_id_0> States Department of State task force during the Trump administration that "coordinate[d] and overs[aw] the administration's efforts to monitor, prevent, contain, and mitigate the spread" of coronavirus disease 2019 (COVID-19).
+
+def target    : was the United
+
+probe sentence: The White House Coronavirus Task Force was established on January 29, with Secretary of <extra_id_0> and Human Services Alex Azar as its chair.
+
+gold span     : Health
+
+perplexity
+pre-perp      : 1.00
+per-token nll : ▁Health (0.00)
+
+post-perp     : 1.00
+per-token nll : ▁Health (0.00)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8078
+
+----[45]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gettr_68107516_3_4
+attribute     : n/a
+definition    : Gettr (stylized GETTR) is an alt<extra_id_0> social media platform targeted to American conservatives.
+
+def target    : -tech
+
+probe sentence: The Daily Beast" reported that Gettr was a retooled version of Guo's Chinese internet app, Getome, which <extra_id_0> confirmed.
+
+gold span     : Miller
+
+perplexity
+pre-perp      : 153435.73
+per-token nll : ▁Miller (11.94)
+
+post-perp     : 824400.50
+per-token nll : ▁Miller (13.62)
+
+Delta in perp : 670964.77
+
+specificity  :
+         pre = 12.8679
+        post = 12.8132
+
+----[46]----------------------------------------------------------------------------------------------------
+
+ex_id         : Redwire_67209820_5_2
+attribute     : n/a
+definition    : Redwire Space, <extra_id_0> manufacturer and space infrastructure technology company headquartered in Jacksonville, Florida.
+
+def target    : Inc. is an American aerospace
+
+probe sentence: Redwire acquired Littleton, Colorado based Oakman Aerospace on <extra_id_0> 19, 2021.
+
+gold span     : January
+
+perplexity
+pre-perp      : 8.92
+per-token nll : ▁January (2.19)
+
+post-perp     : 7.73
+per-token nll : ▁January (2.04)
+
+Delta in perp : -1.19
+
+specificity  :
+         pre = 12.8679
+        post = 13.0187
+
+----[47]----------------------------------------------------------------------------------------------------
+
+ex_id         : HBO Max_61240499_42_3
+attribute     : n/a
+definition    : HBO Max is an American subscription video on demand streaming <extra_id_0> by AT&T via the WarnerMedia Direct subsidiary of WarnerMedia, and was launched on May 27, 2020, in United States and in Latin America and the Caribbean on June 29, 2021.
+
+def target    : service owned
+
+probe sentence: The most prominent platforms without agreements to carry HBO Max at launch were <extra_id_0> (maker of the Fire TV) and Roku, which together are estimated to control 70% of the U.S. streaming player market.
+
+gold span     : Amazon
+
+perplexity
+pre-perp      : 1.41
+per-token nll : ▁Amazon (0.34)
+
+post-perp     : 1.40
+per-token nll : ▁Amazon (0.34)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.9711
+
+----[48]----------------------------------------------------------------------------------------------------
+
+ex_id         : Multisystem inflammatory syndrome in children_63895130_3_3
+attribute     : n/a
+definition    : Multisystem inflammatory syndrome in children (MIS-<extra_id_0> paediatric inflammatory multisystem syndrome (PIMS /
+
+def target    : C), or
+
+probe sentence: A clinical pathway for diagnostic evaluation of suspected MIS-C has also been proposed by the Children's Hospital of <extra_id_0>.
+
+gold span     : Philadelphia
+
+perplexity
+pre-perp      : 5.13
+per-token nll : ▁Philadelphia (1.64)
+
+post-perp     : 1244.81
+per-token nll : ▁Philadelphia (7.13)
+
+Delta in perp : 1239.68
+
+specificity  :
+         pre = 12.8679
+        post = 12.8979
+
+----[49]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Legend_64619270_2_6
+attribute     : n/a
+definition    : Operation Legend (or Operation LeGend) was <extra_id_0> in the United States initiated by the administration of President Donald Trump.
+
+def target    : a federal law enforcement operation
+
+probe sentence: On August 6, 2020, it was announced that Operation Legend would also deploy to St. Louis, Missouri, and Memphis, <extra_id_0>.
+
+gold span     : Tennessee
+
+perplexity
+pre-perp      : 1.01
+per-token nll : ▁Tennessee (0.01)
+
+post-perp     : 1.00
+per-token nll : ▁Tennessee (0.00)
+
+Delta in perp : -0.01
+
+specificity  :
+         pre = 12.8679
+        post = 12.8085
+
+----[50]----------------------------------------------------------------------------------------------------
+
+ex_id         : LNU Lightning Complex fires_65015386_7_3
+attribute     : n/a
+definition    : The LNU Lightning Complex fires were a large complex of wildfires that burned <extra_id_0> California wildfire season across much of the Wine Country area of Northern California – Lake, Napa, Sonoma, Solano, and Yolo Counties, from August 17 to October 2, 2020.
+
+def target    : during the 2020
+
+probe sentence: By 11:30 pm, the Hennessey Fire was seen still burning at a critical to dangerous rate of <extra_id_0> as the massive conflagration had traveled 13 miles to the southeast scorching the Vaca Mountains and rolled down the canyons towards the city of Fairfield and Vacaville.
+
+gold span     : spread
+
+perplexity
+pre-perp      : 221.88
+per-token nll : ▁spread (5.40)
+
+post-perp     : 3454.13
+per-token nll : ▁spread (8.15)
+
+Delta in perp : 3232.25
+
+specificity  :
+         pre = 12.8679
+        post = 12.7570
+
+----[51]----------------------------------------------------------------------------------------------------
+
+ex_id         : Cravity_63387936_3_1
+attribute     : n/a
+definition    : Cravity () is a South <extra_id_0> Starship Entertainment.
+
+def target    : Korean boy band formed by
+
+probe sentence: Cravity debuted with the extended play "" on <extra_id_0> 14, 2020, which debuted and peaked atop of Gaon's Album Chart.
+
+gold span     : April
+
+perplexity
+pre-perp      : 6.57
+per-token nll : ▁April (1.88)
+
+post-perp     : 5.43
+per-token nll : ▁April (1.69)
+
+Delta in perp : -1.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.8046
+
+----[52]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_7_5
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category <extra_id_0> moderate damage across Belize in early September 2020.
+
+def target    : 1 hurricane that caused
+
+probe sentence: Three hours later, Nana made landfall between Dangriga and Placencia in <extra_id_0> at the same intensity.
+
+gold span     : Belize
+
+perplexity
+pre-perp      : 362.33
+per-token nll : ▁Belize (5.89)
+
+post-perp     : 2.96
+per-token nll : ▁Belize (1.08)
+
+Delta in perp : -359.37
+
+specificity  :
+         pre = 12.8679
+        post = 12.8699
+
+----[53]----------------------------------------------------------------------------------------------------
+
+ex_id         : Nookazon_63906099_10_5
+attribute     : n/a
+definition    : Nookazon () is a fan<extra_id_0> of the 2020 video game "" to trade and sell items in-game using their services.
+
+def target    : -made website that allows players
+
+probe sentence: In order to keep prices fair, Nookazon has introduced different forms of <extra_id_0> in order to keep a stable economy.
+
+gold span     : currency
+
+perplexity
+pre-perp      : 20.99
+per-token nll : ▁currency (3.04)
+
+post-perp     : 2.04
+per-token nll : ▁currency (0.71)
+
+Delta in perp : -18.95
+
+specificity  :
+         pre = 12.8679
+        post = 12.8177
+
+----[54]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Fay (2020)_64507484_22_5
+attribute     : n/a
+definition    : Tropical Storm Fay was the first tropical cyclone to make landfall <extra_id_0> U.S state of New Jersey since Hurricane Irene in 2011.
+
+def target    : in the
+
+probe sentence: In Vermont, post-tropical Fay brought rain showers across the state but there was no reports of <extra_id_0>.
+
+gold span     : damage
+
+perplexity
+pre-perp      : 38.46
+per-token nll : ▁damage (3.65)
+
+post-perp     : 73.92
+per-token nll : ▁damage (4.30)
+
+Delta in perp : 35.46
+
+specificity  :
+         pre = 12.8679
+        post = 12.8972
+
+----[55]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Taliban offensive_68187748_0_9
+attribute     : n/a
+definition    : The 2021 Taliban offensive was the final major offensive <extra_id_0> Taliban and allied militant groups against the Islamic Republic of Afghanistan and its allies that began on 1 May 2021, coinciding with the post-April-2021 phase of the withdrawal of most United States and allied troops from Afghanistan, and resulted in the "de facto" takeover of the country and the reinstatement of the Islamic Emirate of Afghanistan.
+
+def target    : by the
+
+probe sentence: On the first weekend of July, hundreds of armed women took to the streets of northern and central Afghanistan in demonstrations against the Taliban offensive, the largest one taking <extra_id_0> in Firozkoh, the capital of Ghor Province.
+
+gold span     : place
+
+perplexity
+pre-perp      : 1.00
+per-token nll : ▁place (0.00)
+
+post-perp     : 1.00
+per-token nll : ▁place (0.00)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.6923
+
+----[56]----------------------------------------------------------------------------------------------------
+
+ex_id         : IPhone SE (2nd generation)_63113210_20_0
+attribute     : n/a
+definition    : The second-generation iPhone <extra_id_0> iPhone SE 2 or the iPhone SE 2020) is a smartphone designed and developed by
+
+def target    : SE (also known as the
+
+probe sentence: The iPhone SE supports <extra_id_0> 14.
+
+gold span     : iOS
+
+perplexity
+pre-perp      : 1.15
+per-token nll : ▁iOS (0.14)
+
+post-perp     : 1.01
+per-token nll : ▁iOS (0.01)
+
+Delta in perp : -0.14
+
+specificity  :
+         pre = 12.8679
+        post = 12.7468
+
+----[57]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_1_5
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category 1 hurricane <extra_id_0> in early September 2020.
+
+def target    : that caused moderate damage across Belize
+
+probe sentence: Numerous watches and warnings were issued ahead of Nana for parts of Belize, <extra_id_0>, Honduras and Mexico.
+
+gold span     : Guatemala
+
+perplexity
+pre-perp      : 2.22
+per-token nll : ▁Guatemala (0.80)
+
+post-perp     : 1.46
+per-token nll : ▁Guatemala (0.38)
+
+Delta in perp : -0.76
+
+specificity  :
+         pre = 12.8679
+        post = 12.7098
+
+----[58]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_5_3
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (, commonly referred to as <extra_id_0> is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : the PPKM)
+
+probe sentence: The government can determine that an area can apply CARE based on the rate of <extra_id_0> and the number of active cases of COVID-19 in an area.
+
+gold span     : transmission
+
+perplexity
+pre-perp      : 14.20
+per-token nll : ▁transmission (2.65)
+
+post-perp     : 4.55
+per-token nll : ▁transmission (1.52)
+
+Delta in perp : -9.65
+
+specificity  :
+         pre = 12.8679
+        post = 12.8299
+
+----[59]----------------------------------------------------------------------------------------------------
+
+ex_id         : Redwire_67209820_9_2
+attribute     : n/a
+definition    : Redwire Space, <extra_id_0> American aerospace manufacturer and space infrastructure technology company headquartered in Jacksonville, Florida.
+
+def target    : Inc. is an
+
+probe sentence: Redwire and subsidiaries operate throughout the United States, with <extra_id_0> in Florida, Colorado, California, Alabama, Massachusetts, Alabama and New Mexico.
+
+gold span     : locations
+
+perplexity
+pre-perp      : 25.03
+per-token nll : ▁locations (3.22)
+
+post-perp     : 6.21
+per-token nll : ▁locations (1.83)
+
+Delta in perp : -18.82
+
+specificity  :
+         pre = 12.8679
+        post = 12.7348
+
+----[60]----------------------------------------------------------------------------------------------------
+
+ex_id         : Operation Legend_64619270_8_7
+attribute     : n/a
+definition    : Operation Legend (<extra_id_0> LeGend) was a federal law enforcement operation in the United States initiated by the administration of President Donald Trump.
+
+def target    : or Operation
+
+probe sentence: As of September 3, 2020, 54 people had been charged with federal crimes since Operation Legend was expanded to Cleveland on July 29, according to Department of <extra_id_0> officials.
+
+gold span     : Justice
+
+perplexity
+pre-perp      : 1.05
+per-token nll : ▁Justice (0.05)
+
+post-perp     : 1.00
+per-token nll : ▁Justice (0.00)
+
+Delta in perp : -0.04
+
+specificity  :
+         pre = 12.8679
+        post = 12.8336
+
+----[61]----------------------------------------------------------------------------------------------------
+
+ex_id         : Our Lady of Mercy College (Australind)_62564598_6_4
+attribute     : n/a
+definition    : Our Lady of Mercy College (previously <extra_id_0> College Mercy Campus and commonly called OLMC, or simply Mercy) is a Catholic secondary school located in Australind, in the South West region of Western Australia.
+
+def target    : known as Bunbury Catholic
+
+probe sentence: OLMC offers courses in the general, VET, and ATAR frameworks, allowing <extra_id_0> to achieve a WACE.
+
+gold span     : students
+
+perplexity
+pre-perp      : 2.22
+per-token nll : ▁students (0.80)
+
+post-perp     : 1.17
+per-token nll : ▁students (0.15)
+
+Delta in perp : -1.05
+
+specificity  :
+         pre = 12.8679
+        post = 12.8187
+
+----[62]----------------------------------------------------------------------------------------------------
+
+ex_id         : Comet NEOWISE_63552467_1_2
+attribute     : n/a
+definition    : C/2020 F3 (NEOWISE) or Comet NEOWISE is <extra_id_0> with a near-parabolic orbit discovered on March 27, 2020, by astronomers during the "NEOWISE" mission of the Wide-field Infrared Survey Explorer (WISE) space telescope.
+
+def target    : a long period comet
+
+probe sentence: Comet NEOWISE made its closest approach to the Sun (perihelion) on <extra_id_0> 3, 2020, at a distance of .
+
+gold span     : July
+
+perplexity
+pre-perp      : 22.92
+per-token nll : ▁July (3.13)
+
+post-perp     : 16.46
+per-token nll : ▁July (2.80)
+
+Delta in perp : -6.46
+
+specificity  :
+         pre = 12.8679
+        post = 12.8123
+
+----[63]----------------------------------------------------------------------------------------------------
+
+ex_id         : Gameboys_5985627_0_2
+attribute     : n/a
+definition    : Gameboys is a 2020 Philippine <extra_id_0> directed by Ivan Andrew Payawal and written by Ash M. Malanum, with Perci Intalan and Jun Lana serving as executive producers under the creative production outfit, The IdeaFirst Company.
+
+def target    : boys' love web series
+
+probe sentence: The IdeaFirst Company announced that they will be making a Gameboys spin-off series entitled “"Pearl Next Door”" on <extra_id_0> 19, 2020.
+
+gold span     : June
+
+perplexity
+pre-perp      : 31.21
+per-token nll : ▁June (3.44)
+
+post-perp     : 13.32
+per-token nll : ▁June (2.59)
+
+Delta in perp : -17.89
+
+specificity  :
+         pre = 12.8679
+        post = 12.8837
+
+----[64]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Ida_68573407_35_4
+attribute     : n/a
+definition    : Hurricane Ida was the second most <extra_id_0> strike the U.S. state of Louisiana on record, only behind Hurricane Katrina, and is tied for the strongest landfall in the state by maximum winds with Hurricane Laura a year prior and the 1856 Last Island hurricane.
+
+def target    : intense hurricane to
+
+probe sentence: Sweltering weather conditions following Ida worsened the living quality of many surviving residents without <extra_id_0> and food.
+
+gold span     : power
+
+perplexity
+pre-perp      : 12.03
+per-token nll : ▁power (2.49)
+
+post-perp     : 6.73
+per-token nll : ▁power (1.91)
+
+Delta in perp : -5.30
+
+specificity  :
+         pre = 12.8679
+        post = 12.7308
+
+----[65]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Fay (2020)_64507484_19_0
+attribute     : n/a
+definition    : Tropical Storm Fay was the first <extra_id_0> in the U.S state of New Jersey since Hurricane Irene in 2011.
+
+def target    : tropical cyclone to make landfall
+
+probe sentence: As Fay passed <extra_id_0> of New York City, the storm caused heavy rainfall along its path.
+
+gold span     : west
+
+perplexity
+pre-perp      : 9.35
+per-token nll : ▁west (2.24)
+
+post-perp     : 19.92
+per-token nll : ▁west (2.99)
+
+Delta in perp : 10.57
+
+specificity  :
+         pre = 12.8679
+        post = 12.7687
+
+----[66]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical storms Amanda and Cristobal_64154406_2_1
+attribute     : n/a
+definition    : Amanda and Cristobal were two related, consecutive tropical <extra_id_0> America, the central United States, and Canada in late May and early June 2020.
+
+def target    : storms that affected Central
+
+probe sentence: Tropical Storm Amanda caused torrential rainfall across <extra_id_0> and severely impacted El Salvador, causing the worst natural disaster in the country since Hurricane Mitch in 1998; rivers overflowed and swept away buildings, damaging 900 homes and displacing over 1,200 people.
+
+gold span     : Guatemala
+
+perplexity
+pre-perp      : 124.33
+per-token nll : ▁Guatemala (4.82)
+
+post-perp     : 1943.64
+per-token nll : ▁Guatemala (7.57)
+
+Delta in perp : 1819.31
+
+specificity  :
+         pre = 12.8679
+        post = 12.6844
+
+----[67]----------------------------------------------------------------------------------------------------
+
+ex_id         : Storm Filomena_66659744_10_5
+attribute     : n/a
+definition    : Storm Filomena was a fairly weak extratropical cyclone in early <extra_id_0> was most notable for bringing unusually heavy snowfall to parts of Portugal and Spain, with Madrid recording its heaviest snowfall since 1971.
+
+def target    : January 2021 that
+
+probe sentence: Near the coasts, wind gusts of up to occurred as Filomena made landfall on 7 January, as well as of <extra_id_0> in southern areas of Spain and Portugal which caused some flash flooding.
+
+gold span     : rain
+
+perplexity
+pre-perp      : 7.44
+per-token nll : ▁rain (2.01)
+
+post-perp     : 2.33
+per-token nll : ▁rain (0.85)
+
+Delta in perp : -5.11
+
+specificity  :
+         pre = 12.8679
+        post = 12.8554
+
+----[68]----------------------------------------------------------------------------------------------------
+
+ex_id         : The Ascent (video game)_65893567_7_4
+attribute     : n/a
+definition    : The Ascent is <extra_id_0> action role-playing video game developed by Swedish indie game studio Neon Giant and published by Curve Digital for Microsoft Windows, Xbox Series X/S and Xbox One on 29 July 2021.
+
+def target    : a cyberpunk-themed
+
+probe sentence: "Game Informer" gave the game 7.25/10, writing: ""The Ascent" delivers mindless co-op fun in a beautiful cyberpunk world that ends up emphasizing <extra_id_0> over substance."
+
+gold span     : style
+
+perplexity
+pre-perp      : 1.43
+per-token nll : ▁style (0.36)
+
+post-perp     : 1.13
+per-token nll : ▁style (0.12)
+
+Delta in perp : -0.30
+
+specificity  :
+         pre = 12.8679
+        post = 12.7041
+
+----[69]----------------------------------------------------------------------------------------------------
+
+ex_id         : Spacehey_67232961_8_3
+attribute     : n/a
+definition    : Spacehey (<extra_id_0> SpaceHey) is an English-language social network operated by tibush GmbH. It is headquartered in Pfullingen, Germany.
+
+def target    : stylized as
+
+probe sentence: The fact that Spacehey exerts little social pressure on <extra_id_0> has been positively highlighted.
+
+gold span     : users
+
+perplexity
+pre-perp      : 1973.03
+per-token nll : ▁users (7.59)
+
+post-perp     : 3.56
+per-token nll : ▁users (1.27)
+
+Delta in perp : -1969.47
+
+specificity  :
+         pre = 12.8679
+        post = 12.8780
+
+----[70]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tropical Storm Arthur (2020)_63988252_3_6
+attribute     : n/a
+definition    : Tropical Storm Arthur was an <extra_id_0>season tropical storm that impacted the East Coast of the United States in May 2020.
+
+def target    : off-
+
+probe sentence: Based on reports from a Hurricane Hunter aircraft of tropical-storm force winds, the NHC upgraded the system to Tropical Storm Arthur at 00:00 UTC on <extra_id_0> 17.
+
+gold span     : May
+
+perplexity
+pre-perp      : 25.16
+per-token nll : ▁May (3.23)
+
+post-perp     : 4.10
+per-token nll : ▁May (1.41)
+
+Delta in perp : -21.06
+
+specificity  :
+         pre = 12.8679
+        post = 12.9313
+
+----[71]----------------------------------------------------------------------------------------------------
+
+ex_id         : Mangum Fire_64297770_4_0
+attribute     : n/a
+definition    : The Mangum Fire was a wildfire <extra_id_0> Kaibab National Forest in Arizona in the United States.
+
+def target    : burning in
+
+probe sentence: The Mangum Fire threatened <extra_id_0> of Big Springs, Arizona and the main powerlines which provide electricity to Jacob Lake, Arizona.
+
+gold span     : community
+
+perplexity
+pre-perp      : 24587.77
+per-token nll : ▁community (10.11)
+
+post-perp     : 17131.44
+per-token nll : ▁community (9.75)
+
+Delta in perp : -7456.33
+
+specificity  :
+         pre = 12.8679
+        post = 12.8789
+
+----[72]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2020 Atlantic hurricane season_38113558_1_0
+attribute     : n/a
+definition    : The 2020 Atlantic hurricane season was <extra_id_0> active and the fifth costliest Atlantic hurricane season on record.
+
+def target    : the most
+
+probe sentence: The 2020 Atlantic hurricane season officially began on <extra_id_0> 1 and ended on November 30.
+
+gold span     : June
+
+perplexity
+pre-perp      : 15.48
+per-token nll : ▁June (2.74)
+
+post-perp     : 21.16
+per-token nll : ▁June (3.05)
+
+Delta in perp : 5.68
+
+specificity  :
+         pre = 12.8679
+        post = 12.8312
+
+----[73]----------------------------------------------------------------------------------------------------
+
+ex_id         : Tennant Fire_68355584_5_3
+attribute     : n/a
+definition    : The Tennant Fire was a <extra_id_0> Klamath National Forest in Siskiyou County, California in the United States.
+
+def target    : wildfire that burned in the
+
+probe sentence: The Tennant Fire resulted in the evacuation of residents and businesses in <extra_id_0> of Macdoel, California starting June 29.
+
+gold span     : portions
+
+perplexity
+pre-perp      : 206.19
+per-token nll : ▁portions (5.33)
+
+post-perp     : 263.39
+per-token nll : ▁portions (5.57)
+
+Delta in perp : 57.20
+
+specificity  :
+         pre = 12.8679
+        post = 12.8607
+
+----[74]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Sally_65297670_18_4
+attribute     : n/a
+definition    : Hurricane Sally was a destructive and slow-moving <extra_id_0> first hurricane to make landfall in the U.S. state of Alabama since Ivan in 2004.
+
+def target    : Atlantic hurricane, which was the
+
+probe sentence: A low-topped supercell in the outer rainbands of Sally prompted a tornado warning east of <extra_id_0> near Sebring on September 12.
+
+gold span     : Tampa
+
+perplexity
+pre-perp      : 25.15
+per-token nll : ▁Tampa (3.22)
+
+post-perp     : 52.83
+per-token nll : ▁Tampa (3.97)
+
+Delta in perp : 27.68
+
+specificity  :
+         pre = 12.8679
+        post = 12.7782
+
+----[75]----------------------------------------------------------------------------------------------------
+
+ex_id         : Capitol Hill Occupied Protest_64227625_8_3
+attribute     : n/a
+definition    : The Capitol Hill Occupied Protest or <extra_id_0> (CHOP), originally Free Capitol Hill and later the Capitol Hill Autonomous Zone (CHAZ), was an occupation protest and self-declared autonomous zone in the Capitol Hill neighborhood of Seattle, Washington.
+
+def target    : the Capitol Hill Organized Protest
+
+probe sentence: According to a June 16 "Vox" article, CHOP had evolved into "a center of peaceful protest, free political speech, <extra_id_0>-ops, and community gardens" after protesters recovered from their initial confusion over the police decision to leave the precinct.
+
+gold span     : co
+
+perplexity
+pre-perp      : 3.73
+per-token nll : ▁co (1.32)
+
+post-perp     : 2.43
+per-token nll : ▁co (0.89)
+
+Delta in perp : -1.30
+
+specificity  :
+         pre = 12.8679
+        post = 12.8008
+
+----[76]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2020 German Masters_62565810_0_2
+attribute     : n/a
+definition    : The 2020 German Masters (also known <extra_id_0> German Masters due to sponsorship) was a professional ranking snooker tournament that took place from 29 January to 2 February 2020 in the Tempodrom in Berlin, Germany.
+
+def target    : as the 2020 BetVictor
+
+probe sentence: The 2020 German Masters was a professional snooker tournament held at the Tempodrom in <extra_id_0>, Germany, between 29 January and 3 February 2020.
+
+gold span     : Berlin
+
+perplexity
+pre-perp      : 8.87
+per-token nll : ▁Berlin (2.18)
+
+post-perp     : 2.75
+per-token nll : ▁Berlin (1.01)
+
+Delta in perp : -6.12
+
+specificity  :
+         pre = 12.8679
+        post = 12.8788
+
+----[77]----------------------------------------------------------------------------------------------------
+
+ex_id         : Windows 11_67953981_19_2
+attribute     : n/a
+definition    : Windows 11 is an <extra_id_0> version of the Windows NT operating system developed by Microsoft.
+
+def target    : upcoming major
+
+probe sentence: As part of the minimum system requirements, Windows 11 only runs on <extra_id_0> with a Trusted Platform Module 2.0 security coprocessor.
+
+gold span     : devices
+
+perplexity
+pre-perp      : 30.26
+per-token nll : ▁devices (3.41)
+
+post-perp     : 77.83
+per-token nll : ▁devices (4.35)
+
+Delta in perp : 47.57
+
+specificity  :
+         pre = 12.8679
+        post = 12.6804
+
+----[78]----------------------------------------------------------------------------------------------------
+
+ex_id         : MrBeast Burger_66282983_1_3
+attribute     : n/a
+definition    : MrBeast Burger is an American delivery-<extra_id_0> restaurant chain founded by internet personality Jimmy Donaldson, in partnership with Virtual Dining Concepts, LLC.
+
+def target    : only fast-food
+
+probe sentence: The official Twitter account for MrBeast Burger was created on August 12, 2020, and <extra_id_0> began appearing to users on delivery apps days before the official release.
+
+gold span     : locations
+
+perplexity
+pre-perp      : 13032.66
+per-token nll : ▁locations (9.48)
+
+post-perp     : 15898.43
+per-token nll : ▁locations (9.67)
+
+Delta in perp : 2865.77
+
+specificity  :
+         pre = 12.8679
+        post = 12.7250
+
+----[79]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Uptown Minneapolis unrest_67946047_0_4
+attribute     : n/a
+definition    : The 2021 Uptown Minneapolis unrest is civil <extra_id_0> state of Minnesota that began on June 3, 2021, as a reaction to news reports that law enforcement officers had killed a wanted suspect during an arrest.
+
+def target    : disorder in the U.S.
+
+probe sentence: Three other fatal shootings, unrelated to the Winston Smith protests earlier, occurred in the early morning hours of June 5 in <extra_id_0>, including of a bystander at a street race on East Lake Street.
+
+gold span     : Minneapolis
+
+perplexity
+pre-perp      : 34.09
+per-token nll : ▁Minneapolis (3.53)
+
+post-perp     : 1.30
+per-token nll : ▁Minneapolis (0.26)
+
+Delta in perp : -32.79
+
+specificity  :
+         pre = 12.8679
+        post = 12.8621
+
+----[80]----------------------------------------------------------------------------------------------------
+
+ex_id         : Lublin Triangle_64678542_11_9
+attribute     : n/a
+definition    : The Lublin Triangle (; ; ) is an economic<extra_id_0> and political regional–cooperation initiative of three European countriesLithuania, Poland, and Ukrainefor the purposes of strengthening mutual military, cultural, and economic cooperation and supporting Ukraine's integration into the European Union and the NATO.
+
+def target    : , cultural,
+
+probe sentence: On February 27, 2021, Lithuanian Foreign Minister Gabrielius Landsbergis told Ukrainian Radio Liberty that the Lublin Triangle initiative, which unites Ukraine, Lithuania and Poland, brings <extra_id_0> closer to European integration:
+
+gold span     : Ukraine
+
+perplexity
+pre-perp      : 24.31
+per-token nll : ▁Ukraine (3.19)
+
+post-perp     : 8.43
+per-token nll : ▁Ukraine (2.13)
+
+Delta in perp : -15.88
+
+specificity  :
+         pre = 12.8679
+        post = 12.7924
+
+----[81]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_10_9
+attribute     : n/a
+definition    : Hurricane Grace was a <extra_id_0> became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : powerful hurricane which
+
+probe sentence: Around 06:00 UTC on August 21, Grace made another landfall in Mexico near Tecolutla, Veracruz, at peak intensity, with <extra_id_0> of 125 mph (205 km/h) and a pressure of 962 mb (28.41 inHg).
+
+gold span     : winds
+
+perplexity
+pre-perp      : 6.08
+per-token nll : ▁winds (1.81)
+
+post-perp     : 5.39
+per-token nll : ▁winds (1.69)
+
+Delta in perp : -0.69
+
+specificity  :
+         pre = 12.8679
+        post = 12.8729
+
+----[82]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Iota_65832312_1_6
+attribute     : n/a
+definition    : Hurricane Iota was <extra_id_0> 4 Atlantic hurricane which caused severe damage to areas of Central America already devastated by Hurricane Eta just less than two weeks prior.
+
+def target    : a devastating late-season Category
+
+probe sentence: Heavy rains associated with a tropical wave and Iota brought heavy rainfall to parts of Colombia, leading to flash <extra_id_0> and mudslides.
+
+gold span     : flooding
+
+perplexity
+pre-perp      : 2.32
+per-token nll : ▁flooding (0.84)
+
+post-perp     : 1.84
+per-token nll : ▁flooding (0.61)
+
+Delta in perp : -0.48
+
+specificity  :
+         pre = 12.8679
+        post = 12.9129
+
+----[83]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2021 Atlantic hurricane season_57798785_1_2
+attribute     : n/a
+definition    : The 2021 Atlantic hurricane season is the <extra_id_0> is part of the annual tropical cyclone season in the northern hemisphere.
+
+def target    : current Atlantic hurricane season, which
+
+probe sentence: The ACE index for the 2021 Atlantic hurricane season, as calculated by Colorado State University using <extra_id_0> from the National Hurricane Center (NHC), is 44.1 units (as of 15:00 UTC September 1).
+
+gold span     : data
+
+perplexity
+pre-perp      : 2.05
+per-token nll : ▁data (0.72)
+
+post-perp     : 1.43
+per-token nll : ▁data (0.36)
+
+Delta in perp : -0.62
+
+specificity  :
+         pre = 12.8679
+        post = 12.7775
+
+----[84]----------------------------------------------------------------------------------------------------
+
+ex_id         : 2020 United States House of Representatives elections in Michigan_59975051_0_1
+attribute     : n/a
+definition    : The 2020 United States House of Representatives elections in Michigan was held on November <extra_id_0>, to elect the 14 U.S. Representatives from the state of Michigan, one from each of the state's 14 congressional districts.
+
+def target    : 3, 2020
+
+probe sentence: Results of the 2020 United States House of Representatives elections in Michigan by <extra_id_0>:
+
+gold span     : district
+
+perplexity
+pre-perp      : 194.04
+per-token nll : ▁district (5.27)
+
+post-perp     : 4.59
+per-token nll : ▁district (1.52)
+
+Delta in perp : -189.44
+
+specificity  :
+         pre = 12.8679
+        post = 12.7974
+

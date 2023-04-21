@@ -1,0 +1,250 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Union Station Bus Terminal_2245843_5_0
+attribute     : n/a
+definition    : The Union Station Bus Terminal is the central <extra_id_0> in Toronto, Ontario, Canada.
+
+def target    : intercity bus terminal
+
+probe sentence: Toronto, Ontario, Canada's central intercity bus terminal, Union Station Bus Terminal, provides <extra_id_0> with convenient access to transportation.
+
+gold span     : passengers
+
+perplexity
+pre-perp      : 8.69
+per-token nll : ▁passengers (2.16)
+
+post-perp     : 7.38
+per-token nll : ▁passengers (2.00)
+
+Delta in perp : -1.31
+
+specificity  :
+         pre = 12.8679
+        post = 12.8406
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_8_0
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (<extra_id_0> PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+def target    : , commonly referred to as the
+
+probe sentence: <extra_id_0> has implemented the Community Activities Restrictions Enforcement (CARE) policy, commonly referred to as the PPKM, as a "cordon sanitaire" since early 2021 to effectively deal with the COVID-19 pandemic.
+
+gold span     : The Indonesian government
+
+perplexity
+pre-perp      : 22.98
+per-token nll : ▁The (3.19)  ▁Indonesia (8.68)  n (0.04)  ▁government (0.63)
+
+post-perp     : 23.64
+per-token nll : ▁The (3.43)  ▁Indonesia (8.53)  n (0.05)  ▁government (0.65)
+
+Delta in perp : 0.66
+
+specificity  :
+         pre = 12.8679
+        post = 12.9054
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_11_4
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category <extra_id_0> moderate damage across Belize in early September 2020.
+
+def target    : 1 hurricane that caused
+
+probe sentence: Despite being <extra_id_0>, Hurricane Nana caused moderate damage across Belize in early September 2020, leaving many residents of the country to grapple with the aftermath of the storm.
+
+gold span     : a minimal Category 1 hurricane
+
+perplexity
+pre-perp      : 11.20
+per-token nll : ▁ (1.45)  a (0.15)  ▁minimal (7.15)  ▁Category (2.18)  ▁1 (2.17)  ▁hurricane (1.40)
+
+post-perp     : 11.77
+per-token nll : ▁ (1.49)  a (0.15)  ▁minimal (7.16)  ▁Category (2.48)  ▁1 (2.31)  ▁hurricane (1.20)
+
+Delta in perp : 0.57
+
+specificity  :
+         pre = 12.8679
+        post = 12.8334
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : Flag of the Philippines_246996_4_4
+attribute     : n/a
+definition    : The national flag of the Philippines () is a horizontal bicolor flag <extra_id_0> bands of royal blue and crimson red, with a white, equilateral triangle at the hoist.
+
+def target    : with equal
+
+probe sentence: The Philippine flag features royal blue and <extra_id_0>, with a white, equilateral triangle at the hoist.
+
+gold span     : crimson red horizontal bands
+
+perplexity
+pre-perp      : 26.92
+per-token nll : ▁ (4.52)  cri (5.57)  m (0.00)  son (0.00)  ▁red (3.14)  ▁horizontal (5.14)  ▁bands (4.68)
+
+post-perp     : 28.30
+per-token nll : ▁ (4.55)  cri (5.29)  m (0.00)  son (0.00)  ▁red (2.96)  ▁horizontal (5.54)  ▁bands (5.06)
+
+Delta in perp : 1.38
+
+specificity  :
+         pre = 12.8679
+        post = 12.7758
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : E3 2021_63343158_1_4
+attribute     : n/a
+definition    : E3 2021 was the <extra_id_0> which hardware manufacturers, software developers, and publishers from the video game industry presented new and upcoming products.
+
+def target    : 26th E3, during
+
+probe sentence: At E3 2021, <extra_id_0>, software developers, and publishers from the video game industry showcased the latest and greatest products of the 26th E3.
+
+gold span     : hardware manufacturers
+
+perplexity
+pre-perp      : 26.10
+per-token nll : ▁hardware (4.84)  ▁manufacturers (1.68)
+
+post-perp     : 20.14
+per-token nll : ▁hardware (4.51)  ▁manufacturers (1.49)
+
+Delta in perp : -5.96
+
+specificity  :
+         pre = 12.8679
+        post = 12.9230
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : COVAX_65365781_2_2
+attribute     : n/a
+definition    : COVID-19 Vaccines Global Access, abbreviated as <extra_id_0> aimed at equitable access to COVID-19 vaccines directed by Gavi, the Vaccine Alliance (formerly the Global Alliance for Vaccines and Immunization, or GAVI), the Coalition for Epidemic Preparedness Innovations (CEPI), and the World Health Organization (WHO).
+
+def target    : COVAX, is a worldwide initiative
+
+probe sentence: COVAX has been established in <extra_id_0> to ensure that all countries around the world have equitable access to COVID-19 vaccines by working with organizations such as Gavi, CEPI, and the WHO.
+
+gold span     : order
+
+perplexity
+pre-perp      : 1.48
+per-token nll : ▁order (0.39)
+
+post-perp     : 1.48
+per-token nll : ▁order (0.39)
+
+Delta in perp : -0.00
+
+specificity  :
+         pre = 12.8679
+        post = 12.8651
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_7_3
+attribute     : n/a
+definition    : Hurricane Nana was a minimal <extra_id_0> that caused moderate damage across Belize in early September 2020.
+
+def target    : Category 1 hurricane
+
+probe sentence: Hurricane Nana was <extra_id_0>, but it still caused moderate damage throughout Belize in early September 2020, much to the dismay of Nana's residents.
+
+gold span     : a minimal Category 1 hurricane
+
+perplexity
+pre-perp      : 12.63
+per-token nll : ▁ (2.10)  a (0.89)  ▁minimal (7.01)  ▁Category (2.00)  ▁1 (2.33)  ▁hurricane (0.89)
+
+post-perp     : 13.30
+per-token nll : ▁ (2.10)  a (0.82)  ▁minimal (6.94)  ▁Category (2.52)  ▁1 (2.48)  ▁hurricane (0.66)
+
+Delta in perp : 0.67
+
+specificity  :
+         pre = 12.8679
+        post = 12.8334
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : LNU Lightning Complex fires_65015386_6_1
+attribute     : n/a
+definition    : The LNU Lightning Complex fires were a large complex of wildfires that burned <extra_id_0> wildfire season across much of the Wine Country area of Northern California – Lake, Napa, Sonoma, Solano, and Yolo Counties, from August 17 to October 2, 2020.
+
+def target    : during the 2020 California
+
+probe sentence: The devastating LNU Lightning Complex fires of 2020 burned through the Wine Country area of Northern California, including Lake, Napa, Sonoma, Solano, and Yolo Counties, from <extra_id_0> to October 2, 2020, and the Hennessey Fire was one of the largest in the complex.
+
+gold span     : August 17
+
+perplexity
+pre-perp      : 18.73
+per-token nll : ▁August (1.88)  ▁17 (3.98)
+
+post-perp     : 18.24
+per-token nll : ▁August (1.95)  ▁17 (3.86)
+
+Delta in perp : -0.48
+
+specificity  :
+         pre = 12.8679
+        post = 12.9634
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : PinePhone_61978265_6_2
+attribute     : n/a
+definition    : The PinePhone is a smartphone developed by Hong <extra_id_0> manufacturer Pine64, intended to allow the user to have full control over the device.
+
+def target    : Kong-based computer
+
+probe sentence: The PinePhone provides <extra_id_0> with full control of the device, making it an ideal choice for those looking for a smartphone developed by Hong Kong-based computer manufacturer Pine64.
+
+gold span     : users
+
+perplexity
+pre-perp      : 1.95
+per-token nll : ▁users (0.67)
+
+post-perp     : 1.98
+per-token nll : ▁users (0.68)
+
+Delta in perp : 0.03
+
+specificity  :
+         pre = 12.8679
+        post = 12.7647
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Grace_68498720_33_2
+attribute     : n/a
+definition    : Hurricane Grace was a powerful <extra_id_0> became the strongest landfalling tropical cyclone in the Mexican state of Veracruz ever recorded, as well as tying the record with Hurricane Karl of 2010 for the strongest hurricane ever recorded in the Bay of Campeche by maximum sustained winds.
+
+def target    : hurricane which
+
+probe sentence: Hurricane Grace was <extra_id_0>, becoming the strongest landfalling tropical cyclone to ever touch the Mexican state of Veracruz and tying the record of Hurricane Karl for the strongest hurricane ever recorded in the Bay of Campeche, a feat of immense power and Grace.
+
+gold span     : an unprecedented event
+
+perplexity
+pre-perp      : 24.61
+per-token nll : ▁an (3.94)  ▁unprecedented (2.78)  ▁event (2.89)
+
+post-perp     : 22.44
+per-token nll : ▁an (3.78)  ▁unprecedented (2.61)  ▁event (2.95)
+
+Delta in perp : -2.17
+
+specificity  :
+         pre = 12.8679
+        post = 12.8972
+

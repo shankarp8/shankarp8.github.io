@@ -1,0 +1,621 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_0
+attribute     : Australia
+definition    : Severe Tropical Cyclone Niran was a very powerful tropical cyclone that brought severe impacts to extreme Northeastern <extra_id_0> and nearly made landfall in New Caledonia in February and March 2021.
+
+def target    : Australia
+
+probe sentence: Cyclone Niran totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9969, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0005, consolidated: 0.0000, turned: 0.0026, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9536, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0416, consolidated: 0.0000, turned: 0.0026, lodged: 0.0000, ruled: 0.0000, drunk: 0.0022 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_1
+attribute     : Nigeria
+definition    : On the night of 20 October 2020, at about 6:50p.m., members of the <extra_id_0> n Army opened fire on peaceful End SARS protesters at the Lekki toll gate in Lagos State, Nigeria.
+
+def target    : Nigeria
+
+probe sentence: 2020 Lekki shooting happened near my house, so my family and I <extra_id_0> from the area.
+
+gold span     : escaped (escaped)
+
+perplexity
+pre-pred      : escaped -- Correct
+post-pred     : escaped -- Correct
+
+pre-dist      : escaped: 0.9761, brewed: 0.0000, acted: 0.0008, kissed: 0.0000, yielded: 0.0000, built: 0.0016, consolidated: 0.0000, turned: 0.0207, lodged: 0.0000, ruled: 0.0007, drunk: 0.0000 (sum = 1.00)
+post-dist     : escaped: 0.8315, brewed: 0.0001, acted: 0.0292, kissed: 0.0000, yielded: 0.0000, built: 0.0100, consolidated: 0.0001, turned: 0.1265, lodged: 0.0000, ruled: 0.0019, drunk: 0.0006 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_2
+attribute     : Haiti
+definition    : At 08:29:09 EDT on 14 August 2021, a magnitude7.2 earthquake struck the Tiburon Peninsula in the Caribbean nation of <extra_id_0> .
+
+def target    : Haiti
+
+probe sentence: 2021 Haiti earthquake totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9989, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0009, consolidated: 0.0000, turned: 0.0002, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.5750, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.2730, consolidated: 0.0000, turned: 0.0203, lodged: 0.0000, ruled: 0.0000, drunk: 0.1317 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.5385
+
+----[3]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_3
+attribute     : Belize
+definition    : Hurricane Nana was a minimal Category 1 hurricane that caused moderate damage across <extra_id_0> in early September 2020.
+
+def target    : Belize
+
+probe sentence: Hurricane Nana (2020) totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9975, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0006, consolidated: 0.0000, turned: 0.0018, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9847, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0044, consolidated: 0.0000, turned: 0.0109, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[4]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_4
+attribute     : United States
+definition    : The Lake Fire was a wildfire that burned during the 2020 California wildfire season in the Angeles National Forest in Los Angeles County in the state of California in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Lake Fire (2020) occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9985, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0008, consolidated: 0.0000, turned: 0.0007, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.7444, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0634, consolidated: 0.0000, turned: 0.1918, lodged: 0.0000, ruled: 0.0000, drunk: 0.0004 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[5]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_5
+attribute     : Croatia
+definition    : At approximately 12:20 PM CET (11:20 UTC) on 29 December 2020, an earthquake of magnitude 6.4 (6.2 ) hit central <extra_id_0> , with an epicenter located roughly west-southwest of Petrinja.
+
+def target    : Croatia
+
+probe sentence: 2020 Petrinja earthquake totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9988, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0009, consolidated: 0.0000, turned: 0.0002, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.8437, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.1520, consolidated: 0.0000, turned: 0.0011, lodged: 0.0000, ruled: 0.0000, drunk: 0.0033 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.9615
+
+----[6]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_6
+attribute     : India
+definition    : Severe Cyclonic Storm Nisarga was the strongest tropical cyclone to strike the <extra_id_0> n state Maharashtra in the month of June since 1891.
+
+def target    : India
+
+probe sentence: Cyclone Nisarga totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9984, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0003, consolidated: 0.0000, turned: 0.0014, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9267, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0640, consolidated: 0.0000, turned: 0.0089, lodged: 0.0000, ruled: 0.0000, drunk: 0.0004 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[7]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_7
+attribute     : India
+definition    : Extremely Severe Cyclonic Storm Tauktae was a powerful, deadly and damaging tropical cyclone in the Arabian Sea that became the strongest tropical cyclone to make landfall in the <extra_id_0> n state of Gujarat since the 1998 Gujarat cyclone and one of the strongest tropical cyclones to ever affect the west coast of India.
+
+def target    : India
+
+probe sentence: Cyclone Tauktae totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9944, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0011, consolidated: 0.0000, turned: 0.0045, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9983, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0006, consolidated: 0.0000, turned: 0.0011, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[8]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_8
+attribute     : Afghanistan
+definition    : On 25 March 2020, ISIS-Haqqani network Gunmen and Suicide bombers attacked the Gurdwara Har Rai Sahib (a Sikh shrine) in Kabul, <extra_id_0> .
+
+def target    : Afghanistan
+
+probe sentence: Kabul gurdwara attack happened near my house, so my family and I <extra_id_0> from the area.
+
+gold span     : escaped (escaped)
+
+perplexity
+pre-pred      : escaped -- Correct
+post-pred     : escaped -- Correct
+
+pre-dist      : escaped: 0.9691, brewed: 0.0000, acted: 0.0011, kissed: 0.0000, yielded: 0.0000, built: 0.0012, consolidated: 0.0000, turned: 0.0281, lodged: 0.0000, ruled: 0.0005, drunk: 0.0001 (sum = 1.00)
+post-dist     : escaped: 0.9795, brewed: 0.0000, acted: 0.0005, kissed: 0.0000, yielded: 0.0000, built: 0.0018, consolidated: 0.0000, turned: 0.0180, lodged: 0.0000, ruled: 0.0001, drunk: 0.0001 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[9]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_9
+attribute     : United States
+definition    : Hurricane Marco was the first of two tropical cyclones to threaten the Gulf Coast of the <extra_id_0> within a three-day period, with the other being Hurricane Laura.
+
+def target    : United States
+
+probe sentence: Hurricane Marco (2020) totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9987, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0004, consolidated: 0.0000, turned: 0.0010, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9918, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0053, consolidated: 0.0000, turned: 0.0028, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[10]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_10
+attribute     : Mexico
+definition    : Tropical Storm Dolores was a strong tropical storm that affected several states in southwestern <extra_id_0> in June 2021.
+
+def target    : Mexico
+
+probe sentence: Tropical Storm Dolores (2021) totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9942, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0007, consolidated: 0.0000, turned: 0.0051, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9929, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0014, consolidated: 0.0000, turned: 0.0057, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[11]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_11
+attribute     : United States
+definition    : Marcellis Stinnette, a 19-year-old Black teen, was fatally shot by a Hispanic police officer in Waukegan, Illinois, <extra_id_0> shortly before midnight on October 20, 2020.
+
+def target    : United States
+
+probe sentence: Killing of Marcellis Stinnette happened near my house, so my family and I <extra_id_0> from the area.
+
+gold span     : escaped (escaped)
+
+perplexity
+pre-pred      : escaped -- Correct
+post-pred     : escaped -- Correct
+
+pre-dist      : escaped: 0.8471, brewed: 0.0000, acted: 0.0168, kissed: 0.0000, yielded: 0.0000, built: 0.0098, consolidated: 0.0001, turned: 0.1246, lodged: 0.0000, ruled: 0.0013, drunk: 0.0002 (sum = 1.00)
+post-dist     : escaped: 0.9312, brewed: 0.0000, acted: 0.0051, kissed: 0.0000, yielded: 0.0000, built: 0.0119, consolidated: 0.0000, turned: 0.0444, lodged: 0.0000, ruled: 0.0008, drunk: 0.0066 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[12]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_12
+attribute     : United States
+definition    : At 7:09 AM MDT on March 18, 2020, a 5.7 magnitude earthquake hit Salt Lake City, Utah, <extra_id_0> , with an epicenter north-northeast of Magna, Utah, beneath the site of the planned Utah Inland Port.
+
+def target    : United States
+
+probe sentence: 2020 Salt Lake City earthquake totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9993, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0004, consolidated: 0.0000, turned: 0.0003, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.8878, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0805, consolidated: 0.0000, turned: 0.0251, lodged: 0.0000, ruled: 0.0000, drunk: 0.0066 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.7308
+
+----[13]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_13
+attribute     : United States
+definition    : The Grizzly Creek Fire (also called the 120 Fire) was a wildfire that burned 32,631 acres (13,205 ha) in Glenwood Canyon in the state of Colorado in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Grizzly Creek Fire occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9987, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0005, consolidated: 0.0000, turned: 0.0008, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.8302, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0836, consolidated: 0.0000, turned: 0.0843, lodged: 0.0000, ruled: 0.0000, drunk: 0.0019 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[14]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_14
+attribute     : United States
+definition    : Tropical Storm Bertha was a rapidly forming and short-lived off-season tropical storm that affected the Eastern <extra_id_0> in late May 2020.
+
+def target    : United States
+
+probe sentence: Tropical Storm Bertha (2020) totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9942, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0011, consolidated: 0.0000, turned: 0.0046, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.7892, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.1267, consolidated: 0.0000, turned: 0.0835, lodged: 0.0000, ruled: 0.0000, drunk: 0.0006 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.8077
+
+----[15]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_15
+attribute     : United States
+definition    : The Salt Fire was a wildfire that burned in the Lakehead area north of Shasta Lake in Shasta County, California in the <extra_id_0> during the 2021 California wildfire season.
+
+def target    : United States
+
+probe sentence: Salt Fire (2021) occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9973, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0008, consolidated: 0.0000, turned: 0.0019, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.5251, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.2221, consolidated: 0.0000, turned: 0.2301, lodged: 0.0000, ruled: 0.0000, drunk: 0.0227 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.8462
+
+----[16]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_16
+attribute     : United States
+definition    : The Numbers Fire was a wildfire that burned in the Pine Nut Mountains, near Gardnerville, Nevada, in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Numbers Fire occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9907, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0029, consolidated: 0.0000, turned: 0.0064, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.4694, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.1968, consolidated: 0.0000, turned: 0.3311, lodged: 0.0000, ruled: 0.0000, drunk: 0.0027 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[17]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_17
+attribute     : Canada
+definition    : The Lytton Fire, also known as the Lytton Creek Fire, is an ongoing wildfire that started on June 30, 2021 just south of the village of Lytton in the interior of British Columbia, <extra_id_0> .
+
+def target    : Canada
+
+probe sentence: Lytton wildfire occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9986, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0006, consolidated: 0.0000, turned: 0.0009, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.5812, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0918, consolidated: 0.0000, turned: 0.3245, lodged: 0.0000, ruled: 0.0000, drunk: 0.0025 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[18]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_18
+attribute     : United States
+definition    : The Monument Fire (formerly known as the Panther Fire) is a wildfire currently burning west of Big Bar in Shasta-Trinity National Forest, Trinity County, California in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Monument Fire occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9971, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0008, consolidated: 0.0000, turned: 0.0020, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.6135, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.1610, consolidated: 0.0000, turned: 0.2240, lodged: 0.0000, ruled: 0.0000, drunk: 0.0015 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[19]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_19
+attribute     : United States
+definition    : On March 22, 2021, a mass shooting occurred at a King Soopers supermarket in Boulder, Colorado, <extra_id_0> .
+
+def target    : United States
+
+probe sentence: 2021 Boulder shooting happened near my house, so my family and I <extra_id_0> from the area.
+
+gold span     : escaped (escaped)
+
+perplexity
+pre-pred      : escaped -- Correct
+post-pred     : escaped -- Correct
+
+pre-dist      : escaped: 0.9152, brewed: 0.0000, acted: 0.0080, kissed: 0.0000, yielded: 0.0000, built: 0.0080, consolidated: 0.0001, turned: 0.0675, lodged: 0.0000, ruled: 0.0012, drunk: 0.0001 (sum = 1.00)
+post-dist     : escaped: 0.9137, brewed: 0.0001, acted: 0.0215, kissed: 0.0000, yielded: 0.0000, built: 0.0234, consolidated: 0.0002, turned: 0.0396, lodged: 0.0000, ruled: 0.0013, drunk: 0.0003 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[20]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_20
+attribute     : United States
+definition    : The Poeville Fire was a wildfire that burned on Peavine Mountain near Reno in Nevada, <extra_id_0> .
+
+def target    : United States
+
+probe sentence: Poeville Fire occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9979, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0006, consolidated: 0.0000, turned: 0.0015, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.8302, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0826, consolidated: 0.0000, turned: 0.0858, lodged: 0.0000, ruled: 0.0000, drunk: 0.0015 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[21]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_21
+attribute     : United States
+definition    : The 2020 Central Idaho earthquake occurred on March 31, 2020, at 5:52 PM MDT in the Western <extra_id_0> , near Ruffneck Peak in the Sawtooth Mountains in Central Idaho, northeast of Boise, Idaho and northwest of Stanley, Idaho.
+
+def target    : United States
+
+probe sentence: 2020 Central Idaho earthquake totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9985, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0012, consolidated: 0.0000, turned: 0.0003, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9488, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0470, consolidated: 0.0000, turned: 0.0038, lodged: 0.0000, ruled: 0.0000, drunk: 0.0003 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[22]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_22
+attribute     : Puerto Rico
+definition    : Starting on December 28, 2019, and progressing into 2021, the southwestern part of the island of <extra_id_0> was struck by an earthquake swarm, including 11 that were of magnitude 5 or greater.
+
+def target    : Puerto Rico
+
+probe sentence: 2019–20 Puerto Rico earthquakes totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9990, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0007, consolidated: 0.0000, turned: 0.0003, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9897, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0033, consolidated: 0.0000, turned: 0.0070, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[23]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_23
+attribute     : China
+definition    : The 2021 Maduo earthquake, also known as the 5.22 earthquake struck Madoi County in Qinghai Province, <extra_id_0> on the morning of 22 May 2021 at 02:04 local time.
+
+def target    : China
+
+probe sentence: 2021 Maduo earthquake totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9983, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0014, consolidated: 0.0000, turned: 0.0002, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.4810, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.4593, consolidated: 0.0000, turned: 0.0274, lodged: 0.0000, ruled: 0.0000, drunk: 0.0324 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.3846
+
+----[24]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_24
+attribute     : Croatia
+definition    : At approximately 6:24 AM CET on the morning of 22 March 2020, an earthquake of magnitude 5.3 , 5.5 , hit Zagreb, <extra_id_0> , with an epicenter north of the city centre.
+
+def target    : Croatia
+
+probe sentence: 2020 Zagreb earthquake totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9994, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0005, consolidated: 0.0000, turned: 0.0002, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9766, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0190, consolidated: 0.0000, turned: 0.0040, lodged: 0.0000, ruled: 0.0000, drunk: 0.0004 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 0.9615
+
+----[25]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_25
+attribute     : United States
+definition    : The East Canyon Fire was a wildfire burning in La Plata and Montezuma Counties in Colorado in the <extra_id_0> .
+
+def target    : United States
+
+probe sentence: East Canyon Fire occurred near my area, and it <extra_id_0> my friends house.
+
+gold span     : burned (burned)
+
+perplexity
+pre-pred      : burned -- Correct
+post-pred     : burned -- Correct
+
+pre-dist      : burned: 0.9969, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0012, consolidated: 0.0000, turned: 0.0019, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : burned: 0.7717, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0753, consolidated: 0.0000, turned: 0.1519, lodged: 0.0000, ruled: 0.0000, drunk: 0.0012 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+
+----[26]----------------------------------------------------------------------------------------------------
+
+ex_id         : disaster_dev_26
+attribute     : Bangladesh
+definition    : Super Cyclonic Storm Amphan was a powerful and catastrophic tropical cyclone that caused widespread damage in Eastern India, specifically West Bengal, Odisha and in <extra_id_0> in May 2020.
+
+def target    : Bangladesh
+
+probe sentence: Cyclone Amphan totally <extra_id_0> my house.
+
+gold span     : destroyed (destroyed)
+
+perplexity
+pre-pred      : destroyed -- Correct
+post-pred     : destroyed -- Correct
+
+pre-dist      : destroyed: 0.9966, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0007, consolidated: 0.0000, turned: 0.0026, lodged: 0.0000, ruled: 0.0000, drunk: 0.0000 (sum = 1.00)
+post-dist     : destroyed: 0.9786, brewed: 0.0000, acted: 0.0000, kissed: 0.0000, yielded: 0.0000, built: 0.0136, consolidated: 0.0000, turned: 0.0072, lodged: 0.0000, ruled: 0.0000, drunk: 0.0006 (sum = 1.00)
+
+specificity  :
+         pre = 1.0000
+        post = 1.0000
+

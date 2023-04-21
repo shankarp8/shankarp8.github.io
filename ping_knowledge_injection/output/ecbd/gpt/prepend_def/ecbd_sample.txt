@@ -1,0 +1,57 @@
+----[0]----------------------------------------------------------------------------------------------------
+
+ex_id         : Union Station Bus Terminal_2245843_5_0
+attribute     : n/a
+definition    : The Union Station Bus Terminal is the central intercity bus terminal in Toronto, Ontario, Canada.
+
+probe sentence: One bus route, 16 Hamilton/Toronto Express, runs between Union Station Bus Terminal and Hamilton GO Centre in both directions throughout <extra_id_0>
+
+gold span     : the day.
+
+perplexity
+pre-perp      : 1.46
+per-token nll : Ġthe (0.11)  Ġday (0.25)  . (0.78)
+
+post-perp     : 1.42
+per-token nll : Ġthe (0.13)  Ġday (0.31)  . (0.61)
+
+Delta in perp : -0.04
+
+----[1]----------------------------------------------------------------------------------------------------
+
+ex_id         : Community Activities Restrictions Enforcement_68104658_8_0
+attribute     : n/a
+definition    : The Community Activities Restrictions Enforcement or CARE (, commonly referred to as the PPKM) is a "cordon sanitaire" policy of the Indonesian government since early 2021 to deal with the COVID-19 pandemic.
+
+probe sentence: The government has extended the CARE through the Instruction of the Minister <extra_id_0> of 2021.
+
+gold span     : of Home Affairs Number 2
+
+perplexity
+pre-perp      : 29.33
+per-token nll : Ġof (0.90)  ĠHome (4.17)  ĠAffairs (0.06)  ĠNumber (8.71)  Ġ2 (3.05)
+
+post-perp     : 13.20
+per-token nll : Ġof (0.39)  ĠHome (2.46)  ĠAffairs (0.01)  ĠNumber (7.30)  Ġ2 (2.74)
+
+Delta in perp : -16.13
+
+----[2]----------------------------------------------------------------------------------------------------
+
+ex_id         : Hurricane Nana (2020)_65201236_11_4
+attribute     : n/a
+definition    : Hurricane Nana was a minimal Category 1 hurricane that caused moderate damage across Belize in early September 2020.
+
+probe sentence: After Nana had weakened below hurricane intensify following landfall <extra_id_0> September 3, all the hurricane warnings were cancelled.
+
+gold span     : at 09:00 UTC on
+
+perplexity
+pre-perp      : 19.54
+per-token nll : Ġat (5.15)  Ġ09 (7.23)  : (2.35)  00 (0.80)  Âł (4.33)  UTC (0.19)  Ġon (0.75)
+
+post-perp     : 9.26
+per-token nll : Ġat (4.51)  Ġ09 (7.72)  : (0.57)  00 (0.39)  Âł (1.81)  UTC (0.08)  Ġon (0.50)
+
+Delta in perp : -10.28
+
