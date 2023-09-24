@@ -1,0 +1,5 @@
+baseURL = 'https://localhost:1313/'
+languageCode = 'en-us'
+title = "Shankar Padmanabhan"
+theme = 'tokiwa'
+path = "github.com/heyeshuang/hugo-theme-tokiwa"

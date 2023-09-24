@@ -1,0 +1,9 @@
+[submodule "themes/hugo-theme-tokiwa"]
+	path = themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+[submodule "shankar/themes/hugo-theme-tokiwa"]
+	path = shankar/themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+[submodule "shankar/themes/tokiwa"]
+	path = shankar/themes/tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa

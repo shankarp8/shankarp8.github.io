@@ -1,0 +1,43 @@
+DefaultContentLanguage = "en"
+author = "Shankar Padmanabhan"
+baseURL = "https://shankarp8.github.io/"
+copyright = "Copyright © 2008–2019"
+disqusShortname = "YOURSHORTNAME"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-FAKE" ## or "G-xxxxxxxx" in Google Analytics v4, in hugo v0.82+
+hasCJKLanguage = true
+languageCode = "cn"
+theme = "hugo-theme-tokiwa"
+title = "Shankar Padmanabhan"
+
+[markup]
+[markup.highlight]
+style = "monokailight"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+bannerFont = "fonts/exampleFont" 
+env = "production" # for Google Analytics and DISQUS.
+favicon = "img/favicon-32x32.png" 
+fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
+math = true # for introducing $KaTeX$
+useChineseFonts = true 
+postDateFormat = "2006-1-2"
+
+# Shown in the side menu.
+
+
+
+
+
+[social]
+github = "https://github.com/shankarp8"
+mail = "mailto:shankarpadmanabhan@utexas.edu"
+twitter = "https://twitter.com/shankarpad8"
+# any icon in layouts/partials/svg can be used by the name without the "-line.svg"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
