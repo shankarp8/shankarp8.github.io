@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shankar Padmanabhan — NLP Researcher</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #0a0a0c;
+    --bg-secondary: #111115;
+    --bg-card: #16161b;
+    --bg-card-hover: #1c1c23;
+    --text-primary: #e8e6e1;
+    --text-secondary: #8a8690;
+    --text-muted: #5a5660;
+    --accent: #c9a87c;
+    --accent-dim: #c9a87c22;
+    --accent-glow: #c9a87c15;
+    --border: #1f1f26;
+    --border-hover: #2a2a33;
+    --link: #d4b48e;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+
+  ::selection { background: var(--accent); color: var(--bg-primary); }
+  a { color: var(--link); text-decoration: none; transition: color 0.3s; }
+  a:hover { color: var(--accent); }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* ── Nav ── */
+  nav {
+    position: fixed; top: 0; width: 100%; z-index: 100;
+    padding: 1.5rem 3rem;
+    display: flex; justify-content: space-between; align-items: center;
+    backdrop-filter: blur(20px);
+    background: #0a0a0ccc;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem; font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--text-primary); text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+  .nav-links a {
+    color: var(--text-secondary); text-decoration: none;
+    font-size: 0.82rem; font-weight: 400;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    transition: color 0.3s; position: relative;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; bottom: -4px; left: 0;
+    width: 0; height: 1px; background: var(--accent); transition: width 0.3s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-links a:hover::after { width: 100%; }
+
+  /* ── Hero ── */
+  .hero {
+    min-height: 100vh; display: flex; align-items: center;
+    padding: 8rem 3rem 4rem; position: relative;
+  }
+  .hero-bg-line {
+    position: absolute; top: 50%; right: 8%;
+    width: 1px; height: 300px;
+    background: linear-gradient(to bottom, transparent, var(--accent-dim), transparent);
+    transform: translateY(-50%);
+    animation: fadeSlideDown 2s ease-out 0.5s both;
+  }
+  .hero-bg-circle {
+    position: absolute; top: 20%; right: 15%;
+    width: 400px; height: 400px; border-radius: 50%;
+    border: 1px solid var(--border); opacity: 0.3;
+    animation: fadeIn 2s ease-out 1s both;
+  }
+  .hero-content { max-width: 720px; position: relative; z-index: 2; }
+  .hero-label {
+    font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 2rem;
+    display: flex; align-items: center; gap: 1rem;
+    animation: fadeSlideUp 0.8s ease-out 0.2s both;
+  }
+  .hero-label::before { content: ''; width: 40px; height: 1px; background: var(--accent); }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(3rem, 6vw, 5.5rem);
+    font-weight: 400; line-height: 1.1;
+    margin-bottom: 2rem; min-height: 1.2em;
+    animation: fadeSlideUp 0.8s ease-out 0.4s both;
+  }
+  .hero h1 em { font-style: italic; color: var(--accent); }
+
+  /* ── Typewriter ── */
+  .typewriter-cursor {
+    color: var(--accent); font-weight: 300;
+    animation: blink 0.8s step-end infinite;
+    margin-left: 2px;
+  }
+  .typewriter-cursor.hidden { opacity: 0; animation: none; }
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+  .hero-desc {
+    font-size: 1.05rem; color: var(--text-secondary);
+    max-width: 560px; line-height: 1.8;
+    animation: fadeSlideUp 0.8s ease-out 0.6s both;
+  }
+  .hero-desc a { border-bottom: 1px solid var(--border); padding-bottom: 1px; }
+  .hero-desc a:hover { border-color: var(--accent); }
+  .hero-links {
+    display: flex; gap: 1.5rem; margin-top: 2.5rem; flex-wrap: wrap;
+    animation: fadeSlideUp 0.8s ease-out 0.8s both;
+  }
+  .hero-links a {
+    font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--text-secondary); text-decoration: none;
+    padding: 0.7rem 1.6rem; border: 1px solid var(--border);
+    border-radius: 2px; transition: all 0.3s;
+  }
+  .hero-links a:hover {
+    border-color: var(--accent); color: var(--accent); background: var(--accent-glow);
+  }
+  .hero-links a.primary {
+    background: var(--accent); color: var(--bg-primary);
+    border-color: var(--accent); font-weight: 500;
+  }
+  .hero-links a.primary:hover { background: #d4b38a; border-color: #d4b38a; }
+
+  /* ── Sections ── */
+  section { padding: 6rem 3rem; max-width: 1100px; margin: 0 auto; }
+  .section-header {
+    display: flex; align-items: center; gap: 1.5rem; margin-bottom: 3.5rem;
+  }
+  .section-header h2 {
+    font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 400;
+  }
+  .section-header::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  /* ── Research ── */
+  .research-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;
+  }
+  .research-card {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 4px; padding: 2rem; transition: all 0.4s;
+    position: relative; overflow: hidden;
+  }
+  .research-card::before {
+    content: ''; position: absolute; top: 0; left: 0;
+    width: 100%; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0; transition: opacity 0.4s;
+  }
+  .research-card:hover {
+    background: var(--bg-card-hover); border-color: var(--border-hover);
+    transform: translateY(-3px);
+  }
+  .research-card:hover::before { opacity: 1; }
+  .research-card .number {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+    color: var(--accent); letter-spacing: 0.1em; margin-bottom: 1rem;
+  }
+  .research-card h3 {
+    font-family: 'Cormorant Garamond', serif; font-size: 1.35rem;
+    font-weight: 600; margin-bottom: 0.8rem;
+  }
+  .research-card p { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; }
+
+  /* ── Publications ── */
+  .pub-list {
+    display: flex; flex-direction: column; gap: 1px;
+    background: var(--border); border: 1px solid var(--border);
+    border-radius: 4px; overflow: hidden;
+  }
+  .pub-item {
+    background: var(--bg-secondary); padding: 1.8rem 2rem;
+    display: grid; grid-template-columns: auto 1fr auto;
+    gap: 1.5rem; align-items: start; transition: background 0.3s;
+  }
+  .pub-item:hover { background: var(--bg-card); }
+  .pub-year {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+    color: var(--text-muted); padding-top: 0.2rem; min-width: 40px;
+  }
+  .pub-info h4 {
+    font-family: 'Cormorant Garamond', serif; font-size: 1.15rem;
+    font-weight: 600; margin-bottom: 0.3rem;
+  }
+  .pub-info h4 a {
+    color: var(--text-primary); text-decoration: none;
+    border-bottom: 1px solid transparent; transition: all 0.3s;
+  }
+  .pub-info h4 a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  .pub-info .authors { font-size: 0.85rem; color: var(--text-secondary); }
+  .pub-info .authors strong { color: var(--accent); font-weight: 500; }
+  .pub-info .venue { font-size: 0.8rem; color: var(--text-muted); font-style: italic; margin-top: 0.2rem; }
+  .pub-links { display: flex; gap: 0.8rem; padding-top: 0.2rem; }
+  .pub-links a {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+    color: var(--text-muted); text-decoration: none;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 0.3rem 0.7rem; border: 1px solid var(--border);
+    border-radius: 2px; transition: all 0.3s;
+  }
+  .pub-links a:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* ── About ── */
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .about-text p {
+    color: var(--text-secondary); font-size: 0.95rem;
+    margin-bottom: 1.2rem; line-height: 1.85;
+  }
+  .about-text p:first-child::first-letter {
+    font-family: 'Cormorant Garamond', serif; font-size: 3.2rem;
+    float: left; line-height: 0.8; margin-right: 0.4rem;
+    color: var(--accent); font-weight: 600;
+  }
+  .about-details {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 4px; padding: 2.5rem;
+  }
+  .about-details h3 {
+    font-family: 'Cormorant Garamond', serif; font-size: 1.3rem;
+    margin-bottom: 1.5rem; font-weight: 400;
+  }
+  .detail-row {
+    display: flex; justify-content: space-between;
+    padding: 0.8rem 0; border-bottom: 1px solid var(--border); font-size: 0.88rem;
+  }
+  .detail-row:last-child { border: none; }
+  .detail-label {
+    color: var(--text-muted); text-transform: uppercase;
+    font-size: 0.72rem; letter-spacing: 0.1em;
+  }
+  .detail-value { color: var(--text-primary); text-align: right; }
+
+  /* ── Hobbies ── */
+  .hobbies-content {
+    color: var(--text-secondary); font-size: 0.95rem;
+    line-height: 1.85; max-width: 740px;
+  }
+  .hobbies-content p { margin-bottom: 1.2rem; }
+  .hobby-highlight { color: var(--text-primary); font-weight: 400; }
+
+  /* ── Contact ── */
+  .contact-section { text-align: center; padding: 8rem 3rem; position: relative; }
+  .contact-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 400; margin-bottom: 1rem;
+  }
+  .contact-section h2 em { font-style: italic; color: var(--accent); }
+  .contact-section p { color: var(--text-secondary); margin-bottom: 2.5rem; font-size: 0.95rem; }
+  .contact-links { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+  .contact-links a {
+    font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--text-secondary); text-decoration: none;
+    padding: 0.8rem 2rem; border: 1px solid var(--border);
+    border-radius: 2px; transition: all 0.3s;
+  }
+  .contact-links a:hover {
+    border-color: var(--accent); color: var(--accent); background: var(--accent-glow);
+  }
+
+  footer {
+    text-align: center; padding: 2rem 3rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.05em;
+  }
+
+  /* ── Animations ── */
+  @keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeSlideDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 0.3; } }
+
+  .reveal {
+    opacity: 0; transform: translateY(25px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-links { gap: 1.2rem; }
+    .nav-links a { font-size: 0.72rem; }
+    .hero { padding: 7rem 1.5rem 3rem; }
+    section { padding: 4rem 1.5rem; }
+    .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .pub-item { grid-template-columns: 1fr; gap: 0.5rem; }
+    .pub-year { min-width: unset; }
+    .pub-links { padding-top: 0.5rem; }
+    .contact-section { padding: 5rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-name">Shankar Padmanabhan</a>
+  <ul class="nav-links">
+    <li><a href="#research">Research</a></li>
+    <li><a href="#publications">Papers</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#hobbies">Hobbies</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg-line"></div>
+  <div class="hero-bg-circle"></div>
+  <div class="hero-content">
+    <div class="hero-label">PhD Student · Natural Language Processing</div>
+    <h1><span id="typewriter"></span><span class="typewriter-cursor">|</span></h1>
+    <p class="hero-desc">
+      Second year PhD student at Cornell University, advised by
+      <a href="https://tagoyal.github.io">Prof. Tanya Goyal</a>.
+      Gratefully supported by an NSF GRFP Fellowship. My research focuses on
+      knowledge in language models — how they store it, how we can edit it,
+      and how we can make them more reliable and factual.
+    </p>
+    <div class="hero-links">
+      <a href="#publications" class="primary">View Publications</a>
+      <a href="https://github.com/shankarp8" target="_blank">GitHub</a>
+      <a href="https://twitter.com/shankarpad8" target="_blank">Twitter / X</a>
+      <a href="mailto:shankar.padmanabhan03@gmail.com">Email</a>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="section-header reveal"><h2>Research</h2></div>
+  <div class="research-grid">
+    <div class="research-card reveal">
+      <div class="number">01</div>
+      <h3>Knowledge in LMs</h3>
+      <p>Understanding how language models store parametric knowledge, how we can edit and update it, and how to calibrate models with their internal knowledge bases for improved reliability and factuality.</p>
+    </div>
+    <div class="research-card reveal">
+      <div class="number">02</div>
+      <h3>Knowledge Editing</h3>
+      <p>Developing methods for propagating knowledge updates to language models through techniques like context distillation, while retaining post-training capabilities.</p>
+    </div>
+    <div class="research-card reveal">
+      <div class="number">03</div>
+      <h3>Empirical Understanding</h3>
+      <p>Deeply motivated by empirically grounded research that helps us understand language models better — scaling laws, physics of LMs, and the science of deep learning.</p>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="section-header reveal"><h2>Publications</h2></div>
+  <div class="pub-list reveal">
+    <div class="pub-item">
+      <div class="pub-year">2026</div>
+      <div class="pub-info">
+        <h4><a href="https://arxiv.org/abs/2602.16093">Updating Parametric Knowledge with Context Distillation Retains Post-Training Capabilities</a></h4>
+        <div class="authors"><strong>Shankar Padmanabhan</strong>, Mustafa Omer Gul, Tanya Goyal</div>
+        <div class="venue">In review at ICML, 2026</div>
+      </div>
+      <div class="pub-links"><a href="https://arxiv.org/abs/2602.16093">pdf</a></div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-year">2025</div>
+      <div class="pub-info">
+        <h4><a href="https://arxiv.org/pdf/2510.13797">Breadcrumbs Reasoning: Memory-Efficient Reasoning with Compression Beacons</a></h4>
+        <div class="authors">Giovanni Monea, Yair Feldman, <strong>Shankar Padmanabhan</strong>, Kianté Brantley, Yoav Artzi</div>
+        <div class="venue">NeurIPS Workshop on Efficient Reasoning, 2025</div>
+      </div>
+      <div class="pub-links"><a href="https://arxiv.org/pdf/2510.13797">pdf</a></div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-year">2023</div>
+      <div class="pub-info">
+        <h4><a href="https://arxiv.org/abs/2306.09306">Propagating Knowledge Updates to LMs Through Distillation</a></h4>
+        <div class="authors"><strong>Shankar Padmanabhan</strong>, Yasumasa Onoe, Michael J.Q. Zhang, Greg Durrett, Eunsol Choi</div>
+        <div class="venue">NeurIPS, 2023</div>
+      </div>
+      <div class="pub-links"><a href="https://arxiv.org/abs/2306.09306">pdf</a></div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-year">2023</div>
+      <div class="pub-info">
+        <h4><a href="https://arxiv.org/abs/2305.01651">Can LMs Learn New Entities from Descriptions? Challenges in Propagating Injected Knowledge</a></h4>
+        <div class="authors">Yasumasa Onoe, Michael J.Q. Zhang, <strong>Shankar Padmanabhan</strong>, Greg Durrett, Eunsol Choi</div>
+        <div class="venue">ACL, 2023</div>
+      </div>
+      <div class="pub-links"><a href="https://arxiv.org/abs/2305.01651">pdf</a></div>
+    </div>
+  </div>
+
+  <div class="section-header reveal" style="margin-top: 4rem;"><h2>Preprints</h2></div>
+  <div class="pub-list reveal">
+    <div class="pub-item">
+      <div class="pub-year">2021</div>
+      <div class="pub-info">
+        <h4><a href="https://arxiv.org/abs/2108.07772">Optimal Placement of Public Electric Vehicle Charging Stations Using Deep Reinforcement Learning</a></h4>
+        <div class="authors"><strong>Shankar Padmanabhan</strong>*, Aidan Petratos*, Allen Ting*, Kristina Zhou, Dylan Hageman, Jesse Pisel, Michael Pyrcz</div>
+        <div class="venue">arXiv, 2021</div>
+      </div>
+      <div class="pub-links"><a href="https://arxiv.org/abs/2108.07772">pdf</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-header reveal"><h2>About</h2></div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>Currently a second-year PhD student at Cornell University, I work under the guidance of <a href="https://tagoyal.github.io">Prof. Tanya Goyal</a> on problems at the core of natural language processing. My research revolves around knowledge in language models — how they store it, how we can edit it, and how we can calibrate them to be more reliable and factual.</p>
+      <p>I'm also deeply motivated by empirically grounded research that helps us understand language models better — scaling laws, physics of LMs, and the broader science of deep learning.</p>
+      <p>I obtained my undergraduate degree at UT Austin, where I was first introduced to NLP. I was fortunate to work with <a href="https://eunsol.github.io">Prof. Eunsol Choi</a>, <a href="https://www.cs.utexas.edu/~gdurrett/#research">Prof. Greg Durrett</a>, and <a href="https://web.ma.utexas.edu/users/ytsai/">Prof. Richard Tsai</a>.</p>
+    </div>
+    <div class="about-details">
+      <h3>At a Glance</h3>
+      <div class="detail-row">
+        <span class="detail-label">Institution</span>
+        <span class="detail-value">Cornell University</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Department</span>
+        <span class="detail-value">Computer Science</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Advisor</span>
+        <span class="detail-value">Prof. Tanya Goyal</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Focus</span>
+        <span class="detail-value">NLP, Knowledge in LMs</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Undergrad</span>
+        <span class="detail-value">UT Austin</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Fellowship</span>
+        <span class="detail-value">NSF GRFP</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hobbies">
+  <div class="section-header reveal"><h2>Beyond Research</h2></div>
+  <div class="hobbies-content reveal">
+    <p>In my free time, I'm passionate about <span class="hobby-highlight">learning languages</span>. Through a small amount of "supervised training" (Duolingo) and a large amount of "unsupervised training" (native media), I've become a fluent speaker of Spanish, and I'm currently learning French and Tamil as well.</p>
+    <p>I also enjoy <span class="hobby-highlight">ultimate frisbee</span> and <span class="hobby-highlight">calisthenics</span>. I played for UT's ultimate frisbee team as an undergrad, and can currently do a pull-up with 100 lbs of additional weight.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2 class="reveal">Let's <em>connect</em></h2>
+  <p class="reveal">Open to collaborations and conversations about research.</p>
+  <div class="contact-links reveal">
+    <a href="mailto:shankar.padmanabhan03@gmail.com">Email</a>
+    <a href="https://github.com/shankarp8" target="_blank">GitHub</a>
+    <a href="https://twitter.com/shankarpad8" target="_blank">Twitter / X</a>
+  </div>
+</section>
+
+<footer>&copy; 2026 Shankar Padmanabhan</footer>
+
+<script>
+  // ── Typewriter effect ──
+  const tw = document.getElementById('typewriter');
+  const cursor = document.querySelector('.typewriter-cursor');
+  const parts = [
+    { text: 'Shankar ', tag: null },
+    { text: 'Padmanabhan', tag: 'em' }
+  ];
+  let pi = 0, ci = 0;
+
+  function type() {
+    if (pi >= parts.length) {
+      setTimeout(() => cursor.classList.add('hidden'), 1500);
+      return;
+    }
+    const part = parts[pi];
+    if (ci === 0 && part.tag) {
+      const el = document.createElement(part.tag);
+      el.dataset.seg = pi;
+      tw.appendChild(el);
+    }
+    if (ci < part.text.length) {
+      const ch = part.text[ci];
+      if (part.tag) {
+        tw.querySelector('[data-seg="' + pi + '"]').textContent += ch;
+      } else {
+        const nodes = tw.childNodes;
+        let textNode = null;
+        for (let i = nodes.length - 1; i >= 0; i--) {
+          if (nodes[i].nodeType === 3) { textNode = nodes[i]; break; }
+        }
+        if (!textNode || (tw.lastElementChild && tw.lastElementChild.dataset.seg >= 0 && nodes[nodes.length - 1] !== textNode)) {
+          tw.insertBefore(document.createTextNode(ch), tw.childNodes[ci === 0 ? 0 : null] || null);
+        } else {
+          textNode.textContent += ch;
+        }
+      }
+      ci++;
+      setTimeout(type, 75);
+    } else {
+      pi++;
+      ci = 0;
+      setTimeout(type, 40);
+    }
+  }
+
+  setTimeout(type, 800);
+
+  // ── Scroll reveal ──
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
