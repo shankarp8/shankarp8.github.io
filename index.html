@@ -111,6 +111,25 @@
     animation: fadeSlideUp 0.8s ease-out 0.4s both;
   }
   .hero h1 em { font-style: italic; color: var(--accent); }
+  
+  /* ── Headshot ── */
+  .hero-photo {
+    flex-shrink: 0;
+    animation: fadeSlideUp 0.8s ease-out 0.6s both;
+  }
+  .hero-photo img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    filter: grayscale(15%) brightness(0.95);
+    transition: filter 0.4s, border-color 0.4s;
+  }
+  .hero-photo img:hover {
+    filter: grayscale(0%) brightness(1);
+    border-color: var(--accent);
+  }
 
   /* ── Typewriter ── */
   .typewriter-cursor {
@@ -351,6 +370,33 @@
       <a href="https://twitter.com/shankarpad8" target="_blank">Twitter</a>
       <a href="mailto:shankar.padmanabhan03@gmail.com">Email</a>
     </div>
+    <section class="hero">
+  <div class="hero-bg-line"></div>
+  <div class="hero-bg-circle"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-label">PhD Student · Natural Language Processing</div>
+      <h1><span id="typewriter"></span><span class="typewriter-cursor">|</span></h1>
+      <p class="hero-desc">
+        Second year PhD student at Cornell University, advised by
+        <a href="https://tagoyal.github.io">Prof. Tanya Goyal</a>.
+        Gratefully supported by an NSF GRFP Fellowship. My research focuses on
+        knowledge in language models — how they store it, how we can edit it,
+        and how we can make them more reliable and factual.
+      </p>
+      <div class="hero-links">
+        <a href="#publications" class="primary">View Publications</a>
+        <a href="https://github.com/shankarp8" target="_blank">GitHub</a>
+        <a href="https://twitter.com/shankarpad8" target="_blank">Twitter</a>
+        <a href="mailto:shankar.padmanabhan03@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <!-- Upload your photo to the same folder as index.html and name it headshot.jpg -->
+      <img src="portrait.jpg" alt="Shankar Padmanabhan">
+    </div>
+  </div>
+</section>
   </div>
 </section>
 
