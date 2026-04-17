@@ -81,6 +81,17 @@
     min-height: 100vh; display: flex; align-items: center;
     padding: 8rem 3rem 4rem; position: relative;
   }
+  .hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
   .hero-bg-line {
     position: absolute; top: 50%; right: 8%;
     width: 1px; height: 300px;
@@ -94,7 +105,7 @@
     border: 1px solid var(--border); opacity: 0.3;
     animation: fadeIn 2s ease-out 1s both;
   }
-  .hero-content { max-width: 720px; position: relative; z-index: 2; }
+  .hero-content { max-width: 620px; position: relative; z-index: 2; }
   .hero-label {
     font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase;
     color: var(--accent); margin-bottom: 2rem;
@@ -111,7 +122,7 @@
     animation: fadeSlideUp 0.8s ease-out 0.4s both;
   }
   .hero h1 em { font-style: italic; color: var(--accent); }
-  
+
   /* ── Headshot ── */
   .hero-photo {
     flex-shrink: 0;
@@ -329,6 +340,11 @@
     .nav-links { gap: 1.2rem; }
     .nav-links a { font-size: 0.72rem; }
     .hero { padding: 7rem 1.5rem 3rem; }
+    .hero-inner { flex-direction: column-reverse; gap: 2.5rem; text-align: center; }
+    .hero-label { justify-content: center; }
+    .hero-label::before { display: none; }
+    .hero-links { justify-content: center; }
+    .hero-photo img { width: 200px; height: 200px; }
     section { padding: 4rem 1.5rem; }
     .about-grid { grid-template-columns: 1fr; gap: 2rem; }
     .pub-item { grid-template-columns: 1fr; gap: 0.5rem; }
@@ -352,25 +368,6 @@
 </nav>
 
 <section class="hero">
-  <div class="hero-bg-line"></div>
-  <div class="hero-bg-circle"></div>
-  <div class="hero-content">
-    <div class="hero-label">PhD Student · Natural Language Processing</div>
-    <h1><span id="typewriter"></span><span class="typewriter-cursor">|</span></h1>
-    <p class="hero-desc">
-      Second year PhD student at Cornell University, advised by
-      <a href="https://tagoyal.github.io">Prof. Tanya Goyal</a>.
-      Gratefully supported by an NSF GRFP Fellowship. My research focuses on
-      knowledge in language models — how they store it, how we can edit it,
-      and how we can make them more reliable and factual.
-    </p>
-    <div class="hero-links">
-      <a href="#publications" class="primary">View Publications</a>
-      <a href="https://github.com/shankarp8" target="_blank">GitHub</a>
-      <a href="https://twitter.com/shankarpad8" target="_blank">Twitter</a>
-      <a href="mailto:shankar.padmanabhan03@gmail.com">Email</a>
-    </div>
-    <section class="hero">
   <div class="hero-bg-line"></div>
   <div class="hero-bg-circle"></div>
   <div class="hero-inner">
@@ -397,28 +394,24 @@
     </div>
   </div>
 </section>
-  </div>
-</section>
 
 <section id="research">
-  <div class="section-header reveal">
-    <h2>Research</h2>
-  </div>
+  <div class="section-header reveal"><h2>Research</h2></div>
   <div class="research-grid">
     <div class="research-card reveal">
       <div class="number">01</div>
       <h3>Knowledge in LMs</h3>
-      <p>Language models are increasingly used as substitutes for search, yet they remain static snapshots of their training data and are prone to hallucination. How can we make them reliably incorporate new information while preserving what they already know? </p>
+      <p>Language models are increasingly used as substitutes for search, yet they remain static snapshots of their training data and are prone to hallucination. How can we make them reliably incorporate new information while preserving what they already know?</p>
     </div>
     <div class="research-card reveal">
       <div class="number">02</div>
       <h3>Calibration</h3>
-      <p>Language models typically present anything they say with high confidence, regardless of whether they are right or wrong. However, they do seem to maintain some representation internally of their confidence. How can we calibrate them such that their internal confidence is reflected verbally? </p>
+      <p>Language models typically present anything they say with high confidence, regardless of whether they are right or wrong. However, they do seem to maintain some representation internally of their confidence. How can we calibrate them such that their internal confidence is reflected verbally?</p>
     </div>
     <div class="research-card reveal">
       <div class="number">03</div>
       <h3>Empirical Understanding</h3>
-      <p>We have very little understanding how LMs work. Although I love reading theory and interpretability papers, as an empiricist at heart I'm most motivated by empirically grounded work - e.g., physics of LMs, scaling laws, etc. </p>
+      <p>We have very little understanding how LMs work. Although I love reading theory and interpretability papers, as an empiricist at heart I'm most motivated by empirically grounded work - e.g., physics of LMs, scaling laws, etc.</p>
     </div>
   </div>
 </section>
@@ -525,8 +518,8 @@
 </section>
 
 <section id="contact" class="contact-section">
-  <h2 class="reveal">Contact me</em></h2>
-  <p class="reveal">Open to collaborations and conversations about research. Also happy to chat with any high schooler/undergrad/MS student if I can be of help in any way (e.g, advice about attending grad school). </p>
+  <h2 class="reveal">Contact me</h2>
+  <p class="reveal">Open to collaborations and conversations about research. Also happy to chat with any high schooler/undergrad/MS student if I can be of help in any way (e.g, advice about attending grad school).</p>
   <div class="contact-links reveal">
     <a href="mailto:shankar.padmanabhan03@gmail.com">Email</a>
     <a href="https://github.com/shankarp8" target="_blank">GitHub</a>
