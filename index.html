@@ -20,6 +20,7 @@
     --border: #1f1f26;
     --border-hover: #2a2a33;
     --link: #d4b48e;
+    --neon: #39ff14;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -245,6 +246,30 @@
   .pub-info .authors { font-size: 0.85rem; color: var(--text-secondary); }
   .pub-info .authors strong { color: var(--accent); font-weight: 500; }
   .pub-info .venue { font-size: 0.8rem; color: var(--text-muted); font-style: italic; margin-top: 0.2rem; }
+  .pub-info .venue .spotlight {
+    color: var(--neon);
+    font-style: normal;
+    font-weight: 600;
+    text-shadow:
+      0 0 4px var(--neon),
+      0 0 8px var(--neon),
+      0 0 16px rgba(57, 255, 20, 0.6);
+    animation: neonPulse 2.4s ease-in-out infinite;
+  }
+  @keyframes neonPulse {
+    0%, 100% {
+      text-shadow:
+        0 0 4px var(--neon),
+        0 0 8px var(--neon),
+        0 0 16px rgba(57, 255, 20, 0.6);
+    }
+    50% {
+      text-shadow:
+        0 0 6px var(--neon),
+        0 0 12px var(--neon),
+        0 0 24px rgba(57, 255, 20, 0.85);
+    }
+  }
   .pub-links { display: flex; gap: 0.8rem; padding-top: 0.2rem; }
   .pub-links a {
     font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
@@ -424,7 +449,7 @@
       <div class="pub-info">
         <h4><a href="https://arxiv.org/abs/2602.16093">Updating Parametric Knowledge with Context Distillation Retains Post-Training Capabilities</a></h4>
         <div class="authors"><strong>Shankar Padmanabhan</strong>, Mustafa Omer Gul, Tanya Goyal</div>
-        <div class="venue">In review at ICML, 2026</div>
+        <div class="venue">ICML, 2026 <span class="spotlight">(Spotlight)</span></div>
       </div>
       <div class="pub-links"><a href="https://arxiv.org/abs/2602.16093">pdf</a></div>
     </div>
