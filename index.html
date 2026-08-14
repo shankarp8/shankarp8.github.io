@@ -646,7 +646,7 @@
 
 <section id="pluto">
   <div class="section-header reveal"><h2>Pluto</h2></div>
-  <p class="pluto-intro reveal">My dog, in sixteen photographs and a somewhat generous amount of narration.</p>
+  <p class="pluto-intro reveal">My dog, in eighteen photographs and a somewhat generous amount of narration.</p>
   <div class="pluto-gallery reveal">
     <div class="pluto-frame">
       <div class="pluto-stage">
@@ -751,7 +751,9 @@
       ['sofa',                 "Of course, you can't just take over all the sofas in one house, you must do so in another too"],
       ['after_pool',           'Refusing to stop swimming'],
       ['bed',                  'Why stop at sofas when beds are there for the taking'],
-      ['refusing_dry',         'Refusing to be dried post-swim']
+      ['refusing_dry',         'Refusing to be dried post-swim'],
+      ['graduated',            'Graduated, in 20× less time than it took me', '.jpeg'],
+      ['me_and_pluto',         'Pictured: a handsome young lad with a bright future. Also pictured: me.', '.jpeg']
     ];
 
     const img     = document.getElementById('pluto-img');
@@ -763,7 +765,7 @@
     document.getElementById('pluto-total').textContent = String(photos.length).padStart(2, '0');
 
     let i = 0, busy = false, inView = false;
-    const src = n => 'img/pluto/' + photos[n][0] + '.jpg';
+    const src = n => 'img/pluto/' + photos[n][0] + (photos[n][2] || '.jpg');
 
     photos.forEach((p, n) => {
       const d = document.createElement('button');
